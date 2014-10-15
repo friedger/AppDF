@@ -1,4 +1,4 @@
-1. added in-app products support (inapp-description.xsd)
+1. added in-app products support
 2. changes in appdf
  - changed min screenshots count (4->2): <xsd:element name="screenshot" type="type-description-images-screenshots-screenshot" minOccurs="2" maxOccurs="unbounded" />
  - added distribution attribute required: <xsd:attribute name="distribution" type="distribution-type" default="production"/>
