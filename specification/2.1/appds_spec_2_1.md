@@ -479,7 +479,7 @@ List of Tags:
 	  		* [text-description](#in-app-purchasessubscriptionstext-description)
 
 ### categorization
-Required.
+Required.  
 No attributes.
 
 Contains information about the type, categories and, if applicable, subcategories of the application.
@@ -526,20 +526,20 @@ Value could be either `application` or `game`.
     <td>Yes</td>
     <td>General Information / Category</td>
     <td>Yes</td>
-    <td>Games is one item in the application category list</td>
+    <td>Games is an item in the application category list</td>
   </tr>
   <tr>
     <td>Opera Mobile Store</td>
     <td>Yes</td>
     <td>Category</td>
     <td>Yes</td>
-    <td>Games is one item in the application category list</td>
+    <td>Games is an item in the application category list</td>
   </tr>
   <tr>
     <td>Samsung Apps</td>
-    <td>Yes</td>
-    <td>App Information / Category</td>
-    <td>Yes</td>
+    <td>No</td>
+    <td></td>
+    <td></td>
     <td></td>
   </tr>
   <tr>
@@ -547,21 +547,21 @@ Value could be either `application` or `game`.
     <td>Yes</td>
     <td>Category</td>
     <td>Yes</td>
-    <td>Games is one item in the application category list</td>
+    <td>Games is an item in the application category list</td>
   </tr>
   <tr>
     <td>NOOK apps</td>
     <td>Yes</td>
     <td>Keywords &amp; Category / Categories</td>
     <td>Yes</td>
-    <td>Games is one item in the application category list</td>
+    <td>Games is an item in the application category list</td>
   </tr>
   <tr>
     <td>AppsLib</td>
     <td>Yes</td>
     <td>Application Category</td>
     <td>Yes</td>
-    <td>Games is one item in the application category list</td>
+    <td>Games is an item in the application category list</td>
   </tr>
 </table>
 
@@ -664,11 +664,10 @@ Although some stores don't use subcategories AppDF includes as detailed category
   </tr>
   <tr>
     <td>Yandex.Store</td>
-    <td>Yes</td>
+    <td>No</td>
     <td></td>
     <td></td>
-    <td>Apps: Customization | Language and translation | Utilities | Health | Entertainment | Communication | Organizers | Books and guides | Multimedia and video | Multimedia and video | Travel | Business and finance | Music and audio | Social | News & Magazines | Education<br>Games: Racing | Strategy | Sports | Arcade | Trivia | Gambling | Action | Educational | Family | Puzzle | Adventure | Simulation | Board | Casual
-</td>
+    <td></td>
   </tr>
   <tr>
     <td>Amazon AppStore</td>
@@ -914,7 +913,7 @@ The application name is shown in the application list. As everything inside the 
   <tr>
     <td>Samsung Apps</td>
     <td>Yes</td>
-    <td>Basic Information / Binary & Device / Application Title</td>
+    <td>App Information / Application Title</td>
     <td>Yes</td>
     <td>Yes</td>
     <td>200 byte</td>
@@ -925,7 +924,7 @@ The application name is shown in the application list. As everything inside the 
     <td>-</td>
     <td>Yes</td>
     <td>Yes</td>
-    <td>255</td>
+    <td>255???</td>
   </tr>
   <tr>
     <td>NOOK apps</td>
@@ -1009,11 +1008,11 @@ Comma separated the list of keywords. As everything inside the `<description>` t
   <tr>
     <td>Samsung Apps</td>
     <td>Yes</td>
-    <td>Display Information / Tags / Other Tags</td>
+    <td>App Information / Tags</td>
     <td>No</td>
     <td>Yes</td>
-    <td>Maximum 10 keywords</td>
-    <td>Not one string but a list of keywords</td>
+    <td>Max 15 keywords</td>
+    <td>Available only in Advanced Mode.</td>
   </tr>
   <tr>
     <td>SlideME</td>
@@ -1035,7 +1034,7 @@ Comma separated the list of keywords. As everything inside the `<description>` t
   </tr>
   <tr>
     <td>AppsLib</td>
-    <td>No</td>
+    <td>No</td>sh
     <td></td>
     <td></td>
     <td></td>
@@ -1068,7 +1067,7 @@ Short application description is used in the app lists next to the app title. So
     <td>Store Listing / Product Details / Promo Text</td>
     <td>No</td>
     <td>Yes</td>
-    <td>80</td>
+    <td>80 char</td>
     <td>Is not shown in the app list but only on promotion pages</td>
   </tr>
   <tr>
@@ -1114,7 +1113,7 @@ Short application description is used in the app lists next to the app title. So
     <td>Yes</td>
     <td>No</td>
     <td>500 characters</td>
-    <td>Shown in the list of the apps on the "big" website</td>
+    <td></td>
   </tr>
   <tr>
     <td>NOOK apps</td>
@@ -1199,6 +1198,7 @@ The full application description is shown on the product page. You can include s
     <th>Localizable</th>
     <th>Maximum length</th>
     <th>Markup support</th>
+    <th>Comments</th>
   </tr>
   <tr>
     <td>Google Play</td>
@@ -1206,8 +1206,9 @@ The full application description is shown on the product page. You can include s
     <td>Store Listing / Product Details / Title</td>
     <td>Yes</td>
     <td>Yes</td>
-    <td>4000</td>
+    <td>4000 characters</td>
     <td>simple HTML, no links</td>
+    <td></td>
   </tr>
   <tr>
     <td>Yandex.Store</td>
@@ -1217,6 +1218,7 @@ The full application description is shown on the product page. You can include s
     <td>Yes</td>
     <td>Unlimited</td>
     <td>Plain text</td>
+    <td></td>
   </tr>
   <tr>
     <td>Amazon AppStore</td>
@@ -1224,8 +1226,9 @@ The full application description is shown on the product page. You can include s
     <td>Description / Long description</td>
     <td>Yes</td>
     <td>Yes</td>
-    <td>4000</td>
+    <td>4000 characters</td>
     <td>simple HTML, no links</td>
+    <td>A description of your app for use on the Amazon.com website</td>
   </tr>
   <tr>
     <td>Opera Mobile Store</td>
@@ -1235,15 +1238,17 @@ The full application description is shown on the product page. You can include s
     <td>Yes</td>
     <td>Unlimited</td>
     <td>Some HTML subset</td>
+    <td></td>
   </tr>
   <tr>
     <td>Samsung Apps</td>
     <td>Yes</td>
-    <td>Display Information / Display / Description</td>
+    <td>App Information / Description</td>
     <td>Yes</td>
     <td>Yes</td>
     <td>4000 byte</td>
     <td>?</td>
+    <td></td>
   </tr>
   <tr>
     <td>SlideME</td>
@@ -1252,7 +1257,8 @@ The full application description is shown on the product page. You can include s
     <td>Yes</td>
     <td>No</td>
     <td>4000 characters</td>
-    <td>Some HTML subset</td>
+    <td>Some HTML subset http://slideme.org/filter/tips</td>
+    <td></td>
   </tr>
   <tr>
     <td>NOOK apps</td>
@@ -1262,6 +1268,7 @@ The full application description is shown on the product page. You can include s
     <td>No</td>
     <td>2500</td>
     <td>Plain text</td>
+    <td></td>
   </tr>
   <tr>
     <td>AppsLib</td>
@@ -1271,6 +1278,7 @@ The full application description is shown on the product page. You can include s
     <td>No</td>
     <td>Unlimited</td>
     <td>Some HTML subset</td>
+    <td></td>
   </tr>
   <tr>
     <td>SK T-Store</td>
@@ -1280,6 +1288,7 @@ The full application description is shown on the product page. You can include s
     <td>No</td>
     <td>1300 Korean words, or 4000 English symbols</td>
     <td>Some HTML subset</td>
+    <td></td>
   </tr>
 </table>
 
@@ -1330,7 +1339,7 @@ Example
     <td>Description / Product feature bullets</td>
     <td>Yes</td>
     <td>Yes</td>
-    <td>Unlimited</td>
+    <td>Three to five concise app features, each on a new line. These product features will appear on the Amazon.com website.</td>
   </tr>
   <tr>
     <td>Opera Mobile Store</td>
@@ -1396,7 +1405,7 @@ Maximum length: 500.
     <td>Store Listing / Product Details / Recent changes</td>
     <td>No</td>
     <td>Yes</td>
-    <td>500</td>
+    <td>50 characters</td>
     <td>Describes the changes of the latest version (version number is taken from APK file)</td>
   </tr>
   <tr>
@@ -1428,12 +1437,12 @@ Maximum length: 500.
   </tr>
   <tr>
     <td>Samsung Apps</td>
+    <td>Yes</td>
+    <td>App Information / New Feature</td>
     <td>No</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>Yes</td>
+    <td>4000 byte</td>
+    <td>Describe the changes you made to the application.</td>
   </tr>
   <tr>
     <td>SlideME</td>
@@ -1739,7 +1748,7 @@ High resolution application icon. Must be in PNG format. Different stores requir
     <td>Yes</td>
     <td>Images / Promo icon</td>
     <td>Yes</td>
-    <td>No</td>
+    <td>Yes</td>
     <td>512x512</td>
     <td>32-bit PNG (with alpha), less than 1024KB</td>
   </tr>
@@ -1764,11 +1773,11 @@ High resolution application icon. Must be in PNG format. Different stores requir
   <tr>
     <td>Samsung Apps</td>
     <td>Yes</td>
-    <td>Display Information / Icon Image</td>
+    <td>App Information / Icon</td>
     <td>Yes</td>
     <td>No</td>
-    <td>135x125</td>
-    <td>JPG, GIF</td>
+    <td>512x512</td>
+    <td>PNG, less than 1024KB</td>
   </tr>
   <tr>
     <td>SlideME</td>
@@ -2095,8 +2104,8 @@ Example
     <td>Images / Screenshots</td>
     <td>Yes</td>
     <td>No</td>
-    <td>250x140 - 1920x1080</td>
-    <td>JPG or 24-bit PNG (no alpha)</td>
+    <td>from 250×140 to 1920×1080 px, no frame</td>
+    <td>JPEG or 24-bit PNG (no alpha)</td>
     <td>2+</td>
   </tr>
   <tr>
@@ -2105,7 +2114,9 @@ Example
     <td>Images & Multimedia / Screenshots</td>
     <td>Yes</td>
     <td>No</td>
-    <td>800x480, 1024x600, 1280x720, 1280x800, or 1920x1200 (portrait or landscape)</td>
+    <td>800 x 480px, 1024 x 600px, 1280 x 720px,
+1280 x 800px, 1920 x 1080px, 1920 x 1200px,
+or 2560 x 1600px (portrait or landscape)</td>
     <td>JPG or PNG</td>
     <td>3-10</td>
   </tr>
@@ -2122,12 +2133,12 @@ Example
   <tr>
     <td>Samsung Apps</td>
     <td>Yes</td>
-    <td>Display Information / Screenshots</td>
+    <td>App Information / Screenshots</td>
     <td>Yes</td>
     <td>No</td>
-    <td>480x800 or 800x480</td>
-    <td>JPG, PNG, GIF, 500K maximum</td>
-    <td>4</td>
+    <td>Min 320 pixels, Max 3840 pixels, Image ratio 2:1</td>
+    <td>JPG, PNG</td>
+    <td>4-8</td>
   </tr>
   <tr>
     <td>SlideME</td>
@@ -2135,8 +2146,8 @@ Example
     <td>Promotion / Screenshots</td>
     <td>Yes</td>
     <td>No</td>
-    <td>240x180 - 640x480</td>
-    <td>JPG, PNG, GIF</td>
+    <td>Images must be between 180x180 pixels and 1600x1600. Maximum file size: 1 MB</td>
+    <td>JPG, JPEG, PNG, GIF</td>
     <td>1-3</td>
   </tr>
   <tr>
@@ -2244,10 +2255,10 @@ then tag value should be just `4YcBHQ2fCDE`. Like:
   <tr>
     <td>Samsung Apps</td>
     <td>Yes</td>
-    <td>Display Information / Support / YouTube URL</td>
+    <td>App Information / YouTube URL</td>
     <td>No</td>
     <td>No</td>
-    <td>When you add YouTube video, the fourth screenshot will be replaced with YouTube video</td>
+    <td>Available only in Advanced Mode. When you register a link to a YouTube video, a screenshot of the video along with the link will be displayed on the Mobile Store</td>
   </tr>
   <tr>
     <td>SlideME</td>
@@ -3124,23 +3135,36 @@ Example 2
   <tr>
     <td>Google Play</td>
     <td>Yes</td>
-    <td>Pricing and Distribution / Distribute in These Countries</td>
+    <td>Pricing & Distribution / Distribute in these countries</td>
     <td>No</td>
-    <td>Supports only &lt;exclude&gt;. Many countries are united under "Rest of the world" block and cannot be checked/unchecked one by one</td>
+    <td>Albania | Algeria | Angola | Antigua and Barbuda | Argentina | Armenia | Aruba | Australia | Austria | Azerbaijan | Bahamas | Bahrain | Bangladesh | Belarus | Belgium | Belize | Benin | Bolivia | Bosnia and Herzegovina | Botswana | Brazil | Bulgaria | Burkina Faso | Cambodia | Cameroon | Canada | Cape Verde | Chile | Colombia | Costa Rica | Côte d’Ivoire | Croatia | Cyprus | Czech Republic | Denmark | Dominican Republic | Ecuador | Egypt | El Salvador | Estonia | Fiji | Finland | France | Gabon | Germany | Ghana | Greece | Guatemala	 | Guinea-Bissau	 | Haiti | Honduras | Hong Kong SAR China | Hungary | Iceland | India | Indonesia | Ireland | Israel | Italy | Jamaica | Japan | Jordan | Kazakhstan | Kenya | Kuwait | Kyrgyzstan | Laos | Latvia | Lebanon | Lithuania | Luxembourg | Macedonia (FYROM) | Malaysia | Mali | Malta | Mauritius | Mexico | Moldova | Morocco | Mozambique | Namibia | Nepal | Netherlands | Netherlands Antilles | New Zealand | Nicaragua | Niger | Nigeria | Norway | Oman | Pakistan | Panama | Papua New Guinea | Paraguay | Peru | Philippines | Poland | Portugal | Qatar | Romania | Russia | Rwanda | Saudi Arabia | Senegal | Serbia | Singapore | Slovakia | Slovenia | South Africa | South Korea | Spain | Sri Lanka | Sweden | Switzerland | Taiwan | Tajikistan | Tanzania | Thailand | Togo | Trinidad and Tobago | Tunisia | Turkey | Turkmenistan | Uganda | Ukraine | United Arab Emirates | United Kingdom | United States | Uruguay | Uzbekistan | Venezuela | Vietnam | Yemen | Zambia</td>
   </tr>
   <tr>
     <td>Yandex.Store</td>
     <td>Yes</td>
     <td>General / Distribution</td>
     <td>Yes</td>
-    <td>One can "Select All" or choose specific countries grouped by continents.</td>
+    <td>"In all countries and regions where Amazon sells apps" or choose specific countries grouped by continents.
+    <br>Africa: Algeria | Angola | Benin | Botswana | Burkina Faso | Burundi | Cameroon | Cape Verde | Central African Republic | Chad | Comoros | Congo | Côte d'Ivoire | Democratic Republic of the Congo | Djibouti | Equatorial Guinea | Eritrea | Ethiopia | Gabon | Gambia | Ghana | Guinea | Guinea-Bissau | Kenya | Lesotho | Liberia | Libya | Madagascar | Malawi | Mali | Mauritania | Mauritius | Morocco | Mozambique | Namibia | Niger | Nigeria | Rwanda | Sahrawi Arab Democratic Republic | Senegal | Seychelles | Sierra Leone | Somalia | South Africa | South Sudan | Sudan | Swaziland | São Tomé and Príncipe | Tanzania | Togo | Tunisia | Uganda | Zambia | Zimbabwe
+Asia: Abkhasia | Afghanistan | Armenia | Azerbaijan | Bahrain | Bangladesh | Bhutan | Brunei | Cambodia | China | East Timor | Egypt | Georgia | India | Indonesia | Iran | Iraq | Israel | Japan | Jordan | Kazakhstan | Kuwait | Kyrgyzstan | Laos | Lebanon | Malaysia | Maldives | Mongolia | Myanmar | Nepal | North Korea | Oman | Pakistan | Palestinian Territory | Philippines | Qatar | Saudi Arabia | Singapore | South Korea | South Ossetia | Sri Lanka | Syria | Taiwan | Tajikistan | Thailand | Turkmenistan | United Arab Emirates | Uzbekistan | Vietnam | Yemen
+<br>Australia and Oceania: Australia | Cocos Islands | Cook Islands | Fiji | French Polynesia | Guam | Kiribati | Nauru | New Caledonia | New Zealand | Niue | Norfolk Island | Palau | Papua New Guinea | Samoa | Solomon Islands | The Federated States of Micronesia | The Marshall Islands | Tonga | Tuvalu | Vanuatu
+<br>Europe: Albania | Andorra | Austria | Belarus | Belgium | Bosnia and Herzegovina | Bulgaria | Croatia | Cyprus | Czech Republic | Denmark | Estonia | Finland | France | Germany | Gibraltar | Greece | Hungary | Iceland | Ireland | Italy | Latvia | Liechtenstein | Lithuania | Luxembourg | Macedonia | Malta | Moldova | Monaco | Montenegro | Netherlands | Norway | Poland | Portugal | Romania | Russia | San Marino | Serbia | Slovakia | Slovenia | Spain | Sweden | Switzerland | Turkey | Ukraine | United Kingdom | Vatican City
+<br>North America: Antigua and Barbuda | Aruba | Bahamas | Barbados | Belize | Bermuda | British Virgin Islands | Canada | Costa Rica | Cuba | Curacao | Dominica | Dominican Republic | El Salvador | Greenland | Grenada | Guatemala | Haiti | Honduras | Jamaica | Martinique | Mexico | Montserrat | Nicaragua | Panama | Puerto Rico | Saint Kitts and Nevis | Saint Lucia | Saint Vincent and the Grenadines | Sint Maarten | The Cayman Islands | The United States Virgin Islands | Trinidad and Tobago | Turks and Caicos Islands | United States
+<br>South America: Argentina | Bolivia | Brazil | Chile | Colombia | Ecuador | Falkland Islands | French Guiana | Guyana | Paraguay | Peru | Suriname | Uruguay | Venezuela</td>
   </tr>
   <tr>
     <td>Amazon AppStore</td>
     <td>Yes</td>
     <td>Availability & Pricing / Where would you like this app to be available?</td>
-    <td>No</td>
-    <td></td>
+    <td>Yes</td>
+    <td>
+Africa: Algeria | Angola | Benin | Botswana | Burkina Faso | Burundi | Cameroon | Cape Verde | Central African Republic | Chad | Comoros | Congo | Democratic Republic of Congo | Djibouti | Egypt | Equatorial Guinea | Eritrea | Ethiopia | Gabon | Gambia | Ghana | Guinea | Guinea-Bissau | Ivory Coast | Kenya | Lesotho | Liberia | Libyan Arab Jamahiriya | Madagascar | Malawi | Mali | Mauritania | Mauritius | Mayotte | Morocco | Mozambique | Namibia | Niger | Nigeria | Reunion | Rwanda | Saint Helena, Ascension and Tristan da Cunha | Sao Tome and Principe | Senegal | Seychelles | Sierra Leone | Somalia | South Africa | Swaziland | Tanzania | Togo | Tunisia | Uganda | Western Sahara | Zambia | Zimbabwe
+<br>Antarctica: Antarctica | Bouvet Island | French Southern Territories | Heard Island and McDonald Islands | South Georgia and the South Sandwich Islands
+<br>Asia: Afghanistan | Armenia | Azerbaijan | Bahrain | Bangladesh | Bhutan | British Indian Ocean Territory | Brunei Darussalam | Cambodia | China | Christmas Island | Cocos (Keeling) Islands | Georgia | Hong Kong (region) | India | Indonesia | Iraq | Israel | Japan | Jordan | Kazakhstan | South Korea | Kuwait | Kyrgyzstan | Laos | Lebanon | Macao | Malaysia | Maldives | Mongolia | Myanmar | Nepal | Oman | Pakistan | Palestinian Territory (Occupied) | Philippines | Qatar | Saudi Arabia | Singapore | Sri Lanka | Taiwan | Tajikistan | Thailand | Turkey | Turkmenistan | United Arab Emirates | Uzbekistan | Vietnam | Yemen
+<br>Europe: Aland Islands | Albania | Andorra | Austria | Belarus | Belgium | Bosnia and Herzegovina | Bulgaria | Croatia | Cyprus | Czech Republic | Denmark | Estonia | Faroe Islands | Finland | France | Germany | Gibraltar | Greece | Guernsey | Holy See (Vatican City State) | Hungary | Iceland | Ireland | Isle of Man | Italy | Jersey | Latvia | Liechtenstein | Lithuania | Luxembourg | Macedonia | Malta | Moldova | Monaco | Montenegro | Netherlands | Norway | Poland | Portugal | Romania | Russian Federation | San Marino | Serbia | Slovakia | Slovenia | Spain | Svalbard and Jan Mayen | Sweden | Switzerland | Ukraine | United Kingdom
+<br>North America: Anguilla | Antigua and Barbuda | Aruba | Bahamas | Barbados | Belize | Bermuda | Canada | Cayman Islands | Costa Rica | Dominica | Dominican Republic | El Salvador | Greenland | Grenada | Guadeloupe | Guatemala | Haiti | Honduras | Jamaica | Martinique | Mexico | Montserrat | Netherlands Antilles | Nicaragua | Panama | Saint Barthelemy | Saint Kitts and Nevis | Saint Lucia | Saint Martin (French part) | Saint Pierre and Miquelon | Saint Vincent and the Grenadines | Trinidad and Tobago | Turks and Caicos Islands | United States (including territories and possessions) | Virgin Islands, British
+<br>Oceania: Australia | Cook Islands | Fiji | French Polynesia | Kiribati | Marshall Islands | Micronesia | Nauru | New Caledonia | New Zealand | Niue | Norfolk Island | Palau | Papua New Guinea | Pitcairn | Samoa | Solomon Islands | Timor-Leste | Tokelau | Tonga | Tuvalu | Vanuatu | Wallis and Futuna
+<br>South America: Argentina | Bolivia | Brazil | Chile | Colombia | Ecuador | Falkland Islands (Malvinas) | French Guiana | Guyana | Paraguay | Peru | Suriname | Uruguay | Venezuela, Bolivarian Republic of</td>
   </tr>
   <tr>
     <td>Opera Mobile Store</td>
@@ -3152,9 +3176,17 @@ Example 2
   <tr>
     <td>Samsung Apps</td>
     <td>Yes</td>
-    <td>Basic Information / Sales / Country/Price / Detailed Country &amp; Price Settings</td>
+    <td>Country & Price / Country</td>
     <td>No</td>
-    <td></td>
+    <td>Available only in Advanced Mode.<br>Europe: Austria | Belgium | Bulgaria | Croatia | Czech | Denmark | Estonia | Finland | France | Germany | Greece | Hungary | Ireland | Italy | Latvia | Lithuania | Luxembourg | Netherlands | Norway | Poland | Portugal | Romania | Serbia | Slovakia | Spain | Sweden | Switzerland | United Kingdom
+<br>CIS: Belarus | Kazakhstan | Russia | Ukraine 
+<br>Asia: Australia | China | Hong Kong | India | Indonesia | Japan | Korea | Malaysia | New Zealand | Philippines | Singapore | Taiwan | Thailand | Turkey | Vietnam 
+<br>America: Argentina | Brazil | Canada | Chile | Mexico | Peru | USA 
+<br>Middle East & Africa: Algeria | Bahrain | Egypt | Iran | Iraq | Israel | Jordan | Kenya | Kuwait | Lebanon | Libya | Morocco | Nigeria | Oman | Qatar | Saudi Arabia | South Africa | Tunisia | United Arab Emirates | Yemen
+<br>Global A: Afghanistan | Albania | Armenia | Azerbaijan | Bangladesh | Bosnia and Herzegovina | Cambodia | FYROM | Georgia | Jamaica | Kyrgyzstan | Laos | Macao | Moldova | Mongolia | Montenegro | Nepal | Pakistan | Sri Lanka | Tajikistan | Trinidad and Tobago | Turkmenistan | Uzbekistan
+<br>Pan-Latin: Bolivia | Colombia | Costa Rica | Dominican Republic | Ecuador | El Salvador | Guatemala | Honduras | Nicaragua | Panama | Paraguay | Puerto Rico | Uruguay | Venezuela
+<br>Pan-Africa: Angola | Benin | Botswana | Burkina Faso | Burundi | Cameroon | Central African Rep. | Congo | Cote D'Ivoire | DR Congo | Ethiopia | Gabon | Gambia | Ghana | Guinea | Lesotho | Liberia | Madagascar | Malawi | Mali | Mauritania | Mauritius | Mozambique | Namibia | Rwanda | Senegal | Sierra Leone | Somalia | Swaziland | Tanzania | Togo | Uganda | Zambia | Zimbabwe
+<br>Global Free: Anguilla | Antigua and Barbuda | Aruba | Bahamas | Barbados | Belize | Bermuda | British Virgin Islands | Brunei Darussalam | Cayman Islands | Cook Islands | Curacao | Cyprus | Dominica | Fiji | Greenland | Grenada | Guyana | Haiti | Iceland | Malta | Monaco | Montserrat | Myanmar | Papua New Guinea | Samoa | Slovenia | Solomon Islands | St. Kitts and Nevis | St. Lucia | St. Vincent and the Grenadines | Sudan | Suriname | Syria | Tonga | Turks and Caicos | Vanuatu</td>
   </tr>
   <tr>
     <td>SlideME</td>
@@ -3694,8 +3726,8 @@ Example
     <td>Yandex.Store</td>
     <td>Yes</td>
     <td>Builds / Upload build</td>
-    <td>Unlimited</td>
-    <td>Yes</td>
+    <td>700M</td>
+    <td>Yes but not the same way as on Google Play</td>
     <td>No</td>
   </tr>
   <tr>
@@ -4037,7 +4069,7 @@ Example
     <td></td>
   </tr>
   <tr>
-    <td>Opers Mobile Store</td>
+    <td>Opera Mobile Store</td>
     <td>Yes</td>
     <td>Languages</td>
     <td></td>
@@ -4045,8 +4077,9 @@ Example
   <tr>
     <td>Samsung Apps</td>
     <td>Yes</td>
-    <td>Display Information / Supported Languages</td>
-    <td></td>
+    <td>App Information / Supported Languages</td>
+    <td>Arabic | Armenian | Assamese | Azerbaijani | Basque | Bengali | Bulgarian | Catalan | Croatian | Czech | Danish | Dutch | English | Estonian | Farsi | Finnish | French | Galician | Georgian | German | Greek | Gujarati | Hausa | Hebrew | Hindi | Hungarian | Icelandic | Igbo | Indonesian | Irish | Italian | Japanese | Kannada | Kazakh | Khmer | Korean | Lao | Latvian | Lithuanian | Macedonian | Malay | Malayalam | Marathi | Mongolian | Myanmar | Nepali | Norwegian | Oriya | Polish 
+ Portuguese | Punjabi | Romanian | Russian | Serbian | Simplified Chinese | Sinhala | Slovakian | Slovenian | Spanish | Spanish_Latin | Swedish | Tamil | Telugu | Thai | Traditional Chinese | Turkish | Ukrainian | Urdu | Uzbek | Vietnamese | Yoruba | Other(s)</td>
   </tr>
   <tr>
     <td>SlideME</td>
@@ -4532,20 +4565,26 @@ No attributes.
     <th>Supported</th>
     <th>Name</th>
     <th>Required</th>
+    <th>Maximum length</th>
     <th>Localizable</th>
+    <th>Comments</th>
   </tr>
   <tr>
     <td>Google Play</td>
     <td>Yes</td>
     <td>Store Listing / Contact Details / Email</td>
     <td>Yes</td>
+    <td></td>
     <td>No</td>
+    <td>"Please provide an email address where you may be contacted. This address will be publicly displayed with your app." </td>
   </tr>
   <tr>
     <td>Yandex.Store</td>
+    <td>Yes</td>
+    <td>General / Additional Info / Support e-mail</td>
+    <td>No (could be taken from the dev profile)</td>
+    <td></td>
     <td>No</td>
-    <td></td>
-    <td></td>
     <td></td>
   </tr>
   <tr>
@@ -4553,25 +4592,33 @@ No attributes.
     <td>Yes</td>
     <td>General Information / Customer support email address</td>
     <td>Yes</td>
+    <td></td>
     <td>No</td>
+    <td>Could be taken from default support information.</td>
   </tr>
   <tr>
     <td>Opera Mobile Store</td>
     <td>Yes</td>
     <td>Contact Email</td>
     <td>No</td>
+    <td></td>
     <td>No</td>
+    <td></td>
   </tr>
   <tr>
     <td>Samsung Apps</td>
     <td>Yes</td>
-    <td>Display Information / Support / Support E-Mail</td>
+    <td>App Information / Support E-Mail</td>
     <td>Yes</td>
+    <td>100 byte</td>
     <td>No</td>
+    <td></td>
   </tr>
   <tr>
     <td>SlideME</td>
     <td>No</td>
+    <td></td>
+    <td></td>
     <td></td>
     <td></td>
     <td></td>
@@ -4581,11 +4628,15 @@ No attributes.
     <td>Yes</td>
     <td>Basic / Support Email</td>
     <td>Yes</td>
+    <td></td>
     <td>No</td>
+    <td></td>
   </tr>
   <tr>
     <td>AppsLib</td>
     <td>No</td>
+    <td></td>
+    <td></td>
     <td></td>
     <td></td>
     <td></td>
@@ -4636,7 +4687,7 @@ No attributes.
   <tr>
     <td>Samsung Apps</td>
     <td>Yes</td>
-    <td>Display Information / Support / Support URL</td>
+    <td>App Information / Support URL</td>
     <td>No</td>
     <td>No</td>
   </tr>
@@ -5143,157 +5194,9 @@ Application Store Support
 </tr>
 <tr>
   <td>Distribution agreement URL</td>
-  <td><a href="http://legal.yandex.com/store_developer_agreement/">http://legal.yandex.com/store_developer_agreement/</a></td>
-</tr>
-<tr>
-  <td>AppDF ID</td>
-  <td>yandex</td>
-</tr>
-<tr>
-  <td>Registration fee</td>
-  <td>free</td>
-</tr>
-<tr>
-  <td>Content premoderation</td>
-  <td>Yes</td>
-</tr>
-<tr>
-  <td>Client Application</td>
-  <td>Yes</td>
-</tr>
-<tr>
-  <td>In-App Purchase Support</td>
-  <td>No</td>
-</tr>
-<tr>
-  <td>License verification support</td>
-  <td>No</td>
+  <td><a href="http://legal.yandex.com/store_developer_agreement/">http://</td>
 </tr>
 </table>
-
-### SlideME
-
-<table>
-<tr>
-  <th>Parameter</th>
-  <th>Value</th>
-</tr>
-<tr>
-  <td>Registration URL</td>
-  <td><a href="http://slideme.org/developers">http://slideme.org/developers</a></td>
-</tr>
-<tr>
-  <td>Distribution agreement URL</td>
-  <td><a href="http://slideme.org/developers/dda">http://slideme.org/developers/dda</a></td>
-</tr>
-<tr>
-  <td>AppDF ID</td>
-  <td>slideme</td>
-</tr>
-<tr>
-  <td>Registration fee</td>
-  <td>free</td>
-</tr>
-<tr>
-  <td>Content premoderation</td>
-  <td>Yes</td>
-</tr>
-<tr>
-  <td>Client Application</td>
-  <td>Yes</td>
-</tr>
-<tr>
-  <td>In-App Purchase Support</td>
-  <td>No</td>
-</tr>
-<tr>
-  <td>License verification support</td>
-  <td>Yes</td>
-</tr>
-</table>
-
-### Samsung App
-
-<table>
-<tr>
-  <th>Parameter</th>
-  <th>Value</th>
-</tr>
-<tr>
-  <td>Registration URL</td>
-  <td><a href="http://seller.samsungapps.com/">http://seller.samsungapps.com/</a></td>
-</tr>
-<tr>
-  <td>Distribution agreement URL</td>
-  <td><a href="http://seller.samsungapps.com/help/termsAndConditions.as">http://seller.samsungapps.com/help/termsAndConditions.as</a></td>
-</tr>
-<tr>
-  <td>AppDF ID</td>
-  <td>samsung</td>
-</tr>
-<tr>
-  <td>Registration fee</td>
-  <td>free</td>
-</tr>
-<tr>
-  <td>Content premoderation</td>
-  <td>Yes</td>
-</tr>
-<tr>
-  <td>Client Application</td>
-  <td>Yes</td>
-</tr>
-<tr>
-  <td>In-App Purchase Support</td>
-  <td>Yes</td>
-</tr>
-<tr>
-  <td>License verification support</td>
-  <td>Samsung DRM</td>
-</tr>
-</table>
-
-### SK T-Store
-
-<table>
-<tr>
-  <th>Parameter</th>
-  <th>Value</th>
-</tr>
-<tr>
-  <td>Registration URL</td>
-  <td><a href="http://dev.tstore.co.kr/devpoc/main/main.omp">http://dev.tstore.co.kr/devpoc/main/main.omp</a></td>
-</tr>
-<tr>
-  <td>Distribution agreement URL</td>
-  <td>Public link cannot be found</a></td>
-</tr>
-<tr>
-  <td>AppDF ID</td>
-  <td>tstore</td>
-</tr>
-<tr>
-  <td>Registration fee</td>
-  <td>free</td>
-</tr>
-<tr>
-  <td>Content premoderation</td>
-  <td>Yes</td>
-</tr>
-<tr>
-  <td>Client Application</td>
-  <td>Yes</td>
-</tr>
-<tr>
-  <td>In-App Purchase Support</td>
-  <td>Yes</td>
-</tr>
-<tr>
-  <td>License verification support</td>
-  <td>[To be supplied.]</td>
-</tr>
-</table>
-
 
 Category List
 -------------
