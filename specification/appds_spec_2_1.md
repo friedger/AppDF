@@ -510,7 +510,7 @@ Value could be either `application` or `game`.
   <tr>
     <td>Google Play</td>
     <td>Yes</td>
-    <td>Store Listing / Categorization / Application type</td>
+    <td>Store Listing / CATEGORIZATION / Application type</td>
     <td>Yes</td>
     <td>Applications, Games</td>
   </tr>
@@ -583,7 +583,7 @@ AppDF format has its own list of categories for both games and applications. Thi
   <tr>
     <td>Google Play</td>
     <td>Yes</td>
-    <td>Store Listing / Categorization / Category</td>
+    <td>Store Listing / CATEGORIZATION / Category</td>
     <td>Yes</td>
     <td>Games: Action | Adventure | Arcade | Board | Card | Casino | Casual | Educational | Family | Music | Puzzle | Racing | Role Playing|  Simulation | Sports | Strategy | Trivia | Word<br>Applications: Books &amp; Reference | Business | Comics | Communication | Education | Entertainment | Finance 
 | Health &amp; Fitness | Libraries &amp; Demo | Lifestyle | Media &amp; Video | Medical | Music &amp; Audio | News &amp; Magazines | Personalization | Photography | Productivity | Shopping | Social | Sports | Tools | Transportation | Travel &amp; Local | Weather
@@ -881,7 +881,7 @@ The application name is shown in the application list. As everything inside the 
   <tr>
     <td>Google Play</td>
     <td>Yes</td>
-    <td>Store Listing / Product Details / Title</td>
+    <td>Store Listing / PRODUCT DETAILS / Title</td>
     <td>Yes</td>
     <td>Yes</td>
     <td>30 characters</td>
@@ -1064,7 +1064,7 @@ Short application description is used in the app lists next to the app title. So
   <tr>
     <td>Google Play</td>
     <td>Yes</td>
-    <td>Store Listing / Product Details / Short description</td>
+    <td>Store Listing / PRODUCT DETAILS / Short description</td>
     <td>Yes</td>
     <td>Yes</td>
     <td>80 characters</td>
@@ -1203,10 +1203,11 @@ The full application description is shown on the product page. You can include s
   <tr>
     <td>Google Play</td>
     <td>Yes</td>
-    <td>Store Listing / Product Details / Title</td>
+    <td>Store Listing / PRODUCT DETAILS / Full description</td>
     <td>Yes</td>
     <td>Yes</td>
     <td>4000 characters</td>
+    <!---todo check HTML-->
     <td>simple HTML, no links</td>
     <td></td>
   </tr>
@@ -1402,16 +1403,16 @@ Maximum length: 500.
   <tr>
     <td>Google Play</td>
     <td>Yes</td>
-    <td>Store Listing / Product Details / Recent changes</td>
+    <td>APK / APK Details / What's new in this version?</td>
     <td>No</td>
     <td>Yes</td>
-    <td>50 characters</td>
-    <td>Describes the changes of the latest version (version number is taken from APK file)</td>
+    <td>500 characters</td>
+    <td>Briefly list and describe new features in this version. You can specify this information for each APK if you have multiple APKs or you are using alpha/beta testing.</td>
   </tr>
   <tr>
     <td>Yandex.Store</td>
     <td>Yes</td>
-    <td>Builds / What's new?</td>
+    <td>Builds / Active builds / *choose any* / What's new?</td>
     <td>No</td>
     <td>Yes</td>
     <td>Unlimited</td>
@@ -1419,12 +1420,12 @@ Maximum length: 500.
   </tr>
   <tr>
     <td>Amazon AppStore</td>
-    <td>No</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>Yes</td>
+    <td>Release Note</td>
+    <td>Yes</td>
+    <td>Yes</td>
+    <td>4000 characters</td>
+    <td>Release notes are required for all provided translations. English (U.S.) will be used in all marketplaces where a translation has not been provided.</td>
   </tr>
   <tr>
     <td>Opera Mobile Store</td>
@@ -1502,10 +1503,10 @@ you, your account or your email addresses with anyone. Period.</privacy-policy>
   <tr>
     <td>Google Play</td>
     <td>Yes</td>
-    <td>Store Listing / Privacy Policy / Link to policy</td>
+    <td>Store Listing / PRIVACY POLICY</td>
+    <td>Yes</td>
     <td>No</td>
-    <td>No</td>
-    <td>Privacy policy URL</td>
+    <td>If you wish to provide a privacy policy URL for the application, enter its URL. If you do not want to add a privacy policy at the moment, you can check the box next to Not submitting a privacy policy URL at this time on the Store Listings screen of your application in the Google Play Developer Console.</td>
   </tr>
   <tr>
     <td>Yandex.Store</td>
@@ -1518,10 +1519,10 @@ you, your account or your email addresses with anyone. Period.</privacy-policy>
   <tr>
     <td>Amazon AppStore</td>
     <td>Yes</td>
-    <td>General Information / Privacy policy URL</td>
+    <td>Content Rating / Additional Information / Privacy policy URL</td>
     <td>No</td>
     <td>No</td>
-    <td>Privacy policy URL</td>
+    <td></td>
   </tr>
   <tr>
     <td>Opera Mobile Store</td>
@@ -1737,7 +1738,7 @@ High resolution application icon. Must be in PNG format. Different stores requir
   <tr>
     <td>Google Play</td>
     <td>Yes</td>
-    <td>Store Listing / Graphic Assers / High-res icon</td>
+    <td>Store Listing / GRAPHIC ASSETS / Hi-res icon</td>
     <td>Yes</td>
     <td>Yes</td>
     <td>512x512</td>
@@ -1757,8 +1758,8 @@ High resolution application icon. Must be in PNG format. Different stores requir
     <td>Yes</td>
     <td>Images & Multimedia / Small Icon, Large icon</td>
     <td>Yes</td>
-    <td>No</td>
-    <td>114x114 + 512x512</td>
+    <td>Yes</td>
+    <td>114x114, 512x512</td>
     <td>PNG (with transparency)</td>
   </tr>
   <tr>
@@ -1851,10 +1852,10 @@ Large promotion picture usually used by the stores on the PC websites, some stor
   <tr>
     <td>Google Play</td>
     <td>Yes</td>
-    <td>Store Listing / Graphic Assers / Feature Graphic</td>
-    <td>No</td>
+    <td>Store Listing / GRAPHIC ASSETS / Feature Graphic</td>
     <td>Yes</td>
-    <td>1024x500</td>
+    <td>Yes</td>
+    <td>1024 w x 500 h</td>
     <td>JPG or 24-bit PNG (no alpha)</td>
   </tr>
   <tr>
@@ -1862,9 +1863,9 @@ Large promotion picture usually used by the stores on the PC websites, some stor
     <td>Yes</td>
     <td>Images / Featured screen</td>
     <td>No</td>
-    <td>No</td>
+    <td>Yes</td>
     <td>1024x500</td>
-    <td>JPG or 24-bit PNG (no alpha)</td>
+    <td>JPEG or 24-bit PNG (no alpha)</td>
   </tr>
   <tr>
     <td>Amazon AppStore</td>
@@ -1957,10 +1958,10 @@ A small promotion picture is usually used by the stores on a mobile device for p
   <tr>
     <td>Google Play</td>
     <td>Yes</td>
-    <td>Store Listing / Graphic Assers / Feature Graphic</td>
+    <td>Store Listing / GRAPHIC ASSETS / Feature Graphic</td>
     <td>No</td>
     <td>Yes</td>
-    <td>180x120</td>
+    <td>180 w x 120 h</td>
     <td>JPG or 24-bit PNG (no alpha)</td>
   </tr>
   <tr>
@@ -2091,21 +2092,22 @@ Example
   <tr>
     <td>Google Play</td>
     <td>Yes</td>
-    <td>Store Listing / Graphic Assers / Screenshots</td>
+    <td>Store Listing / GRAPHIC ASSETS / Screenshots</td>
     <td>Yes</td>
     <td>Yes</td>
-    <td>320x480, 480x800, 480x854, 1280x720, 1280x800</td>
-    <td>JPG or 24-bit PNG (no alpha)</td>
-    <td>2+</td>
+    <td>Min length for any side: 320px. Max length for any side: 3840px</td>
+    <td>JPEG or 24-bit PNG (no alpha)</td>
+    <td>2+. Max 8 screenshots per type (Phone, 7-inch tablet, 10-inch tablet, TV).</td>
   </tr>
   <tr>
     <td>Yandex.Store</td>
     <td>Yes</td>
     <td>Images / Screenshots</td>
     <td>Yes</td>
-    <td>No</td>
+    <td>Yes</td>
     <td>from 250×140 to 1920×1080 px, no frame</td>
     <td>JPEG or 24-bit PNG (no alpha)</td>
+    <!--todo check max number Lesha-->
     <td>2+</td>
   </tr>
   <tr>
@@ -2113,7 +2115,7 @@ Example
     <td>Yes</td>
     <td>Images & Multimedia / Screenshots</td>
     <td>Yes</td>
-    <td>No</td>
+    <td>Yes</td>
     <td>800 x 480px, 1024 x 600px, 1280 x 720px,
 1280 x 800px, 1920 x 1080px, 1920 x 1200px,
 or 2560 x 1600px (portrait or landscape)</td>
@@ -2223,7 +2225,7 @@ then tag value should be just `4YcBHQ2fCDE`. Like:
   <tr>
     <td>Google Play</td>
     <td>Yes</td>
-    <td>Store Listing / Graphic Assets / Promo Video</td>
+    <td>Store Listing / GRAPHIC ASSETS / Promo Video</td>
     <td>No</td>
     <td>Yes</td>
     <td></td>
@@ -2335,7 +2337,8 @@ Some stores don't support including of YouTube videos but do support uploaded vi
     <td>No</td>
     <td>No</td>
     <td>0-5</td>
-    <td>MPEG-2, WMV, MOV, FLV, AVI, or H.264 MPEG-4, Minimum 720px wide (4:3 or 16:9); 1200 kbps or higher</td>
+    <td>Up to 5 MPEG-2, WMV, MOV, FLV, AVI, or H.264 MPEG-4
+720 - 1080px wide (4:3 or 16:9); 1200 kbps or higher</td>
   </tr>
   <tr>
     <td>Opera Mobile Store</td>
@@ -2499,7 +2502,7 @@ Each application must be labeled with a minimum age allowance according to [ESRB
   <tr>
     <td>Google Play</td>
     <td>Yes</td>
-    <td>Store Listing / Categorization / Content rating</td>
+    <td>Store Listing / CATEGORIZATION / Content rating</td>
     <td>Yes</td>
   </tr>
   <tr>
@@ -3135,9 +3138,10 @@ Example 2
   <tr>
     <td>Google Play</td>
     <td>Yes</td>
-    <td>Pricing & Distribution / Distribute in these countries</td>
-    <td>No</td>
-    <td>Albania | Algeria | Angola | Antigua and Barbuda | Argentina | Armenia | Aruba | Australia | Austria | Azerbaijan | Bahamas | Bahrain | Bangladesh | Belarus | Belgium | Belize | Benin | Bolivia | Bosnia and Herzegovina | Botswana | Brazil | Bulgaria | Burkina Faso | Cambodia | Cameroon | Canada | Cape Verde | Chile | Colombia | Costa Rica | Côte d’Ivoire | Croatia | Cyprus | Czech Republic | Denmark | Dominican Republic | Ecuador | Egypt | El Salvador | Estonia | Fiji | Finland | France | Gabon | Germany | Ghana | Greece | Guatemala	 | Guinea-Bissau	 | Haiti | Honduras | Hong Kong SAR China | Hungary | Iceland | India | Indonesia | Ireland | Israel | Italy | Jamaica | Japan | Jordan | Kazakhstan | Kenya | Kuwait | Kyrgyzstan | Laos | Latvia | Lebanon | Lithuania | Luxembourg | Macedonia (FYROM) | Malaysia | Mali | Malta | Mauritius | Mexico | Moldova | Morocco | Mozambique | Namibia | Nepal | Netherlands | Netherlands Antilles | New Zealand | Nicaragua | Niger | Nigeria | Norway | Oman | Pakistan | Panama | Papua New Guinea | Paraguay | Peru | Philippines | Poland | Portugal | Qatar | Romania | Russia | Rwanda | Saudi Arabia | Senegal | Serbia | Singapore | Slovakia | Slovenia | South Africa | South Korea | Spain | Sri Lanka | Sweden | Switzerland | Taiwan | Tajikistan | Tanzania | Thailand | Togo | Trinidad and Tobago | Tunisia | Turkey | Turkmenistan | Uganda | Ukraine | United Arab Emirates | United Kingdom | United States | Uruguay | Uzbekistan | Venezuela | Vietnam | Yemen | Zambia</td>
+    <td>Pricing & Distribution / DISTRIBUTE IN THESE COUNTRIES</td>
+    <td>Yes</td>
+    <td>You need to target at least one country.  
+    Albania | Algeria | Angola | Antigua and Barbuda | Argentina | Armenia | Aruba | Australia | Austria | Azerbaijan | Bahamas | Bahrain | Bangladesh | Belarus | Belgium | Belize | Benin | Bolivia | Bosnia and Herzegovina | Botswana | Brazil | Bulgaria | Burkina Faso | Cambodia | Cameroon | Canada | Cape Verde | Chile | Colombia | Costa Rica | Côte d’Ivoire | Croatia | Cyprus | Czech Republic | Denmark | Dominican Republic | Ecuador | Egypt | El Salvador | Estonia | Fiji | Finland | France | Gabon | Germany | Ghana | Greece | Guatemala	 | Guinea-Bissau	 | Haiti | Honduras | Hong Kong SAR China | Hungary | Iceland | India | Indonesia | Ireland | Israel | Italy | Jamaica | Japan | Jordan | Kazakhstan | Kenya | Kuwait | Kyrgyzstan | Laos | Latvia | Lebanon | Lithuania | Luxembourg | Macedonia (FYROM) | Malaysia | Mali | Malta | Mauritius | Mexico | Moldova | Morocco | Mozambique | Namibia | Nepal | Netherlands | Netherlands Antilles | New Zealand | Nicaragua | Niger | Nigeria | Norway | Oman | Pakistan | Panama | Papua New Guinea | Paraguay | Peru | Philippines | Poland | Portugal | Qatar | Romania | Russia | Rwanda | Saudi Arabia | Senegal | Serbia | Singapore | Slovakia | Slovenia | South Africa | South Korea | Spain | Sri Lanka | Sweden | Switzerland | Taiwan | Tajikistan | Tanzania | Thailand | Togo | Trinidad and Tobago | Tunisia | Turkey | Turkmenistan | Uganda | Ukraine | United Arab Emirates | United Kingdom | United States | Uruguay | Uzbekistan | Venezuela | Vietnam | Yemen | Zambia</td>
   </tr>
   <tr>
     <td>Yandex.Store</td>
@@ -3146,7 +3150,7 @@ Example 2
     <td>Yes</td>
     <td>"In all countries and regions where Amazon sells apps" or choose specific countries grouped by continents.
     <br>Africa: Algeria | Angola | Benin | Botswana | Burkina Faso | Burundi | Cameroon | Cape Verde | Central African Republic | Chad | Comoros | Congo | Côte d'Ivoire | Democratic Republic of the Congo | Djibouti | Equatorial Guinea | Eritrea | Ethiopia | Gabon | Gambia | Ghana | Guinea | Guinea-Bissau | Kenya | Lesotho | Liberia | Libya | Madagascar | Malawi | Mali | Mauritania | Mauritius | Morocco | Mozambique | Namibia | Niger | Nigeria | Rwanda | Sahrawi Arab Democratic Republic | Senegal | Seychelles | Sierra Leone | Somalia | South Africa | South Sudan | Sudan | Swaziland | São Tomé and Príncipe | Tanzania | Togo | Tunisia | Uganda | Zambia | Zimbabwe
-Asia: Abkhasia | Afghanistan | Armenia | Azerbaijan | Bahrain | Bangladesh | Bhutan | Brunei | Cambodia | China | East Timor | Egypt | Georgia | India | Indonesia | Iran | Iraq | Israel | Japan | Jordan | Kazakhstan | Kuwait | Kyrgyzstan | Laos | Lebanon | Malaysia | Maldives | Mongolia | Myanmar | Nepal | North Korea | Oman | Pakistan | Palestinian Territory | Philippines | Qatar | Saudi Arabia | Singapore | South Korea | South Ossetia | Sri Lanka | Syria | Taiwan | Tajikistan | Thailand | Turkmenistan | United Arab Emirates | Uzbekistan | Vietnam | Yemen
+<br>Asia: Abkhasia | Afghanistan | Armenia | Azerbaijan | Bahrain | Bangladesh | Bhutan | Brunei | Cambodia | China | East Timor | Egypt | Georgia | India | Indonesia | Iran | Iraq | Israel | Japan | Jordan | Kazakhstan | Kuwait | Kyrgyzstan | Laos | Lebanon | Malaysia | Maldives | Mongolia | Myanmar | Nepal | North Korea | Oman | Pakistan | Palestinian Territory | Philippines | Qatar | Saudi Arabia | Singapore | South Korea | South Ossetia | Sri Lanka | Syria | Taiwan | Tajikistan | Thailand | Turkmenistan | United Arab Emirates | Uzbekistan | Vietnam | Yemen
 <br>Australia and Oceania: Australia | Cocos Islands | Cook Islands | Fiji | French Polynesia | Guam | Kiribati | Nauru | New Caledonia | New Zealand | Niue | Norfolk Island | Palau | Papua New Guinea | Samoa | Solomon Islands | The Federated States of Micronesia | The Marshall Islands | Tonga | Tuvalu | Vanuatu
 <br>Europe: Albania | Andorra | Austria | Belarus | Belgium | Bosnia and Herzegovina | Bulgaria | Croatia | Cyprus | Czech Republic | Denmark | Estonia | Finland | France | Germany | Gibraltar | Greece | Hungary | Iceland | Ireland | Italy | Latvia | Liechtenstein | Lithuania | Luxembourg | Macedonia | Malta | Moldova | Monaco | Montenegro | Netherlands | Norway | Poland | Portugal | Romania | Russia | San Marino | Serbia | Slovakia | Slovenia | Spain | Sweden | Switzerland | Turkey | Ukraine | United Kingdom | Vatican City
 <br>North America: Antigua and Barbuda | Aruba | Bahamas | Barbados | Belize | Bermuda | British Virgin Islands | Canada | Costa Rica | Cuba | Curacao | Dominica | Dominican Republic | El Salvador | Greenland | Grenada | Guatemala | Haiti | Honduras | Jamaica | Martinique | Mexico | Montserrat | Nicaragua | Panama | Puerto Rico | Saint Kitts and Nevis | Saint Lucia | Saint Vincent and the Grenadines | Sint Maarten | The Cayman Islands | The United States Virgin Islands | Trinidad and Tobago | Turks and Caicos Islands | United States
@@ -3717,7 +3721,7 @@ Example
   <tr>
     <td>Google Play</td>
     <td>Yes</td>
-    <td>APK / Upload new APK</td>
+    <td>APK / Upload new APK to Production|Beta|Alpha</td>
     <td>50M</td>
     <td>Yes</td>
     <td>Yes</td>
@@ -4127,8 +4131,9 @@ Example
   </tr>
   <tr>
     <td>Google Play</td>
-    <td>Yes</td>
-    <td>APK / Device Compatibility</td>
+    <td>Yes</td
+    <!---todo check Alpha,  Beta-->
+    <td>APK / PRODUCTION CONFIGURATION / CURRENT APK / Supported devices</td>
     <td></td>
   </tr>
   <tr>
@@ -4409,8 +4414,9 @@ Example
   <tr>
     <td>Google Play</td>
     <td>Yes</td>
-    <td>Pricing and Distribution / Consent</td>
-    <td>&lt;google-android-content-guidelines&gt;, &lt;us-export-laws&gt;</td>
+    <td>Pricing & Distribution / CONSENT</td>
+    <td>Content guidelines &lt;google-android-content-guidelines&gt; (req), US export laws  &lt;us-export-laws&gt; (req),
+    Marketing opt-out (Do not promote my application except in Google Play and in any Google-owned online or mobile properties. I understand that any changes to this preference may take sixty days to take effect).</td>
   </tr>
   <tr>
     <td>Yandex.Store</td>
@@ -4499,7 +4505,7 @@ No attributes.
   <tr>
     <td>Google Play</td>
     <td>Yes</td>
-    <td>Store Listing / Contact Details / Phone</td>
+    <td>Store Listing / CONTACT DETAILS / Phone</td>
     <td>No</td>
     <td>No</td>
   </tr>
@@ -4572,7 +4578,7 @@ No attributes.
   <tr>
     <td>Google Play</td>
     <td>Yes</td>
-    <td>Store Listing / Contact Details / Email</td>
+    <td>Store Listing / CONTACT DETAILS / Email</td>
     <td>Yes</td>
     <td></td>
     <td>No</td>
@@ -4659,8 +4665,8 @@ No attributes.
   <tr>
     <td>Google Play</td>
     <td>Yes</td>
-    <td>Store Listing / Contact Details / Website</td>
-    <td>Yes</td>
+    <td>Store Listing / CONTACT DETAILS / Website</td>
+    <td>No</td>
     <td>No</td>
   </tr>
   <tr>
