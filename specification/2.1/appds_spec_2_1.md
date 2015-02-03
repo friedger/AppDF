@@ -1064,11 +1064,11 @@ Short application description is used in the app lists next to the app title. So
   <tr>
     <td>Google Play</td>
     <td>Yes</td>
-    <td>Store Listing / Product Details / Promo Text</td>
-    <td>No</td>
+    <td>Store Listing / Product Details / Short description</td>
     <td>Yes</td>
-    <td>80 char</td>
-    <td>Is not shown in the app list but only on promotion pages</td>
+    <td>Yes</td>
+    <td>80 characters</td>
+    <td></td>
   </tr>
   <tr>
     <td>Yandex.Store</td>
