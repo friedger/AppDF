@@ -2018,7 +2018,7 @@ A small promotion picture is usually used by the stores on a mobile device for p
     <td>No</td>
     <td>No</td>
     <td>180x120</td>
-    <td>PNG or JPG</td>
+    <td>PNG or JPG, max 256 KB</td>
   </tr>
   <tr>
     <td>NOOK apps</td>
