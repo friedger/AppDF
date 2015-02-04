@@ -4339,9 +4339,9 @@ Please detail any special requirements to test your app. If your application req
   <tr>
     <td>Samsung Apps</td>
     <td>Yes</td>
-    <td>Display Information / Certification / Comments to Certification Team</td>
-    <td>Yes</td>
-    <td>4000</td>
+    <td>Certification</td>
+    <td>No</td>
+    <td>4000 byte</td>
   </tr>
   <tr>
     <td>SlideME</td>
