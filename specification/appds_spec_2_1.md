@@ -1546,11 +1546,11 @@ you, your account or your email addresses with anyone. Period.</privacy-policy>
   </tr>
   <tr>
     <td>Samsung Apps</td>
+    <td>Yes</td>
+    <td>App Information  / Privacy Policy URL</td>
     <td>No</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>No</td>
+    <td>"This information must be entered if it is intended for the Kids category. The category may change if there is no input."</td>
   </tr>
   <tr>
     <td>SlideME</td>
