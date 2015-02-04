@@ -3773,9 +3773,9 @@ Example
     <td>SlideME</td>
     <td>Yes</td>
     <td>Application / Application file</td>
-    <td>66M</td>
+    <td>99M</td>
     <td>No</td>
-    <td>No</td>
+    <td>Yes</td>
   </tr>
   <tr>
     <td>NOOK apps</td>
