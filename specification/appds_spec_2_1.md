@@ -926,12 +926,13 @@ The application name is shown in the application list. As everything inside the 
   </tr>
   <tr>
     <td>SlideME</td>
-    <td>No</td>
+    <td>+-</td>
     <td></td>
     <td>Yes</td>
     <td>Yes</td>
+    <!--todo wtf-->
     <td>255???</td>
-    <td>Imported from APK Android manifest file (android:label field)</td>
+    <td>Default value seems to be imported from APK Android manifest file (android:label field). Could be localized in the Translations tab.</td>
   </tr>
   <tr>
     <td>NOOK apps</td>
@@ -1121,7 +1122,7 @@ Short application description is used in the app lists next to the app title. So
     <td>Yes</td>
     <td>Short description</td>
     <td>Yes</td>
-    <td>No</td>
+    <td>Yes</td>
     <td>500 characters</td>
     <td></td>
   </tr>
@@ -1266,7 +1267,7 @@ The full application description is shown on the product page. You can include s
     <td>Yes</td>
     <td>Long Description</td>
     <td>Yes</td>
-    <td>No</td>
+    <td>Yes</td>
     <td>4000 characters</td>
     <td>Some HTML subset http://slideme.org/filter/tips</td>
     <td></td>
