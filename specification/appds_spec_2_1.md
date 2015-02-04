@@ -1794,11 +1794,11 @@ High resolution application icon. Must be in PNG format. Different stores requir
   <tr>
     <td>SlideME</td>
     <td>Yes</td>
-    <td>Promotion / Icon, High resolution icon</td>
+    <td>Promotion / Icon</td>
+    <td>Yes</td>
     <td>No</td>
-    <td>No</td>
-    <td>150x150 - 500x500 for Icon, 512x512 for High resolution icon</td>
-    <td>PNG, JPG, GIF</td>
+    <td>512x512</td>
+    <td>PNG, JPG</td>
   </tr>
   <tr>
     <td>NOOK apps</td>
