@@ -2161,7 +2161,8 @@ or 2560 x 1600px (portrait or landscape)</td>
     <td>No</td>
     <td>Images must be between 180x180 pixels and 1600x1600. Maximum file size: 1 MB</td>
     <td>JPG, JPEG, PNG, GIF</td>
-    <td>1-3</td>
+    <!-- todo do they have a limit? didn't find it-->
+    <td>2+</td>
   </tr>
   <tr>
     <td>NOOK apps</td>
