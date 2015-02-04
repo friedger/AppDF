@@ -877,6 +877,7 @@ The application name is shown in the application list. As everything inside the 
     <th>Required</th>
     <th>Localizable</th>
     <th>Maximum length</th>
+    <th>Comments</th>
   </tr>
   <tr>
     <td>Google Play</td>
@@ -885,6 +886,7 @@ The application name is shown in the application list. As everything inside the 
     <td>Yes</td>
     <td>Yes</td>
     <td>30 characters</td>
+    <td></td>
   </tr>
   <tr>
     <td>Yandex.Store</td>
@@ -893,6 +895,7 @@ The application name is shown in the application list. As everything inside the 
     <td>Yes</td>
     <td>Yes</td>
     <td>Unlimited</td>
+    <td></td>
   </tr>
   <tr>
     <td>Amazon AppStore</td>
@@ -901,6 +904,7 @@ The application name is shown in the application list. As everything inside the 
     <td>Yes</td>
     <td>Yes</td>
     <td>250 characters</td>
+    <td></td>
   </tr>
   <tr>
     <td>Opera Mobile Store</td>
@@ -909,6 +913,7 @@ The application name is shown in the application list. As everything inside the 
     <td>Yes</td>
     <td>Yes</td>
     <td>Unlimited</td>
+    <td></td>
   </tr>
   <tr>
     <td>Samsung Apps</td>
@@ -917,14 +922,16 @@ The application name is shown in the application list. As everything inside the 
     <td>Yes</td>
     <td>Yes</td>
     <td>200 byte</td>
+    <td></td>
   </tr>
   <tr>
     <td>SlideME</td>
-    <td>No (imported from APK Android manifest file (android:label field)</td>
-    <td>-</td>
+    <td>No</td>
+    <td></td>
     <td>Yes</td>
     <td>Yes</td>
     <td>255???</td>
+    <td>Imported from APK Android manifest file (android:label field)</td>
   </tr>
   <tr>
     <td>NOOK apps</td>
@@ -933,6 +940,7 @@ The application name is shown in the application list. As everything inside the 
     <td>Yes</td>
     <td>No</td>
     <td>100</td>
+    <td></td>
   </tr>   
   <tr>
     <td>AppsLib</td>
@@ -941,6 +949,7 @@ The application name is shown in the application list. As everything inside the 
     <td>Yes</td>
     <td>No</td>
     <td>Unlimited</td>
+    <td></td>
   </tr>
   <tr>
     <td>SK T-Store</td>
@@ -949,6 +958,7 @@ The application name is shown in the application list. As everything inside the 
     <td>Yes</td>
     <td>No</td>
     <td>50</td>
+    <td></td>
   </tr>
 </table>
 
