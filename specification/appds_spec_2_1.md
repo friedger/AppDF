@@ -1458,11 +1458,12 @@ Maximum length: 500.
   <tr>
     <td>SlideME</td>
     <td>Yes</td>
-    <td>Revision information / Log message</td>
+    <td>Public revision information / What's New message (for this update only)</td>
     <td>No</td>
     <td>No</td>
+    <!--todo check unlimited-->
     <td>Unlimited</td>
-    <td>This information will go in the application's changelog and can not be changed</td>
+    <td>"Please provide a short explanation about the reasons you are updating this application, which will be displayed to users as "What's new" for your application in SAM. This information will go in the changelog of the application and can not be changed or removed."</td>
   </tr>
   <tr>
     <td>AppsLib</td>
