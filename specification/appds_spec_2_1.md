@@ -737,9 +737,9 @@ Although some stores don't use subcategories AppDF includes as detailed category
   </tr>
   <tr>
     <td>SlideME</td>
-    <td>No</td>
-    <td></td>
-    <td></td>
+    <td>Yes</td>
+    <td>Category</td>
+    <td>Yes</td>
     <td>Communication: E-mail | Instant Messaging | Phone | SMS | Social Networking | Other
 <br>Education: Early Childhood | Higher | Primary | Secondary | Other
 <br>Entertainment: Comedy | Film | Music | Sports | Theatre | Other
