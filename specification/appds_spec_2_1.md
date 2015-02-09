@@ -558,13 +558,14 @@ Value could be either `application` or `game`.
     <td>Games is an item in the application category list</td>
   </tr>
   !-->
-  <tr>
+ <!-- <tr>
     <td>AppsLib</td>
     <td>Yes</td>
     <td>Application Category</td>
     <td>Yes</td>
     <td>Games is an item in the application category list</td>
   </tr>
+  !-->
 </table>
 
 #### categorization/category
@@ -635,6 +636,7 @@ AppDF format has its own list of categories for both games and applications. Thi
     <td>Supports multiple categories</td>
   </tr>
   !-->
+  <!--
   <tr>
     <td>AppsLib</td>
     <td>Yes</td>
@@ -642,6 +644,7 @@ AppDF format has its own list of categories for both games and applications. Thi
     <td>Yes</td>
     <td></td>
   </tr>
+  !-->
 </table>
 
 #### categorization/subcategory
@@ -774,6 +777,7 @@ Although some stores don't use subcategories AppDF includes as detailed category
     <td></td>
   </tr>
   !-->
+  <!--
   <tr>
     <td>AppsLib</td>
     <td>No</td>
@@ -781,6 +785,7 @@ Although some stores don't use subcategories AppDF includes as detailed category
     <td></td>
     <td></td>
   </tr>
+  !-->
 </table>
 
 ### description 
@@ -951,6 +956,7 @@ The application name is shown in the application list. As everything inside the 
     <td></td>
   </tr> 
   !-->
+  <!--
   <tr>
     <td>AppsLib</td>
     <td>Yes</td>
@@ -960,6 +966,7 @@ The application name is shown in the application list. As everything inside the 
     <td>Unlimited</td>
     <td></td>
   </tr>
+  !-->
   <!--
   <tr>
     <td>SK T-Store</td>
@@ -1055,6 +1062,7 @@ Comma separated the list of keywords. As everything inside the `<description>` t
     <td>Not one string but a list of keywords</td>
   </tr>
   !-->
+  <!--
   <tr>
     <td>AppsLib</td>
     <td>No</td>sh
@@ -1064,6 +1072,7 @@ Comma separated the list of keywords. As everything inside the `<description>` t
     <td></td>
     <td></td>
   </tr>
+  !-->
 </table>
 
 ##### description/texts/short-description
@@ -1149,6 +1158,7 @@ Short application description is used in the app lists next to the app title. So
     <td></td>
   </tr>
   !-->
+  <!--
   <tr>
     <td>AppsLib</td>
     <td>No</td>
@@ -1158,6 +1168,7 @@ Short application description is used in the app lists next to the app title. So
     <td></td>
     <td></td>
   </tr>
+  !-->
   <!--
   <tr>
     <td>SK T-Store</td>
@@ -1300,6 +1311,7 @@ The full application description is shown on the product page. You can include s
     <td></td>
   </tr>
   !-->
+  <!--
   <tr>
     <td>AppsLib</td>
     <td>Yes</td>
@@ -1310,6 +1322,7 @@ The full application description is shown on the product page. You can include s
     <td>Some HTML subset</td>
     <td></td>
   </tr>
+  !-->
   <!--
   <tr>
     <td>SK T-Store</td>
@@ -1407,6 +1420,7 @@ Example
     <td></td>
   </tr>
   !-->
+  <!--
   <tr>
     <td>AppsLib</td>
     <td>No</td>
@@ -1415,6 +1429,7 @@ Example
     <td></td>
     <td></td>
   </tr>
+  !-->
 </table>
 
 ##### description/texts/recent-changes
@@ -1488,6 +1503,7 @@ Maximum length: 500.
     <td>Unlimited</td>
     <td>"Please provide a short explanation about the reasons you are updating this application, which will be displayed to users as "What's new" for your application in SAM. This information will go in the changelog of the application and can not be changed or removed."</td>
   </tr>
+  <!--
   <tr>
     <td>AppsLib</td>
     <td>Yes</td>
@@ -1497,6 +1513,7 @@ Maximum length: 500.
     <td>Unlimited</td>
     <td></td>
   </tr>
+  !-->
 </table>
 
 ##### description/texts/privacy-policy
@@ -1592,6 +1609,7 @@ you, your account or your email addresses with anyone. Period.</privacy-policy>
     <td></td>
   </tr>
   !-->
+  <!--
   <tr>
     <td>AppsLib</td>
     <td>No</td>
@@ -1600,6 +1618,7 @@ you, your account or your email addresses with anyone. Period.</privacy-policy>
     <td></td>
     <td></td>
   </tr>
+  !-->
 </table>
 
 ##### description/texts/eula
@@ -1697,6 +1716,7 @@ us even if it is our fault.</eula>
     <td>Only text, no URL option, maximum 5000 symbols</td>
   </tr>
   !-->
+  <!--
   <tr>
     <td>AppsLib</td>
     <td>No</td>
@@ -1705,6 +1725,7 @@ us even if it is our fault.</eula>
     <td></td>
     <td></td>
   </tr>
+  !-->
 </table>
 
 #### description/images
@@ -1838,6 +1859,7 @@ High resolution application icon. Must be in PNG format. Different stores requir
     <td>PNG, to transparency</td>
   </tr>
   !-->
+  <!--
   <tr>
     <td>AppsLib</td>
     <td>Yes</td>
@@ -1847,6 +1869,7 @@ High resolution application icon. Must be in PNG format. Different stores requir
     <td>Any</td>
     <td>PNG</td>
   </tr>
+  !-->
   <!--
   <tr>
     <td>SK T-Store</td>
@@ -1956,6 +1979,7 @@ Large promotion picture usually used by the stores on the PC websites, some stor
     <td></td>
   </tr>
   !-->
+  <!--
   <tr>
     <td>AppsLib</td>
     <td>No</td>
@@ -1965,6 +1989,7 @@ Large promotion picture usually used by the stores on the PC websites, some stor
     <td></td>
     <td></td>
   </tr>
+  !-->
 </table>
 
 ##### description/images/small-promo
@@ -2064,6 +2089,7 @@ A small promotion picture is usually used by the stores on a mobile device for p
     <td></td>
   </tr>
   !-->
+  <!--
   <tr>
     <td>AppsLib</td>
     <td>No</td>
@@ -2073,6 +2099,7 @@ A small promotion picture is usually used by the stores on a mobile device for p
     <td></td>
     <td></td>
   </tr>
+  !-->
 </table>
 
 ##### description/images/screenshots
@@ -2211,6 +2238,7 @@ or 2560 x 1600px (portrait or landscape)</td>
     <td>1-4</td>
   </tr>
   !-->
+  <!--
   <tr>
     <td>AppsLib</td>
     <td>Yes</td>
@@ -2221,6 +2249,7 @@ or 2560 x 1600px (portrait or landscape)</td>
     <td>JPG, PNG</td>
     <td>1-3</td>
   </tr>
+  !-->
   <!--
   <tr>
     <td>SK T-Store</td>
@@ -2331,6 +2360,7 @@ then tag value should be just `4YcBHQ2fCDE`. Like:
     <td></td>
   </tr>
   !-->
+  <!--
   <tr>
     <td>AppsLib</td>
     <td>No</td>
@@ -2339,6 +2369,7 @@ then tag value should be just `4YcBHQ2fCDE`. Like:
     <td></td>
     <td></td>
   </tr>
+  !-->
   <!--
   <tr>
     <td>SK T-Store</td>
@@ -2433,6 +2464,7 @@ Some stores don't support including of YouTube videos but do support uploaded vi
     <td></td>
   </tr>
   !-->
+  <!--
   <tr>
     <td>AppsLib</td>
     <td>No</td>
@@ -2442,6 +2474,7 @@ Some stores don't support including of YouTube videos but do support uploaded vi
     <td></td>
     <td></td>
   </tr>
+  !-->
   <!--
   <tr>
     <td>SK T-Store</td>
@@ -2602,12 +2635,14 @@ Each application must be labeled with a minimum age allowance according to [ESRB
     <td>Yes</td>
   </tr>
   !-->
+  <!--
   <tr>
     <td>AppsLib</td>
     <td>No</td>
     <td></td>
     <td></td>
   </tr>
+  !-->
 </table>
 
 There is no universal content rating system (aka parental control rating, aka minimum age). Different stores use different systems. AppDF uses ESRB standard but the more important thing is how this information is mapped out to the systems used in the appstores. The following table is used by AppDF to convert the rating to the systems of all the main application stores.
@@ -2852,6 +2887,7 @@ Example
     <td></td>
   </tr>
   !-->
+  <!--
   <tr>
     <td>AppsLib</td>
     <td>No</td>
@@ -2859,6 +2895,7 @@ Example
     <td></td>
     <td></td>
   </tr>
+  !-->
 </table>
 
 #### content-description/content-descriptors
@@ -2991,6 +3028,7 @@ Example
     <td></td>
   </tr>
   !-->
+  <!--
   <tr>
     <td>AppsLib</td>
     <td>Yes</td>
@@ -2998,6 +3036,7 @@ Example
     <td>No</td>
     <td>Adult Content is one of the categories</td>
   </tr>
+  !-->
 </table>
 
 #### content-description/included-activities
@@ -3113,6 +3152,7 @@ Example
     <td></td>
   </tr>
   !-->
+  <!--
   <tr>
     <td>AppsLib</td>
     <td>No</td>
@@ -3120,6 +3160,7 @@ Example
     <td></td>
     <td></td>
   </tr>
+  !-->
 </table>
 
 ### availability
@@ -3275,6 +3316,7 @@ Africa: Algeria | Angola | Benin | Botswana | Burkina Faso | Burundi | Cameroon 
     <td>Supports only US and UK today</td>
   </tr>
   !-->
+  <!--
   <tr>
     <td>AppsLib</td>
     <td>No</td>
@@ -3282,6 +3324,7 @@ Africa: Algeria | Angola | Benin | Botswana | Burkina Faso | Burundi | Cameroon 
     <td></td>
     <td></td>
   </tr>
+  !-->
 </table>
 
 #### availability/period/since
@@ -3368,12 +3411,14 @@ If presented this tag defines a date from which the application can be distribut
     <td></td>
   </tr>
   !-->
+  <!--
   <tr>
     <td>AppsLib</td>
     <td>No</td>
     <td></td>
     <td></td>
   </tr>
+  !-->
 </table>
 
 #### availability/period/until
@@ -3460,12 +3505,14 @@ If presented this tag defines a final date of application distribution. Stores t
     <td></td>
   </tr>
   !-->
+  <!--
   <tr>
     <td>AppsLib</td>
     <td>No</td>
     <td></td>
     <td></td>
   </tr>
+  !-->
 </table>
 
 ### price
@@ -3583,6 +3630,7 @@ This tag is ignored for free apps.
     <td></td>
   </tr>
   !-->
+  <!--
   <tr>
     <td>AppsLib</td>
     <td>Yes</td>
@@ -3591,6 +3639,7 @@ This tag is ignored for free apps.
     <td>Yes</td>
     <td>20 currencies can be set as base one</td>
   </tr>
+  !-->
   <!--
   <tr>
     <td>SK T-Store</td>
@@ -3690,6 +3739,7 @@ Currencies used in different countries in [JSON](http://www.onepf.org/appdf/data
     <td>Only UK price in GBP is supported now</td>
   </tr>
   !-->
+  <!--
   <tr>
     <td>AppsLib</td>
     <td>No</td>
@@ -3697,6 +3747,7 @@ Currencies used in different countries in [JSON](http://www.onepf.org/appdf/data
     <td></td>
     <td></td>
   </tr>
+  !-->
 </table>
 
 #### price/trial-version
@@ -3766,12 +3817,14 @@ This tag is ignored for paid apps.
     <td>Application / Trial version</td>
     <td>There is no support for full version package name</td>
   </tr>
+  <!--
   <tr>
     <td>AppsLib</td>
     <td>No</td>
     <td></td>
     <td></td>
   </tr>
+  !-->
 </table>
 
 ### apk-files
@@ -3855,6 +3908,7 @@ Example
     <td>No</td>
   </tr>
   !-->
+  <!--
   <tr>
     <td>AppsLib</td>
     <td>Yes</td>
@@ -3863,6 +3917,7 @@ Example
     <td>No</td>
     <td>No</td>
   </tr>
+  !-->
 </table>
 
 ### requirements
@@ -3973,12 +4028,14 @@ Set value of this tag to `yes` if your application requires root access for work
     <td></td>
   </tr>
   !-->
+  <!--
   <tr>
     <td>AppsLib</td>
     <td>No</td>
     <td></td>
     <td></td>
   </tr>
+  !-->
 </table>
 
 
@@ -4040,12 +4097,14 @@ Set value of this tag to `yes` if your application requires Google Play to be in
     <td></td>
   </tr
   !-->
+  <!--
   <tr>
     <td>AppsLib</td>
     <td>No</td>
     <td></td>
     <td></td>
   </tr>
+  !-->
 </table>
 
 
@@ -4107,12 +4166,14 @@ Set value of this tag to `yes` if your application requires internet connection 
     <td></td>
   </tr>
   !-->
+  <!--
   <tr>
     <td>AppsLib</td>
     <td>No</td>
     <td></td>
     <td></td>
   </tr>
+  !-->
 </table>
 
 
@@ -4186,12 +4247,14 @@ Example
     <td>Does not support other languages but Enlish</td>
   </tr>
   !-->
+  <!--
   <tr>
     <td>AppsLib</td>
     <td>No</td>
     <td></td>
     <td></td>
   </tr>
+  !-->
 </table>
 
 
@@ -4263,12 +4326,14 @@ Example
     <td>Have separate flags for NOOK models support in the store-specific section</td>
   </tr>
   !-->
+  <!--
   <tr>
     <td>AppsLib</td>
     <td>Yes</td>
     <td>All Your Applications / Published/Unpublished</td>
     <td></td>
   </tr>
+  !-->
 </table>
 
 
@@ -4364,12 +4429,14 @@ Example 2
     <td></td>
   </tr>
   !-->
+  <!--
   <tr>
     <td>AppsLib</td>
     <td>No</td>
     <td></td>
     <td></td>
   </tr>
+  !-->
 </table>
 
 ### testing-instructions
@@ -4439,6 +4506,7 @@ Please detail any special requirements to test your app. If your application req
     <td></td>
   </tr>
   !-->
+  <!--
   <tr>
     <td>AppsLib</td>
     <td>No</td>
@@ -4446,6 +4514,7 @@ Please detail any special requirements to test your app. If your application req
     <td></td>
     <td></td>
   </tr>
+  !-->
 </table>
 
 ### consent
@@ -4551,12 +4620,14 @@ Example
     <td>&lt;slideme-agreement&gt;</td>
   </tr>
   !-->
+  <!--
   <tr>
     <td>AppsLib</td>
     <td>No</td>
     <td></td>
     <td></td>
   </tr>
+  !-->
   <!--
   <tr>
     <td>SK T-Store</td>
@@ -4652,6 +4723,7 @@ No attributes.
     <td>No</td>
   </tr>
   !-->
+  <!--
   <tr>
     <td>AppsLib</td>
     <td>No</td>
@@ -4659,6 +4731,7 @@ No attributes.
     <td></td>
     <td></td>
   </tr>
+  !-->
 </table>
 
 #### customer-support/email
@@ -4741,6 +4814,7 @@ No attributes.
     <td></td>
   </tr>
   !-->
+  <!--
   <tr>
     <td>AppsLib</td>
     <td>No</td>
@@ -4750,6 +4824,7 @@ No attributes.
     <td></td>
     <td></td>
   </tr>
+  !-->
 </table>
 
 #### customer-support/website
@@ -4816,6 +4891,7 @@ No attributes.
     <td>No</td>
   </tr>
   !-->
+  <!--
   <tr>
     <td>AppsLib</td>
     <td>No</td>
@@ -4823,6 +4899,7 @@ No attributes.
     <td></td>
     <td></td>
   </tr>
+  !-->
 </table>
 
 ### store-specific
@@ -7174,11 +7251,13 @@ The following tables contain information about current language support status (
     <td>No</td>
     <td>No localization</td>
   </tr>
+  <!--
   <tr>
     <td>AppsLib</td>
     <td>No</td>
     <td>No localization</td>
   </tr>
+  !-->
   <tr>
     <td>Samsung Apps</td>
     <td>Yes</td>
