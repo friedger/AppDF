@@ -549,6 +549,7 @@ Value could be either `application` or `game`.
     <td>Yes</td>
     <td>Games is an item in the application category list</td>
   </tr>
+  <!--
   <tr>
     <td>NOOK apps</td>
     <td>Yes</td>
@@ -556,6 +557,7 @@ Value could be either `application` or `game`.
     <td>Yes</td>
     <td>Games is an item in the application category list</td>
   </tr>
+  !-->
   <tr>
     <td>AppsLib</td>
     <td>Yes</td>
@@ -624,6 +626,7 @@ AppDF format has its own list of categories for both games and applications. Thi
     <td>Yes</td>
     <td>Communication | Education | Entertainment | Finance | Fun & Games | Health & Fitness | Home & Hobby | Languages | Lifestyle | Music | News & Weather | Photography | Productivity | Publications | Religion | Sports | Themes | Tools & Utilities | Travel & Locality | Other</td>
   </tr>
+  <!--
   <tr>
     <td>NOOK apps</td>
     <td>Yes</td>
@@ -631,6 +634,7 @@ AppDF format has its own list of categories for both games and applications. Thi
     <td>Yes</td>
     <td>Supports multiple categories</td>
   </tr>
+  !-->
   <tr>
     <td>AppsLib</td>
     <td>Yes</td>
@@ -761,6 +765,7 @@ Although some stores don't use subcategories AppDF includes as detailed category
 <br>Travel & Locality: City Guides | Country Guides | Navigation | Other
 <br>Other: <></td>
   </tr>
+  <!--
   <tr>
     <td>NOOK apps</td>
     <td>Yes</td>
@@ -768,6 +773,7 @@ Although some stores don't use subcategories AppDF includes as detailed category
     <td>Yes</td>
     <td></td>
   </tr>
+  !-->
   <tr>
     <td>AppsLib</td>
     <td>No</td>
@@ -934,6 +940,7 @@ The application name is shown in the application list. As everything inside the 
     <td>255???</td>
     <td>Default value seems to be imported from APK Android manifest file (android:label field). Could be localized in the Translations tab.</td>
   </tr>
+  <!--
   <tr>
     <td>NOOK apps</td>
     <td>Yes</td>
@@ -942,7 +949,8 @@ The application name is shown in the application list. As everything inside the 
     <td>No</td>
     <td>100</td>
     <td></td>
-  </tr>   
+  </tr> 
+  !-->
   <tr>
     <td>AppsLib</td>
     <td>Yes</td>
@@ -1034,6 +1042,7 @@ Comma separated the list of keywords. As everything inside the `<description>` t
     <td>Max 6 keywords</td>
     <td></td>
   </tr>
+  <!--
   <tr>
     <td>NOOK apps</td>
     <td>Yes</td>
@@ -1043,6 +1052,7 @@ Comma separated the list of keywords. As everything inside the `<description>` t
     <td>Unlimited number, maximum 50 symbols each</td>
     <td>Not one string but a list of keywords</td>
   </tr>
+  !-->
   <tr>
     <td>AppsLib</td>
     <td>No</td>sh
@@ -1126,6 +1136,7 @@ Short application description is used in the app lists next to the app title. So
     <td>500 characters</td>
     <td></td>
   </tr>
+  <!--
   <tr>
     <td>NOOK apps</td>
     <td>No</td>
@@ -1135,6 +1146,7 @@ Short application description is used in the app lists next to the app title. So
     <td></td>
     <td></td>
   </tr>
+  !-->
   <tr>
     <td>AppsLib</td>
     <td>No</td>
@@ -1272,6 +1284,7 @@ The full application description is shown on the product page. You can include s
     <td>Some HTML subset http://slideme.org/filter/tips</td>
     <td></td>
   </tr>
+  <!--
   <tr>
     <td>NOOK apps</td>
     <td>Yes</td>
@@ -1282,6 +1295,7 @@ The full application description is shown on the product page. You can include s
     <td>Plain text</td>
     <td></td>
   </tr>
+  !-->
   <tr>
     <td>AppsLib</td>
     <td>Yes</td>
@@ -1377,6 +1391,7 @@ Example
     <td></td>
     <td></td>
   </tr>
+  <!--
   <tr>
     <td>NOOK apps</td>
     <td>No</td>
@@ -1385,6 +1400,7 @@ Example
     <td></td>
     <td></td>
   </tr>
+  !-->
   <tr>
     <td>AppsLib</td>
     <td>No</td>
@@ -1560,6 +1576,7 @@ you, your account or your email addresses with anyone. Period.</privacy-policy>
     <td>No</td>
     <td>Only full privacy policy text is supported (no URL option)</td>
   </tr>
+  <!--
   <tr>
     <td>NOOK apps</td>
     <td>No</td>
@@ -1568,6 +1585,7 @@ you, your account or your email addresses with anyone. Period.</privacy-policy>
     <td></td>
     <td></td>
   </tr>
+  !-->
   <tr>
     <td>AppsLib</td>
     <td>No</td>
@@ -1663,6 +1681,7 @@ us even if it is our fault.</eula>
     <td>No</td>
     <td>Only text, not URL option</td>
   </tr>
+  <!--
   <tr>
     <td>NOOK apps</td>
     <td>Yes</td>
@@ -1671,6 +1690,7 @@ us even if it is our fault.</eula>
     <td>No</td>
     <td>Only text, no URL option, maximum 5000 symbols</td>
   </tr>
+  !-->
   <tr>
     <td>AppsLib</td>
     <td>No</td>
@@ -1801,6 +1821,7 @@ High resolution application icon. Must be in PNG format. Different stores requir
     <td>512x512</td>
     <td>PNG, JPG</td>
   </tr>
+  <!--
   <tr>
     <td>NOOK apps</td>
     <td>Yes</td>
@@ -1810,6 +1831,7 @@ High resolution application icon. Must be in PNG format. Different stores requir
     <td>300x300</td>
     <td>PNG, to transparency</td>
   </tr>
+  !-->
   <tr>
     <td>AppsLib</td>
     <td>Yes</td>
@@ -1915,6 +1937,7 @@ Large promotion picture usually used by the stores on the PC websites, some stor
     <td>1024x500</td>
     <td>PNG or JPG</td>
   </tr>
+  <!--
   <tr>
     <td>NOOK apps</td>
     <td>No</td>
@@ -1924,6 +1947,7 @@ Large promotion picture usually used by the stores on the PC websites, some stor
     <td></td>
     <td></td>
   </tr>
+  !-->
   <tr>
     <td>AppsLib</td>
     <td>No</td>
@@ -2021,6 +2045,7 @@ A small promotion picture is usually used by the stores on a mobile device for p
     <td>180x120</td>
     <td>PNG or JPG, max 256 KB</td>
   </tr>
+  <!--
   <tr>
     <td>NOOK apps</td>
     <td>No</td>
@@ -2030,6 +2055,7 @@ A small promotion picture is usually used by the stores on a mobile device for p
     <td></td>
     <td></td>
   </tr>
+  !-->
   <tr>
     <td>AppsLib</td>
     <td>No</td>
@@ -2165,6 +2191,7 @@ or 2560 x 1600px (portrait or landscape)</td>
     <!-- todo do they have a limit? didn't find it-->
     <td>2+</td>
   </tr>
+  <!--
   <tr>
     <td>NOOK apps</td>
     <td>Yes</td>
@@ -2175,6 +2202,7 @@ or 2560 x 1600px (portrait or landscape)</td>
     <td>PNG</td>
     <td>1-4</td>
   </tr>
+  !-->
   <tr>
     <td>AppsLib</td>
     <td>Yes</td>
@@ -2283,6 +2311,7 @@ then tag value should be just `4YcBHQ2fCDE`. Like:
     <td>No</td>
     <td></td>
   </tr>
+  <!--
   <tr>
     <td>NOOK apps</td>
     <td>Yes</td>
@@ -2291,6 +2320,7 @@ then tag value should be just `4YcBHQ2fCDE`. Like:
     <td>No</td>
     <td></td>
   </tr>
+  !-->
   <tr>
     <td>AppsLib</td>
     <td>No</td>
@@ -2380,6 +2410,7 @@ Some stores don't support including of YouTube videos but do support uploaded vi
     <td></td>
     <td></td>
   </tr>
+  <!--
   <tr>
     <td>NOOK apps</td>
     <td>No</td>
@@ -2389,6 +2420,7 @@ Some stores don't support including of YouTube videos but do support uploaded vi
     <td></td>
     <td></td>
   </tr>
+  !-->
   <tr>
     <td>AppsLib</td>
     <td>No</td>
@@ -2547,13 +2579,15 @@ Each application must be labeled with a minimum age allowance according to [ESRB
     <td>Yes</td>
     <td>Application / Parental Rating</td>
     <td>Yes</td>
-  </tr>
+  </tr
+  <!--
   <tr>
     <td>NOOK apps</td>
     <td>Yes</td>
     <td>Basic / Age Range</td>
     <td>Yes</td>
   </tr>
+  !-->
   <tr>
     <td>AppsLib</td>
     <td>No</td>
@@ -2795,6 +2829,7 @@ Example
     <td></td>
     <td></td>
   </tr>
+  <!--
   <tr>
     <td>NOOK apps</td>
     <td>No</td>
@@ -2802,6 +2837,7 @@ Example
     <td></td>
     <td></td>
   </tr>
+  !-->
   <tr>
     <td>AppsLib</td>
     <td>No</td>
@@ -2932,6 +2968,7 @@ Example
     <td></td>
     <td></td>
   </tr>
+  <!--
   <tr>
     <td>NOOK apps</td>
     <td>No</td>
@@ -2939,6 +2976,7 @@ Example
     <td></td>
     <td></td>
   </tr>
+  !-->
   <tr>
     <td>AppsLib</td>
     <td>Yes</td>
@@ -3052,6 +3090,7 @@ Example
     <td></td>
     <td></td>
   </tr>
+  <!--
   <tr>
     <td>NOOK apps</td>
     <td>Yes</td>
@@ -3059,6 +3098,7 @@ Example
     <td></td>
     <td></td>
   </tr>
+  !-->
   <tr>
     <td>AppsLib</td>
     <td>No</td>
@@ -3212,6 +3252,7 @@ Africa: Algeria | Angola | Benin | Botswana | Burkina Faso | Burundi | Cameroon 
     <td></td>
     <td></td>
   </tr>
+  <!--
   <tr>
     <td>NOOK apps</td>
     <td>No</td>
@@ -3219,6 +3260,7 @@ Africa: Algeria | Angola | Benin | Botswana | Burkina Faso | Burundi | Cameroon 
     <td></td>
     <td>Supports only US and UK today</td>
   </tr>
+  !-->
   <tr>
     <td>AppsLib</td>
     <td>No</td>
@@ -3304,12 +3346,14 @@ If presented this tag defines a date from which the application can be distribut
     <td></td>
     <td></td>
   </tr>
+  <!--
   <tr>
     <td>NOOK apps</td>
     <td>No</td>
     <td></td>
     <td></td>
   </tr>
+  !-->
   <tr>
     <td>AppsLib</td>
     <td>No</td>
@@ -3394,12 +3438,14 @@ If presented this tag defines a final date of application distribution. Stores t
     <td></td>
     <td></td>
   </tr>
+  <!--
   <tr>
     <td>NOOK apps</td>
     <td>No</td>
     <td></td>
     <td></td>
   </tr>
+  !-->
   <tr>
     <td>AppsLib</td>
     <td>No</td>
@@ -3513,6 +3559,7 @@ This tag is ignored for free apps.
     <td>Yes</td>
     <td></td>
   </tr>
+  <!--
   <tr>
     <td>NOOK apps</td>
     <td>Yes</td>
@@ -3521,6 +3568,7 @@ This tag is ignored for free apps.
     <td>?</td>
     <td></td>
   </tr>
+  !-->
   <tr>
     <td>AppsLib</td>
     <td>Yes</td>
@@ -3617,6 +3665,7 @@ Currencies used in different countries in [JSON](http://www.onepf.org/appdf/data
     <td></td>
     <td></td>
   </tr>
+  <!--
   <tr>
     <td>NOOK apps</td>
     <td>Yes</td>
@@ -3624,6 +3673,7 @@ Currencies used in different countries in [JSON](http://www.onepf.org/appdf/data
     <td>?</td>
     <td>Only UK price in GBP is supported now</td>
   </tr>
+  !-->
   <tr>
     <td>AppsLib</td>
     <td>No</td>
@@ -3779,6 +3829,7 @@ Example
     <td>No</td>
     <td>Yes</td>
   </tr>
+  <!--
   <tr>
     <td>NOOK apps</td>
     <td>Yes</td>
@@ -3787,6 +3838,7 @@ Example
     <td>No</td>
     <td>No</td>
   </tr>
+  !-->
   <tr>
     <td>AppsLib</td>
     <td>Yes</td>
@@ -3897,12 +3949,14 @@ Set value of this tag to `yes` if your application requires root access for work
     <td>Requirements / Requires 'rooted' device</td>
     <td></td>
   </tr>
+  <!--
   <tr>
     <td>NOOK apps</td>
     <td>No</td>
     <td></td>
     <td></td>
   </tr>
+  !-->
   <tr>
     <td>AppsLib</td>
     <td>No</td>
@@ -3962,12 +4016,14 @@ Set value of this tag to `yes` if your application requires Google Play to be in
     <td>Requirements / Requires Google Play and/or account</td>
     <td></td>
   </tr>
+  <!--
   <tr>
     <td>NOOK apps</td>
     <td>No</td>
     <td></td>
     <td></td>
-  </tr>
+  </tr
+  !-->
   <tr>
     <td>AppsLib</td>
     <td>No</td>
@@ -4027,12 +4083,14 @@ Set value of this tag to `yes` if your application requires internet connection 
     <td></td>
     <td></td>
   </tr>
+  <!--
   <tr>
     <td>NOOK apps</td>
     <td>No</td>
     <td></td>
     <td></td>
   </tr>
+  !-->
   <tr>
     <td>AppsLib</td>
     <td>No</td>
@@ -4104,12 +4162,14 @@ Example
     <td></td>
     <td></td>
   </tr>
+  <!--
   <tr>
     <td>NOOK apps</td>
     <td>No</td>
     <td></td>
     <td>Does not support other languages but Enlish</td>
   </tr>
+  !-->
   <tr>
     <td>AppsLib</td>
     <td>No</td>
@@ -4179,12 +4239,14 @@ Example
     <td></td>
     <td></td>
   </tr>
+  <!--
   <tr>
     <td>NOOK apps</td>
     <td>No</td>
     <td></td>
     <td>Have separate flags for NOOK models support in the store-specific section</td>
   </tr>
+  !-->
   <tr>
     <td>AppsLib</td>
     <td>Yes</td>
@@ -4278,12 +4340,14 @@ Example 2
     <td></td>
     <td></td>
   </tr>
+  <!--
   <tr>
     <td>NOOK apps</td>
     <td>No</td>
     <td></td>
     <td></td>
   </tr>
+  !-->
   <tr>
     <td>AppsLib</td>
     <td>No</td>
@@ -4350,6 +4414,7 @@ Please detail any special requirements to test your app. If your application req
     <td></td>
     <td></td>
   </tr>
+  <!--
   <tr>
     <td>NOOK apps</td>
     <td>Yes</td>
@@ -4357,6 +4422,7 @@ Please detail any special requirements to test your app. If your application req
     <td>Yes</td>
     <td></td>
   </tr>
+  !-->
   <tr>
     <td>AppsLib</td>
     <td>No</td>
@@ -4461,12 +4527,14 @@ Example
     <td>Agreement</td>
     <td>&lt;slideme-agreement&gt;</td>
   </tr>
+  <!--
   <tr>
     <td>NOOK apps</td>
     <td>Yes</td>
     <td>Basic / "This application does not contain export encryption</td>
     <td>&lt;slideme-agreement&gt;</td>
   </tr>
+  !-->
   <tr>
     <td>AppsLib</td>
     <td>No</td>
@@ -4557,6 +4625,7 @@ No attributes.
     <td></td>
     <td></td>
   </tr>
+  <!--
   <tr>
     <td>NOOK apps</td>
     <td>Yes</td>
@@ -4564,6 +4633,7 @@ No attributes.
     <td>No</td>
     <td>No</td>
   </tr>
+  !-->
   <tr>
     <td>AppsLib</td>
     <td>No</td>
@@ -4642,6 +4712,7 @@ No attributes.
     <td></td>
     <td></td>
   </tr>
+  <!--
   <tr>
     <td>NOOK apps</td>
     <td>Yes</td>
@@ -4651,6 +4722,7 @@ No attributes.
     <td>No</td>
     <td></td>
   </tr>
+  !-->
   <tr>
     <td>AppsLib</td>
     <td>No</td>
@@ -4717,6 +4789,7 @@ No attributes.
     <td></td>
     <td></td>
   </tr>
+  <!--
   <tr>
     <td>NOOK apps</td>
     <td>Yes</td>
@@ -4724,6 +4797,7 @@ No attributes.
     <td>Yes</td>
     <td>No</td>
   </tr>
+  !-->
   <tr>
     <td>AppsLib</td>
     <td>No</td>
