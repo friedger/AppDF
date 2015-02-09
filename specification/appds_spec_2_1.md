@@ -5196,8 +5196,53 @@ Attributes: `id` (required), `publish-state` (required).
 Optional.  
 No attributes.
 
+<table>
+  <tr>
+    <th>Store</th>
+    <th>Supported</th>
+    <th>Name</th>
+    <th>Possible values</th>
+  </tr>
+  <tr>
+    <td>Google Play</td>
+    <td>Yes</td>
+    <td>In-app Products / Pricing  / Billing period</td>
+    <td>Monthly, Yearly, Seasonal</td>
+  </tr>
+  <tr>
+    <td>Yandex.Store</td>
+    <td>Yes</td>
+    <td>In-App purchases / (In)active purchases / Subscription period</td>
+    <td>Annualy, Monthly</td>
+  </tr>  
+  <tr>
+    <td>Amazon AppStore</td>
+    <td>Yes</td>
+    <td>In-App Items / Subscription periods</td>
+    <td>Weekly, BiWeekly, Monthly, BiMonthly, Quarterly, SemiAnnualy, Annualy</td>
+  </tr>
+  <tr>
+    <td>Opera Mobile Store</td>
+    <td>No</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Samsung Apps</td>
+    <td>Yes</td>
+    <td>In app purchase / Duration</td>
+    <td>1 Month, 3 Month, 6 Month, 12 Month</td>
+  </tr>
+  <tr>
+    <td>SlideME</td>
+    <td>No</td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+
 ##### in-app-purchases/subscriptions/subscription
-Optional.
+Optional.  
 Attributes: `id` (required), `publish-state` (required).
 <table>
   <tr>
