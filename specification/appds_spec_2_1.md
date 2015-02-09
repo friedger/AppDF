@@ -960,6 +960,7 @@ The application name is shown in the application list. As everything inside the 
     <td>Unlimited</td>
     <td></td>
   </tr>
+  <!--
   <tr>
     <td>SK T-Store</td>
     <td>Yes</td>
@@ -969,6 +970,7 @@ The application name is shown in the application list. As everything inside the 
     <td>50</td>
     <td></td>
   </tr>
+  !-->
 </table>
 
 ##### description/texts/keywords
@@ -1156,6 +1158,7 @@ Short application description is used in the app lists next to the app title. So
     <td></td>
     <td></td>
   </tr>
+  <!--
   <tr>
     <td>SK T-Store</td>
     <td>Yes</td>
@@ -1165,6 +1168,7 @@ Short application description is used in the app lists next to the app title. So
     <td>32</td>
     <td>Shown below app name like a slogan</td>
   </tr>
+  !-->
 </table>
 
 ##### description/texts/full-description
@@ -1306,6 +1310,7 @@ The full application description is shown on the product page. You can include s
     <td>Some HTML subset</td>
     <td></td>
   </tr>
+  <!--
   <tr>
     <td>SK T-Store</td>
     <td>Yes</td>
@@ -1316,6 +1321,7 @@ The full application description is shown on the product page. You can include s
     <td>Some HTML subset</td>
     <td></td>
   </tr>
+  !-->
 </table>
 
 ##### description/texts/features
@@ -1841,6 +1847,7 @@ High resolution application icon. Must be in PNG format. Different stores requir
     <td>Any</td>
     <td>PNG</td>
   </tr>
+  <!--
   <tr>
     <td>SK T-Store</td>
     <td>Yes</td>
@@ -1850,6 +1857,7 @@ High resolution application icon. Must be in PNG format. Different stores requir
     <td>212x212</td>
     <td>JPEG, PNG, GIF or BMP</td>
   </tr>
+  !-->
 </table>
 
 ##### description/images/large-promo
@@ -2213,6 +2221,7 @@ or 2560 x 1600px (portrait or landscape)</td>
     <td>JPG, PNG</td>
     <td>1-3</td>
   </tr>
+  <!--
   <tr>
     <td>SK T-Store</td>
     <td>Yes</td>
@@ -2223,6 +2232,7 @@ or 2560 x 1600px (portrait or landscape)</td>
     <td>JPG, PNG, GIF</td>
     <td>1-3</td>
   </tr>
+  !-->
 </table>
 
 #### description/videos
@@ -2329,6 +2339,7 @@ then tag value should be just `4YcBHQ2fCDE`. Like:
     <td></td>
     <td></td>
   </tr>
+  <!--
   <tr>
     <td>SK T-Store</td>
     <td>Yes</td>
@@ -2337,6 +2348,7 @@ then tag value should be just `4YcBHQ2fCDE`. Like:
     <td>No</td>
     <td></td>
   </tr>
+  !-->
 </table>
 
 ##### description/videos/video-file
@@ -2430,6 +2442,7 @@ Some stores don't support including of YouTube videos but do support uploaded vi
     <td></td>
     <td></td>
   </tr>
+  <!--
   <tr>
     <td>SK T-Store</td>
     <td>No</td>
@@ -2439,6 +2452,7 @@ Some stores don't support including of YouTube videos but do support uploaded vi
     <td></td>
     <td></td>
   </tr>
+  !-->
 </table>
 
 ### description-localization
@@ -3577,6 +3591,7 @@ This tag is ignored for free apps.
     <td>Yes</td>
     <td>20 currencies can be set as base one</td>
   </tr>
+  <!--
   <tr>
     <td>SK T-Store</td>
     <td>Yes</td>
@@ -3585,6 +3600,7 @@ This tag is ignored for free apps.
     <td>Yes</td>
     <td></td>
   </tr>
+  !-->
 </table>
 
 #### price/local-price
@@ -4541,12 +4557,14 @@ Example
     <td></td>
     <td></td>
   </tr>
+  <!--
   <tr>
     <td>SK T-Store</td>
     <td>Yes</td>
     <td>Basic Information / Intellectual property rights</td>
     <td>&lt;free-from-third-party-copytighted-content&gt;</td>
   </tr>
+  !-->
 </table>
 
 ### customer-support
