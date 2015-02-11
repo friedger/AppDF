@@ -415,37 +415,37 @@ Required for publishing
     <td>type</td>
     <td>yes</td>
     <td>yes</td>
-    <td></td>
+    <td>yes</td>
   </tr>
   <tr>
     <td>category</td>
     <td>yes</td>
     <td>yes</td>
-    <td></td>
+    <td>yes</td>
   </tr>
   <tr>
     <td>title</td>
     <td>yes</td>
     <td>yes</td>
-    <td></td>
+    <td>yes</td>
   </tr>
   <tr>
     <td>full-description</td>
     <td>yes</td>
     <td>yes</td>
-    <td></td>
+    <td>yes</td>
   </tr>
   <tr>
     <td>app-icon</td>
     <td>yes</td>
     <td>yes</td>
-    <td></td>
+    <td>yes</td>
   </tr>
   <tr>
     <td>screenshots</td>
     <td>yes</td>
     <td>yes</td>
-    <td></td>
+    <td>yes</td>
   </tr>
   <tr>
     <td>content-rating</td>
@@ -481,25 +481,25 @@ Required for publishing
     <td>customer-support/email</td>
     <td>yes</td>
     <td>yes</td>
-    <td></td>
+    <td>yes</td>
   </tr>
   <tr>
     <td>customer-support/phone</td>
     <td>yes</td>
     <td>no</td>
-    <td></td>
+    <td>yes</td>
   </tr>
   <tr>
     <td>customer-support/website</td>
     <td>yes</td>
     <td>no</td>
-    <td></td>
+    <td>yes</td>
   </tr>
   <tr>
     <td>store-specific requirements</td>
     <td>no</td>
     <td>Short description, Feature Graphic, Privacy Policy, Content guidelines, US export laws </td>
-    <td></td>
+    <td>Short description, Product feature bullets, Small icon</td>
   </tr>
   <tr>
   </tr>
