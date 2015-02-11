@@ -403,6 +403,109 @@ Sample Description.xml File
 </application-description-file>
 ```
 
+Required for publishing
+<table>
+  <tr>
+    <th>Fields/Format Providers</th>
+    <th>AppDF</th>
+    <th>Google Play</th>
+    <th>Amazon
+  </tr>
+  <tr>
+    <td>type</td>
+    <td>yes</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>category</td>
+    <td>yes</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>title</td>
+    <td>yes</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>full-description</td>
+    <td>yes</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>app-icon</td>
+    <td>yes</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>screenshots</td>
+    <td>yes</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>content-rating</td>
+    <td>yes</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>content-descriptors</td>
+    <td>yes</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>included-activities</td>
+    <td>yes</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>base-price</td>
+    <td>yes</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>apk-files</td>
+    <td>yes</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>customer-support/email</td>
+    <td>yes</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>customer-support/phone</td>
+    <td>yes</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>customer-support/website</td>
+    <td>yes</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>store-specific requirements</td>
+    <td>no</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+  </tr>
+</table>
+
+
 Description.xml Structure
 -------------
 
