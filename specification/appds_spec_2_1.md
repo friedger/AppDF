@@ -466,9 +466,9 @@ Required for publishing
     <td></td>
   </tr>
   <tr>
-    <td>base-price</td>
+    <td>base-price (for paid apps)</td>
     <td>yes</td>
-    <td></td>
+    <td>yes</td>
     <td></td>
   </tr>
   <tr>
@@ -3678,10 +3678,10 @@ This tag is ignored for free apps.
   <tr>
     <td>Google Play</td>
     <td>Yes</td>
-    <td>Pricing and Distribution / Default Price</td>
-    <td>USD</td>
-    <td>Yes</td>
-    <td></td>
+    <td>Pricing & Distribution / Default price</td>
+    <td>No default</td>
+    <td>No</td>
+    <td>The default price applies to all countries without local prices.</td>
   </tr>
   <tr>
     <td>Yandex.Store</td>
@@ -3794,8 +3794,8 @@ Currencies used in different countries in [JSON](http://www.onepf.org/appdf/data
   <tr>
     <td>Google Play</td>
     <td>Yes</td>
-    <td>Pricing and Distribution / Country List / Price</td>
-    <td>Yes</td>
+    <td>Pricing & Distribution  / Distribute in these countries  / Price</td>
+    <td>Depends on</td>
     <td></td>
   </tr>
   <tr>
