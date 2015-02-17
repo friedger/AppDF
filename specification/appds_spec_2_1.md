@@ -3673,6 +3673,7 @@ This tag is ignored for free apps.
     <th>Name</th>
     <th>Currency</th>
     <th>Including sales tax</th>
+    <td>Min, Max</td>
     <th>Comments</th>
   </tr>
   <tr>
@@ -3681,6 +3682,7 @@ This tag is ignored for free apps.
     <td>Pricing & Distribution / Default price</td>
     <td>No default</td>
     <td>No</td>
+    <td></td>
     <td>The default price applies to all countries without local prices.</td>
   </tr>
   <tr>
@@ -3689,6 +3691,7 @@ This tag is ignored for free apps.
     <td>General / Additional info / Price</td>
     <td>USD</td>
     <td>Yes</td>
+    <td>0.99 - 96.99 USD</td>
     <td></td>
   </tr>
   <tr>
@@ -3698,6 +3701,7 @@ This tag is ignored for free apps.
     <td>USD, EUR, GBR, JPY</td>
     <td>Yes</td>
     <td></td>
+    <td></td>
   </tr>
   <tr>
     <td>Opera Mobile Store</td>
@@ -3705,6 +3709,7 @@ This tag is ignored for free apps.
     <td>Price (USD)</td>
     <td>USD</td>
     <td>Yes</td>
+    <th></th>
     <td></td>
   </tr>
   <tr>
@@ -3714,6 +3719,7 @@ This tag is ignored for free apps.
     <td>USD</td>
     <td>Yes</td>
     <td></td>
+    <td></td>
   </tr>
   <tr>
     <td>SlideME</td>
@@ -3721,6 +3727,7 @@ This tag is ignored for free apps.
     <td>Price</td>
     <td>USD</td>
     <td>Yes</td>
+    <td>0.30 - 999 USD</td>
     <td></td>
   </tr>
   <!--
