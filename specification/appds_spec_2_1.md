@@ -3918,6 +3918,7 @@ This tag is ignored for paid apps.
     <td>SlideME</td>
     <td>Yes</td>
     <td>Application / Trial version</td>
+    <!--todo meaning of the comment-->
     <td>There is no support for full version package name</td>
   </tr>
   <!--
