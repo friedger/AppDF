@@ -3715,7 +3715,7 @@ This tag is ignored for free apps.
   <tr>
     <td>Samsung Apps</td>
     <td>Yes</td>
-    <td>Basic Information / Sales / Country/Price / Standard price</td>
+    <td>Country & Price / Price / Standard Price</td>
     <td>USD</td>
     <td>Yes</td>
     <td></td>
@@ -3829,7 +3829,8 @@ Currencies used in different countries in [JSON](http://www.onepf.org/appdf/data
   <tr>
     <td>Samsung Apps</td>
     <td>Yes</td>
-    <td>Basic Information / Sales / Country/Price / Detailed Country &amp; Price Settings</td>
+    <td>Country & Price / Price / Price</td>
+    <!--todo check prices-->
     <td>Yes</td>
     <td></td>
   </tr>
