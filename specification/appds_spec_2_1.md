@@ -3673,6 +3673,7 @@ This tag is ignored for free apps.
     <th>Name</th>
     <th>Currency</th>
     <th>Including sales tax</th>
+    <th>Min, max</th>
     <th>Comments</th>
   </tr>
   <tr>
@@ -3681,6 +3682,7 @@ This tag is ignored for free apps.
     <td>Pricing & Distribution / Default price</td>
     <td>No default</td>
     <td>No</td>
+    <td></td>
     <td>The default price applies to all countries without local prices.</td>
   </tr>
   <tr>
@@ -3689,6 +3691,7 @@ This tag is ignored for free apps.
     <td>General / Additional info / Price</td>
     <td>USD</td>
     <td>Yes</td>
+    <td>0.99-96.9 USD</td>
     <td>http://api.yandex.com/store/doc/pricing.xml</td>
   </tr>
   <tr>
@@ -3698,6 +3701,7 @@ This tag is ignored for free apps.
     <td>USD, EUR, GBR, JPY</td>
     <td>Yes</td>
     <td></td>
+    <td></td>
   </tr>
   <tr>
     <td>Opera Mobile Store</td>
@@ -3705,6 +3709,7 @@ This tag is ignored for free apps.
     <td>Price (USD)</td>
     <td>USD</td>
     <td>Yes</td>
+    <td></td>
     <td></td>
   </tr>
   <tr>
@@ -3714,6 +3719,7 @@ This tag is ignored for free apps.
     <td>USD</td>
     <td>Yes</td>
     <td></td>
+    <td></td>
   </tr>
   <tr>
     <td>SlideME</td>
@@ -3721,6 +3727,7 @@ This tag is ignored for free apps.
     <td>Price</td>
     <td>USD</td>
     <td>Yes</td>
+    <td>0.30 - 999 USD</td>
     <td></td>
   </tr>
   <!--
@@ -3918,7 +3925,6 @@ This tag is ignored for paid apps.
     <td>SlideME</td>
     <td>Yes</td>
     <td>Application / Trial version</td>
-    <!--todo meaning of the comment-->
     <td>There is no support for full version package name</td>
   </tr>
   <!--
@@ -3952,7 +3958,7 @@ Example
     <th>Name</th>
     <th>Maximum APK file size</th>
     <th>Multiple APK file support</th>
-    <th>Extension file support</th>
+    <th>Expansion file support</th>
   </tr>
   <tr>
     <td>Google Play</td>
@@ -3967,7 +3973,7 @@ Example
     <td>Yes</td>
     <td>Builds / Upload build</td>
     <td>700M</td>
-    <td>Yes but not the same way as on Google Play</td>
+    <td>Yes</td>
     <td>No</td>
   </tr>
   <tr>
@@ -4000,7 +4006,7 @@ Example
     <td>Application / Application file</td>
     <td>99M</td>
     <td>No</td>
-    <td>Yes</td>
+    <td>Yes (2 files, max 512M)</td>
   </tr>
   <!--
   <tr>
