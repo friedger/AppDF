@@ -3698,9 +3698,9 @@ This tag is ignored for free apps.
     <td>Amazon AppStore</td>
     <td>Yes</td>
     <td>Availability & Pricing / Are you charging for this app?</td>
-    <td>USD, EUR, GBR, JPY</td>
+    <td>AUD, USD, CAD, EUR, GBR, JPY, BRL</td>
     <td>Yes</td>
-    <td></td>
+    <td>depends on the currency</td>
     <td></td>
   </tr>
   <tr>
@@ -3817,7 +3817,7 @@ Currencies used in different countries in [JSON](http://www.onepf.org/appdf/data
     <td>Yes</td>
     <td>Availability & Pricing / Calculated prices</td>
     <td>Yes</td>
-    <td>Only US, UK, DE, FR, ES, IT, JP are supported</td>
+    <td>USD, GBP, EUR, JPY, CDN, BRL, AUD</td>
   </tr>
   <tr>
     <td>Opera Mobile Store</td>
