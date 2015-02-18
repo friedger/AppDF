@@ -3708,6 +3708,7 @@ This tag is ignored for free apps.
     <td>Yes</td>
     <td>Price (USD)</td>
     <td>USD</td>
+    <!--todo check taxes-->
     <td>Yes</td>
     <td></td>
     <td></td>
@@ -3822,7 +3823,8 @@ Currencies used in different countries in [JSON](http://www.onepf.org/appdf/data
   <tr>
     <td>Opera Mobile Store</td>
     <td>Yes</td>
-    <td>Stores</td>
+    <td>Territories</td>
+    <!--todo check taxes-->
     <td>No</td>
     <td></td>
   </tr>
