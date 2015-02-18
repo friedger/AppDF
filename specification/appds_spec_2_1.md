@@ -3916,7 +3916,7 @@ This tag is ignored for paid apps.
     <td>Opera Mobile Store</td>
     <td>No</td>
     <td></td>
-    <td><!-- todo check Opera has support for trial versions but trial version is not a separate application but a separate APK file inside a shareware product--></td>
+    <td>Opera has support for trial versions but trial version is not a separate application but a separate APK file inside a shareware product.<br>"Use "Full" if build can be downloaded only after the payment. "Trial" and "Demo" can be downloaded by the customer before payment is made"</td>
   </tr>
   <tr>
     <td>Samsung Apps</td>
@@ -3992,7 +3992,8 @@ Example
     <td>Yes</td>
     <td>APK file:</td>
     <td>Unlimited</td>
-    <td>Yes</td>
+    <!-- todo check multiple again-->
+    <td>No</td>
     <td>No</td>
   </tr>
   <tr>
