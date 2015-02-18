@@ -2301,12 +2301,12 @@ or 2560 x 1600px (portrait or landscape)</td>
   <tr>
     <td>Opera Mobile Store</td>
     <td>Yes</td>
-    <td>Main image, Images</td>
-    <td>Yes</td>
+    <td>Images</td>
     <td>No</td>
+    <td>Yes</td>
     <td>Any</td>
-    <td>JPG, PNG, GIF</td>
-    <td>1+</td>
+    <td><!-- todo check JPG, PNG, GIF--></td>
+    <td></td>
   </tr>
   <tr>
     <td>Samsung Apps</td>
