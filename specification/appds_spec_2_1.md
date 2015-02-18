@@ -3916,7 +3916,7 @@ This tag is ignored for paid apps.
     <td>Opera Mobile Store</td>
     <td>No</td>
     <td></td>
-    <td>Opera has support for trial versions but trial version is not a separate application but a separate APK file inside a shareware product</td>
+    <td><!-- todo check Opera has support for trial versions but trial version is not a separate application but a separate APK file inside a shareware product--></td>
   </tr>
   <tr>
     <td>Samsung Apps</td>
