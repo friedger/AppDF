@@ -409,48 +409,56 @@ Required for publishing
     <th>Fields/Format Providers</th>
     <th>AppDF</th>
     <th>Google Play</th>
-    <th>Amazon
+    <th>Amazon</th>
+    <th>Opera Mobile Store</th>
   </tr>
   <tr>
     <td>type</td>
     <td>yes</td>
     <td>yes</td>
     <td>yes</td>
+    <td></td>
   </tr>
   <tr>
     <td>category</td>
     <td>yes</td>
     <td>yes</td>
     <td>yes</td>
+    <td></td>
   </tr>
   <tr>
     <td>title</td>
     <td>yes</td>
     <td>yes</td>
     <td>yes</td>
+    <td></td>
   </tr>
   <tr>
     <td>full-description</td>
     <td>yes</td>
     <td>yes</td>
     <td>yes</td>
+    <td></td>
   </tr>
   <tr>
     <td>app-icon</td>
     <td>yes</td>
     <td>yes</td>
     <td>yes</td>
+    <td></td>
   </tr>
   <tr>
     <td>screenshots</td>
     <td>yes</td>
     <td>yes</td>
     <td>yes</td>
+    <td></td>
   </tr>
   <tr>
     <td>content-rating</td>
     <td>yes</td>
     <td>yes</td>
+    <td></td>
     <td></td>
   </tr>
   <tr>
@@ -458,11 +466,13 @@ Required for publishing
     <td>yes</td>
     <td>no</td>
     <td></td>
+    <td></td>
   </tr>
   <tr>
     <td>included-activities</td>
     <td>yes</td>
     <td>no</td>
+    <td></td>
     <td></td>
   </tr>
   <tr>
@@ -470,11 +480,13 @@ Required for publishing
     <td>yes</td>
     <td>yes</td>
     <td></td>
+    <td></td>
   </tr>
   <tr>
     <td>apk-files</td>
     <td>yes</td>
     <td>yes</td>
+    <td></td>
     <td></td>
   </tr>
   <tr>
@@ -482,24 +494,28 @@ Required for publishing
     <td>yes</td>
     <td>yes</td>
     <td>yes</td>
+    <td></td>
   </tr>
   <tr>
     <td>customer-support/phone</td>
     <td>yes</td>
     <td>no</td>
     <td>yes</td>
+    <td></td>
   </tr>
   <tr>
     <td>customer-support/website</td>
     <td>yes</td>
     <td>no</td>
     <td>yes</td>
+    <td></td>
   </tr>
   <tr>
     <td>store-specific requirements</td>
     <td>no</td>
     <td>Short description, Feature Graphic, Privacy Policy, Content guidelines, US export laws </td>
     <td>Short description, Product feature bullets, Small icon</td>
+    <td></td>
   </tr>
   <tr>
   </tr>
