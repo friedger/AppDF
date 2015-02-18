@@ -1230,7 +1230,7 @@ Short application description is used in the app lists next to the app title. So
     <td>Yes</td>
     <td>Yes</td>
     <td>Unlimited</td>
-    <td>Shown on the top of the product webpage, next to the app icon</td>
+    <td><!--todo find the string Shown on the top of the product webpage, next to the app icon--></td>
   </tr>
   <tr>
     <td>Samsung Apps</td>
