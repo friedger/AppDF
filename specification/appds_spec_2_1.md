@@ -1931,7 +1931,7 @@ High resolution application icon. Must be in PNG format. Different stores requir
     <td>No</td>
     <td>No</td>
     <td>512x512</td>
-    <td>PNG, JPG, GIF</td>
+    <td><!--todo check types PNG, JPG, GIF--></td>
   </tr>
   <tr>
     <td>Samsung Apps</td>
