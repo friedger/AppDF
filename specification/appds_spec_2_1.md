@@ -3430,7 +3430,7 @@ Africa: Algeria | Angola | Benin | Botswana | Burkina Faso | Burundi | Cameroon 
     <td></td>
     <td></td>
     <td></td>
-    <td></td>
+    <td>Cuba, Iran, North Korea, Sudan, Syria</td>
   </tr>
   <!--
   <tr>
