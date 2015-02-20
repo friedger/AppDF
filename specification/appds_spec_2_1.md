@@ -3360,7 +3360,8 @@ Example 2
     <th>Supported</th>
     <th>Name</th>
     <th>Required</th>
-    <th>Comments</th>
+    <th>Supported countries</th>
+    <th>Banned countries</th>
   </tr>
   <tr>
     <td>Google Play</td>
@@ -3382,6 +3383,7 @@ Example 2
 <br>Europe: Albania | Andorra | Austria | Belarus | Belgium | Bosnia and Herzegovina | Bulgaria | Croatia | Cyprus | Czech Republic | Denmark | Estonia | Finland | France | Germany | Gibraltar | Greece | Hungary | Iceland | Ireland | Italy | Latvia | Liechtenstein | Lithuania | Luxembourg | Macedonia | Malta | Moldova | Monaco | Montenegro | Netherlands | Norway | Poland | Portugal | Romania | Russia | San Marino | Serbia | Slovakia | Slovenia | Spain | Sweden | Switzerland | Turkey | Ukraine | United Kingdom | Vatican City
 <br>North America: Antigua and Barbuda | Aruba | Bahamas | Barbados | Belize | Bermuda | British Virgin Islands | Canada | Costa Rica | Cuba | Curacao | Dominica | Dominican Republic | El Salvador | Greenland | Grenada | Guatemala | Haiti | Honduras | Jamaica | Martinique | Mexico | Montserrat | Nicaragua | Panama | Puerto Rico | Saint Kitts and Nevis | Saint Lucia | Saint Vincent and the Grenadines | Sint Maarten | The Cayman Islands | The United States Virgin Islands | Trinidad and Tobago | Turks and Caicos Islands | United States
 <br>South America: Argentina | Bolivia | Brazil | Chile | Colombia | Ecuador | Falkland Islands | French Guiana | Guyana | Paraguay | Peru | Suriname | Uruguay | Venezuela</td>
+    <td></td>
   </tr>
   <tr>
     <td>Amazon AppStore</td>
@@ -3396,12 +3398,14 @@ Africa: Algeria | Angola | Benin | Botswana | Burkina Faso | Burundi | Cameroon 
 <br>North America: Anguilla | Antigua and Barbuda | Aruba | Bahamas | Barbados | Belize | Bermuda | Canada | Cayman Islands | Costa Rica | Dominica | Dominican Republic | El Salvador | Greenland | Grenada | Guadeloupe | Guatemala | Haiti | Honduras | Jamaica | Martinique | Mexico | Montserrat | Netherlands Antilles | Nicaragua | Panama | Saint Barthelemy | Saint Kitts and Nevis | Saint Lucia | Saint Martin (French part) | Saint Pierre and Miquelon | Saint Vincent and the Grenadines | Trinidad and Tobago | Turks and Caicos Islands | United States (including territories and possessions) | Virgin Islands, British
 <br>Oceania: Australia | Cook Islands | Fiji | French Polynesia | Kiribati | Marshall Islands | Micronesia | Nauru | New Caledonia | New Zealand | Niue | Norfolk Island | Palau | Papua New Guinea | Pitcairn | Samoa | Solomon Islands | Timor-Leste | Tokelau | Tonga | Tuvalu | Vanuatu | Wallis and Futuna
 <br>South America: Argentina | Bolivia | Brazil | Chile | Colombia | Ecuador | Falkland Islands (Malvinas) | French Guiana | Guyana | Paraguay | Peru | Suriname | Uruguay | Venezuela, Bolivarian Republic of</td>
+    <td></td>
   </tr>
   <tr>
     <td>Opera Mobile Store</td>
     <td>Yes</td>
     <td>Stores</td>
     <td>No</td>
+    <td></td>
     <td></td>
   </tr>
   <tr>
@@ -3418,10 +3422,12 @@ Africa: Algeria | Angola | Benin | Botswana | Burkina Faso | Burundi | Cameroon 
 <br>Pan-Latin: Bolivia | Colombia | Costa Rica | Dominican Republic | Ecuador | El Salvador | Guatemala | Honduras | Nicaragua | Panama | Paraguay | Puerto Rico | Uruguay | Venezuela
 <br>Pan-Africa: Angola | Benin | Botswana | Burkina Faso | Burundi | Cameroon | Central African Rep. | Congo | Cote D'Ivoire | DR Congo | Ethiopia | Gabon | Gambia | Ghana | Guinea | Lesotho | Liberia | Madagascar | Malawi | Mali | Mauritania | Mauritius | Mozambique | Namibia | Rwanda | Senegal | Sierra Leone | Somalia | Swaziland | Tanzania | Togo | Uganda | Zambia | Zimbabwe
 <br>Global Free: Anguilla | Antigua and Barbuda | Aruba | Bahamas | Barbados | Belize | Bermuda | British Virgin Islands | Brunei Darussalam | Cayman Islands | Cook Islands | Curacao | Cyprus | Dominica | Fiji | Greenland | Grenada | Guyana | Haiti | Iceland | Malta | Monaco | Montserrat | Myanmar | Papua New Guinea | Samoa | Slovenia | Solomon Islands | St. Kitts and Nevis | St. Lucia | St. Vincent and the Grenadines | Sudan | Suriname | Syria | Tonga | Turks and Caicos | Vanuatu</td>
+    <td></td>
   </tr>
   <tr>
     <td>SlideME</td>
     <td>No</td>
+    <td></td>
     <td></td>
     <td></td>
     <td></td>
