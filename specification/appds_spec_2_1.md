@@ -1804,7 +1804,7 @@ us even if it is our fault.</eula>
   <tr>
     <td>Opera Mobile Store</td>
     <td>Yes</td>
-    <td>EULA</td>
+    <td>Upload custom EULA / EULA</td>
     <td>No</td>
     <td>No</td>
     <td>EULA text or URL</td>
