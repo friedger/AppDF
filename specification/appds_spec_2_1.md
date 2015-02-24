@@ -3426,10 +3426,17 @@ Africa: Algeria | Angola | Benin | Botswana | Burkina Faso | Burundi | Cameroon 
   </tr>
   <tr>
     <td>SlideME</td>
-    <td>No</td>
+    <td>Yes</td>
+    <td>Distribution</td>
     <td></td>
-    <td></td>
-    <td></td>
+    <td>Africa: Algeria | Angola | Benin | Botswana | Burkina Faso | Burundi | Cameroon | Cape Verde | Central African Republic | Chad | Comoros | Congo (Brazzaville) | Congo (Kinshasa) | Djibouti | Egypt | Equatorial Guinea | Eritrea | Ethiopia | Gabon | Gambia | Ghana | Guinea | Guinea-Bissau | Ivory Coast | Kenya | Lesotho | Liberia | Libya | Madagascar | Malawi | Mali | Mauritania | Mauritius | Mayotte | Morocco | Mozambique | Namibia | Niger | Nigeria | Reunion | Rwanda | Saint Helena | Sao Tome and Principe | Senegal | Seychelles | Sierra Leone | Somalia | South Africa | Sudan | Swaziland | Tanzania | Togo | Tunisia | Uganda | Western Sahara | Zambia | Zimbabwe
+<br>Antarctica: Antarctica | Bouvet Island | French Southern Territories | Heard Island and McDonald Islands | South Georgia and the South Sandwich Islands
+<br>Asia: Afghanistan | Armenia | Azerbaijan | Bahrain | Bangladesh | Bhutan | British Indian Ocean Territory | Brunei | Cambodia | China | Christmas Island | Cocos (Keeling) Islands | Cyprus | Georgia | Hong Kong S.A.R., China | India | Indonesia | Iran | Iraq | Israel | Japan | Jordan | Kazakhstan | Kuwait | Kyrgyzstan | Laos | Lebanon | Macao S.A.R., China | Malaysia | Maldives | Mongolia | Myanmar | Nepal | North Korea | Oman | Pakistan | Palestinian Territory | Philippines | Qatar | Russia | Saudi Arabia | Singapore | South Korea | Sri Lanka | Syria | Taiwan | Tajikistan | Thailand | Timor-Leste | Turkey | Turkmenistan | United Arab Emirates | Uzbekistan | Vietnam | Yemen
+<br>Europe: Aland Islands | Albania | Andorra | Austria | Belarus | Belgium | Bosnia and Herzegovina | Bulgaria | Croatia | Czech Republic | Denmark | Estonia | Faroe Islands | Finland | France | Germany | Gibraltar | Greece | Guernsey | Hungary | Iceland | Ireland | Isle of Man | Italy | Jersey | Latvia | Liechtenstein | Lithuania | Luxembourg | Macedonia | Malta | Moldova | Monaco | Montenegro | Netherlands | Norway | Poland | Portugal | Romania | San Marino | Serbia | Slovakia | Slovenia | Spain | Svalbard and Jan Mayen | Sweden | Switzerland | Ukraine | United Kingdom | Vatican
+<br>North America: Anguilla | Antigua and Barbuda | Aruba	 | Bahamas | Barbados | Belize | Bermuda | British Virgin Islands | Canada | Cayman Islands | Costa Rica | Cuba | Dominica | Dominican Republic | El Salvador | Greenland | Grenada | Guadeloupe | Guatemala | Haiti | Honduras | Jamaica | Martinique | Mexico | Montserrat | Netherlands Antilles | Nicaragua | Panama | Puerto Rico | Saint Kitts and Nevis | Saint Lucia | Saint Pierre and Miquelon | Saint Vincent and the Grenadines | Trinidad and Tobago | Turks and Caicos Islands | U.S. Virgin Islands | United States
+<br>Oceania: American Samoa | Australia | Cook Islands | Fiji | French Polynesia | Guam | Kiribati | Marshall Islands | Micronesia | Nauru | New Caledonia | New Zealand | Niue | Norfolk Island | Northern Mariana Islands | Palau | Papua New Guinea | Pitcairn | Samoa | Solomon Islands | Tokelau | Tonga | Tuvalu | United States Minor Outlying Islands | Vanuatu | Wallis and Futuna
+<br>South America: Argentina | Bolivia | Brazil | Chile | Colombia | Curaçao | Ecuador | Falkland Islands | French Guiana | Guyana | Paraguay | Peru | Saint Barthélemy | Saint Martin (French part) | Suriname | Uruguay | Venezuela
+</td>
     <td>Cuba, Iran, North Korea, Sudan, Syria</td>
   </tr>
   <!--
