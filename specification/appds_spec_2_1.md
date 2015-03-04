@@ -411,12 +411,14 @@ Required for publishing
     <th>Google Play</th>
     <th>Amazon</th>
     <th>Opera Mobile Store</th>
+    <th>Samsung Apps</th>
   </tr>
   <tr>
     <td>type</td>
     <td>yes</td>
     <td>yes</td>
     <td>yes</td>
+    <td></td>
     <td></td>
   </tr>
   <tr>
@@ -425,12 +427,14 @@ Required for publishing
     <td>yes</td>
     <td>yes</td>
     <td></td>
+    <td></td>
   </tr>
   <tr>
     <td>title</td>
     <td>yes</td>
     <td>yes</td>
     <td>yes</td>
+    <td></td>
     <td></td>
   </tr>
   <tr>
@@ -439,12 +443,14 @@ Required for publishing
     <td>yes</td>
     <td>yes</td>
     <td></td>
+    <td></td>
   </tr>
   <tr>
     <td>app-icon</td>
     <td>yes</td>
     <td>yes</td>
     <td>yes</td>
+    <td></td>
     <td></td>
   </tr>
   <tr>
@@ -453,11 +459,13 @@ Required for publishing
     <td>yes</td>
     <td>yes</td>
     <td></td>
+    <td></td>
   </tr>
   <tr>
     <td>content-rating</td>
     <td>yes</td>
     <td>yes</td>
+    <td></td>
     <td></td>
     <td></td>
   </tr>
@@ -467,11 +475,13 @@ Required for publishing
     <td>no</td>
     <td></td>
     <td></td>
+    <td></td>
   </tr>
   <tr>
     <td>included-activities</td>
     <td>yes</td>
     <td>no</td>
+    <td></td>
     <td></td>
     <td></td>
   </tr>
@@ -481,11 +491,13 @@ Required for publishing
     <td>yes</td>
     <td></td>
     <td></td>
+    <td></td>
   </tr>
   <tr>
     <td>apk-files</td>
     <td>yes</td>
     <td>yes</td>
+    <td></td>
     <td></td>
     <td></td>
   </tr>
@@ -495,12 +507,14 @@ Required for publishing
     <td>yes</td>
     <td>yes</td>
     <td></td>
+    <td></td>
   </tr>
   <tr>
     <td>customer-support/phone</td>
     <td>yes</td>
     <td>no</td>
     <td>yes</td>
+    <td></td>
     <td></td>
   </tr>
   <tr>
@@ -509,12 +523,14 @@ Required for publishing
     <td>no</td>
     <td>yes</td>
     <td></td>
+    <td></td>
   </tr>
   <tr>
     <td>store-specific requirements</td>
     <td>no</td>
     <td>Short description, Feature Graphic, Privacy Policy, Content guidelines, US export laws </td>
     <td>Short description, Product feature bullets, Small icon</td>
+    <td></td>
     <td></td>
   </tr>
   <tr>
@@ -2737,7 +2753,7 @@ Each application must be labeled with a minimum age allowance according to [ESRB
   <tr>
     <td>Samsung Apps</td>
     <td>Yes</td>
-    <td>Basic Information / Category / Age Restriction</td>
+    <td>App Information / Age Restriction<br>and App Information / Rating Certificate for Available Countries (PEGI, ESRB, GRB, MJ/DEJUS , FSK, ETC)</td>
     <td>Yes</td>
   </tr>
   <tr>
@@ -2837,11 +2853,11 @@ There could be exceptional products for which a generic converting rule describe
 Here you can find more detailed information about content rating definitions used in different stores:
 <table>
   <tr>
-    <th>Store</th>
+    <th>Format provider</th>
     <th>Link</th>
   </tr>
   <tr>
-    <td>ESRB (used in AppDF)</td>
+    <td>AppDF</td>
     <td>http://en.wikipedia.org/wiki/Entertainment_Software_Rating_Board</td>
   </tr>
   <tr>
@@ -2850,7 +2866,7 @@ Here you can find more detailed information about content rating definitions use
   </tr>
   <tr>
     <td>Yandex.Store</td>
-    <td>Options are: Adults, Teenagers, Children</td>
+    <td>Options: Adults, Teenagers, Children</td>
   </tr>
   <tr>
     <td>Amazon AppStore</td>
