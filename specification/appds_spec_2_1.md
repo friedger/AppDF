@@ -2073,7 +2073,7 @@ Large promotion picture usually used by the stores on the PC websites, some stor
     <td>Images & Multimedia / Promotional image</td>
     <td>No</td>
     <td>No</td>
-    <td>1024x500</td>
+    <td>1024x500 (landscape only)</td>
     <td>PNG or JPG</td>
   </tr>
   <tr>
