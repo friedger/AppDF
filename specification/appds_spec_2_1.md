@@ -4241,8 +4241,8 @@ Set value of this tag to `yes` if your application requires Google Play to be in
   <tr>
     <td>Samsung Apps</td>
     <td>Yes</td>
-    <td>Basic Information / Binary File / Binary Upload / Manual Input Details / Google Mobile Service</td>
-    <td></td>
+    <td>Binary / Add binary / Google Mobile Service</td>
+    <td>Since the sale of applications containing services provided by Google such as Google map, Gmail and Google Talk are prohibited in China, China will be automatically excluded from target countries when Yes is selected.</td>
   </tr>
   <tr>
     <td>SlideME</td>
