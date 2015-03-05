@@ -4046,7 +4046,8 @@ Example
   <tr>
     <td>Samsung Apps</td>
     <td>Yes</td>
-    <td>Basic Information / Binary File / Binary Upload / Binary File</td>
+    <td>Binary</td>
+    <!-- todo check size-->
     <td>Unlimited</td>
     <td>Yes</td>
     <td>No</td>
