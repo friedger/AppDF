@@ -2558,8 +2558,8 @@ Some stores don't support including of YouTube videos but do support uploaded vi
     <td>No</td>
     <td>No</td>
     <td>0-5</td>
-    <td>Up to 5 MPEG-2, WMV, MOV, FLV, AVI, or H.264 MPEG-4
-720 - 1080px wide (4:3 or 16:9); 1200 kbps or higher</td>
+    <td>MPEG-2, WMV, MOV, FLV, AVI, or H.264 MPEG-4
+720 - 1080px wide (4:3 or 16:9); 1200 kbps or higher; SFTP files larger than 150 MB</td>
   </tr>
   <tr>
     <td>Opera Mobile Store</td>
