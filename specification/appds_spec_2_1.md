@@ -4955,7 +4955,7 @@ No attributes.
     <td>Yes</td>
     <td>100 byte</td>
     <td>No</td>
-    <td></td>
+    <td>Could be taken from default support information.</td>
   </tr>
   <tr>
     <td>SlideME</td>
