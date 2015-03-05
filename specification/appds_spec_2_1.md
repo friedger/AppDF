@@ -4049,7 +4049,7 @@ Example
     <td>Binary</td>
     <!-- todo check size-->
     <td>Unlimited</td>
-    <td>Yes</td>
+    <td>Yes (up to 10)</td>
     <td>No</td>
   </tr>
   <tr>
