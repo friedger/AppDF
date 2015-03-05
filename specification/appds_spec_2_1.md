@@ -4309,9 +4309,9 @@ Set value of this tag to `yes` if your application requires internet connection 
   </tr>
   <tr>
     <td>Samsung Apps</td>
-    <td>Yes</td>
-    <td>Basic Information / Category / Runs Offline?</td>
-    <td>By default Samsung Apps assumes your application can work in offline mode</td>
+    <td>No</td>
+    <td></td>
+    <td></td>
   </tr>
   <tr>
     <td>SlideME</td>
