@@ -3256,7 +3256,8 @@ Example
     <td>Yes</td>
     <td>Content Rating</td>
     <td>Yes</td>
-    <td></td>
+    <td>Subject Matter: Violence |  Cartoon Violence | Drugs | Nudity | Sex | Intolerance | Profanity | Academic
+<br>Additional Information: Account creation or other personal information collected? | Advertisements |  Child Directed | Gambling |  Location detection or Location Based Services | User Generated Content or User to User Communication</td>
   </tr>
   <tr>
     <td>Opera Mobile Store</td>
