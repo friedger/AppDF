@@ -4575,8 +4575,8 @@ Example 2
   <tr>
     <td>Samsung Apps</td>
     <td>Yes</td>
-    <td>Basic Information / Binary File / Binary Upload / Resolution(s)</td>
-    <td>Required tag, per APK file</td>
+    <td>Binary / Resolution(s)</td>
+    <td>240x320 (LQVGA/QVGA) | 360x640 (QHD) | 480x800 (WVGA) | 240x400 (WQVGA) | 320x320 | 320x480 (HVGA) | 1024x600 (WSVGA) | 1280x800 (WXGA) | 1280x720 (WXGA HD) | 960X540 (WXGA qHD) | 360X480 (LHVGA) | 1080X1920 (FHD) | 1600x2560 (WQXGA) | 1440x2560 (WQHD) | 1024x768 (XGA)</td>
   </tr>
   <tr>
     <td>SlideME</td>
