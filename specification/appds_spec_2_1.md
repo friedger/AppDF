@@ -4381,7 +4381,7 @@ Example
     <td>Amazon AppStore</td>
     <td>Yes</td>
     <td>Binary File(s) / Language Support</td>
-    <td></td>
+    <td>Arabic | Chinese | Cornish | Czech | Dutch | English | French | German | Greek | Hebrew | Hindi | Italian | Japanese | Kazakh | Korean | Polish | Portuguese | Russian | Spanish | Tagalog | Vietnamese</td>
   </tr>
   <tr>
     <td>Opera Mobile Store</td>
