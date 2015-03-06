@@ -4472,8 +4472,8 @@ Example
   <tr>
     <td>Samsung Apps</td>
     <td>Yes</td>
-    <td>Basic Information / Binary File / Detailed Device Settings</td>
-    <td></td>
+    <td>Binary / Selected Device(s)</td>
+    <td>Each of the binary files has its own set of Samsung devices</td>
   </tr>
   <tr>
     <td>SlideME</td>
