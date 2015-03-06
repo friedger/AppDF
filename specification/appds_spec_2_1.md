@@ -4033,8 +4033,7 @@ Example
     <td>Yes</td>
     <td>Binary File(s) / Binary file</td>
     <td>Unlimited</td>
-    <!-- todo check multiple again-->
-    <td>No</td>
+    <td>Yes</td>
     <td>No</td>
   </tr>
   <tr>
