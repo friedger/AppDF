@@ -4386,8 +4386,8 @@ Example
   <tr>
     <td>Opera Mobile Store</td>
     <td>Yes</td>
-    <td>Languages</td>
-    <td></td>
+    <td>{build} / Languages</td>
+    <td>en ru de it fr sp dt tr sv da zh el pt cs sk pl id vn no bn fa hu ja ko ms ne ro tl th ar</td>
   </tr>
   <tr>
     <td>Samsung Apps</td>
