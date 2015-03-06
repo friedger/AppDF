@@ -4640,10 +4640,11 @@ Please detail any special requirements to test your app. If your application req
     <td>4000 characters</td>
   </tr>
   <tr>
-    <td>Opera Mobile Store</td>
+    <td>Opera Mobile Store</td
+    <!--todo check-->
+    <td>Yes???</td>
+    <td>App registration instructions</td>
     <td>No</td>
-    <td></td>
-    <td></td>
     <td></td>
   </tr>
   <tr>
