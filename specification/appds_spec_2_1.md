@@ -4637,7 +4637,7 @@ Please detail any special requirements to test your app. If your application req
     <td>Yes</td>
     <td>Binary File(s) / Testing instructions</td>
     <td>No</td>
-    <td>4000</td>
+    <td>4000 characters</td>
   </tr>
   <tr>
     <td>Opera Mobile Store</td>
