@@ -4461,9 +4461,9 @@ Example
   </tr>
   <tr>
     <td>Amazon AppStore</td>
-    <td>No</td>
+    <td>Yes</td>
+    <td>Binary File(s) / Device Support</td>
     <td></td>
-    <td>Have separate flags for Amazon Kidle models support in the store-specific section</td>
   </tr>
   <tr>
     <td>Opera Mobile Store</td>
