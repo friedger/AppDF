@@ -3421,10 +3421,10 @@ Africa: Algeria | Angola | Benin | Botswana | Burkina Faso | Burundi | Cameroon 
   <tr>
     <td>Opera Mobile Store</td>
     <td>Yes</td>
-    <td>Stores</td>
+    <td>Territories</td>
     <td>No</td>
     <td></td>
-    <td></td>
+    <td>Other worldwide | All partner stores distribution | Argentina | Armenia | Asia | Australia | Bangladesh | Beeline | Beeline KG | Belarus | Blackberry App World | Brazil | Canada | China | Econet | Egypt | Europe | Germany | India | India with carrier billing | Indonesia | Italy | Kazakhstan | Kenya | Latvia | Malaysia | Mexico | Middle East | Morocco | OpenMobile for Intel/Tizen store | Philippines | Poland | Russia | South & Central America | South Africa | Sri Lanka | Tajikistan, Turkmenistan, Uzbekistan | Tele2 | Thailand | Turkey | Ukraine | United Kingdom | United States | United States with carrier billing | Vietnam | Yandex.Store partners</td>
   </tr>
   <tr>
     <td>Samsung Apps</td>
