@@ -419,7 +419,7 @@ Required for publishing
     <td>yes</td>
     <td>yes</td>
     <td></td>
-    <td></td>
+    <td>no</td>
   </tr>
   <tr>
     <td>category</td>
@@ -427,7 +427,7 @@ Required for publishing
     <td>yes</td>
     <td>yes</td>
     <td></td>
-    <td></td>
+    <td>yes</td>
   </tr>
   <tr>
     <td>title</td>
@@ -435,7 +435,7 @@ Required for publishing
     <td>yes</td>
     <td>yes</td>
     <td></td>
-    <td></td>
+    <td>yes</td>
   </tr>
   <tr>
     <td>full-description</td>
@@ -443,7 +443,7 @@ Required for publishing
     <td>yes</td>
     <td>yes</td>
     <td></td>
-    <td></td>
+    <td>yes</td>
   </tr>
   <tr>
     <td>app-icon</td>
@@ -451,7 +451,7 @@ Required for publishing
     <td>yes</td>
     <td>yes</td>
     <td></td>
-    <td></td>
+    <td>yes</td>
   </tr>
   <tr>
     <td>screenshots</td>
@@ -459,7 +459,7 @@ Required for publishing
     <td>yes</td>
     <td>yes</td>
     <td></td>
-    <td></td>
+    <td>yes</td>
   </tr>
   <tr>
     <td>content-rating</td>
@@ -499,7 +499,7 @@ Required for publishing
     <td>yes</td>
     <td></td>
     <td></td>
-    <td></td>
+    <td>yes</td>
   </tr>
   <tr>
     <td>customer-support/email</td>
@@ -507,7 +507,7 @@ Required for publishing
     <td>yes</td>
     <td>yes</td>
     <td></td>
-    <td></td>
+    <td>yes</td>
   </tr>
   <tr>
     <td>customer-support/phone</td>
@@ -515,7 +515,7 @@ Required for publishing
     <td>no</td>
     <td>yes</td>
     <td></td>
-    <td></td>
+    <td>no</td>
   </tr>
   <tr>
     <td>customer-support/website</td>
@@ -523,7 +523,7 @@ Required for publishing
     <td>no</td>
     <td>yes</td>
     <td></td>
-    <td></td>
+    <td>no</td>
   </tr>
   <tr>
     <td>store-specific requirements</td>
@@ -531,7 +531,7 @@ Required for publishing
     <td>Short description, Feature Graphic, Privacy Policy, Content guidelines, US export laws </td>
     <td>Short description, Product feature bullets, Small icon</td>
     <td></td>
-    <td></td>
+    <td>Subcategory, Supported Languages, Price (free or paid)</td>
   </tr>
   <tr>
   </tr>
