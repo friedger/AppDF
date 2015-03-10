@@ -452,7 +452,6 @@
 
     <xsd:complexType name="type-customersupport">
         <xsd:all>
-            <xsd:element name="company" type="xsd:string"/>
             <xsd:element name="phone" type="xsd:string"/>
             <xsd:element name="email" type="xsd:string"/>
             <xsd:element name="website" type="xsd:string" minOccurs="0"/>
