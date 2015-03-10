@@ -354,7 +354,6 @@ Sample Description.xml File
 
   <!--Required. Customer support information-->
   <customer-support>
-    <company>Yandex LLC</company>
     <phone>+1 (555) 1234-56-78</phone>
     <email>support@yandex-team.ru</email>
     <!--Optional-->
@@ -598,7 +597,6 @@ List of Tags:
 	* [phone](#customer-supportphone)
 	* [email](#customer-supportemail)
 	* [website](#customer-supportwebsite)
-	* [company](#customer-supportcompany)
 * [store-specific](#store-specific)
 	* [amazon](#store-specificamazon)
 	* [samsung](#store-specificsamsung)
@@ -4811,18 +4809,11 @@ No attributes.
 Example
 ```xml
 <customer-support>
-  <company>Yandex LLC</company>
   <phone>+1 (555) 1234-56-78</phone>
   <email>support@yandex-team.ru</email>
   <website>http://www.yandex.ru/support</website>
 </customer-support>
 ```
-#### customer-support/company
-
-Required.  
-No attributes.
-
-Developer identificator.
 
 #### customer-support/phone
 
