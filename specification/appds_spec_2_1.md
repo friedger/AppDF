@@ -5279,10 +5279,68 @@ Example
   </tr>
 </table>
 
+Possible `<license-type>` values:
+* All Rights Reserved
+* Apache License 2.0
+* Commercial Royalty-Free
+* Common Development and Distribution License (CDDL)
+* Eclipse Public License (EPL)
+* FREE Licensed Closed Source - Public Domain
+* GNU AFFERO GENERAL PUBLIC LICENSE (AGPL) v3
+* GNU General Public License (GPL) v2
+* GNU General Public License (GPL) v3
+* GNU Library General Public License (LGPL)
+* GNU Library General Public License (LGPL)  v3
+* Mozilla Public License 1.1 (MPL)
+* New BSD License
+* Other / Proprietary
+* The MIT License
+
 ### in-app-purchases
 
 Optional.  
 No attributes.
+
+```xml
+<in-app-purchases>
+      <items>
+        <item id="org.onepf.sample.trivialdrive.sku_premium" publish-state="published">
+          <text-description>
+            <summary-base>
+              <title>Cool red skin for your car</title>
+              <description>Cool red skin for your car</description>
+            </summary-base>
+            <summary-localization locale="RU">
+              <title>Классный красный скин для вашей машины</title>
+              <description>Классный красный скин для вашей машины</description>
+            </summary-localization>
+          </text-description>
+          <price>
+            <base-price>1000.00</base-price>
+            <local-price country="string">1000.00</local-price>
+          </price>
+        </item>
+      </items>
+      <subscriptions>
+        <subscription id="org.onepf.sample.trivialdrive.sku_infinite_gas" publish-state="published" period="oneMonth">
+          <text-description>
+            <summary-base>
+              <title>Some gas to drive</title>
+              <description>Some gas to drive your car.</description>
+            </summary-base>
+            <summary-localization locale="string">
+              <title>Топливо для поездки</title>
+              <description>Топливо для поездки.</description>
+            </summary-localization>
+          </text-description>
+          <price>
+            <base-price>1000.00</base-price>
+            <local-price country="string">1000.00</local-price>
+          </price>
+        </subscription>
+      </subscriptions>
+    </in-app-purchases>
+```
 
 <table>
   <tr>
@@ -5426,23 +5484,6 @@ Attributes: `id` (required), `publish-state` (required).
     <td>Subscription period</td>
   </tr>
 </table>
-
-Possible `<license-type>` values:
-* All Rights Reserved
-* Apache License 2.0
-* Commercial Royalty-Free
-* Common Development and Distribution License (CDDL)
-* Eclipse Public License (EPL)
-* FREE Licensed Closed Source - Public Domain
-* GNU AFFERO GENERAL PUBLIC LICENSE (AGPL) v3
-* GNU General Public License (GPL) v2
-* GNU General Public License (GPL) v3
-* GNU Library General Public License (LGPL)
-* GNU Library General Public License (LGPL)  v3
-* Mozilla Public License 1.1 (MPL)
-* New BSD License
-* Other / Proprietary
-* The MIT License
 
 Application Store Support
 -------------
