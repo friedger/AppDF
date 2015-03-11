@@ -575,7 +575,7 @@ List of Tags:
 	* [included-activities](#content-descriptionincluded-activities)
 * [availability](#availability)
 	* [countries](#availabilitycountries)
-	* period(#availabilityperiod)
+	* [period](#availabilityperiod)
 		* [since](#availabilityperiodsince)
 		* [until](#availabilityperioduntil)
 * [price](#price)
