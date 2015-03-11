@@ -5388,7 +5388,7 @@ No attributes.
 
 ##### in-app-purchases/items/item
 
-Optional.
+Optional.   
 Attributes: `id` (required), `publish-state` (required).
 <table>
   <tr>
@@ -5410,6 +5410,38 @@ Attributes: `id` (required), `publish-state` (required).
     <td>Is an in-app product published or not, is it visible to the end users.</td>
   </tr>
 </table>
+
+<table>
+  <tr>
+    <th>Store</th>
+    <th>Supported</th>
+  </tr>
+  <tr>
+    <td>Google Play</td>
+    <td>Yes</td>
+  </tr>
+  <tr>
+    <td>Yandex.Store</td>
+    <td>Yes</td>
+  </tr>
+  <tr>
+    <td>Amazon AppStore</td>
+    <td>Yes</td>
+  </tr>
+  <tr>
+    <td>Opera Mobile Store</td>
+    <td>No</td>
+  </tr>
+  <tr>
+    <td>Samsung Apps</td>
+    <td>Yes</td>
+  </tr>
+  <tr>
+    <td>SlideME</td>
+    <td>Yes</td>
+  </tr>
+</table>
+
 
 #### in-app-purchases/subscriptions
 Optional.  
