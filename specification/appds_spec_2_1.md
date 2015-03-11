@@ -5435,13 +5435,13 @@ Attributes: `id` (required), `publish-state` (required).
   </tr>
   <tr>
     <td>publish-state</td>
-    <td>published|unpublished</td>
+    <td>published | unpublished</td>
     <td>Mandatory attribute</td>
     <td>Is an in-app product published or not, is it visible to the end users.</td>
   </tr>
    <tr>
     <td>period</td>
-    <td>oneMonth|oneYear</td>
+    <td>oneMonth | oneYear</td>
     <td>Mandatory attribute</td>
     <td>Subscription period</td>
   </tr>
