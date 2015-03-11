@@ -5417,7 +5417,7 @@ No attributes.
 
 ##### in-app-purchases/subscriptions/subscription
 Optional.  
-Attributes: `id` (required), `publish-state` (required).
+Attributes: `id` (required), `publish-state` (required), `subs-period` (required), `trial-period` (optional)
 <table>
   <tr>
     <th>Attribute</th>
@@ -5438,10 +5438,16 @@ Attributes: `id` (required), `publish-state` (required).
     <td>Is an in-app product published or not, is it visible to the end users.</td>
   </tr>
    <tr>
-    <td>period</td>
+    <td>subs-period</td>
     <td>oneMonth | oneYear</td>
     <td>Mandatory attribute</td>
-    <td>Subscription period</td>
+    <td>A period when the feature/product is available to the user</td>
+  </tr>
+  <tr>
+    <td>trial-period</td>
+    <td>the number of days</td>
+    <td>Optional attribute</td>
+    <td>Trial period</td>
   </tr>
 </table>
 
