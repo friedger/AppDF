@@ -5437,7 +5437,7 @@ No attributes.
     <td>Yes</td>
     <td>In-App Items / Subscription periods</td>
     <td>Weekly, BiWeekly, Monthly, BiMonthly, Quarterly, SemiAnnualy, Annualy</td>
-    <td></td>
+    <td>Yes, 7 or 14 Days, 1 or 2 or 3 Months</td>
   </tr>
   <tr>
     <td>Opera Mobile Store</td>
@@ -5451,7 +5451,7 @@ No attributes.
     <td>Yes</td>
     <td>In app purchase / Duration</td>
     <td>1 Month, 3 Month, 6 Month, 12 Month</td>
-    <td></td>
+    <td>No</td>
   </tr>
   <tr>
     <td>SlideME</td>
