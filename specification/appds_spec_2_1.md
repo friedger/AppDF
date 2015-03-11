@@ -3544,8 +3544,8 @@ If presented this tag defines a date from which the application can be distribut
   <tr>
     <td>Samsung Apps</td>
     <td>Yes</td>
-    <td>Basic Information / Sales / Selling Starts</td>
-    <td>Yes, default "Selling starts on the day of approval"</td>
+    <td>Country & Price / Selling Starts</td>
+    <td>No, default "Selling starts on the day of approval"</td>
   </tr>
   <tr>
     <td>SlideME</td>
@@ -3638,8 +3638,8 @@ If presented this tag defines a final date of application distribution. Stores t
   <tr>
     <td>Samsung Apps</td>
     <td>Yes</td>
-    <td>Basic Information / Sales / Selling Ends</td>
-    <td>No</td>
+    <td>Country & Price / Selling Ends</td>
+    <td>No, default "Permanent"</td>
   </tr>
   <tr>
     <td>SlideME</td>
