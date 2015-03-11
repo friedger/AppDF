@@ -5346,30 +5346,37 @@ No attributes.
   <tr>
     <th>Store</th>
     <th>Supported</th>
+    <th>Name</th>
   </tr>
   <tr>
     <td>Google Play</td>
     <td>Yes</td>
+    <td>In-app Products</td>
   </tr>
   <tr>
     <td>Yandex.Store</td>
     <td>Yes</td>
+    <td>In-App purchases</td>
   </tr>
   <tr>
     <td>Amazon AppStore</td>
     <td>Yes</td>
+    <td>In-App Items</td>
   </tr>
   <tr>
     <td>Opera Mobile Store</td>
     <td>No</td>
+    <td></td>
   </tr>
   <tr>
     <td>Samsung Apps</td>
     <td>Yes</td>
+    <td>In app purchase</td>
   </tr>
   <tr>
     <td>SlideME</td>
     <td>Yes</td>
+    <td>Manage IAP</td>
   </tr>
 </table>
 
@@ -5409,6 +5416,36 @@ Attributes: `id` (required), `publish-state` (required).
 #### in-app-purchases/subscriptions
 Optional.  
 No attributes.
+
+##### in-app-purchases/subscriptions/subscription
+Optional.  
+Attributes: `id` (required), `publish-state` (required).
+<table>
+  <tr>
+    <th>Attribute</th>
+    <th>Possible values</th>
+    <th>Default</th>
+    <th>How it works</th>
+  </tr>
+  <tr>
+    <td>id</td>
+    <td>a string</td>
+    <td>Mandatory attribute</td>
+    <td>SKU. Used as unique id for app-store interaction.</td>
+  </tr>
+  <tr>
+    <td>publish-state</td>
+    <td>published|unpublished</td>
+    <td>Mandatory attribute</td>
+    <td>Is an in-app product published or not, is it visible to the end users.</td>
+  </tr>
+   <tr>
+    <td>period</td>
+    <td>oneMonth|oneYear</td>
+    <td>Mandatory attribute</td>
+    <td>Subscription period</td>
+  </tr>
+</table>
 
 <table>
   <tr>
@@ -5459,36 +5496,6 @@ No attributes.
     <td></td>
     <td></td>
     <td></td>
-  </tr>
-</table>
-
-##### in-app-purchases/subscriptions/subscription
-Optional.  
-Attributes: `id` (required), `publish-state` (required).
-<table>
-  <tr>
-    <th>Attribute</th>
-    <th>Possible values</th>
-    <th>Default</th>
-    <th>How it works</th>
-  </tr>
-  <tr>
-    <td>id</td>
-    <td>a string</td>
-    <td>Mandatory attribute</td>
-    <td>SKU. Used as unique id for app-store interaction.</td>
-  </tr>
-  <tr>
-    <td>publish-state</td>
-    <td>published|unpublished</td>
-    <td>Mandatory attribute</td>
-    <td>Is an in-app product published or not, is it visible to the end users.</td>
-  </tr>
-   <tr>
-    <td>period</td>
-    <td>oneMonth|oneYear</td>
-    <td>Mandatory attribute</td>
-    <td>Subscription period</td>
   </tr>
 </table>
 
