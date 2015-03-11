@@ -5308,34 +5308,34 @@ No attributes.
           <text-description>
             <summary-base>
               <title>Cool red skin for your car</title>
-              <description>Cool red skin for your car</description>
+              <description>Cool red skin for your car.</description>
             </summary-base>
-            <summary-localization locale="RU">
+            <summary-localization locale="ru_RU">
               <title>Классный красный скин для вашей машины</title>
-              <description>Классный красный скин для вашей машины</description>
+              <description>Классный красный скин для вашей машины.</description>
             </summary-localization>
           </text-description>
           <price>
-            <base-price>1000.00</base-price>
-            <local-price country="string">1000.00</local-price>
+            <base-price>1.00</base-price>
+            <local-price country="RU">1.00</local-price>
           </price>
         </item>
       </items>
       <subscriptions>
-        <subscription id="org.onepf.sample.trivialdrive.sku_infinite_gas" publish-state="published" period="oneMonth" trial-period="10">
+        <subscription id="org.onepf.sample.trivialdrive.sku_infinite_gas" publish-state="published" subs-period="oneMonth" trial-period="10">
           <text-description>
             <summary-base>
               <title>Some gas to drive</title>
               <description>Some gas to drive your car.</description>
             </summary-base>
-            <summary-localization locale="string">
+            <summary-localization locale="ru_RU">
               <title>Топливо для поездки</title>
               <description>Топливо для поездки.</description>
             </summary-localization>
           </text-description>
           <price>
-            <base-price>1000.00</base-price>
-            <local-price country="string">1000.00</local-price>
+            <base-price>2.00</base-price>
+            <local-price country="RU">2.00</local-price>
           </price>
         </subscription>
       </subscriptions>
