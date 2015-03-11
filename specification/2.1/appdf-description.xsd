@@ -522,7 +522,7 @@
 
     <xsd:simpleType name="type-attr-subscription-period">
         <xsd:restriction base="xsd:string">
-            <xsd:pattern value="oneMonth|oneYear"/>
+            <xsd:pattern value="oneWeek|oneMonth|oneYear"/>
         </xsd:restriction>
     </xsd:simpleType>
 
