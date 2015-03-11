@@ -356,7 +356,6 @@
         <xsd:sequence>
             <xsd:element name="base-price" type="xsd:decimal" minOccurs="0"/>
             <xsd:element name="local-price" type="type-in-app-price-local-price" minOccurs="0" maxOccurs="unbounded"/>
-            <xsd:element name="trial-version" type="type-price-trialversion" minOccurs="0"/>
         </xsd:sequence>
         <xsd:attribute name="free" type="type-attr-yesno" use="required"/>
     </xsd:complexType>
@@ -491,7 +490,8 @@
     <xsd:complexType name="type-in-app-subscription">
         <xsd:complexContent>
             <xsd:extension base="type-base-in-app-purchase">
-                <xsd:attribute name="period" type="type-attr-subscription-period" use="required"/>
+                <xsd:attribute name="sub-period" type="type-attr-subscription-period" use="required"/>
+                <xsd:attribute name="trial-period" type="xsd:integer" use="optional"/>
             </xsd:extension>
         </xsd:complexContent>
     </xsd:complexType>
