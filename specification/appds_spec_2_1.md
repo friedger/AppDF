@@ -575,7 +575,7 @@ List of Tags:
 	* [included-activities](#content-descriptionincluded-activities)
 * [availability](#availability)
 	* [countries](#availabilitycountries)
-	* period
+	* period(#availabilityperiod)
 		* [since](#availabilityperiodsince)
 		* [until](#availabilityperioduntil)
 * [price](#price)
@@ -3476,6 +3476,10 @@ Africa: Algeria | Angola | Benin | Botswana | Burkina Faso | Burundi | Cameroon 
   </tr>
   !-->
 </table>
+
+### availability/period
+Optional.  
+No attributes.
 
 #### availability/period/since
 Optional.  
