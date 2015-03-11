@@ -3625,9 +3625,10 @@ If presented this tag defines a final date of application distribution. Stores t
   </tr>
   <tr>
     <td>Amazon AppStore</td>
-    <td>Yes</td>
-    <td>Availability & Pricing / When would you like this app to be discontinued for sale?</td>
     <td>No</td>
+    <!--todo prev value was Availability & Pricing / When would you like this app to be discontinued for sale? -->
+    <td></td>
+    <td></td>
   </tr>
   <tr>
     <td>Opera Mobile Store</td>
