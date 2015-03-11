@@ -5476,7 +5476,7 @@ Attributes: `id` (required), `publish-state` (required), `subs-period` (required
   </tr>
    <tr>
     <td>subs-period</td>
-    <td>oneMonth | oneYear</td>
+    <td>oneWeek | oneMonth | oneYear</td>
     <td>Mandatory attribute</td>
     <td>A period when the feature/product is available to the user</td>
   </tr>
