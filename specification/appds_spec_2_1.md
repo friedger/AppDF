@@ -5411,8 +5411,6 @@ Attributes: `id` (required), `publish-state` (required).
   </tr>
 </table>
 
-###### in-app-purchases/items/item/price
-
 #### in-app-purchases/subscriptions
 Optional.  
 No attributes.
