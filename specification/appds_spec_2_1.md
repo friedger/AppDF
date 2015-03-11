@@ -5399,13 +5399,13 @@ Attributes: `id` (required), `publish-state` (required).
   </tr>
   <tr>
     <td>id</td>
-    <td>a string</td>
+    <td>([a-z]|[0-9]){1}[a-z0-9._]*</td>
     <td>Mandatory attribute</td>
     <td>SKU. Used as unique id for app-store interaction.</td>
   </tr>
   <tr>
     <td>publish-state</td>
-    <td>published|unpublished</td>
+    <td>published | unpublished</td>
     <td>Mandatory attribute</td>
     <td>Is an in-app product published or not, is it visible to the end users.</td>
   </tr>
