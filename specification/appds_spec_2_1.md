@@ -3483,7 +3483,7 @@ No attributes.
 
 #### availability/period/since
 Optional.  
-Attributes: `year`, `month`, `day`. 
+Attributes: `year`(required), `month`(required), `day`(required). 
 
 If presented this tag defines a date from which the application can be distributed. Stores that support this tag will not distribute the app before this date. 
 
@@ -3577,7 +3577,7 @@ If presented this tag defines a date from which the application can be distribut
 
 #### availability/period/until
 Optional.  
-Attributes: `year`, `month`, `day`. 
+Attributes: `year`(required), `month`(required), `day`(required). 
 
 If presented this tag defines a final date of application distribution. Stores that support this tag will not distribute the app after this date. 
 
