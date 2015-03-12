@@ -26,7 +26,7 @@
                          maxOccurs="unbounded"/>
             <xsd:element name="content-description" type="type-contentdescription"/>
             <xsd:element name="availability" type="type-availability" minOccurs="0"/>
-            <xsd:element name="price" type="type-in-app-price" minOccurs="0"/>
+            <xsd:element name="price" type="type-price" minOccurs="0"/>
             <xsd:element name="in-app-purchases" type="type-in-app-purchases" minOccurs="0"/>
             <xsd:element name="apk-files" type="type-apkfiles"/>
             <xsd:element name="requirements" type="type-requirements" minOccurs="0"/>
@@ -203,7 +203,7 @@
             <xsd:element name="title" type="xsd:string" maxOccurs="unbounded" minOccurs="0"/>
             <xsd:element name="keywords" type="xsd:string" minOccurs="0"/>
             <xsd:element name="short-description" type="xsd:string" minOccurs="0" maxOccurs="unbounded"/>
-            <xsd:element name="full-description" type="type-in-app-full-description" minOccurs="0"/>
+            <xsd:element name="full-description" type="type-description-texts-fulldescription" minOccurs="0"/>
             <xsd:element name="features" type="type-description-texts-features" minOccurs="0"/>
             <xsd:element name="recent-changes" type="xsd:string" minOccurs="0"/>
             <xsd:element name="privacy-policy" type="type-description-texts-privacypolicy" minOccurs="0"/>
@@ -352,27 +352,31 @@
         </xsd:restriction>
     </xsd:simpleType>
 
-    <xsd:complexType name="type-in-app-price">
+    <xsd:complexType name="type-price">
         <xsd:sequence>
-            <xsd:element name="base-price" type="xsd:decimal" minOccurs="0"/>
-            <xsd:element name="local-price" type="type-in-app-price-local-price" minOccurs="0" maxOccurs="unbounded"/>
+            <xsd:element name="base-price" minOccurs="0" type="xsd:decimal" />
+            <xsd:element name="local-price" maxOccurs="unbounded" minOccurs="0"
+                type="type-price-localprice" />
+            <xsd:element name="trial-version" minOccurs="0" type="type-price-trialversion" />
         </xsd:sequence>
-        <xsd:attribute name="free" type="type-attr-yesno" use="required"/>
+        <xsd:attribute name="free" type="type-attr-yesno" use="required" />
     </xsd:complexType>
 
-    <xsd:complexType name="type-in-app-price-local-price">
+    <xsd:complexType name="type-price-localprice">
         <xsd:simpleContent>
             <xsd:extension base="xsd:decimal">
-                <xsd:attribute name="country" type="type-attr-country" use="required"/>
+                <xsd:attribute name="country" type="type-attr-country" use="required" />
             </xsd:extension>
         </xsd:simpleContent>
     </xsd:complexType>
-
     <xsd:simpleType name="type-attr-currency">
         <xsd:restriction base="xsd:string">
-            <xsd:pattern value="[A-Z][A-Z][A-Z]"/>
+            <xsd:pattern value="[A-Z][A-Z][A-Z]" />
         </xsd:restriction>
     </xsd:simpleType>
+    <xsd:complexType name="type-price-trialversion">
+        <xsd:attribute name="full-version" type="type-attr-package" />
+    </xsd:complexType>
 
     <xsd:complexType name="type-apkfiles">
         <xsd:choice maxOccurs="unbounded">
