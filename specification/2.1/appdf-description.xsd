@@ -203,7 +203,7 @@
             <xsd:element name="title" type="xsd:string" maxOccurs="unbounded" minOccurs="0"/>
             <xsd:element name="keywords" type="xsd:string" minOccurs="0"/>
             <xsd:element name="short-description" type="xsd:string" minOccurs="0" maxOccurs="unbounded"/>
-            <xsd:element name="full-description" type="type-description-texts-fulldescription" minOccurs="0"/>
+            <xsd:element name="full-description" type="type-in-app-full-description" minOccurs="0"/>
             <xsd:element name="features" type="type-description-texts-features" minOccurs="0"/>
             <xsd:element name="recent-changes" type="xsd:string" minOccurs="0"/>
             <xsd:element name="privacy-policy" type="type-description-texts-privacypolicy" minOccurs="0"/>
@@ -374,10 +374,6 @@
         </xsd:restriction>
     </xsd:simpleType>
 
-    <xsd:complexType name="type-price-trialversion">
-        <xsd:attribute name="full-version" type="type-attr-package"/>
-    </xsd:complexType>
-
     <xsd:complexType name="type-apkfiles">
         <xsd:choice maxOccurs="unbounded">
             <xsd:element name="apk-file" type="type-attr-localfile"/>
@@ -473,30 +469,30 @@
 
     <xsd:complexType name="type-in-app-purchases">
         <xsd:all>
-            <xsd:element name="items" type="type-items"/>
-            <xsd:element name="subscriptions" type="type-subscriptions"/>
+            <xsd:element name="items" type="type-in-app-items"/>
+            <xsd:element name="subscriptions" type="type-in-app-subscriptions"/>
         </xsd:all>
     </xsd:complexType>
 
-    <xsd:complexType name="type-base-in-app-purchase">
+    <xsd:complexType name="type-in-app-base-purchase">
         <xsd:sequence>
-            <xsd:element name="text-description" type="type-text-in-app-description"/>
+            <xsd:element name="description" type="type-in-app-description"/>
             <xsd:element name="price" type="type-in-app-price"/>
         </xsd:sequence>
-        <xsd:attribute name="id" type="type-attr-item-id" use="required"/>
-        <xsd:attribute name="publish-state" type="type-attr-publish-state" use="required"/>
+        <xsd:attribute name="id" type="type-attr-in-app-item-id" use="required"/>
+        <xsd:attribute name="publish-state" type="type-attr-in-app-publish-state" use="required"/>
     </xsd:complexType>
 
     <xsd:complexType name="type-in-app-subscription">
         <xsd:complexContent>
-            <xsd:extension base="type-base-in-app-purchase">
-                <xsd:attribute name="sub-period" type="type-attr-subscription-period" use="required"/>
+            <xsd:extension base="type-in-app-base-purchase">
+                <xsd:attribute name="sub-period" type="type-attr-in-app-subscription-period" use="required"/>
                 <xsd:attribute name="trial-period" type="xsd:integer" use="optional"/>
             </xsd:extension>
         </xsd:complexContent>
     </xsd:complexType>
 
-    <xsd:complexType name="type-subscriptions">
+    <xsd:complexType name="type-in-app-subscriptions">
         <xsd:sequence>
             <xsd:element name="subscription" type="type-in-app-subscription" minOccurs="0" maxOccurs="unbounded"/>
         </xsd:sequence>
@@ -504,39 +500,41 @@
 
     <xsd:complexType name="type-in-app-item">
         <xsd:complexContent>
-            <xsd:extension base="type-base-in-app-purchase"/>
+            <xsd:extension base="type-in-app-base-purchase"/>
         </xsd:complexContent>
     </xsd:complexType>
 
-    <xsd:complexType name="type-items">
+    <xsd:complexType name="type-in-app-items">
         <xsd:sequence>
             <xsd:element name="item" type="type-in-app-item" minOccurs="0" maxOccurs="unbounded"/>
         </xsd:sequence>
     </xsd:complexType>
 
-    <xsd:simpleType name="type-attr-item-id">
+    <xsd:simpleType name="type-attr-in-app-item-id">
         <xsd:restriction base="xsd:string">
             <xsd:pattern value="([a-z]|[0-9]){1}[a-z0-9._]*"/>
         </xsd:restriction>
     </xsd:simpleType>
 
-    <xsd:simpleType name="type-attr-subscription-period">
+    <xsd:simpleType name="type-attr-in-app-subscription-period">
         <xsd:restriction base="xsd:string">
             <xsd:pattern value="oneWeek|oneMonth|oneYear"/>
         </xsd:restriction>
     </xsd:simpleType>
 
-    <xsd:complexType name="type-text-base">
+    <xsd:complexType name="type-in-app-description-base">
         <xsd:sequence>
             <xsd:element name="title" type="type-in-app-title"/>
-            <xsd:element name="description" type="type-in-app-description"/>
+            <xsd:element name="text" type="type-in-app-text"/>
+            <xsd:element name="icon" type="type-in-app-icon" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="image" type="type-in-app-icon" minOccurs="0" maxOccurs="1"/>
         </xsd:sequence>
     </xsd:complexType>
 
-    <xsd:complexType name="type-summary-localization">
+    <xsd:complexType name="type-in-app-description-localization">
         <xsd:complexContent>
-            <xsd:extension base="type-text-base">
-                <xsd:attribute name="locale" type="type-attr-locale" use="required"/>
+            <xsd:extension base="type-in-app-description-base">
+                <xsd:attribute name="locale" type="type-attr-in-app-locale" use="required"/>
             </xsd:extension>
         </xsd:complexContent>
     </xsd:complexType>
@@ -548,54 +546,63 @@
         </xsd:restriction>
     </xsd:simpleType>
 
-    <xsd:simpleType name="type-in-app-description">
+    <xsd:simpleType name="type-in-app-text">
         <xsd:restriction base="xsd:string">
             <xsd:minLength value="1"/>
             <xsd:maxLength value="80"/>
         </xsd:restriction>
     </xsd:simpleType>
 
-    <xsd:simpleType name="type-attr-locale">
+    <xsd:simpleType name="type-attr-in-app-locale">
         <xsd:restriction base="xsd:string">
             <xsd:pattern value="[a-z][a-z]_[A-Z][A-Z]"/>
         </xsd:restriction>
     </xsd:simpleType>
 
-
-    <xsd:complexType name="type-price">
-        <xsd:sequence>
-            <xsd:element name="price-base" type="xsd:decimal"/>
-            <xsd:element name="price-local" type="type-in-app-price-local" minOccurs="0" maxOccurs="unbounded"/>
-        </xsd:sequence>
-        <xsd:attribute name="autofill" type="xsd:boolean" use="required"/>
-    </xsd:complexType>
-
     <xsd:complexType name="type-in-app-price-local">
         <xsd:simpleContent>
             <xsd:extension base="xsd:decimal">
-                <xsd:attribute name="country" type="type-attr-price-country" use="required"/>
+                <xsd:attribute name="country" type="type-attr-in-app-price-country" use="required"/>
             </xsd:extension>
         </xsd:simpleContent>
     </xsd:complexType>
 
-    <xsd:simpleType name="type-attr-price-country">
+    <xsd:simpleType name="type-attr-in-app-price-country">
         <xsd:restriction base="xsd:string">
             <xsd:pattern value="[A-Z][A-Z]"/>
         </xsd:restriction>
     </xsd:simpleType>
 
-    <xsd:simpleType name="type-attr-publish-state">
+    <xsd:simpleType name="type-attr-in-app-publish-state">
         <xsd:restriction base="xsd:string">
             <xsd:pattern value="published|unpublished"/>
         </xsd:restriction>
     </xsd:simpleType>
 
-    <xsd:complexType name="type-text-in-app-description">
+    <xsd:complexType name="type-in-app-description">
         <xsd:sequence>
-            <xsd:element name="summary-base" type="type-text-base"/>
-            <xsd:element name="summary-localization" type="type-summary-localization" minOccurs="0"
+            <xsd:element name="description-base" type="type-in-app-description-base"/>
+            <xsd:element name="description-localization" type="type-in-app-description-localization" minOccurs="0"
                          maxOccurs="unbounded"/>
         </xsd:sequence>
     </xsd:complexType>
 
+    <xsd:complexType name="type-in-app-icon">
+        <xsd:simpleContent>
+            <xsd:extension base="type-attr-localfile">
+                <xsd:attribute name="width" type="xsd:positiveInteger" use="required"/>
+                <xsd:attribute name="height" type="xsd:positiveInteger" use="required"/>
+            </xsd:extension>
+        </xsd:simpleContent>
+    </xsd:complexType>
+    
+    <xsd:complexType name="type-in-app-image">
+        <xsd:simpleContent>
+            <xsd:extension base="type-attr-localfile">
+                <xsd:attribute name="width" type="xsd:positiveInteger" use="required"/>
+                <xsd:attribute name="height" type="xsd:positiveInteger" use="required"/>
+            </xsd:extension>
+        </xsd:simpleContent>
+    </xsd:complexType>
+    
 </xsd:schema>
