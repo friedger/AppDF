@@ -5310,16 +5310,16 @@ No attributes.
 <in-app-purchases>
       <items>
         <item id="org.onepf.sample.trivialdrive.sku_premium" publish-state="published">
-          <text-description>
-            <summary-base>
+          <description>
+            <description-base>
               <title>Cool red skin for your car</title>
-              <description>Cool red skin for your car.</description>
-            </summary-base>
-            <summary-localization locale="ru_RU">
+              <text>Cool red skin for your car.</text>
+            </description-base>
+            <description-localization locale="ru_RU">
               <title>Классный красный скин для вашей машины</title>
-              <description>Классный красный скин для вашей машины.</description>
-            </summary-localization>
-          </text-description>
+              <text>Классный красный скин для вашей машины.</text>
+            </description-localization>
+          </description>
           <price>
             <base-price>1.00</base-price>
             <local-price country="RU">1.00</local-price>
@@ -5328,16 +5328,16 @@ No attributes.
       </items>
       <subscriptions>
         <subscription id="org.onepf.sample.trivialdrive.sku_infinite_gas" publish-state="published" subs-period="oneMonth" trial-period="10">
-          <text-description>
-            <summary-base>
+          <description>
+            <description-base>
               <title>Some gas to drive</title>
-              <description>Some gas to drive your car.</description>
-            </summary-base>
-            <summary-localization locale="ru_RU">
+              <text>Some gas to drive your car.</text>
+            </description-base>
+            <description-localization locale="ru_RU">
               <title>Топливо для поездки</title>
-              <description>Топливо для поездки.</description>
-            </summary-localization>
-          </text-description>
+              <text>Топливо для поездки.</text>
+            </description-localization>
+          </description>
           <price>
             <base-price>2.00</base-price>
             <local-price country="RU">2.00</local-price>
