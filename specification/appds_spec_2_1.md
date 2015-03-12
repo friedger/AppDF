@@ -5465,6 +5465,25 @@ Attributes: `id` (required), `publish-state` (required).
   </tr>
 </table>
 
+##### in-app-purchases/items/item/description
+Required.  
+No attributes.
+
+##### in-app-purchases/items/item/description/description-base/title
+Required.  
+No attributes.
+
+##### in-app-purchases/items/item/description/description-base/text  
+Required.  
+No attributes.
+
+##### in-app-purchases/items/item/description/description-base/icon
+Optional.  
+Attributes: `width`, `height`.
+
+##### in-app-purchases/items/item/description/description-base/image
+Optional.  
+Attributes: `width`, `height`.
 
 #### in-app-purchases/subscriptions
 Optional.  
