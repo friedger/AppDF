@@ -570,12 +570,21 @@
             </xsd:extension>
         </xsd:simpleContent>
     </xsd:complexType>
-
+    
     <xsd:simpleType name="type-attr-in-app-price-country">
         <xsd:restriction base="xsd:string">
             <xsd:pattern value="[A-Z][A-Z]"/>
         </xsd:restriction>
     </xsd:simpleType>
+    
+    <xsd:complexType name="type-in-app-price">
+        <xsd:sequence>
+            <xsd:element name="base-price" minOccurs="0" type="xsd:decimal" />
+            <xsd:element name="local-price" maxOccurs="unbounded" minOccurs="0"
+                type="type-in-app-price-local" />
+        </xsd:sequence>
+        <xsd:attribute name="free" type="type-attr-yesno" use="required" />
+    </xsd:complexType>
 
     <xsd:simpleType name="type-attr-in-app-publish-state">
         <xsd:restriction base="xsd:string">
