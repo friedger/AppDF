@@ -5473,17 +5473,204 @@ No attributes.
 Required.  
 No attributes.
 
+<table>
+  <tr>
+    <th>Store</th>
+    <th>Supported</th>
+    <th>Name</th>
+    <th>Required</th>
+    <th>Localizable</th>
+    <th>Max length</th>
+  </tr>
+  <tr>
+    <td>Google Play</td>
+    <td>Yes</td>
+    <td>Managed product details / Title</td>
+    <td>Yes</td>
+    <td></td>
+    <td>55 characters</td>
+  </tr>
+  <tr>
+    <td>Yandex.Store</td>
+    <td>Yes</td>
+    <td>Purchase / Name</td>
+    <td>Yes</td>
+    <td></td>
+    <td>Unlimited</td>
+  </tr>
+  <tr>
+    <td>Amazon AppStore</td>
+    <td>Yes</td>
+    <td>In-App Items / Description / Display Title</td>
+    <td>Yes</td>
+    <td>Yes</td>
+    <td>250 characters</td>
+  </tr>
+  <tr>
+    <td>Opera Mobile Store</td>
+    <td>No</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Samsung Apps</td>
+    <td>Yes</td>
+    <td>In App Purchase / Item Title</td>
+    <td>Yes</td>
+    <td></td>
+    <td>100 byte</td>
+  </tr>
+  <tr>
+    <td>SlideME</td>
+    <td>Yes</td>
+    <td>Manage IAP / Title</td>
+    <td>Yes</td>
+    <td>Yes</td>
+    <td>Unlimited</td>
+  </tr>
+</table>
+
 ##### in-app-purchases/items/item/description/description-base/text  
 Required.  
 No attributes.
+
+<table>
+  <tr>
+    <th>Store</th>
+    <th>Supported</th>
+    <th>Name</th>
+    <th>Required</th>
+    <th>Localizable</th>
+    <th>Max length</th>
+    <th>Comments</th>
+  </tr>
+  <tr>
+    <td>Google Play</td>
+    <td>Yes</td>
+    <td>Managed product details / Description</td>
+    <td>Yes</td>
+    <td></td>
+    <td>80 characters</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Yandex.Store</td>
+    <td>Yes</td>
+    <td>Purchase / Description</td>
+    <td>Yes</td>
+    <td></td>
+    <td>Unlimited</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Amazon AppStore</td>
+    <td>Yes</td>
+    <td>In-App Items / Description / Description</td>
+    <td>Yes</td>
+    <td>Yes</td>
+    <td>1200 characters</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Opera Mobile Store</td>
+    <td>No</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Samsung Apps</td>
+    <td>Yes</td>
+    <td>In App Purchase / Description</td>
+    <td>Yes</td>
+    <td></td>
+    <td>1000 byte</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>SlideME</td>
+    <td>No</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>Existed only for translations as "Product Description"</td>
+  </tr>
+</table>
 
 ##### in-app-purchases/items/item/description/description-base/icon
 Optional.  
 Attributes: `width`, `height`.
 
+<table>
+  <tr>
+    <th>Store</th>
+    <th>Supported</th>
+  </tr>
+  <tr>
+    <td>Google Play</td>
+    <td>Yes</td>
+  </tr>
+  <tr>
+    <td>Yandex.Store</td>
+    <td>Yes</td>
+  </tr>
+  <tr>
+    <td>Amazon AppStore</td>
+    <td>Yes</td>
+  </tr>
+  <tr>
+    <td>Opera Mobile Store</td>
+    <td>No</td>
+  </tr>
+  <tr>
+    <td>Samsung Apps</td>
+    <td>Yes</td>
+  </tr>
+  <tr>
+    <td>SlideME</td>
+    <td>Yes</td>
+  </tr>
+</table>
+
 ##### in-app-purchases/items/item/description/description-base/image
 Optional.  
 Attributes: `width`, `height`.
+
+<table>
+  <tr>
+    <th>Store</th>
+    <th>Supported</th>
+  </tr>
+  <tr>
+    <td>Google Play</td>
+    <td>Yes</td>
+  </tr>
+  <tr>
+    <td>Yandex.Store</td>
+    <td>Yes</td>
+  </tr>
+  <tr>
+    <td>Amazon AppStore</td>
+    <td>Yes</td>
+  </tr>
+  <tr>
+    <td>Opera Mobile Store</td>
+    <td>No</td>
+  </tr>
+  <tr>
+    <td>Samsung Apps</td>
+    <td>Yes</td>
+  </tr>
+  <tr>
+    <td>SlideME</td>
+    <td>Yes</td>
+  </tr>
+</table>
 
 #### in-app-purchases/subscriptions
 Optional.  
