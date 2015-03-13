@@ -5473,15 +5473,15 @@ Attributes: `id` (required), `publish-state` (required).
   <tr>
     <td>Samsung Apps</td>
     <td>Yes</td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>In App Purchase / Add Item / Item ID</td>
+    <td>Yes</td>
+    <td>English characters, numbers, and special characters (.-_)</td>
   </tr>
   <tr>
     <td>SlideME</td>
     <td>Yes</td>
-    <td></td>
-    <td></td>
+    <td>Product ID</td>
+    <td>Yes</td>
     <td></td>
   </tr>
 </table>
