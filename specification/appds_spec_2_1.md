@@ -5471,7 +5471,8 @@ No attributes.
 
 ##### in-app-purchases/items/item/description/description-base/title
 Required.  
-No attributes.
+No attributes.  
+Min length: 1 character. Max length: 55 characters.
 
 <table>
   <tr>
@@ -5534,7 +5535,8 @@ No attributes.
 
 ##### in-app-purchases/items/item/description/description-base/text  
 Required.  
-No attributes.
+No attributes.  
+Min length: 1 character. Max length: 80 characters.
 
 <table>
   <tr>
@@ -5608,6 +5610,28 @@ Attributes: `width`, `height`.
 
 <table>
   <tr>
+    <th>Attribute</th>
+    <th>Possible values</th>
+    <th>Default</th>
+    <th>How it works</th>
+  </tr>
+  <tr>
+    <td>width</td>
+    <td>a number</td>
+    <td>Mandatory attribute</td>
+    <td>The icon must be 135x135 PNG.</td>
+  </tr>
+  <tr>
+    <td>height</td>
+    <td>a number</td>
+    <td>Mandatory attribute</td>
+    <td>The icon must be 135x135 PNG.</td>
+  </tr>
+</table>
+
+
+<table>
+  <tr>
     <th>Store</th>
     <th>Supported</th>
     <th>Name</th>
@@ -5668,6 +5692,28 @@ Attributes: `width`, `height`.
 ##### in-app-purchases/items/item/description/description-base/image
 Optional.  
 Attributes: `width`, `height`.
+
+<table>
+  <tr>
+    <th>Attribute</th>
+    <th>Possible values</th>
+    <th>Default</th>
+    <th>How it works</th>
+  </tr>
+  <tr>
+    <td>width</td>
+    <td>a number</td>
+    <td>Mandatory attribute</td>
+    <td>The icon must be 512x512 PNG.</td>
+  </tr>
+  <tr>
+    <td>height</td>
+    <td>a number</td>
+    <td>Mandatory attribute</td>
+    <td>The icon must be 512x512 PNG.</td>
+  </tr>
+</table>
+
 
 <table>
   <tr>
