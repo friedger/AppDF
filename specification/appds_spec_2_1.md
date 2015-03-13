@@ -5438,30 +5438,51 @@ Attributes: `id` (required), `publish-state` (required).
   <tr>
     <th>Store</th>
     <th>Supported</th>
+    <th>Name</th>
+    <th>Required</th>
+    <th>Requirements</th>
   </tr>
   <tr>
     <td>Google Play</td>
     <td>Yes</td>
+    <td>In-app Products / Add new product / Product ID</td>
+    <td>Yes</td>
+    <td>Max 139 characters. An ID should be composed of lower-case letters(a-z), numbers(0-9), underline(_) and dot(.). It should also start with lower-case letters or numbers.</td>
   </tr>
   <tr>
     <td>Yandex.Store</td>
     <td>Yes</td>
+    <td></td>
+    <td></td>
+    <td></td>
   </tr>
   <tr>
     <td>Amazon AppStore</td>
     <td>Yes</td>
+    <td></td>
+    <td></td>
+    <td></td>
   </tr>
   <tr>
     <td>Opera Mobile Store</td>
     <td>No</td>
+    <td></td>
+    <td></td>
+    <td></td>
   </tr>
   <tr>
     <td>Samsung Apps</td>
     <td>Yes</td>
+    <td></td>
+    <td></td>
+    <td></td>
   </tr>
   <tr>
     <td>SlideME</td>
     <td>Yes</td>
+    <td></td>
+    <td></td>
+    <td></td>
   </tr>
 </table>
 
@@ -5768,6 +5789,169 @@ Attributes: `width`, `height`.
     <td>SlideME</td>
     <td>No</td>
     <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+
+### in-app-purchases/items/item/price
+
+Required.  
+No attributes. 
+
+<table>
+  <tr>
+    <th>Attribute</th>
+    <th>Possible values</th>
+    <th>Default</th>
+    <th>How it works</th>
+  </tr>
+  <tr>
+    <td>free</td>
+    <td>yes or no</td>
+    <td>yes</td>
+    <td></td>
+  </tr>
+</table>
+
+#### in-app-purchases/items/item/price/base-price
+
+Required for paid apps.  
+No attributes. 
+
+<table>
+  <tr>
+    <th>Store support</th>
+    <th>Supported</th>
+    <th>Name</th>
+    <th>Currency</th>
+    <th>Including sales tax</th>
+    <th>Min, max</th>
+    <th>Comments</th>
+  </tr>
+  <tr>
+    <td>Google Play</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Yandex.Store</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Amazon AppStore</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Opera Mobile Store</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Samsung Apps</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>SlideME</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+
+#### in-app-purchases/items/item/price/local-price
+
+Optional.  
+Attributes: `country`. 
+
+<table>
+  <tr>
+    <th>Attribute</th>
+    <th>Possible values</th>
+    <th>Default</th>
+    <th>How it works</th>
+  </tr>
+  <tr>
+    <td>country</td>
+    <td>two letter ISO 3166-1 country code, see the list in <a href="http://www.onepf.org/appdf/data/countries.json">JSON</a> or <a href="data/countries.xml">XML</a> formats</td>
+    <td>required</td>
+    <td></td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <th>Store support</th>
+    <th>Supported</th>
+    <th>Name</th>
+    <th>Including sales tax</th>
+    <th>Comments</th>
+  </tr>
+  <tr>
+    <td>Google Play</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Yandex.Store</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Amazon AppStore</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Opera Mobile Store</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Samsung Apps</td>
+    <td></td>
+    <td></td>
+    <td>Yes</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>SlideME</td>
+    <td>No</td>
     <td></td>
     <td></td>
     <td></td>
