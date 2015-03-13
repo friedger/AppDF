@@ -5610,30 +5610,58 @@ Attributes: `width`, `height`.
   <tr>
     <th>Store</th>
     <th>Supported</th>
+    <th>Name</th>
+    <th>Required</th>
+    <th>Localizable</th>
+    <th>Size</th>
   </tr>
   <tr>
     <td>Google Play</td>
     <td>No</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
   </tr>
   <tr>
     <td>Yandex.Store</td>
     <td>No</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
   </tr>
   <tr>
     <td>Amazon AppStore</td>
     <td>Yes</td>
+    <td>In-App Items  / Images / Small icon</td>
+    <td>Yes</td>
+    <td>Yes</td>
+    <td>114 x 114px PNG (with transparency)</td>
   </tr>
   <tr>
     <td>Opera Mobile Store</td>
     <td>No</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
   </tr>
   <tr>
     <td>Samsung Apps</td>
     <td>Yes</td>
+    <td>In App Purchase / Item Image</td>
+    <td>No</td>
+    <td>No</td>
+    <td>135*135 px JPG/GIF (under 500KB)</td>
   </tr>
   <tr>
     <td>SlideME</td>
     <td>No</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
   </tr>
 </table>
 
@@ -5645,30 +5673,58 @@ Attributes: `width`, `height`.
   <tr>
     <th>Store</th>
     <th>Supported</th>
+    <th>Name</th>
+    <th>Required</th>
+    <th>Localizable</th>
+    <th>Size</th>
   </tr>
   <tr>
     <td>Google Play</td>
     <td>No</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
   </tr>
   <tr>
     <td>Yandex.Store</td>
     <td>No</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
   </tr>
   <tr>
     <td>Amazon AppStore</td>
     <td>Yes</td>
+    <td>In-App Items  / Images / Large icon</td>
+    <td>Yes</td>
+    <td>Yes</td>
+    <td>512 x 512px PNG (with transparency)</td>
   </tr>
   <tr>
     <td>Opera Mobile Store</td>
     <td>No</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
   </tr>
   <tr>
     <td>Samsung Apps</td>
     <td>No</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
   </tr>
   <tr>
     <td>SlideME</td>
     <td>No</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
   </tr>
 </table>
 
