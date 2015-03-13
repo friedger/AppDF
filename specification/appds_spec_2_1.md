@@ -5487,7 +5487,7 @@ No attributes.
     <td>Yes</td>
     <td>Managed product details / Title</td>
     <td>Yes</td>
-    <td></td>
+    <td>Yes</td>
     <td>55 characters</td>
   </tr>
   <tr>
@@ -5495,7 +5495,7 @@ No attributes.
     <td>Yes</td>
     <td>Purchase / Name</td>
     <td>Yes</td>
-    <td></td>
+    <td>Yes</td>
     <td>Unlimited</td>
   </tr>
   <tr>
@@ -5519,7 +5519,7 @@ No attributes.
     <td>Yes</td>
     <td>In App Purchase / Item Title</td>
     <td>Yes</td>
-    <td></td>
+    <td>No</td>
     <td>100 byte</td>
   </tr>
   <tr>
@@ -5551,7 +5551,7 @@ No attributes.
     <td>Yes</td>
     <td>Managed product details / Description</td>
     <td>Yes</td>
-    <td></td>
+    <td>Yes</td>
     <td>80 characters</td>
     <td></td>
   </tr>
@@ -5560,7 +5560,7 @@ No attributes.
     <td>Yes</td>
     <td>Purchase / Description</td>
     <td>Yes</td>
-    <td></td>
+    <td>Yes</td>
     <td>Unlimited</td>
     <td></td>
   </tr>
@@ -5613,11 +5613,11 @@ Attributes: `width`, `height`.
   </tr>
   <tr>
     <td>Google Play</td>
-    <td>Yes</td>
+    <td>No</td>
   </tr>
   <tr>
     <td>Yandex.Store</td>
-    <td>Yes</td>
+    <td>No</td>
   </tr>
   <tr>
     <td>Amazon AppStore</td>
@@ -5633,7 +5633,7 @@ Attributes: `width`, `height`.
   </tr>
   <tr>
     <td>SlideME</td>
-    <td>Yes</td>
+    <td>No</td>
   </tr>
 </table>
 
@@ -5648,11 +5648,11 @@ Attributes: `width`, `height`.
   </tr>
   <tr>
     <td>Google Play</td>
-    <td>Yes</td>
+    <td>No</td>
   </tr>
   <tr>
     <td>Yandex.Store</td>
-    <td>Yes</td>
+    <td>No</td>
   </tr>
   <tr>
     <td>Amazon AppStore</td>
@@ -5664,11 +5664,11 @@ Attributes: `width`, `height`.
   </tr>
   <tr>
     <td>Samsung Apps</td>
-    <td>Yes</td>
+    <td>No</td>
   </tr>
   <tr>
     <td>SlideME</td>
-    <td>Yes</td>
+    <td>No</td>
   </tr>
 </table>
 
