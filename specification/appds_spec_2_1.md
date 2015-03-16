@@ -5432,8 +5432,15 @@ Attributes: `id` (required), `publish-state` (required).
     <td>Mandatory attribute</td>
     <td>Is an in-app product published or not, is it visible to the end users.</td>
   </tr>
+   <tr>
+    <td>free</td>
+    <td>yes | no</td>
+    <td>Optional attribute</td>
+    <td>Default values is "no".</td>
+  </tr>
 </table>
 
+##id
 <table>
   <tr>
     <th>Store</th>
@@ -5485,6 +5492,113 @@ Attributes: `id` (required), `publish-state` (required).
     <td></td>
   </tr>
 </table>
+
+##published-state
+<table>
+  <tr>
+    <th>Store</th>
+    <th>Supported</th>
+    <th>Name</th>
+    <th>Required</th>
+    <th>Possible values</th>
+  </tr>
+  <tr>
+    <td>Google Play</td>
+    <td>Yes</td>
+    <td>In-app Products / In-app Products / Status</td>
+    <td></td>
+    <td>Activate / Deactivate / Delete</td>
+  </tr>
+  <tr>
+    <td>Yandex.Store</td>
+    <td>Yes</td>
+    <td>In-App purchases / (In)active purchases</td>
+    <td></td>
+    <td>Activate / Deactivate</td>
+  </tr>
+  <tr>
+    <td>Amazon AppStore</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Opera Mobile Store</td>
+    <td>No</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Samsung Apps</td>
+    <td>No</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>SlideME</td>
+    <td></td>
+    <td>Managed IAP / Published</td>
+    <td></td>
+    <td>(un)checked checkbox</td>
+  </tr>
+</table>
+
+##free
+<table>
+  <tr>
+    <th>Store</th>
+    <th>Supported</th>
+    <th>Name</th>
+    <th>Required</th>
+    <th>Requirements</th>
+  </tr>
+  <tr>
+    <td>Google Play</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Yandex.Store</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Amazon AppStore</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Opera Mobile Store</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Samsung Apps</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>SlideME</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+
 
 ##### in-app-purchases/items/item/description
 Required.  
