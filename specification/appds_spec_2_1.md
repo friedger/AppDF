@@ -5832,35 +5832,35 @@ No attributes.
   </tr>
   <tr>
     <td>Google Play</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>Yes</td>
+    <td>In-app Products / Pricing  / </td>
+    <td>Default price</td>
+    <td>No</td>
     <td></td>
     <td></td>
   </tr>
   <tr>
     <td>Yandex.Store</td>
+    <td>Yes</td>
+    <td>In-App purchases / (In)active purchases / Price</td>
     <td></td>
     <td></td>
     <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>http://api.yandex.com/store/doc/pricing.xml</td>
   </tr>
   <tr>
     <td>Amazon AppStore</td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>Yes</td>
+    <td>In-App Items / Availability & Pricing / Yes, my base list price is...</td>
+    <td>Australian Dollar | Brazilian Real | Canadian Dollar | Euro | United Kingdom Pound | Japanese YenJapanese Yen | United States Dollar</td>
     <td></td>
     <td></td>
     <td></td>
   </tr>
   <tr>
     <td>Opera Mobile Store</td>
-    <td></td>
-    <td></td>
+    <td>No</td>
+    <td>Yes</td>
     <td></td>
     <td></td>
     <td></td>
@@ -5868,19 +5868,19 @@ No attributes.
   </tr>
   <tr>
     <td>Samsung Apps</td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>Yes</td>
+    <td>In App Purchase / Price</td>
+    <td>USD</td>
     <td></td>
     <td></td>
     <td></td>
   </tr>
   <tr>
     <td>SlideME</td>
+    <td>Yes</td>
+    <td>Manage IAP / Price</td>
     <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>Yes</td>
     <td></td>
     <td></td>
   </tr>
