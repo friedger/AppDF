@@ -2802,7 +2802,7 @@ Example
 </description-localization>
 ```
 
-##Summary table
+#### Summary table
 <table>
   <tr>
     <th>Fields/Format Providers</th>
@@ -2812,6 +2812,7 @@ Example
     <th>Amazon</th>
     <th>Opera Mobile Store</th>
     <th>Samsung Apps</th>
+    <th>SlideME</th>
   </tr>
   <tr>
     <th>title</th>
@@ -2821,6 +2822,17 @@ Example
     <td>Yes</td>
     <td>Yes</td>
     <td>Yes</td>
+    <td>Yes</td>
+  </tr>
+  <tr>
+    <th>keywords</th>
+    <td>Yes</td>
+    <td>K not supported</td>
+    <td>K not supported</td>
+    <td>Yes</td>
+    <td>No</td>
+    <td>Yes</td>
+    <td>No</td>
   </tr>
    <tr>
     <th>short-description</th>
@@ -2830,9 +2842,11 @@ Example
     <td>Yes</td>
     <td>Yes</td>
     <td>SD not supported</td>
+    <td>Yes</td>
   </tr>
   <tr>
     <th>full-description</th>
+    <td>Yes</td>
     <td>Yes</td>
     <td>Yes</td>
     <td>Yes</td>
@@ -2848,6 +2862,7 @@ Example
     <td>Yes</td>
     <td>F not supported</td>
     <td>F not supported</td>
+    <td>F not supported</td>
   </tr>
   <tr>
     <th>recent-changes</th>
@@ -2857,12 +2872,14 @@ Example
     <td>Yes</td>
     <td>No</td>
     <td>Yes</td>
+    <td>No</td>
   </tr>
   <tr>
     <th>privacy-policy</th>
     <td>Yes</td>
     <td>No</td>
     <td>PP not supported</td>
+    <td>No</td>
     <td>No</td>
     <td>No</td>
     <td>No</td>
@@ -2875,6 +2892,7 @@ Example
     <td>E not supported</td>
     <td>No</td>
     <td>E not supported</td>
+    <td>No</td>
   </tr>
   <tr>
     <th>app-icon</th>
@@ -2882,6 +2900,7 @@ Example
     <td>Yes</td>
     <td>Yes</td>
     <td>Yes</td>
+    <td>No</td>
     <td>No</td>
     <td>No</td>
   </tr>
@@ -2893,6 +2912,7 @@ Example
     <td>No</td>
     <td>LP not supported</td>
     <td>LP not supported</td>
+    <td>No</td>
   </tr>
   <tr>
     <th>small-promo</th>
@@ -2902,6 +2922,7 @@ Example
     <td>SP not supported</td>
     <td>SP not supported</td>
     <td>SP not supported</td>
+    <td>No</td>
   </tr>
   <tr>
     <th>screenshots</th>
@@ -2910,6 +2931,7 @@ Example
     <td>Yes</td>
     <td>Yes</td>
     <td>Yes</td>
+    <td>No</td>
     <td>No</td>
   </tr>
   <tr>
@@ -2920,6 +2942,7 @@ Example
     <td>YV not supported</td>
     <td>YV not supported</td>
     <td>No</td>
+    <td>No</td>
   </tr>
   <tr>
     <th>video-file</th>
@@ -2927,6 +2950,7 @@ Example
     <td>VF not supported</td>
     <td>VF not supported</td>
     <td>No</td>
+    <td>VF not supported</td>
     <td>VF not supported</td>
     <td>VF not supported</td>
   </tr>
