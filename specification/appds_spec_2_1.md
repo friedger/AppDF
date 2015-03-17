@@ -5552,25 +5552,25 @@ Attributes: `id` (required), `publish-state` (required).
     <th>Store</th>
     <th>Supported</th>
     <th>Name</th>
-    <th>Comments</th>
+    <th>0.0 can be set as the price</th>
   </tr>
   <tr>
     <td>Google Play</td>
     <td>No</td>
     <td></td>
-    <td></td>
+    <td>No</td>
   </tr>
   <tr>
     <td>Yandex.Store</td>
     <td>No</td>
     <td></td>
-    <td></td>
+    <td>No</td>
   </tr>
   <tr>
     <td>Amazon AppStore</td>
     <td>Yes</td>
     <td>In-App Items / Availability & Pricing / Are you charging for this consumable?</td>
-    <td></td>
+    <td>Yes (the box changes to free automatically)</td>
   </tr>
   <tr>
     <td>Opera Mobile Store</td>
@@ -5582,13 +5582,13 @@ Attributes: `id` (required), `publish-state` (required).
     <td>Samsung Apps</td>
     <td>No</td>
     <td></td>
-    <td>0.0 can be set as the price</td>
+    <td>Yes</td>
   </tr>
   <tr>
     <td>SlideME</td>
     <td>No</td>
     <td></td>
-    <td>0.0 can be set as the price</td>
+    <td>Yes</td>
   </tr>
 </table>
 
