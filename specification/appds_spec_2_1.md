@@ -2802,7 +2802,7 @@ Example
 </description-localization>
 ```
 
-##Supported fields
+##Summary table
 <table>
   <tr>
     <th>Fields/Format Providers</th>
@@ -2842,7 +2842,7 @@ Example
   </tr>
   <tr>
     <th>features</th>
-    <td></td>
+    <td>Yes</td>
     <td>F not supported</td>
     <td>F not supported</td>
     <td>Yes</td>
@@ -2851,7 +2851,7 @@ Example
   </tr>
   <tr>
     <th>recent-changes</th>
-    <td></td>
+    <td>Yes</td>
     <td>Yes</td>
     <td>RC not supported</td>
     <td>Yes</td>
@@ -2860,7 +2860,7 @@ Example
   </tr>
   <tr>
     <th>privacy-policy</th>
-    <td></td>
+    <td>Yes</td>
     <td>No</td>
     <td>PP not supported</td>
     <td>No</td>
@@ -2869,7 +2869,7 @@ Example
   </tr>
   <tr>
     <th>eula</th>
-    <td></td>
+    <td>Yes</td>
     <td>E not supported</td>
     <td>E not supported</td>
     <td>E not supported</td>
@@ -2878,7 +2878,7 @@ Example
   </tr>
   <tr>
     <th>app-icon</th>
-    <td></td>
+    <td>Yes</td>
     <td>Yes</td>
     <td>Yes</td>
     <td>Yes</td>
@@ -2887,7 +2887,7 @@ Example
   </tr>
   <tr>
     <th>large-promo</th>
-    <td></td>
+    <td>Yes</td>
     <td>Yes</td>
     <td>Yes</td>
     <td>No</td>
@@ -2896,7 +2896,7 @@ Example
   </tr>
   <tr>
     <th>small-promo</th>
-    <td></td>
+    <td>Yes</td>
     <td>Yes</td>
     <td>SP not supported</td>
     <td>SP not supported</td>
@@ -2905,7 +2905,7 @@ Example
   </tr>
   <tr>
     <th>screenshots</th>
-    <td></td>
+    <td>Yes</td>
     <td>Yes</td>
     <td>Yes</td>
     <td>Yes</td>
@@ -2914,7 +2914,7 @@ Example
   </tr>
   <tr>
     <th>youtube-video</th>
-    <td></td>
+    <td>Yes</td>
     <td>Yes</td>
     <td>YV not supported</td>
     <td>YV not supported</td>
@@ -2923,7 +2923,7 @@ Example
   </tr>
   <tr>
     <th>video-file</th>
-    <td></td>
+    <td>Yes</td>
     <td>VF not supported</td>
     <td>VF not supported</td>
     <td>No</td>
