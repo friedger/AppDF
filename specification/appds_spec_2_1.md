@@ -5309,7 +5309,7 @@ No attributes.
 ```xml
 <in-app-purchases>
       <items>
-        <item id="org.onepf.sample.trivialdrive.sku_premium" publish-state="published">
+        <item id="org.onepf.sample.trivialdrive.sku_premium" published="yes">
           <description>
             <description-base>
               <title>Cool red skin for your car</title>
@@ -5336,7 +5336,7 @@ No attributes.
         </item>
       </items>
       <subscriptions>
-        <subscription id="org.onepf.sample.trivialdrive.sku_infinite_gas" publish-state="published" subs-period="oneMonth" trial-period="10">
+        <subscription id="org.onepf.sample.trivialdrive.sku_infinite_gas" published="yes" subs-period="oneMonth" trial-period="10">
           <description>
             <description-base>
               <title>Some gas to drive</title>
@@ -5412,7 +5412,7 @@ No attributes.
 ##### in-app-purchases/items/item
 
 Optional.   
-Attributes: `id` (required), `publish-state` (required).
+Attributes: `id` (required), `published` (required).
 <table>
   <tr>
     <th>Attribute</th>
@@ -5427,8 +5427,8 @@ Attributes: `id` (required), `publish-state` (required).
     <td>SKU. Used as unique id for app-store interaction.</td>
   </tr>
   <tr>
-    <td>publish-state</td>
-    <td>published | unpublished</td>
+    <td>published</td>
+    <td>yes | no</td>
     <td>Mandatory attribute</td>
     <td>Is an in-app product published or not, is it visible to the end users.</td>
   </tr>
@@ -6067,7 +6067,7 @@ No attributes.
 
 ##### in-app-purchases/subscriptions/subscription
 Optional.  
-Attributes: `id` (required), `publish-state` (required), `subs-period` (required), `trial-period` (optional)
+Attributes: `id` (required), `published` (required), `subs-period` (required), `trial-period` (optional)
 <table>
   <tr>
     <th>Attribute</th>
@@ -6082,7 +6082,7 @@ Attributes: `id` (required), `publish-state` (required), `subs-period` (required
     <td>SKU. Used as unique id for app-store interaction.</td>
   </tr>
   <tr>
-    <td>publish-state</td>
+    <td>published</td>
     <td>published | unpublished</td>
     <td>Mandatory attribute</td>
     <td>Is an in-app product published or not, is it visible to the end users.</td>
