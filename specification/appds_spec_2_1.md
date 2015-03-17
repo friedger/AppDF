@@ -5600,10 +5600,6 @@ Attributes: `id` (required), `publish-state` (required).
 </table>
 
 
-##### in-app-purchases/items/item/description
-Required.  
-No attributes.
-
 ##### in-app-purchases/items/item/description/description-base/title
 Required.  
 No attributes.  
