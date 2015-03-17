@@ -5552,50 +5552,43 @@ Attributes: `id` (required), `publish-state` (required).
     <th>Store</th>
     <th>Supported</th>
     <th>Name</th>
-    <th>Required</th>
-    <th>Requirements</th>
+    <th>Comments</th>
   </tr>
   <tr>
     <td>Google Play</td>
-    <td></td>
-    <td></td>
+    <td>No</td>
     <td></td>
     <td></td>
   </tr>
   <tr>
     <td>Yandex.Store</td>
-    <td></td>
-    <td></td>
+    <td>No</td>
     <td></td>
     <td></td>
   </tr>
   <tr>
     <td>Amazon AppStore</td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>Yes</td>
+    <td>In-App Items / Availability & Pricing / Are you charging for this consumable?</td>
     <td></td>
   </tr>
   <tr>
     <td>Opera Mobile Store</td>
-    <td></td>
-    <td></td>
+    <td>No</td>
     <td></td>
     <td></td>
   </tr>
   <tr>
     <td>Samsung Apps</td>
+    <td>No</td>
     <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>0.0 can be set as the price</td>
   </tr>
   <tr>
     <td>SlideME</td>
+    <td>No</td>
     <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>0.0 can be set as the price</td>
   </tr>
 </table>
 
