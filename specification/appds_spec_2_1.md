@@ -413,7 +413,7 @@ Required for publishing
     <th>Samsung Apps</th>
   </tr>
   <tr>
-    <td>type</td>
+    <th>type</th>
     <td>yes</td>
     <td>yes</td>
     <td>yes</td>
@@ -421,7 +421,7 @@ Required for publishing
     <td>no</td>
   </tr>
   <tr>
-    <td>category</td>
+    <th>category</th>
     <td>yes</td>
     <td>yes</td>
     <td>yes</td>
@@ -429,7 +429,7 @@ Required for publishing
     <td>yes</td>
   </tr>
   <tr>
-    <td>title</td>
+    <th>title</th>
     <td>yes</td>
     <td>yes</td>
     <td>yes</td>
@@ -437,7 +437,7 @@ Required for publishing
     <td>yes</td>
   </tr>
   <tr>
-    <td>full-description</td>
+    <th>full-description</th>
     <td>yes</td>
     <td>yes</td>
     <td>yes</td>
@@ -445,7 +445,7 @@ Required for publishing
     <td>yes</td>
   </tr>
   <tr>
-    <td>app-icon</td>
+    <th>app-icon</th>
     <td>yes</td>
     <td>yes</td>
     <td>yes</td>
@@ -453,7 +453,7 @@ Required for publishing
     <td>yes</td>
   </tr>
   <tr>
-    <td>screenshots</td>
+    <th>screenshots</th>
     <td>yes</td>
     <td>yes</td>
     <td>yes</td>
@@ -461,7 +461,7 @@ Required for publishing
     <td>yes</td>
   </tr>
   <tr>
-    <td>content-rating</td>
+    <th>content-rating</th>
     <td>yes</td>
     <td>yes</td>
     <td></td>
@@ -469,7 +469,7 @@ Required for publishing
     <td></td>
   </tr>
   <tr>
-    <td>content-descriptors</td>
+    <th>content-descriptors</th>
     <td>yes</td>
     <td>no</td>
     <td></td>
@@ -477,7 +477,7 @@ Required for publishing
     <td></td>
   </tr>
   <tr>
-    <td>included-activities</td>
+    <th>included-activities</th>
     <td>yes</td>
     <td>no</td>
     <td></td>
@@ -485,7 +485,7 @@ Required for publishing
     <td></td>
   </tr>
   <tr>
-    <td>base-price (for paid apps)</td>
+    <th>base-price (for paid apps)</th>
     <td>yes</td>
     <td>yes</td>
     <td></td>
@@ -493,7 +493,7 @@ Required for publishing
     <td></td>
   </tr>
   <tr>
-    <td>apk-files</td>
+    <th>apk-files</th>
     <td>yes</td>
     <td>yes</td>
     <td></td>
@@ -501,7 +501,7 @@ Required for publishing
     <td>yes</td>
   </tr>
   <tr>
-    <td>customer-support/email</td>
+    <th>customer-support/email</th>
     <td>yes</td>
     <td>yes</td>
     <td>yes</td>
@@ -509,7 +509,7 @@ Required for publishing
     <td>yes</td>
   </tr>
   <tr>
-    <td>customer-support/phone</td>
+    <th>customer-support/phone</th>
     <td>yes</td>
     <td>no</td>
     <td>yes</td>
@@ -517,7 +517,7 @@ Required for publishing
     <td>no</td>
   </tr>
   <tr>
-    <td>customer-support/website</td>
+    <th>customer-support/website</th>
     <td>yes</td>
     <td>no</td>
     <td>yes</td>
@@ -525,7 +525,7 @@ Required for publishing
     <td>no</td>
   </tr>
   <tr>
-    <td>store-specific requirements</td>
+    <th>store-specific requirements</th>
     <td>no</td>
     <td>Short description, Feature Graphic, Privacy Policy, Content guidelines, US export laws </td>
     <td>Short description, Product feature bullets, Small icon</td>
