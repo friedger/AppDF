@@ -5883,6 +5883,8 @@ Required.
 No attributes.  
 Min length: 1 character. Max length: 80 characters.
 
+In-app text description is used to describe the product. Different stores have different requirements for maximum description length. In order to have flexibility to get the best from each of the stores you can include several copies of text tag. The store will take the longest one that fits in its maximum size. As everything inside the <description> tag can be localized using <description-localization> section. The first text tag value must be 80 symbols or longer in order to be supported by all the stores.
+
 <table>
   <tr>
     <th>Store</th>
