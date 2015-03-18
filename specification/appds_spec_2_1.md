@@ -545,8 +545,10 @@ Required for publishing with in-apps
     <th>Amazon</th>
     <th>Opera Mobile Store</th>
     <th>Samsung Apps</th>
+    <th>SlideME</th>
   </tr>
   <tr>
+    <td></td>
     <td></td>
     <td></td>
     <td></td>
