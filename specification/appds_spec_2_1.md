@@ -5520,7 +5520,7 @@ Possible `<license-type>` values:
 Optional.  
 No attributes.  
 
-This section contains in-app purchases description in text form as well as pictures in English US language. A part of the <description> tag there could be several <description-localization> tags for different languages. If some information is missing in the localized <description-localization> tag it will be taken from the default <description> section.
+This section contains in-app purchases - purchases made from withing a mobile application - description in text form as well as pictures in English US language. A part of the <description> tag there could be several <description-localization> tags for different languages. If some information is missing in the localized <description-localization> tag it will be taken from the default <description> section.  
 
 ```xml
 <in-app-purchases>
@@ -5623,7 +5623,9 @@ This section contains in-app purchases description in text form as well as pictu
 #### in-app-purchases/items
 
 Optional.  
-No attributes.
+No attributes.  
+
+This section describes in-app products that can be paid at once.
 
 ##### in-app-purchases/items/item
 
@@ -5813,6 +5815,9 @@ Attributes: `id` (required), `published` (required).
 Required.  
 No attributes.  
 Min length: 1 character. Max length: 55 characters.
+
+The in-app title is used a human-readable id of an in-app item.  
+As everything inside the <description> tag can be localized using <description-localization> section. Different stores have different requirements for maximum title length. In order to have flexibility to get the best from each of the stores you can include several copies of title tag. The store will take the longest one that is fits in its maximum size. The first title must be 55 symbols or longer in order to be supported by all the stores.
 
 <table>
   <tr>
