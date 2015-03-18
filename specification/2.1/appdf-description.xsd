@@ -531,8 +531,8 @@
         <xsd:sequence>
             <xsd:element name="title" type="type-in-app-title"/>
             <xsd:element name="text" type="type-in-app-text"/>
-            <xsd:element name="icon" type="type-in-app-icon" minOccurs="0" maxOccurs="1"/>
-            <xsd:element name="image" type="type-in-app-icon" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="small-icon" type="type-in-app-icon" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="large-icon" type="type-in-app-icon" minOccurs="0" maxOccurs="1"/>
         </xsd:sequence>
     </xsd:complexType>
 
