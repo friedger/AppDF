@@ -5529,18 +5529,18 @@ No attributes.
               <title>Cool red skin for your car</title>
               <text>Cool red skin for your car.</icon>
               <!--Optional:-->
-              <icon width="135" height="135">images/en/sku_res_skin_icon.png</icon>
+              <small-icon width="135" height="135">images/en/sku_res_skin_icon.png</small-icon>
               <!--Optional:-->
-              <image width="512" height="512">images/en/sku_res_skin_image.png</image>
+              <large-icon width="512" height="512">images/en/sku_res_skin_image.png</large-icon>
             </description-base>
             <!--Optional:-->
             <description-localization locale="ru_RU">
               <title>Классный красный скин для вашей машины</title>
               <text>Классный красный скин для вашей машины.</text>
               <!--Optional:-->
-              <icon width="135" height="135">images/ru/sku_res_skin_icon.png</icon>
+              <small-icon width="135" height="135">images/ru/sku_res_skin_icon.png</small-icon>
               <!--Optional:-->
-              <image width="512" height="512">images/ru/sku_res_skin_image.png</image>
+              <large-icon width="512" height="512">images/ru/sku_res_skin_image.png</large-icon>
             </description-localization>
           </description>
           <price>
@@ -5556,18 +5556,18 @@ No attributes.
               <title>Some gas to drive</title>
               <text>Some gas to drive your car.</text>
               <!--Optional:-->
-              <icon width="135" height="135">images/en/sku_infinite_gas_icon.png</icon>
+              <small-icon width="135" height="135">images/en/sku_infinite_gas_icon.png</small-icon>
               <!--Optional:-->
-              <image width="512" height="512">images/en/sku_infinite_gas_image.png</image>
+              <large-icon width="512" height="512">images/en/sku_infinite_gas_image.png</large-icon>
             </description-base>
             <!--Optional:-->
             <description-localization locale="ru_RU">
               <title>Топливо для поездки</title>
               <text>Топливо для поездки.</text>
               <!--Optional:-->
-              <icon width="135" height="135">images/ru/sku_infinite_gas_icon.png</icon>
+              <small-icon width="135" height="135">images/ru/sku_infinite_gas_icon.png</small-icon>
               <!--Optional:-->
-              <image width="512" height="512">images/ru/sku_infinite_gas_image.png</image>
+              <large-icon width="512" height="512">images/ru/sku_infinite_gas_image.png</large-icon>
             </description-localization>
           </description>
           <price>
