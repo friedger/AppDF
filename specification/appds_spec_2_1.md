@@ -5518,7 +5518,9 @@ Possible `<license-type>` values:
 ### in-app-purchases
 
 Optional.  
-No attributes.
+No attributes.  
+
+This section contains in-app purchases description in text form as well as pictures in English US language. A part of the <description> tag there could be several <description-localization> tags for different languages. If some information is missing in the localized <description-localization> tag it will be taken from the default <description> section.
 
 ```xml
 <in-app-purchases>
