@@ -557,6 +557,15 @@ Required for publishing with in-apps
     <td>Yes</td>
   </tr>
   <tr>
+    <th>type</th>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
     <th>title</th>
     <td>Yes</td>
     <td>Yes</td>
@@ -576,7 +585,16 @@ Required for publishing with in-apps
   </tr>
   <tr>
     <th>base price</th>
-    <td><Yes/td>
+    <td>Yes<Yes/td>
+    <td>Yes</td>
+    <td>Yes (Are you charging for this consumable?/Yes, my base list price is...)</td>
+    <td>No</td>
+    <td>Yes</td>
+    <td>Yes</td>
+  </tr>
+  <tr>
+    <th>subs period</th>
+    <td></td>
     <td></td>
     <td></td>
     <td></td>
@@ -587,9 +605,9 @@ Required for publishing with in-apps
     <th>store-specific requirements</th>
     <td></td>
     <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>Title | Content delivery (No additional file required | I'll deliver the required asset(s)) | Calculated prices | Small icon | Large icon</td>
+    <td>Not supported</td>
+    <td>/td>
     <td></td>
   </tr>
   <tr>
