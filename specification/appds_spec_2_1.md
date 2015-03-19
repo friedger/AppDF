@@ -5668,7 +5668,7 @@ Attributes: `id` (required), `published` (required).
   </tr>
 </table>
 
-##id
+#####id
 <table>
   <tr>
     <th>Store</th>
@@ -5721,7 +5721,47 @@ Attributes: `id` (required), `published` (required).
   </tr>
 </table>
 
-##published-state
+##### type
+<table>
+  <tr>
+    <th>Store</th>
+    <th>Supported</th>
+    <th>Possible values</th>
+    <th>Comments</th>
+  </tr>
+  <tr>
+    <td>Google Play</td>
+    <td>Yes</td>
+    <td>Managed product | Unmanaged product</td>
+    <td>Unmanaged products behave differently if you are using in-app billing v3 rather than in-app billing v2. If you are using in-app billing v3, Unmanaged products are treated as Managed products and will need to be explicitly consumed.</td>
+  </tr>
+  <tr>
+    <td>Yandex.Store</td>
+    <td>Yes</td>
+    <td>Purchase</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Amazon AppStore</td>
+    <td>Yes</td>
+    <td>Consumable | Entitlement</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Samsung Apps</td>
+    <td>Yes</td>
+    <td>Consumable | Non-consumable</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>SlideME</td>
+    <td>Yes</td>
+    <td>Consumable</td>
+    <td></td>
+  </tr>
+</table>
+
+##### published
 <table>
   <tr>
     <th>Store</th>
@@ -5774,7 +5814,7 @@ Attributes: `id` (required), `published` (required).
   </tr>
 </table>
 
-##free
+##### free
 <table>
   <tr>
     <th>Store</th>
