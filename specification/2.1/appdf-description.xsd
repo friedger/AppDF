@@ -484,7 +484,7 @@
             <xsd:element name="price" type="type-in-app-price"/>
         </xsd:sequence>
         <xsd:attribute name="id" type="type-attr-in-app-id" use="required"/>
-        <xsd:attribute name="published" type="type-attr-yesno" default="yes" use="required"/>
+        <xsd:attribute name="published" type="type-attr-yesno" default="yes"/>
         <xsd:attribute name="free" type="type-attr-yesno" default="yes"/>
     </xsd:complexType>
 
@@ -505,7 +505,9 @@
 
     <xsd:complexType name="type-in-app-item">
         <xsd:complexContent>
-            <xsd:extension base="type-in-app-base-purchase"/>
+            <xsd:extension base="type-in-app-base-purchase">
+                <xsd:attribute name="type" type="type-attr-in-app-item-type" use="required" />
+            </xsd:extension>
         </xsd:complexContent>
     </xsd:complexType>
 
@@ -613,4 +615,10 @@
         </xsd:simpleContent>
     </xsd:complexType>
     
+     <xsd:simpleType name="type-attr-in-app-item-type">
+        <xsd:restriction base="xsd:string">
+            <xsd:pattern value="consumable|nonconsumable"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+
 </xsd:schema>
