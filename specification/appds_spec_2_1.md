@@ -543,7 +543,6 @@ Required for publishing with in-apps
     <th>AppDF</th>
     <th>Google Play</th>
     <th>Amazon</th>
-    <th>Opera Mobile Store</th>
     <th>Samsung Apps</th>
     <th>SlideME</th>
   </tr>
@@ -552,25 +551,22 @@ Required for publishing with in-apps
     <td>Yes</td>
     <td>Yes</td>
     <td>Yes</td>
-    <td>No</td>
     <td>Yes</td>
     <td>Yes</td>
   </tr>
   <tr>
     <th>type</th>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>Yes</td>
+    <td>Yes</td>
+    <td>Yes</td>
+    <td>Yes</td>
+    <td>Yes (only Consumable)</td>
   </tr>
   <tr>
     <th>title</th>
     <td>Yes</td>
     <td>Yes</td>
     <td>Yes</td>
-    <td>No</td>
     <td>Yes</td>
     <td>Yes</td>
   </tr>
@@ -579,36 +575,32 @@ Required for publishing with in-apps
     <td>Yes</td>
     <td>Yes</td>
     <td>Yes</td>
-    <td>No</td>
     <td>Yes</td>
-    <td>No</td>
+    <td>T not supported</td>
   </tr>
   <tr>
     <th>base price</th>
     <td>Yes<Yes/td>
     <td>Yes</td>
     <td>Yes (Are you charging for this consumable?/Yes, my base list price is...)</td>
-    <td>No</td>
     <td>Yes</td>
     <td>Yes</td>
   </tr>
   <tr>
     <th>subs period</th>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>Yes</td>
+    <td>Yes</td>
+    <td>Yes</td>
+    <td>Yes</td>
+    <td>SP not supported</td>
   </tr>
   <tr>
     <th>store-specific requirements</th>
     <td></td>
     <td></td>
     <td>Title | Content delivery (No additional file required | I'll deliver the required asset(s)) | Calculated prices | Small icon | Large icon</td>
-    <td>Not supported</td>
-    <td>/td>
-    <td></td>
+    <td>Payment Method (Credit Card | Micropayment | Phone Bill | Cyber Cash | Pre-Paid Card)/td>
+    <td>Test mode (Disabled | Simulate success | Simulate failure)</td>
   </tr>
   <tr>
   </tr>
