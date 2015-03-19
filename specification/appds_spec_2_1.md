@@ -5525,7 +5525,7 @@ This section contains in-app purchases - purchases made from withing a mobile ap
 ```xml
 <in-app-purchases>
       <items>
-        <item id="org.onepf.sample.trivialdrive.sku_premium" published="yes">
+        <item id="org.onepf.sample.trivialdrive.sku_premium" published="yes" free="no">
           <description>
             <description-base>
               <title>Cool red skin for your car</title>
@@ -5552,7 +5552,7 @@ This section contains in-app purchases - purchases made from withing a mobile ap
         </item>
       </items>
       <subscriptions>
-        <subscription id="org.onepf.sample.trivialdrive.sku_infinite_gas" published="yes" subs-period="oneMonth" trial-period="10">
+        <subscription id="org.onepf.sample.trivialdrive.sku_infinite_gas" published="yes" subs-period="oneMonth" trial-period="10" free="no">
           <description>
             <description-base>
               <title>Some gas to drive</title>
