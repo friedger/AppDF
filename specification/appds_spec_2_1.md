@@ -671,14 +671,6 @@ List of Tags:
 	* [samsung](#store-specificsamsung)
 	* [slideme](#store-specificslideme)
 * [in-app-purchases](#in-app-purchases)    
-	* [items](#in-app-purchasesitems)
-		* [item](#in-app-purchasesitemsitem)
-			* [price](#in-app-purchasesitemsitemprice)
-			* [text-description](#in-app-purchasesitemsitemtext-description)
-	* [subscriptions](#in-app-purchasessubscriptions)
-		* [subscription](#in-app-purchasessubscriptionssubscription)
-	  		* [price](#in-app-purchasessubscriptionssubscription)
-	  		* [text-description](#in-app-purchasessubscriptionstext-description)
 
 ### categorization
 Required.  
@@ -5532,6 +5524,15 @@ No attributes.
 
 This section contains in-app purchases - purchases made from withing a mobile application - description in text form as well as pictures in English US language. A part of the <description> tag there could be several <description-localization> tags for different languages. If some information is missing in the localized <description-localization> tag it will be taken from the default <description> section.  
 
+* [items](#in-app-purchasesitems)
+	* [item](#in-app-purchasesitemsitem)
+		* [price](#in-app-purchasesitemsitemprice)
+		* [description](#in-app-purchasesitemsitem-description)
+* [subscriptions](#in-app-purchasessubscriptions)
+	* [subscription](#in-app-purchasessubscriptionssubscription)
+	  	* [price](#in-app-purchasessubscriptionssubscription)
+	  	* [description](#in-app-purchasessubscriptions-description)
+	  		
 ```xml
 <in-app-purchases>
       <items>
