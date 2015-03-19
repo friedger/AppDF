@@ -6210,10 +6210,10 @@ No attributes.
   <tr>
     <td>Google Play</td>
     <td>Yes</td>
-    <td>In-app Products / Pricing  / </td>
-    <td>Default price</td>
-    <td>No</td>
+    <td>In-app Products / Pricing  / Default price</td>
     <td></td>
+    <td>No</td>
+    <td>$0.99, $200.00</td>
     <td></td>
   </tr>
   <tr>
