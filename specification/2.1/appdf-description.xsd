@@ -483,7 +483,7 @@
             <xsd:element name="description" type="type-in-app-description"/>
             <xsd:element name="price" type="type-in-app-price"/>
         </xsd:sequence>
-        <xsd:attribute name="id" type="type-attr-in-app-item-id" use="required"/>
+        <xsd:attribute name="id" type="type-attr-in-app-id" use="required"/>
         <xsd:attribute name="published" type="type-attr-yesno" default="yes" use="required"/>
         <xsd:attribute name="free" type="type-attr-yesno" default="yes"/>
     </xsd:complexType>
@@ -515,7 +515,7 @@
         </xsd:sequence>
     </xsd:complexType>
 
-    <xsd:simpleType name="type-attr-in-app-item-id">
+    <xsd:simpleType name="type-attr-in-app-id">
         <xsd:restriction base="xsd:string">
             <xsd:pattern value="([a-z]|[0-9]){1}[a-z0-9._]*"/>
         </xsd:restriction>
