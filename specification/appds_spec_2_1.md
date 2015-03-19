@@ -5535,7 +5535,7 @@ This section contains in-app purchases - purchases made from withing a mobile ap
 ```xml
 <in-app-purchases>
       <items>
-        <item id="org.onepf.sample.trivialdrive.sku_premium" published="yes" free="no">
+        <item id="org.onepf.sample.trivialdrive.sku_premium" type="nonconsumable" published="yes" free="no">
           <description>
             <description-base>
               <title>Cool red skin for your car</title>
