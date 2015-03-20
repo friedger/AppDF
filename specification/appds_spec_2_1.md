@@ -5550,35 +5550,43 @@ This section describes in-app products that can be paid at once.
 ##### in-app-purchases/items/item
 
 Optional.   
-Attributes: `id` (required), `published` (required).
+Attributes: `id` (required), `type` (required), `published` (required).
+
 <table>
   <tr>
     <th>Attribute</th>
     <th>Possible values</th>
+    <th>Max length</th>
     <th>Default</th>
     <th>How it works</th>
   </tr>
   <tr>
     <td>id</td>
     <td>([a-z]|[0-9]){1}[a-z0-9._]*</td>
+    <td>139 characters</td>
     <td>Mandatory attribute</td>
     <td>SKU. Used as unique id for app-store interaction.</td>
   </tr>
    <tr>
     <td>type</td>
     <td>consumable |  nonconsumable</td>
+    <td>ML not applicable</td>
     <td>Mandatory attribute</td>
     <td></td>
   </tr>
   <tr>
     <td>published</td>
     <td>yes | no</td>
+    <td>ML not applicable</td>
     <td>Mandatory attribute</td>
     <td>Is the in-app product published or not (is it visible to the end users)</td>
   </tr>
 </table>
 
 #####id
+
+Unique identifier of the in-app product. Also known as ``SKU``, store keeping unit. Non-localizable.
+
 <table>
   <tr>
     <th>Store</th>
@@ -5632,6 +5640,9 @@ Attributes: `id` (required), `published` (required).
 </table>
 
 ##### type
+
+Type of the in-app product. Can be ``consumable`` and ``non-consumable``. ``Consumable`` can be purchased the infinite number of times, e.g. tips, lives, power, etc. ``Non-consumable`` can be purchased only once, e.g. a level in a game, a text of a book, etc.
+
 <table>
   <tr>
     <th>Store</th>
@@ -5672,6 +5683,9 @@ Attributes: `id` (required), `published` (required).
 </table>
 
 ##### published
+
+Is the in-app product published or not.
+
 <table>
   <tr>
     <th>Store</th>
