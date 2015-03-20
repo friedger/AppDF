@@ -5738,7 +5738,12 @@ Is the in-app product published or not.
   </tr>
 </table>
 
-##### in-app-purchases/items/item/description/
+##### in-app-purchases/items/item/description/  
+
+Required.  
+No attributes.
+
+This section contains in-app description in text form as well as pictures and videos in English US language. A part of the main <description> tag there could be several <description-localization> tags for different languages. If some information is missing in the localized <description-localization> tag it will be taken from the default <description> section.
 
 ##### in-app-purchases/items/item/description/description-base
 
