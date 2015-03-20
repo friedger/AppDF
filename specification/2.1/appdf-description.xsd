@@ -485,7 +485,6 @@
         </xsd:sequence>
         <xsd:attribute name="id" type="type-attr-in-app-id" use="required"/>
         <xsd:attribute name="published" type="type-attr-yesno" default="yes"/>
-        <xsd:attribute name="free" type="type-attr-yesno" default="yes"/>
     </xsd:complexType>
 
     <xsd:complexType name="type-in-app-subscription">
