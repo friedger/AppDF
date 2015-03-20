@@ -5881,7 +5881,7 @@ In-app text description is used to describe the product. Different stores have d
 ##### in-app-purchases/items/item/description/description-base/small-icon
 
 Optional.  
-Attributes: `width`, `height`. 
+Attributes: `width`(required), `height`(required). 
 
 Small in-app icon. Must be in PNG format. Different stores require different resolutions of this icon. You can include several versions of the `<small-icon>` tag with different `width` and `height` attributes. The store will automatically select right size. AppDF will automatically rescale your image if there is no needed size. The icon must be a square (`width`=`height`).
 
@@ -5967,7 +5967,7 @@ Small in-app icon. Must be in PNG format. Different stores require different res
 
 ##### in-app-purchases/items/item/description/description-base/large-icon
 Optional.  
-Attributes: `width`, `height`. 
+Attributes: `width`(required), `height`(required). 
 
 Large in-app icon. Must be in PNG format. Different stores require different resolutions of this icon. You can include several versions of the `<large-icon>` tag with different `width` and `height` attributes. The store will automatically select right size. AppDF will automatically rescale your image if there is no needed size. The icon must be a square (`width`=`height`).
 
@@ -6055,7 +6055,9 @@ Large in-app icon. Must be in PNG format. Different stores require different res
 ### in-app-purchases/items/item/price
 
 Required.  
-No attributes. 
+Attributes: ``free``(required). 
+
+This section describes whether the in-app is free or paid and if paid what its price is.
 
 <table>
   <tr>
