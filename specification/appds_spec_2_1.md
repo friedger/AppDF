@@ -5583,7 +5583,7 @@ Attributes: `id` (required), `type` (required), `published` (required).
   </tr>
 </table>
 
-#####id
+##### id
 
 Unique identifier of the in-app product. Also known as ``SKU``, store keeping unit. Non-localizable.
 
@@ -5737,6 +5737,10 @@ Is the in-app product published or not.
     <td>(un)checked checkbox</td>
   </tr>
 </table>
+
+##### in-app-purchases/items/item/description/
+
+##### in-app-purchases/items/item/description/description-base
 
 ##### in-app-purchases/items/item/description/description-base/title
 Required.  
