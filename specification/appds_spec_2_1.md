@@ -5444,61 +5444,64 @@ This section contains in-app purchases - purchases made from withing a mobile ap
 	  		
 ```xml
 <in-app-purchases>
-      <items>
-        <item id="org.onepf.sample.trivialdrive.sku_premium" type="nonconsumable" published="yes">
-          <description>
-            <description-base>
-              <title>Cool red skin for your car</title>
-              <text>Cool red skin for your car.</icon>
-              <!--Optional:-->
-              <small-icon width="135" height="135">images/en/sku_res_skin_icon.png</small-icon>
-              <!--Optional:-->
-              <large-icon width="512" height="512">images/en/sku_res_skin_image.png</large-icon>
-            </description-base>
+    <item id="org.onepf.sample.trivialdrive.sku_premium" published="yes" type="nonconsumable">
+        <description>
+            <title>Red skin</title>
+            <text>Cool red skin for your car.</text>
             <!--Optional:-->
-            <description-localization locale="ru_RU">
-              <title>Классный красный скин для вашей машины</title>
-              <text>Классный красный скин для вашей машины.</text>
-              <!--Optional:-->
-              <small-icon width="135" height="135">images/ru/sku_res_skin_icon.png</small-icon>
-              <!--Optional:-->
-              <large-icon width="512" height="512">images/ru/sku_res_skin_image.png</large-icon>
-            </description-localization>
-          </description>
-          <price>
+            <small-icon height="135" width="135">images/en/sku_res_skin_icon.png
+            </small-icon>
+            <!--Optional:-->
+            <large-icon height="512" width="512">images/en/sku_res_skin_image.png
+            </large-icon>
+        </description>
+        <!--Optional:-->
+        <description-localization locale="ru_RU">
+            <title>Красный скин</title>
+            <text>Классный красный скин для вашей машины.</text>
+            <!--Optional:-->
+            <small-icon height="135" width="135">images/ru/sku_res_skin_icon.png
+            </small-icon>
+            <!--Optional:-->
+            <large-icon height="512" width="512">images/ru/sku_res_skin_image.png
+            </large-icon>
+        </description-localization>
+        <price>
             <base-price>1.00</base-price>
-            <local-price country="RU">1.00</local-price>
-          </price>
-        </item>
-      </items>
-      <subscriptions>
-        <subscription id="org.onepf.sample.trivialdrive.sku_infinite_gas" published="yes" subs-period="oneMonth" trial-period="10">
-          <description>
-            <description-base>
-              <title>Some gas to drive</title>
-              <text>Some gas to drive your car.</text>
-              <!--Optional:-->
-              <small-icon width="135" height="135">images/en/sku_infinite_gas_icon.png</small-icon>
-              <!--Optional:-->
-              <large-icon width="512" height="512">images/en/sku_infinite_gas_image.png</large-icon>
-            </description-base>
             <!--Optional:-->
-            <description-localization locale="ru_RU">
-              <title>Топливо для поездки</title>
-              <text>Топливо для поездки.</text>
-              <!--Optional:-->
-              <small-icon width="135" height="135">images/ru/sku_infinite_gas_icon.png</small-icon>
-              <!--Optional:-->
-              <large-icon width="512" height="512">images/ru/sku_infinite_gas_image.png</large-icon>
-            </description-localization>
-          </description>
-          <price>
+            <local-price country="RU">1.00</local-price>
+        </price>
+    </item>
+    <subscription id="org.onepf.sample.trivialdrive.sku_infinite_gas" published="yes"
+        subs-period="oneMonth" trial-period="10">
+        <description>
+            <title>Some gas</title>
+            <text>Some gas to drive your car.</text>
+            <!--Optional:-->
+            <small-icon height="135" width="135">images/en/sku_infinite_gas_icon.png
+            </small-icon>
+            <!--Optional:-->
+            <large-icon height="512" width="512">images/en/sku_infinite_gas_image.png
+            </large-icon>
+        </description>
+        <!--Optional:-->
+        <description-localization locale="ru_RU">
+            <title>Топливо</title>
+            <text>Топливо для поездки.</text>
+            <!--Optional:-->
+            <small-icon height="135" width="135">images/ru/sku_infinite_gas_icon.png
+            </small-icon>
+            <!--Optional:-->
+            <large-icon height="512" width="512">images/ru/sku_infinite_gas_image.png
+            </large-icon>
+        </description-localization>
+        <price>
             <base-price>2.00</base-price>
+            <!--Optional:-->
             <local-price country="RU">2.00</local-price>
-          </price>
-        </subscription>
-      </subscriptions>
-    </in-app-purchases>
+        </price>
+    </subscription>
+</in-app-purchases>
 ```
 
 <table>
