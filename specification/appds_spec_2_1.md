@@ -5540,14 +5540,14 @@ This section contains in-app purchases - purchases made from withing a mobile ap
 </table>
 
 
-#### in-app-purchases/items
+#### in-app-purchases
 
 Optional.  
 No attributes.  
 
-This section describes in-app products that can be paid at once.
+This section describes in-app products that can be paid at once - items (`<item>`) and in-app products that are paid periodically with a specified period of time - subscriptions (`<subscription>`).
 
-##### in-app-purchases/items/item
+##### item
 
 Optional.   
 Attributes: `id` (required), `type` (required), `published` (required).
@@ -5583,7 +5583,7 @@ Attributes: `id` (required), `type` (required), `published` (required).
   </tr>
 </table>
 
-##### id
+###### id
 
 Unique identifier of the in-app product. Also known as ``SKU``, store keeping unit. Non-localizable.
 
@@ -5639,7 +5639,7 @@ Unique identifier of the in-app product. Also known as ``SKU``, store keeping un
   </tr>
 </table>
 
-##### type
+###### type
 
 Type of the in-app product. Can be ``consumable`` and ``non-consumable``. ``Consumable`` can be purchased the infinite number of times, e.g. tips, lives, power, etc. ``Non-consumable`` can be purchased only once, e.g. a level in a game, a text of a book, etc.
 
@@ -5682,7 +5682,7 @@ Type of the in-app product. Can be ``consumable`` and ``non-consumable``. ``Cons
   </tr>
 </table>
 
-##### published
+###### published
 
 Is the in-app product published or not.
 
@@ -5738,21 +5738,21 @@ Is the in-app product published or not.
   </tr>
 </table>
 
-##### in-app-purchases/items/item/description  
+###### description  
 
 Required.  
 No attributes.
 
 This section contains in-app description in text form as well as pictures and videos. A part of the main <description> tag there could be several <description-localization> tags for different languages. If some information is missing in the localized <description-localization> tag it will be taken from the default <description-base> section.
 
-##### in-app-purchases/items/item/description/description-base
+###### description-base/description-base
 
 Required.  
 No attributes.
 
 This section contains in-app description in text form as well as pictures and videos in English US language.
 
-##### in-app-purchases/items/item/description/description-base/title
+###### description-base/description-base/title
 Required.  
 No attributes.  
 Min length: 1 character. Max length: 55 characters.
@@ -5819,7 +5819,7 @@ As everything inside the <description> tag can be localized using <description-l
   </tr>
 </table>
 
-##### in-app-purchases/items/item/description/description-base/text  
+###### description-base/description-base/text  
 Required.  
 No attributes.  
 Min length: 1 character. Max length: 80 characters.
@@ -5892,7 +5892,7 @@ In-app text description is used to describe the product. Different stores have d
   </tr>
 </table>
 
-##### in-app-purchases/items/item/description/description-base/small-icon
+###### description/description-base/small-icon
 
 Optional.  
 Attributes: `width`(required), `height`(required). 
@@ -5979,7 +5979,7 @@ Small in-app icon. Must be in PNG format. As everything inside the `<description
   </tr>
 </table>
 
-##### in-app-purchases/items/item/description/description-base/large-icon
+###### description/description-base/large-icon
 Optional.  
 Attributes: `width`(required), `height`(required). 
 
@@ -6066,14 +6066,14 @@ Large in-app icon. Must be in PNG format. As everything inside the `<description
   </tr>
 </table>
 
-#### in-app-purchases/items/item/description/description-localization
+###### description/description-localization
 
 Required.  
 Attributes: locale (required).
 
 This section contains in-app description in text form as well as pictures and videos in different languages.
 
-### in-app-purchases/items/item/price
+#### price
 
 Required.  
 Attributes: ``free``(required). 
@@ -6095,7 +6095,7 @@ This section describes whether the in-app is free or paid and if paid what its p
   </tr>
 </table>
 
-##### free
+#### free
 <table>
   <tr>
     <th>Store</th>
@@ -6141,7 +6141,7 @@ This section describes whether the in-app is free or paid and if paid what its p
   </tr>
 </table>
 
-#### in-app-purchases/items/item/price/base-price
+#### price/base-price
 
 Required.  
 No attributes. 
@@ -6216,7 +6216,7 @@ This tag is ignored for free in-apps.
   </tr>
 </table>
 
-#### in-app-purchases/items/item/price/local-price
+#### price/local-price
 
 Optional.  
 Attributes: `country`. 
@@ -6296,11 +6296,6 @@ Currencies used in different countries in [JSON](http://www.onepf.org/appdf/data
   </tr>
 </table>
 
-#### in-app-purchases/subscriptions
-Optional.
-No attributes.
-
-This section describes in-app products that are paid periodically with a specified period of time.
 
 ##### in-app-purchases/subscriptions/subscription
 Optional.  
