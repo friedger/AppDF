@@ -470,12 +470,13 @@
     </xsd:simpleType>
 
     <!--in-app purchases-->
-
     <xsd:complexType name="type-in-app-purchases">
-        <xsd:all>
-            <xsd:element name="items" type="type-in-app-items"/>
-            <xsd:element name="subscriptions" type="type-in-app-subscriptions"/>
-        </xsd:all>
+        <xsd:sequence>
+            <xsd:choice minOccurs="0" maxOccurs="unbounded">
+                <xsd:element name="item" type="type-in-app-item"/>
+                <xsd:element name="subscription" type="type-in-app-subscription"/>
+            </xsd:choice>
+        </xsd:sequence>
     </xsd:complexType>
 
     <xsd:complexType name="type-in-app-base-purchase">
@@ -496,24 +497,12 @@
         </xsd:complexContent>
     </xsd:complexType>
 
-    <xsd:complexType name="type-in-app-subscriptions">
-        <xsd:sequence>
-            <xsd:element name="subscription" type="type-in-app-subscription" minOccurs="0" maxOccurs="unbounded"/>
-        </xsd:sequence>
-    </xsd:complexType>
-
-    <xsd:complexType name="type-in-app-item">
+   <xsd:complexType name="type-in-app-item">
         <xsd:complexContent>
             <xsd:extension base="type-in-app-base-purchase">
                 <xsd:attribute name="type" type="type-attr-in-app-item-type" use="required" />
             </xsd:extension>
         </xsd:complexContent>
-    </xsd:complexType>
-
-    <xsd:complexType name="type-in-app-items">
-        <xsd:sequence>
-            <xsd:element name="item" type="type-in-app-item" minOccurs="0" maxOccurs="unbounded"/>
-        </xsd:sequence>
     </xsd:complexType>
 
     <xsd:simpleType name="type-attr-in-app-id">
