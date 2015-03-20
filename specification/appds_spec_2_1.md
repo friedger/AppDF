@@ -6143,8 +6143,12 @@ This section describes whether the in-app is free or paid and if paid what its p
 
 #### in-app-purchases/items/item/price/base-price
 
-Required for paid apps.  
+Required.  
 No attributes. 
+
+In-app price. Tag value should be a dot-separated number. This price is set in USD used to automatically calculate the prices in other currencies unless you manually specify such prices using `<local-price>` tags.
+
+This tag is ignored for free in-apps.
 
 <table>
   <tr>
@@ -6216,6 +6220,14 @@ No attributes.
 
 Optional.  
 Attributes: `country`. 
+
+The stores will use your default price defined in the `<base-price>` tag to automatically generate prices for other currencies and other countries. Nevertheless you can use `<local-price>` tags to manually define price for some countries. Tag value should be a dot-separated number.
+
+Reference country list in [JSON](http://www.onepf.org/appdf/data/countries.json) and [XML](data/countries.xml) formats.
+
+Reference currency list in [JSON](http://www.onepf.org/appdf/data/currencies.json) and [XML](data/currencies.xml) formats.
+
+Currencies used in different countries in [JSON](http://www.onepf.org/appdf/data/country_currencies.json) and [XML](data/country_currencies.xml) formats. One currency per country. If there are several official currencies in a country one is selected. Local prices are set in a currency defined according to this table.  
 
 <table>
   <tr>
