@@ -5426,22 +5426,16 @@ Possible `<license-type>` values:
 * Other / Proprietary
 * The MIT License
 
-### in-app-purchases
+#### in-app-purchases
 
 Optional.  
 No attributes.  
 
-This section contains in-app purchases - purchases made from withing a mobile application - description in text form as well as pictures in English US language. A part of the <description> tag there could be several <description-localization> tags for different languages. If some information is missing in the localized <description-localization> tag it will be taken from the default <description> section.  
+This section describes in-app products that can be paid at once - items (`<item>`) and in-app products that are paid periodically with a specified period of time - subscriptions (`<subscription>`).
 
-* [items](#in-app-purchasesitems)
-	* [item](#in-app-purchasesitemsitem)
-		* [price](#in-app-purchasesitemsitemprice)
-		* [description](#in-app-purchasesitemsitem-description)
-* [subscriptions](#in-app-purchasessubscriptions)
-	* [subscription](#in-app-purchasessubscriptionssubscription)
-	  	* [price](#in-app-purchasessubscriptionssubscription)
-	  	* [description](#in-app-purchasessubscriptions-description)
-	  		
+
+Example
+
 ```xml
 <in-app-purchases>
     <item id="org.onepf.sample.trivialdrive.sku_premium" published="yes" type="nonconsumable">
@@ -5542,13 +5536,14 @@ This section contains in-app purchases - purchases made from withing a mobile ap
   </tr>
 </table>
 
-
-#### in-app-purchases
-
-Optional.  
-No attributes.  
-
-This section describes in-app products that can be paid at once - items (`<item>`) and in-app products that are paid periodically with a specified period of time - subscriptions (`<subscription>`).
+* [item](#in-app-purchasesitemsitem)  
+	* [description](#in-app-purchasesitemsitem-description)
+	* [description-localization](#in-app-purchasesitemsitem-description)
+	* [price](#in-app-purchasesitemsitemprice)
+* [subscription](#in-app-purchasessubscriptionssubscription)  
+	* [description](#in-app-purchasessubscriptions-description)
+	* [description-localization](#in-app-purchasesitemsitem-description)
+	* [price](#in-app-purchasessubscriptionssubscription)
 
 ##### item
 
