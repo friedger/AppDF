@@ -5571,10 +5571,10 @@ Attributes: `id` (required), `published` (required).
     <td>Is an in-app product published or not, is it visible to the end users.</td>
   </tr>
    <tr>
-    <td>free</td>
-    <td>yes | no</td>
-    <td>Optional attribute</td>
-    <td>Default values is "no".</td>
+    <td>type</td>
+    <td>consumable |  nonconsumable</td>
+    <td>Mandatory attribute</td>
+    <td></td>
   </tr>
 </table>
 
