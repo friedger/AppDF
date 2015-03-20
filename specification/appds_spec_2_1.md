@@ -6297,12 +6297,15 @@ Currencies used in different countries in [JSON](http://www.onepf.org/appdf/data
 </table>
 
 #### in-app-purchases/subscriptions
-Optional.  
+Optional.
 No attributes.
+
+This section describes in-app products that are paid periodically with a specified period of time.
 
 ##### in-app-purchases/subscriptions/subscription
 Optional.  
 Attributes: `id` (required), `published` (required), `subs-period` (required), `trial-period` (optional)
+
 <table>
   <tr>
     <th>Attribute</th>
