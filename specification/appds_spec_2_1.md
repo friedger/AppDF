@@ -5738,7 +5738,7 @@ Is the in-app product published or not.
   </tr>
 </table>
 
-##### in-app-purchases/items/item/description/  
+##### in-app-purchases/items/item/description  
 
 Required.  
 No attributes.
