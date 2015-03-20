@@ -5911,9 +5911,12 @@ In-app text description is used to describe the product. Different stores have d
   </tr>
 </table>
 
-##### in-app-purchases/items/item/description/description-base/icon
+##### in-app-purchases/items/item/description/description-base/small-icon
+
 Optional.  
-Attributes: `width`, `height`.
+Attributes: `width`, `height`. 
+
+Small in-app icon. Must be in PNG format. Different stores require different resolutions of this icon. You can include several versions of the `<small-icon>` tag with different `width` and `height` attributes. The store will automatically select right size. AppDF will automatically rescale your image if there is no needed size. The icon must be a square (`width`=`height`).
 
 <table>
   <tr>
@@ -5926,16 +5929,15 @@ Attributes: `width`, `height`.
     <td>width</td>
     <td>a number</td>
     <td>Mandatory attribute</td>
-    <td>The icon must be 135x135 PNG.</td>
+    <td>The store selects the small icon in the most appropriate size. The first icon must be 135x135, PNG.</td>
   </tr>
   <tr>
     <td>height</td>
     <td>a number</td>
     <td>Mandatory attribute</td>
-    <td>The icon must be 135x135 PNG.</td>
+    <td>The store selects the app icon in the most appropriate size. The first icon must be 135x135, PNG.</td>
   </tr>
 </table>
-
 
 <table>
   <tr>
