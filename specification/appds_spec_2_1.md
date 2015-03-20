@@ -5998,9 +5998,11 @@ Small in-app icon. Must be in PNG format. Different stores require different res
   </tr>
 </table>
 
-##### in-app-purchases/items/item/description/description-base/image
+##### in-app-purchases/items/item/description/description-base/large-icon
 Optional.  
-Attributes: `width`, `height`.
+Attributes: `width`, `height`. 
+
+Large in-app icon. Must be in PNG format. Different stores require different resolutions of this icon. You can include several versions of the `<large-icon>` tag with different `width` and `height` attributes. The store will automatically select right size. AppDF will automatically rescale your image if there is no needed size. The icon must be a square (`width`=`height`).
 
 <table>
   <tr>
