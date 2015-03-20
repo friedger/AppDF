@@ -5445,7 +5445,7 @@ This section contains in-app purchases - purchases made from withing a mobile ap
 ```xml
 <in-app-purchases>
       <items>
-        <item id="org.onepf.sample.trivialdrive.sku_premium" type="nonconsumable" published="yes" free="no">
+        <item id="org.onepf.sample.trivialdrive.sku_premium" type="nonconsumable" published="yes">
           <description>
             <description-base>
               <title>Cool red skin for your car</title>
@@ -5472,7 +5472,7 @@ This section contains in-app purchases - purchases made from withing a mobile ap
         </item>
       </items>
       <subscriptions>
-        <subscription id="org.onepf.sample.trivialdrive.sku_infinite_gas" published="yes" subs-period="oneMonth" trial-period="10" free="no">
+        <subscription id="org.onepf.sample.trivialdrive.sku_infinite_gas" published="yes" subs-period="oneMonth" trial-period="10">
           <description>
             <description-base>
               <title>Some gas to drive</title>
@@ -5723,53 +5723,6 @@ Attributes: `id` (required), `published` (required).
     <td>(un)checked checkbox</td>
   </tr>
 </table>
-
-##### free
-<table>
-  <tr>
-    <th>Store</th>
-    <th>Supported</th>
-    <th>Name</th>
-    <th>0.0 can be set as the price</th>
-  </tr>
-  <tr>
-    <td>Google Play</td>
-    <td>No</td>
-    <td></td>
-    <td>No</td>
-  </tr>
-  <tr>
-    <td>Yandex.Store</td>
-    <td>No</td>
-    <td></td>
-    <td>No</td>
-  </tr>
-  <tr>
-    <td>Amazon AppStore</td>
-    <td>Yes</td>
-    <td>In-App Items / Availability & Pricing / Are you charging for this consumable?</td>
-    <td>Yes (the box changes to free automatically)</td>
-  </tr>
-  <tr>
-    <td>Opera Mobile Store</td>
-    <td>No</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Samsung Apps</td>
-    <td>No</td>
-    <td></td>
-    <td>Yes</td>
-  </tr>
-  <tr>
-    <td>SlideME</td>
-    <td>No</td>
-    <td></td>
-    <td>Yes</td>
-  </tr>
-</table>
-
 
 ##### in-app-purchases/items/item/description/description-base/title
 Required.  
@@ -6099,9 +6052,55 @@ No attributes.
   </tr>
   <tr>
     <td>free</td>
-    <td>yes or no</td>
-    <td>yes</td>
+    <td>yes | no</td>
+    <td>Optional attribute</td>
+    <td>Default value is "no". Currently only Amazon Appstore supports this option in the raw.</td>
+  </tr>
+</table>
+
+##### free
+<table>
+  <tr>
+    <th>Store</th>
+    <th>Supported</th>
+    <th>Name</th>
+    <th>0.0 can be set as the price</th>
+  </tr>
+  <tr>
+    <td>Google Play</td>
+    <td>No</td>
     <td></td>
+    <td>No</td>
+  </tr>
+  <tr>
+    <td>Yandex.Store</td>
+    <td>No</td>
+    <td></td>
+    <td>No</td>
+  </tr>
+  <tr>
+    <td>Amazon AppStore</td>
+    <td>Yes</td>
+    <td>In-App Items / Availability & Pricing / Are you charging for this consumable?</td>
+    <td>Yes (the box changes to free automatically)</td>
+  </tr>
+  <tr>
+    <td>Opera Mobile Store</td>
+    <td>No</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Samsung Apps</td>
+    <td>No</td>
+    <td></td>
+    <td>Yes</td>
+  </tr>
+  <tr>
+    <td>SlideME</td>
+    <td>No</td>
+    <td></td>
+    <td>Yes</td>
   </tr>
 </table>
 
