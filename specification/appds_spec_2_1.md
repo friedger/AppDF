@@ -5743,9 +5743,14 @@ Is the in-app product published or not.
 Required.  
 No attributes.
 
-This section contains in-app description in text form as well as pictures and videos in English US language. A part of the main <description> tag there could be several <description-localization> tags for different languages. If some information is missing in the localized <description-localization> tag it will be taken from the default <description> section.
+This section contains in-app description in text form as well as pictures and videos. A part of the main <description> tag there could be several <description-localization> tags for different languages. If some information is missing in the localized <description-localization> tag it will be taken from the default <description-base> section.
 
 ##### in-app-purchases/items/item/description/description-base
+
+Required.  
+No attributes.
+
+This section contains in-app description in text form as well as pictures and videos in English US language.
 
 ##### in-app-purchases/items/item/description/description-base/title
 Required.  
@@ -5892,7 +5897,7 @@ In-app text description is used to describe the product. Different stores have d
 Optional.  
 Attributes: `width`(required), `height`(required). 
 
-Small in-app icon. Must be in PNG format. Different stores require different resolutions of this icon. You can include several versions of the `<small-icon>` tag with different `width` and `height` attributes. The store will automatically select right size. AppDF will automatically rescale your image if there is no needed size. The icon must be a square (`width`=`height`).
+Small in-app icon. Must be in PNG format. As everything inside the `<description>` tag it can be localized using `<description-localization>` section. Different stores require different resolutions of this icon. You can include several versions of the `<small-icon>` tag with different `width` and `height` attributes. The store will automatically select right size. AppDF will automatically rescale your image if there is no needed size. The icon must be a square (`width`=`height`).
 
 <table>
   <tr>
@@ -5978,7 +5983,7 @@ Small in-app icon. Must be in PNG format. Different stores require different res
 Optional.  
 Attributes: `width`(required), `height`(required). 
 
-Large in-app icon. Must be in PNG format. Different stores require different resolutions of this icon. You can include several versions of the `<large-icon>` tag with different `width` and `height` attributes. The store will automatically select right size. AppDF will automatically rescale your image if there is no needed size. The icon must be a square (`width`=`height`).
+Large in-app icon. Must be in PNG format. As everything inside the `<description>` tag it can be localized using `<description-localization>` section. Different stores require different resolutions of this icon. You can include several versions of the `<large-icon>` tag with different `width` and `height` attributes. The store will automatically select right size. AppDF will automatically rescale your image if there is no needed size. The icon must be a square (`width`=`height`).
 
 <table>
   <tr>
@@ -6060,6 +6065,13 @@ Large in-app icon. Must be in PNG format. Different stores require different res
     <td></td>
   </tr>
 </table>
+
+#### in-app-purchases/items/item/description/description-localization
+
+Required.  
+Attributes: locale (required).
+
+This section contains in-app description in text form as well as pictures and videos in different languages.
 
 ### in-app-purchases/items/item/price
 
