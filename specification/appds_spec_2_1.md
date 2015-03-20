@@ -5564,17 +5564,17 @@ Attributes: `id` (required), `published` (required).
     <td>Mandatory attribute</td>
     <td>SKU. Used as unique id for app-store interaction.</td>
   </tr>
-  <tr>
-    <td>published</td>
-    <td>yes | no</td>
-    <td>Mandatory attribute</td>
-    <td>Is an in-app product published or not, is it visible to the end users.</td>
-  </tr>
    <tr>
     <td>type</td>
     <td>consumable |  nonconsumable</td>
     <td>Mandatory attribute</td>
     <td></td>
+  </tr>
+  <tr>
+    <td>published</td>
+    <td>yes | no</td>
+    <td>Mandatory attribute</td>
+    <td>Is the in-app product published or not (is it visible to the end users)</td>
   </tr>
 </table>
 
