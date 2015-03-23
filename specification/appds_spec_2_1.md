@@ -235,6 +235,7 @@ Sample Description.xml File
       <personal-information-collection>no</personal-information-collection>
       <web-browser-or-search-engine>no</web-browser-or-search-engine>
       <user-location-sharing>no</user-location-sharing>
+      <user-info-with-third-parties-sharing>no</user-info-with-third-parties-sharing>
     </included-activities>
   </content-description>
 
@@ -2885,6 +2886,7 @@ Example
     <personal-information-collection>no</personal-information-collection>
     <web-browser-or-search-engine>no</web-browser-or-search-engine>
     <user-location-sharing>no</user-location-sharing>
+    <user-info-with-third-parties-sharing>no</user-info-with-third-parties-sharing>
   </included-activities>
 </content-description>
 ```
@@ -3376,49 +3378,54 @@ Example
   <personal-information-collection>yes</personal-information-collection>
   <web-browser-or-search-engine>no</web-browser-or-search-engine>
   <user-location-sharing>no</user-location-sharing>
+  <user-info-with-third-parties-sharing>no</user-info-with-third-parties-sharing>
 </included-activities>
 ```
 
 <table>
   <tr>
     <th>Activity</th>
-    <th>Explanation</th>
+    <th>Explanation.</th>
   </tr>
   <tr>
     <td>in-app-billing</td>
-    <td>Either standard or custom in-app billing (aka In-App Purchases)</td>
+    <td>Either standard or custom in-app billing (aka In-App Purchases).</td>
   </tr>
   <tr>
     <td>gambling</td>
-    <td>Gambling</td>
+    <td>Gambling.</td>
   </tr>
   <tr>
     <td>advertising</td>
-    <td>Any form of advertising including banner or AirPush-like advertising</td>
+    <td>Any form of advertising including banner or AirPush-like advertising.</td>
   </tr>
   <tr>
     <td>user-generated-content</td>
-    <td>User generated content</td>
+    <td>User generated content.</td>
   </tr>
   <tr>
     <td>user-to-user-communications</td>
-    <td>User to user communications</td>
+    <td>User to user communications.</td>
   </tr>
   <tr>
     <td>account-creation</td>
-    <td>Account creation</td>
+    <td>Account creation.</td>
   </tr>
   <tr>
     <td>personal-information-collection</td>
-    <td>Your application transfers to the server or collects locally on the device any personal information</td>
+    <td>Your application transfers to the server or collects locally on the device any personal information.</td>
   </tr>
   <tr>
     <td>web-browser-or-search-engine</td>
-    <td>Your application is a web browser or a search engine</td>
+    <td>Your application is a web browser or a search engine.</td>
   </tr>
   <tr>
     <td>user-location-sharing</td>
-    <td>Your application shares the user's current physical location to other users</td>
+    <td>Your application shares the user's current physical location to other users.</td>
+  </tr>
+  <tr>
+    <td>user-info-with-third-parties-sharing</td>
+    <td>Your applicaion shares user-provided personal information with any third party (other than the app's developer or publisher).</td>
   </tr>
 </table>
 
