@@ -222,6 +222,8 @@ Sample Description.xml File
       <smoking>strong</smoking>
       <!--May contain cruelty or harassment based on race, ethnicity, gender, or sexual preferences.-->
       <discrimination>no</discrimination>
+      <!--May contain references to Nazi.-->
+      <nazi-reference>no</nazi-reference>
     </content-descriptors>
     <included-activities>
       <in-app-billing>no</in-app-billing>
@@ -2870,6 +2872,7 @@ Example
     <alcohol>no</alcohol>
     <smoking>strong</smoking>
     <discrimination>no</discrimination>
+    <nazi-reference>no</nazi-reference>
   </content-descriptors>
   <included-activities>
     <in-app-billing>no</in-app-billing>
@@ -3229,6 +3232,7 @@ Example
   <alcohol>no</alcohol>
   <smoking>strong</smoking>
   <discrimination>no</discrimination>
+  <nazi-reference>no</nazi-reference>
 </content-descriptors>
 ```
 
@@ -3276,6 +3280,10 @@ Example
   <tr>
     <td>bad-language</td>
     <td>May contain profanity, sexual innuendo, threats, and all manner of slurs and epithets.</td>
+  </tr>
+  <tr>
+    <td>nazi-reference</td>
+    <td>May contain Nazi symbols or references</td>
   </tr>
 </table>
 
