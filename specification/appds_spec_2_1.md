@@ -3403,7 +3403,7 @@ Example
   </tr>
   <tr>
     <td>web-browser-or-search-engine</td>
-    <td>Your application is a web browser or provides access to a search engine</td>
+    <td>Your application is a web browser or a search engine</td>
   </tr>
 </table>
 
