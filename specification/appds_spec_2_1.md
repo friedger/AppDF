@@ -234,6 +234,7 @@ Sample Description.xml File
       <account-creation>no</account-creation>
       <personal-information-collection>no</personal-information-collection>
       <web-browser-or-search-engine>no</web-browser-or-search-engine>
+      <user-location-sharing>no</user-location-sharing>
     </included-activities>
   </content-description>
 
@@ -2883,6 +2884,7 @@ Example
     <account-creation>no</account-creation>
     <personal-information-collection>no</personal-information-collection>
     <web-browser-or-search-engine>no</web-browser-or-search-engine>
+    <user-location-sharing>no</user-location-sharing>
   </included-activities>
 </content-description>
 ```
@@ -3373,6 +3375,7 @@ Example
   <account-creation>no</account-creation>
   <personal-information-collection>yes</personal-information-collection>
   <web-browser-or-search-engine>no</web-browser-or-search-engine>
+  <user-location-sharing>no</user-location-sharing>
 </included-activities>
 ```
 
@@ -3412,6 +3415,10 @@ Example
   <tr>
     <td>web-browser-or-search-engine</td>
     <td>Your application is a web browser or a search engine</td>
+  </tr>
+  <tr>
+    <td>user-location-sharing</td>
+    <td>Your application shares the user's current physical location to other users</td>
   </tr>
 </table>
 
