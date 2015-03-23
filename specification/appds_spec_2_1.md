@@ -231,6 +231,7 @@ Sample Description.xml File
       <user-to-user-communications>no</user-to-user-communications>
       <account-creation>no</account-creation>
       <personal-information-collection>no</personal-information-collection>
+      <web-browser-or-search-engine>no</web-browser-or-search-engine>
     </included-activities>
   </content-description>
 
@@ -2878,6 +2879,7 @@ Example
     <user-to-user-communications>no</user-to-user-communications>
     <account-creation>no</account-creation>
     <personal-information-collection>no</personal-information-collection>
+    <web-browser-or-search-engine>no</web-browser-or-search-engine>
   </included-activities>
 </content-description>
 ```
@@ -3362,6 +3364,7 @@ Example
   <user-to-user-communications>no</user-to-user-communications>
   <account-creation>no</account-creation>
   <personal-information-collection>yes</personal-information-collection>
+  <web-browser-or-search-engine>no</web-browser-or-search-engine>
 </included-activities>
 ```
 
@@ -3397,6 +3400,10 @@ Example
   <tr>
     <td>personal-information-collection</td>
     <td>Your application transfers to the server or collects locally on the device any personal information</td>
+  </tr>
+  <tr>
+    <td>web-browser-or-search-engine</td>
+    <td>Your application is a web browser or provides access to a search engine</td>
   </tr>
 </table>
 
