@@ -2894,22 +2894,26 @@ Each application must be labeled with a minimum age allowance according to [ESRB
     <th>Supported</th>
     <th>Name</th>
     <th>Required</th>
+    <th>Comment</th>
   </tr>
   <tr>
     <td>Google Play</td>
     <td>Yes</td>
     <td>Store Listing / CATEGORIZATION / Content rating</td>
     <td>Yes</td>
+    <td>https://support.google.com/googleplay/android-developer/answer/188189</td>
   </tr>
   <tr>
     <td>Yandex.Store</td>
     <td>Yes</td>
     <td>General / Additional info / Age Rating</td>
     <td>Yes</td>
+    <td></td>
   </tr>
   <tr>
     <td>Amazon AppStore</td>
     <td>No</td>
+    <td></td>
     <td></td>
     <td></td>
   </tr>
@@ -2918,24 +2922,28 @@ Each application must be labeled with a minimum age allowance according to [ESRB
     <td>No</td>
     <td></td>
     <td></td>
+    <td></td>
   </tr>
   <tr>
     <td>Samsung Apps</td>
     <td>Yes</td>
     <td>App Information / Age Restriction<br>and App Information / Rating Certificate for Available Countries (PEGI, ESRB, GRB, MJ/DEJUS , FSK, ETC)</td>
     <td>Yes</td>
+    <td></td>
   </tr>
   <tr>
     <td>SlideME</td>
     <td>Yes</td>
     <td>Application / Parental Rating</td>
     <td>Yes</td>
+    <td></td>
   </tr
   <tr>
     <td>NOOK apps</td>
     <td>Yes</td>
     <td>Basic / Age Range</td>
     <td>Yes</td>
+    <td></td>
   </tr>
   <!--
   <tr>
