@@ -4342,55 +4342,46 @@ Set value of this tag to `yes` if your application requires root access for work
     <th>Store support</th>
     <th>Supported</th>
     <th>Name</th>
-    <th>Comments</th>
   </tr>
   <tr>
     <td>Google Play</td>
     <td>No</td>
-    <td></td>
     <td></td>
   </tr>
   <tr>
     <td>Yandex.Store</td>
     <td>No</td>
     <td></td>
-    <td></td>
   </tr>
   <tr>
     <td>Amazon AppStore</td>
     <td>No</td>
-    <td></td>
     <td></td>
   </tr>
   <tr>
     <td>Opers Mobile Store</td>
     <td>No</td>
     <td></td>
-    <td></td>
   </tr>
   <tr>
     <td>Samsung Apps</td>
     <td>No</td>
-    <td></td>
     <td></td>
   </tr>
   <tr>
     <td>SlideME</td>
     <td>Yes</td>
     <td>Requirements / Requires 'rooted' device</td>
-    <td></td>
   </tr>
   <!--
   <tr>
     <td>NOOK apps</td>
     <td>No</td>
     <td></td>
-    <td></td>
   </tr>
   <tr>
     <td>AppsLib</td>
     <td>No</td>
-    <td></td>
     <td></td>
   </tr>
   -->
