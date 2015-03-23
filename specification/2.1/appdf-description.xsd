@@ -298,6 +298,7 @@
             <xsd:element name="personal-information-collection" type="type-attr-yesno"/>
             <xsd:element name="web-browser-or-search-engine" type="type-attr-yesno"/>
             <xsd:element name="user-location-sharing" type="type-attr-yesno"/>
+            <xsd:element name="user-info-with-third-parties-sharing" type="type-attr-yesno"/>
         </xsd:sequence>
     </xsd:complexType>
 
