@@ -236,6 +236,7 @@ Sample Description.xml File
       <web-browser-or-search-engine>no</web-browser-or-search-engine>
       <user-location-sharing>no</user-location-sharing>
       <user-info-with-third-parties-sharing>no</user-info-with-third-parties-sharing>
+      <user-to-user-content-exchange>no</user-to-user-content-exchange>
     </included-activities>
   </content-description>
 
@@ -2887,6 +2888,7 @@ Example
     <web-browser-or-search-engine>no</web-browser-or-search-engine>
     <user-location-sharing>no</user-location-sharing>
     <user-info-with-third-parties-sharing>no</user-info-with-third-parties-sharing>
+    <user-to-user-content-exchange>no</user-to-user-content-exchange>
   </included-activities>
 </content-description>
 ```
@@ -3379,6 +3381,7 @@ Example
   <web-browser-or-search-engine>no</web-browser-or-search-engine>
   <user-location-sharing>no</user-location-sharing>
   <user-info-with-third-parties-sharing>no</user-info-with-third-parties-sharing>
+  <user-to-user-content-exchange>no</user-to-user-content-exchange>
 </included-activities>
 ```
 
@@ -3426,6 +3429,10 @@ Example
   <tr>
     <td>user-info-with-third-parties-sharing</td>
     <td>Your applicaion shares user-provided personal information with any third party (other than the app's developer or publisher).</td>
+  </tr>
+   <tr>
+    <td>user-to-user-content-exchange</td>
+    <td>Your applicaion allows users to exchange content they have created.</td>
   </tr>
 </table>
 
