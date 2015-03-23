@@ -277,6 +277,7 @@
             <xsd:element name="alcohol" type="type-contentdescription-contentdescriptors-attr"/>
             <xsd:element name="smoking" type="type-contentdescription-contentdescriptors-attr"/>
             <xsd:element name="discrimination" type="type-contentdescription-contentdescriptors-attr"/>
+            <xsd:element name="nazi-reference" type="type-contentdescription-contentdescriptors-attr"/>
         </xsd:sequence>
     </xsd:complexType>
 
