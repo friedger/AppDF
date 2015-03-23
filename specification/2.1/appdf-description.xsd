@@ -299,6 +299,7 @@
             <xsd:element name="web-browser-or-search-engine" type="type-attr-yesno"/>
             <xsd:element name="user-location-sharing" type="type-attr-yesno"/>
             <xsd:element name="user-info-with-third-parties-sharing" type="type-attr-yesno"/>
+            <xsd:element name="user-to-user-content-exchange" type="type-attr-yesno"/>
         </xsd:sequence>
     </xsd:complexType>
 
