@@ -295,6 +295,7 @@
             <xsd:element name="user-to-user-communications" type="type-attr-yesno"/>
             <xsd:element name="account-creation" type="type-attr-yesno"/>
             <xsd:element name="personal-information-collection" type="type-attr-yesno"/>
+            <xsd:element name="web-browser-or-search-engine" type="type-attr-yesno"/>
         </xsd:sequence>
     </xsd:complexType>
 
