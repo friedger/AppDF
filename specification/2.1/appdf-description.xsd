@@ -383,10 +383,19 @@
         <xsd:attribute name="full-version" type="type-attr-package" />
     </xsd:complexType>
 
-    <xsd:complexType name="type-apkfiles">
+     <xsd:complexType name="type-apkfiles">
         <xsd:choice maxOccurs="unbounded">
-            <xsd:element name="apk-file" type="type-attr-localfile"/>
+            <xsd:element name="apk-file" type="type-apkfile"/>
         </xsd:choice>
+    </xsd:complexType>
+
+    <xsd:complexType name="type-apkfile">
+        <xsd:simpleContent>
+            <xsd:extension base="type-attr-localfile">
+                <xsd:attribute name="exp-file1" type="type-attr-localfile" use="optional"/>
+                <xsd:attribute name="exp-file2" type="type-attr-localfile" use="optional"/>
+            </xsd:extension>
+        </xsd:simpleContent>
     </xsd:complexType>
 
     <xsd:complexType name="type-requirements">
