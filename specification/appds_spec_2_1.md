@@ -5498,11 +5498,32 @@ Example
             <title>Red skin</title>
             <text>Cool red skin for your car.</text>
             <!--Optional:-->
-            <small-icon height="135" width="135">images/en/sku_res_skin_icon.png
+            <small-icon height="135" width="135">images/en/sku_res_skin_small_icon.png
             </small-icon>
             <!--Optional:-->
-            <large-icon height="512" width="512">images/en/sku_res_skin_image.png
+            <large-icon height="512" width="512">images/en/sku_res_skin_large_icon.png
             </large-icon>
+            <store-specific>
+                <!--Optional:-->
+                <amazon>
+                    <additional-file-delivered>no</additional-file-delivered>
+                    <small-icon height="114" width="114">
+                        images/en/amazon/sku_res_skin_small_icon.png
+                    </small-icon>
+                    <large-icon height="512" width="512">
+                        images/en/amazon/sku_res_skin_large_icon.png
+                    </large-icon>
+                    <calculated-prices>yes</calculated-prices>
+                </amazon>
+                <!--Optional:-->
+                <samsung>
+                    <payment-method>creditcard</payment-method>
+                </samsung>
+                <!--Optional:-->
+                <slideme>
+                    <test-mode>success</test-mode>
+                </slideme>
+            </store-specific>
         </description>
         <!--Optional:-->
         <description-localization locale="ru_RU">
@@ -5514,6 +5535,27 @@ Example
             <!--Optional:-->
             <large-icon height="512" width="512">images/ru/sku_res_skin_image.png
             </large-icon>
+            <store-specific>
+                <!--Optional:-->
+                <amazon>
+                    <additional-file-delivered>no</additional-file-delivered>
+                    <small-icon height="114" width="114">
+                        images/ru/amazon/sku_res_skin_small_icon.png
+                    </small-icon>
+                    <large-icon height="512" width="512">
+                        images/ru/amazon/sku_res_skin_large_icon.png
+                    </large-icon>
+                    <calculated-prices>yes</calculated-prices>
+                </amazon>
+                <!--Optional:-->
+                <samsung>
+                    <payment-method>creditcard</payment-method>
+                </samsung>
+                <!--Optional:-->
+                <slideme>
+                    <test-mode>success</test-mode>
+                </slideme>
+            </store-specific>
         </description-localization>
         <price>
             <base-price>1.00</base-price>
