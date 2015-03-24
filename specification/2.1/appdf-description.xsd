@@ -541,7 +541,7 @@
             <xsd:element name="text" type="type-in-app-text"/>
             <xsd:element name="small-icon" type="type-in-app-icon" minOccurs="0" maxOccurs="1"/>
             <xsd:element name="large-icon" type="type-in-app-icon" minOccurs="0" maxOccurs="1"/>
-            <xsd:element name="in-app-store-specific" type="type-in-app-store-specific" minOccurs="0" maxOccurs="1" />
+            <xsd:element name="store-specific" type="type-in-app-store-specific" minOccurs="0" maxOccurs="1" />
         </xsd:sequence>
     </xsd:complexType>
 
