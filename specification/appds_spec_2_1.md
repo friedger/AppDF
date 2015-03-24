@@ -605,7 +605,7 @@ Required for publishing with in-apps
     <td></td>
     <td></td>
     <td>Title | Content delivery (No additional file required | I'll deliver the required asset(s)) | Calculated prices | Small icon | Large icon</td>
-    <td>Payment Method (Credit Card | Micropayment | Phone Bill | Cyber Cash | Pre-Paid Card)/td>
+    <td>Payment Method (Credit Card | Micropayment | Phone Bill | Cyber Cash | Pre-Paid Card)</td>
     <td>Test mode (Disabled | Simulate success | Simulate failure)</td>
   </tr>
   <tr>
