@@ -4257,7 +4257,7 @@ Example
   <tr>
     <td>Opera Mobile Store</td>
     <td>Yes</td>
-    <td>APK file:</td>
+    <td>APK file</td>
     <td>Unlimited</td>
     <!-- todo check multiple again-->
     <td>No</td>
