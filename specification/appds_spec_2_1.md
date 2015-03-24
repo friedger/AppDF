@@ -290,8 +290,8 @@ Sample Description.xml File
   -->
 
   <apk-files>
-    <apk-file>yandexshell2.apk</apk-file>
-    <apk-file>yandexshell3.apk</apk-file>
+    <apk-file patch-exp-file="patch.314159.com.yandex.shell.obb">yandexshell2.apk</apk-file>
+    <apk-file main-exp-file="main.314159.com.yandex.shell.obb">yandexshell3.apk</apk-file>
   </apk-files>
 
   <!--Optional tag, add it if the application has some special requirements-->
@@ -4189,15 +4189,15 @@ This tag is ignored for paid apps.
 
 ### apk-files
 Required.  
-No attributes.
+Attributes: main-exp-file (optional), patch-optional-file (optional).
 
 Each application could have 1+ APK files. All APK files must have the same package name.
 
 Example
 ```xml
 <apk-files>
-  <apk-file>yandexshell2.apk</apk-file>
-  <apk-file>yandexshell3.apk</apk-file>
+  <apk-file patch-exp-file="patch.314159.com.yandex.shell.obb">yandexshell2.apk</apk-file>
+  <apk-file main-exp-file="main.314159.com.yandex.shell.obb" patch-exp-file="patch.314159.com.yandex.shell.obb>yandexshell3.apk</apk-file>
 </apk-files>
 ```
 
