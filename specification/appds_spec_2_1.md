@@ -5636,12 +5636,12 @@ Example
 In-app-purchases Structure
 -------------
 
-* [item|subscription](#in-app-purchasesitemsitem)  
+* [item | subscription](#in-app-purchasesitemsitem)  
 	* [description](#in-app-purchasesitemsitem-description)
 	* [description-localization](#in-app-purchasesitemsitem-description)
 	* [price](#in-app-purchasesitemsitemprice)
 
-##### item|subscription
+##### item | subscription
 
 Optional.   
 Attributes: `id`(required)`, `published`(required), `type`(required, only for items).
@@ -5846,10 +5846,101 @@ Type of the in-app product. Can be ``consumable`` and ``non-consumable``. ``Cons
   </tr>
 </table>
 
+
+For `subscriptions`
+
+`subs-period` (required), `trial-period` (optional)
+
+<table>
+  <tr>
+    <th>Attribute</th>
+    <th>Possible values</th>
+    <th>Default</th>
+    <th>How it works</th>
+  </tr>
+  <tr>
+    <td>id</td>
+    <td>a string</td>
+    <td>Mandatory attribute</td>
+    <td>SKU. Used as unique id for app-store interaction.</td>
+  </tr>
+  <tr>
+    <td>published</td>
+    <td>published | unpublished</td>
+    <td>Mandatory attribute</td>
+    <td>Is an in-app product published or not, is it visible to the end users.</td>
+  </tr>
+   <tr>
+    <td>subs-period</td>
+    <td>oneWeek | oneMonth | oneYear</td>
+    <td>Mandatory attribute</td>
+    <td>A period when the feature/product is available to the user</td>
+  </tr>
+  <tr>
+    <td>trial-period</td>
+    <td>the number of days</td>
+    <td>Optional attribute</td>
+    <td>Trial period</td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <th>Store</th>
+    <th>Supported</th>
+    <th>Name</th>
+    <th>Possible values</th>
+    <th>Trial</h>
+  </tr>
+  <tr>
+    <td>Google Play</td>
+    <td>Yes</td>
+    <td>In-app Products / Pricing  / Billing period</td>
+    <td>Monthly, Yearly, Seasonal</td>
+    <td>Yes, days</td>
+  </tr>
+  <tr>
+    <td>Yandex.Store</td>
+    <td>Yes</td>
+    <td>In-App purchases / (In)active purchases / Subscription period</td>
+    <td>Annualy, Monthly</td>
+    <td>Yes, days</td>
+  </tr>  
+  <tr>
+    <td>Amazon AppStore</td>
+    <td>Yes</td>
+    <td>In-App Items / Subscription periods</td>
+    <td>Weekly, BiWeekly, Monthly, BiMonthly, Quarterly, SemiAnnualy, Annualy</td>
+    <td>Yes, 7 or 14 Days, 1 or 2 or 3 Months</td>
+  </tr>
+  <tr>
+    <td>Opera Mobile Store</td>
+    <td>No</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Samsung Apps</td>
+    <td>Yes</td>
+    <td>In app purchase / Duration</td>
+    <td>1 Month, 3 Month, 6 Month, 12 Month</td>
+    <td>No</td>
+  </tr>
+  <tr>
+    <td>SlideME</td>
+    <td>No</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+
 ###### description  
 
 Required.  
 No attributes.
+Common for `items` and `subscriptions`.
 
 This section contains in-app description in text form as well as pictures and videos. A part of the main <description> tag there could be several <description-localization> tags for different languages. If some information is missing in the localized <description-localization> tag it will be taken from the default <description-base> section.
 
@@ -5857,13 +5948,15 @@ This section contains in-app description in text form as well as pictures and vi
 
 Required.  
 No attributes.
+Common for `items` and `subscriptions`.
 
 This section contains in-app description in text form as well as pictures and videos in English US language.
 
 ###### description-base/description-base/title
 Required.  
 No attributes.  
-Min length: 1 character. Max length: 55 characters.
+Min length: 1 character. Max length: 55 characters.  
+Common for `items` and `subscriptions`.
 
 The in-app title is used a human-readable id of an in-app item.  
 As everything inside the <description> tag can be localized using <description-localization> section. Different stores have different requirements for maximum title length. In order to have flexibility to get the best from each of the stores you can include several copies of title tag. The store will take the longest one that is fits in its maximum size. The first title must be 55 symbols or longer in order to be supported by all the stores.
@@ -5930,7 +6023,8 @@ As everything inside the <description> tag can be localized using <description-l
 ###### description-base/description-base/text  
 Required.  
 No attributes.  
-Min length: 1 character. Max length: 80 characters.
+Min length: 1 character. Max length: 80 characters.  
+Common for `items` and `subscriptions`.
 
 In-app text description is used to describe the product. Different stores have different requirements for maximum description length. In order to have flexibility to get the best from each of the stores you can include several copies of text tag. The store will take the longest one that fits in its maximum size. As everything inside the <description> tag can be localized using <description-localization> section. The first text tag value must be 80 symbols or longer in order to be supported by all the stores.
 
@@ -6003,7 +6097,8 @@ In-app text description is used to describe the product. Different stores have d
 ###### description/description-base/small-icon
 
 Optional.  
-Attributes: `width`(required), `height`(required). 
+Attributes: `width`(required), `height`(required).  
+Common for `items` and `subscriptions`.
 
 Small in-app icon. Must be in PNG format. As everything inside the `<description>` tag it can be localized using `<description-localization>` section. Different stores require different resolutions of this icon. You can include several versions of the `<small-icon>` tag with different `width` and `height` attributes. The store will automatically select right size. AppDF will automatically rescale your image if there is no needed size. The icon must be a square (`width`=`height`).
 
@@ -6089,7 +6184,8 @@ Small in-app icon. Must be in PNG format. As everything inside the `<description
 
 ###### description/description-base/large-icon
 Optional.  
-Attributes: `width`(required), `height`(required). 
+Attributes: `width`(required), `height`(required).   
+Common for `items` and `subscriptions`.
 
 Large in-app icon. Must be in PNG format. As everything inside the `<description>` tag it can be localized using `<description-localization>` section. Different stores require different resolutions of this icon. You can include several versions of the `<large-icon>` tag with different `width` and `height` attributes. The store will automatically select right size. AppDF will automatically rescale your image if there is no needed size. The icon must be a square (`width`=`height`).
 
@@ -6177,14 +6273,16 @@ Large in-app icon. Must be in PNG format. As everything inside the `<description
 ###### description/description-localization
 
 Required.  
-Attributes: locale (required).
+Attributes: locale (required).  
+Common for `items` and `subscriptions`.
 
 This section contains in-app description in text form as well as pictures and videos in different languages.
 
 #### price
 
 Required.  
-Attributes: ``free``(required). 
+Attributes: ``free``(required).   
+Common for `items` and `subscriptions`.
 
 This section describes whether the in-app is free or paid and if paid what its price is.
 
@@ -6252,7 +6350,8 @@ This section describes whether the in-app is free or paid and if paid what its p
 #### price/base-price
 
 Required.  
-No attributes. 
+No attributes.  
+Common for 'items' and 'subscriptions'.
 
 In-app price. Tag value should be a dot-separated number. This price is set in USD used to automatically calculate the prices in other currencies unless you manually specify such prices using `<local-price>` tags.
 
@@ -6327,7 +6426,8 @@ This tag is ignored for free in-apps.
 #### price/local-price
 
 Optional.  
-Attributes: `country`. 
+Attributes: `country`.  
+Common for `items` and `subscriptions`.
 
 The stores will use your default price defined in the `<base-price>` tag to automatically generate prices for other currencies and other countries. Nevertheless you can use `<local-price>` tags to manually define price for some countries. Tag value should be a dot-separated number.
 
@@ -6394,96 +6494,6 @@ Currencies used in different countries in [JSON](http://www.onepf.org/appdf/data
     <td></td>
     <td>Yes</td>
     <td></td>
-  </tr>
-  <tr>
-    <td>SlideME</td>
-    <td>No</td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-</table>
-
-
-##### in-app-purchases/subscriptions/subscription
-Optional.  
-Attributes: `id` (required), `published` (required), `subs-period` (required), `trial-period` (optional)
-
-<table>
-  <tr>
-    <th>Attribute</th>
-    <th>Possible values</th>
-    <th>Default</th>
-    <th>How it works</th>
-  </tr>
-  <tr>
-    <td>id</td>
-    <td>a string</td>
-    <td>Mandatory attribute</td>
-    <td>SKU. Used as unique id for app-store interaction.</td>
-  </tr>
-  <tr>
-    <td>published</td>
-    <td>published | unpublished</td>
-    <td>Mandatory attribute</td>
-    <td>Is an in-app product published or not, is it visible to the end users.</td>
-  </tr>
-   <tr>
-    <td>subs-period</td>
-    <td>oneWeek | oneMonth | oneYear</td>
-    <td>Mandatory attribute</td>
-    <td>A period when the feature/product is available to the user</td>
-  </tr>
-  <tr>
-    <td>trial-period</td>
-    <td>the number of days</td>
-    <td>Optional attribute</td>
-    <td>Trial period</td>
-  </tr>
-</table>
-
-<table>
-  <tr>
-    <th>Store</th>
-    <th>Supported</th>
-    <th>Name</th>
-    <th>Possible values</th>
-    <th>Trial</h>
-  </tr>
-  <tr>
-    <td>Google Play</td>
-    <td>Yes</td>
-    <td>In-app Products / Pricing  / Billing period</td>
-    <td>Monthly, Yearly, Seasonal</td>
-    <td>Yes, days</td>
-  </tr>
-  <tr>
-    <td>Yandex.Store</td>
-    <td>Yes</td>
-    <td>In-App purchases / (In)active purchases / Subscription period</td>
-    <td>Annualy, Monthly</td>
-    <td>Yes, days</td>
-  </tr>  
-  <tr>
-    <td>Amazon AppStore</td>
-    <td>Yes</td>
-    <td>In-App Items / Subscription periods</td>
-    <td>Weekly, BiWeekly, Monthly, BiMonthly, Quarterly, SemiAnnualy, Annualy</td>
-    <td>Yes, 7 or 14 Days, 1 or 2 or 3 Months</td>
-  </tr>
-  <tr>
-    <td>Opera Mobile Store</td>
-    <td>No</td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Samsung Apps</td>
-    <td>Yes</td>
-    <td>In app purchase / Duration</td>
-    <td>1 Month, 3 Month, 6 Month, 12 Month</td>
-    <td>No</td>
   </tr>
   <tr>
     <td>SlideME</td>
