@@ -5633,19 +5633,20 @@ Example
   </tr>
 </table>
 
-* [item](#in-app-purchasesitemsitem)  
+In-app-purchases Structure
+-------------
+
+* [item|subscription](#in-app-purchasesitemsitem)  
 	* [description](#in-app-purchasesitemsitem-description)
 	* [description-localization](#in-app-purchasesitemsitem-description)
 	* [price](#in-app-purchasesitemsitemprice)
-* [subscription](#in-app-purchasessubscriptionssubscription)  
-	* [description](#in-app-purchasessubscriptions-description)
-	* [description-localization](#in-app-purchasesitemsitem-description)
-	* [price](#in-app-purchasessubscriptionssubscription)
 
-##### item
+##### item|subscription
 
 Optional.   
-Attributes: `id` (required), `type` (required), `published` (required).
+Attributes: `id`(required)`, `published`(required), `type`(required, only for items).
+
+For `items` and `subscriptions`
 
 <table>
   <tr>
@@ -5662,13 +5663,6 @@ Attributes: `id` (required), `type` (required), `published` (required).
     <td>Mandatory attribute</td>
     <td>SKU. Used as unique id for app-store interaction.</td>
   </tr>
-   <tr>
-    <td>type</td>
-    <td>consumable |  nonconsumable</td>
-    <td>ML not applicable</td>
-    <td>Mandatory attribute</td>
-    <td></td>
-  </tr>
   <tr>
     <td>published</td>
     <td>yes | no</td>
@@ -5679,7 +5673,6 @@ Attributes: `id` (required), `type` (required), `published` (required).
 </table>
 
 ###### id
-
 Unique identifier of the in-app product. Also known as ``SKU``, store keeping unit. Non-localizable.
 
 <table>
@@ -5730,49 +5723,6 @@ Unique identifier of the in-app product. Also known as ``SKU``, store keeping un
     <td>Yes</td>
     <td>Product ID</td>
     <td>Yes</td>
-    <td></td>
-  </tr>
-</table>
-
-###### type
-
-Type of the in-app product. Can be ``consumable`` and ``non-consumable``. ``Consumable`` can be purchased the infinite number of times, e.g. tips, lives, power, etc. ``Non-consumable`` can be purchased only once, e.g. a level in a game, a text of a book, etc.
-
-<table>
-  <tr>
-    <th>Store</th>
-    <th>Supported</th>
-    <th>Possible values</th>
-    <th>Comments</th>
-  </tr>
-  <tr>
-    <td>Google Play</td>
-    <td>Yes</td>
-    <td>Managed product | Unmanaged product</td>
-    <td>Unmanaged products behave differently if you are using in-app billing v3 rather than in-app billing v2. If you are using in-app billing v3, Unmanaged products are treated as Managed products and will need to be explicitly consumed.</td>
-  </tr>
-  <tr>
-    <td>Yandex.Store</td>
-    <td>Yes</td>
-    <td>Purchase</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Amazon AppStore</td>
-    <td>Yes</td>
-    <td>Consumable | Entitlement</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Samsung Apps</td>
-    <td>Yes</td>
-    <td>Consumable | Non-consumable</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>SlideME</td>
-    <td>Yes</td>
-    <td>Consumable</td>
     <td></td>
   </tr>
 </table>
@@ -5830,6 +5780,69 @@ Is the in-app product published or not.
     <td>Managed IAP / Published</td>
     <td></td>
     <td>(un)checked checkbox</td>
+  </tr>
+</table>
+
+For `items`
+
+<table>
+  <tr>
+    <th>Attribute</th>
+    <th>Possible values</th>
+    <th>Max length</th>
+    <th>Default</th>
+    <th>How it works</th>
+  </tr>
+   <tr>
+    <td>type</td>
+    <td>consumable |  nonconsumable</td>
+    <td>ML not applicable</td>
+    <td>Mandatory attribute</td>
+    <td></td>
+  </tr>
+</table>
+
+
+###### type
+
+Type of the in-app product. Can be ``consumable`` and ``non-consumable``. ``Consumable`` can be purchased the infinite number of times, e.g. tips, lives, power, etc. ``Non-consumable`` can be purchased only once, e.g. a level in a game, a text of a book, etc.
+
+<table>
+  <tr>
+    <th>Store</th>
+    <th>Supported</th>
+    <th>Possible values</th>
+    <th>Comments</th>
+  </tr>
+  <tr>
+    <td>Google Play</td>
+    <td>Yes</td>
+    <td>Managed product | Unmanaged product</td>
+    <td>Unmanaged products behave differently if you are using in-app billing v3 rather than in-app billing v2. If you are using in-app billing v3, Unmanaged products are treated as Managed products and will need to be explicitly consumed.</td>
+  </tr>
+  <tr>
+    <td>Yandex.Store</td>
+    <td>Yes</td>
+    <td>Purchase</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Amazon AppStore</td>
+    <td>Yes</td>
+    <td>Consumable | Entitlement</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Samsung Apps</td>
+    <td>Yes</td>
+    <td>Consumable | Non-consumable</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>SlideME</td>
+    <td>Yes</td>
+    <td>Consumable</td>
+    <td></td>
   </tr>
 </table>
 
