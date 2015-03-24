@@ -4189,9 +4189,29 @@ This tag is ignored for paid apps.
 
 ### apk-files
 Required.  
-Attributes: main-exp-file (optional), patch-optional-file (optional).
-
+Attributes: main-exp-file (optional), patch-optional-file (optional).  
 Each application could have 1+ APK files. All APK files must have the same package name.
+
+<table>
+  <tr>
+    <th>Attribute</th>
+    <th>Possible values</th>
+    <th>Default</th>
+    <th>How it works</th>
+  </tr>
+  <tr>
+    <td>main-exp-file</td>
+    <td>The local path to the main expansion file, must be in the main.app-version-code.package-name.obb format.</td>
+    <td>Optional</td>
+    <td>The main expansion file is the primary expansion file for additional resources required by your application.</td>
+  </tr>
+  <tr>
+    <td>patch-exp-file</td>
+    <td>The local path to the patch expansion file, must be in the patch.app-version-code.package-name.obb format.</td>
+    <td>Optional</td>
+    <td>The patch expansion file is optional and intended for small updates to the main expansion file.</td>
+  </tr>
+</table>
 
 Example
 ```xml
@@ -4216,7 +4236,7 @@ Example
     <td>APK / Upload new APK to Production|Beta|Alpha</td>
     <td>50M</td>
     <td>Yes</td>
-    <td>Yes</td>
+    <td>Yes (2 files, max 2GB)</td>
   </tr>
   <tr>
     <td>Yandex.Store</td>
