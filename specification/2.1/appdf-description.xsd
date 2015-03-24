@@ -392,8 +392,8 @@
     <xsd:complexType name="type-apkfile">
         <xsd:simpleContent>
             <xsd:extension base="type-attr-localfile">
-                <xsd:attribute name="exp-file1" type="type-attr-localfile" use="optional"/>
-                <xsd:attribute name="exp-file2" type="type-attr-localfile" use="optional"/>
+                <xsd:attribute name="main-exp-file" type="type-attr-localfile" use="optional"/>
+                <xsd:attribute name="patch-exp-file" type="type-attr-localfile" use="optional"/>
             </xsd:extension>
         </xsd:simpleContent>
     </xsd:complexType>
