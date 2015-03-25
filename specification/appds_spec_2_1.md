@@ -6439,9 +6439,9 @@ Currencies used in different countries in [JSON](http://www.onepf.org/appdf/data
   </tr>
   <tr>
     <td>Google Play</td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>Yes</td>
+    <td>In-app Products / PRICING / Local prices</td>
+    <td>Depends on</td>
     <td></td>
   </tr>
   <tr>
@@ -6474,7 +6474,7 @@ Currencies used in different countries in [JSON](http://www.onepf.org/appdf/data
   </tr>
   <tr>
     <td>SlideME</td>
-    <td>No</td>
+    <td></td>
     <td></td>
     <td></td>
     <td></td>
