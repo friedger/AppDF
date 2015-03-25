@@ -5481,7 +5481,7 @@ Possible `<license-type>` values:
 * Other / Proprietary
 * The MIT License
 
-#### in-app-purchases
+### in-app-purchases
 
 Optional.  
 No attributes.  
@@ -5641,12 +5641,13 @@ In-app-purchases Structure
 	* [description-localization](#in-app-purchasesitemsitem-description)
 	* [price](#in-app-purchasesitemsitemprice)
 
-##### item | subscription
+### item | subscription
 
-Optional.   
-Attributes: `id`(required)`, `published`(required), `type`(required, only for items).
+#### Attributes
 
-For `items` and `subscriptions`
+##### Common attributes for `items` and `subscriptions`
+
+`id` (required), `published` (required).
 
 <table>
   <tr>
@@ -5783,7 +5784,7 @@ Is the in-app product published or not.
   </tr>
 </table>
 
-For `items`
+##### `items`-specific attributes
 
 <table>
   <tr>
@@ -5847,7 +5848,7 @@ Type of the in-app product. Can be ``consumable`` and ``non-consumable``. ``Cons
 </table>
 
 
-For `subscriptions`
+##### `subscription`-specific attributes
 
 `subs-period` (required), `trial-period` (optional)
 
@@ -5857,18 +5858,6 @@ For `subscriptions`
     <th>Possible values</th>
     <th>Default</th>
     <th>How it works</th>
-  </tr>
-  <tr>
-    <td>id</td>
-    <td>a string</td>
-    <td>Mandatory attribute</td>
-    <td>SKU. Used as unique id for app-store interaction.</td>
-  </tr>
-  <tr>
-    <td>published</td>
-    <td>published | unpublished</td>
-    <td>Mandatory attribute</td>
-    <td>Is an in-app product published or not, is it visible to the end users.</td>
   </tr>
    <tr>
     <td>subs-period</td>
@@ -5936,7 +5925,7 @@ For `subscriptions`
   </tr>
 </table>
 
-###### description  
+#### description  
 
 Required.  
 No attributes.
@@ -5944,7 +5933,7 @@ Common for `items` and `subscriptions`.
 
 This section contains in-app description in text form as well as pictures and videos. A part of the main <description> tag there could be several <description-localization> tags for different languages. If some information is missing in the localized <description-localization> tag it will be taken from the default <description-base> section.
 
-###### description-base/description-base
+##### description-base/description-base
 
 Required.  
 No attributes.
@@ -5952,7 +5941,7 @@ Common for `items` and `subscriptions`.
 
 This section contains in-app description in text form as well as pictures and videos in English US language.
 
-###### description-base/description-base/title
+##### description-base/description-base/title
 Required.  
 No attributes.  
 Min length: 1 character. Max length: 55 characters.  
@@ -6020,7 +6009,7 @@ As everything inside the <description> tag can be localized using <description-l
   </tr>
 </table>
 
-###### description-base/description-base/text  
+##### description-base/description-base/text  
 Required.  
 No attributes.  
 Min length: 1 character. Max length: 80 characters.  
@@ -6094,7 +6083,7 @@ In-app text description is used to describe the product. Different stores have d
   </tr>
 </table>
 
-###### description/description-base/small-icon
+##### description/description-base/small-icon
 
 Optional.  
 Attributes: `width`(required), `height`(required).  
@@ -6182,7 +6171,7 @@ Small in-app icon. Must be in PNG format. As everything inside the `<description
   </tr>
 </table>
 
-###### description/description-base/large-icon
+##### description/description-base/large-icon
 Optional.  
 Attributes: `width`(required), `height`(required).   
 Common for `items` and `subscriptions`.
@@ -6270,7 +6259,7 @@ Large in-app icon. Must be in PNG format. As everything inside the `<description
   </tr>
 </table>
 
-###### description/description-localization
+##### description/description-localization
 
 Required.  
 Attributes: locale (required).  
@@ -6301,7 +6290,7 @@ This section describes whether the in-app is free or paid and if paid what its p
   </tr>
 </table>
 
-#### free
+###### free
 <table>
   <tr>
     <th>Store</th>
@@ -6347,7 +6336,7 @@ This section describes whether the in-app is free or paid and if paid what its p
   </tr>
 </table>
 
-#### price/base-price
+##### price/base-price
 
 Required.  
 No attributes.  
@@ -6423,7 +6412,7 @@ This tag is ignored for free in-apps.
   </tr>
 </table>
 
-#### price/local-price
+##### price/local-price
 
 Optional.  
 Attributes: `country`.  
