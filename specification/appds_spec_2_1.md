@@ -5647,8 +5647,6 @@ In-app-purchases Structure
 
 ##### Common attributes for `<item>` and `<subscription>`
 
-`id` (required), `published` (required).
-
 <table>
   <tr>
     <th>Attribute</th>
