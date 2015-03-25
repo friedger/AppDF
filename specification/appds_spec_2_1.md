@@ -6375,7 +6375,7 @@ This tag is ignored for free in-apps.
   <tr>
     <td>Opera Mobile Store</td>
     <td>No</td>
-    <td>Yes</td>
+    <td></td>
     <td></td>
     <td></td>
     <td></td>
@@ -6387,7 +6387,7 @@ This tag is ignored for free in-apps.
     <td>In App Purchase / Price</td>
     <td>USD</td>
     <td></td>
-    <td></td>
+    <td>0.00, 99999.00</td>
     <td></td>
   </tr>
   <tr>
