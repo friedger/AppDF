@@ -5846,8 +5846,6 @@ Type of the in-app product. Can be ``consumable`` and ``non-consumable``. ``Cons
 
 ##### subscription-specific attributes
 
-`subs-period` (required), `trial-period` (optional)
-
 <table>
   <tr>
     <th>Attribute</th>
