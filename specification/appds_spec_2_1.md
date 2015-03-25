@@ -5645,7 +5645,7 @@ In-app-purchases Structure
 
 #### Attributes
 
-##### Common attributes for `items` and `subscriptions`
+##### Common attributes for `<item>` and `<subscription>`
 
 `id` (required), `published` (required).
 
@@ -5784,22 +5784,20 @@ Is the in-app product published or not.
   </tr>
 </table>
 
-##### `items`-specific attributes
+##### item-specific attributes
 
 <table>
   <tr>
     <th>Attribute</th>
     <th>Possible values</th>
-    <th>Max length</th>
     <th>Default</th>
     <th>How it works</th>
   </tr>
    <tr>
     <td>type</td>
     <td>consumable |  nonconsumable</td>
-    <td>ML not applicable</td>
     <td>Mandatory attribute</td>
-    <td></td>
+    <td>Is the in-app product consumable or not.</td>
   </tr>
 </table>
 
@@ -5848,7 +5846,7 @@ Type of the in-app product. Can be ``consumable`` and ``non-consumable``. ``Cons
 </table>
 
 
-##### `subscription`-specific attributes
+##### subscription-specific attributes
 
 `subs-period` (required), `trial-period` (optional)
 
@@ -5926,18 +5924,16 @@ Type of the in-app product. Can be ``consumable`` and ``non-consumable``. ``Cons
 </table>
 
 #### description  
-
 Required.  
-No attributes.
-Common for `items` and `subscriptions`.
+No attributes.  
+This section has the same structure for `<item>` and `<subscription>`.
 
-This section contains in-app description in text form as well as pictures and videos. A part of the main <description> tag there could be several <description-localization> tags for different languages. If some information is missing in the localized <description-localization> tag it will be taken from the default <description-base> section.
+The section contains in-app description in text form as well as pictures and videos. A part of the main <description> tag there could be several <description-localization> tags for different languages. If some information is missing in the localized <description-localization> tag it will be taken from the default <description-base> section.
 
 ##### description-base/description-base
 
 Required.  
 No attributes.
-Common for `items` and `subscriptions`.
 
 This section contains in-app description in text form as well as pictures and videos in English US language.
 
@@ -5945,7 +5941,6 @@ This section contains in-app description in text form as well as pictures and vi
 Required.  
 No attributes.  
 Min length: 1 character. Max length: 55 characters.  
-Common for `items` and `subscriptions`.
 
 The in-app title is used a human-readable id of an in-app item.  
 As everything inside the <description> tag can be localized using <description-localization> section. Different stores have different requirements for maximum title length. In order to have flexibility to get the best from each of the stores you can include several copies of title tag. The store will take the longest one that is fits in its maximum size. The first title must be 55 symbols or longer in order to be supported by all the stores.
@@ -6013,7 +6008,6 @@ As everything inside the <description> tag can be localized using <description-l
 Required.  
 No attributes.  
 Min length: 1 character. Max length: 80 characters.  
-Common for `items` and `subscriptions`.
 
 In-app text description is used to describe the product. Different stores have different requirements for maximum description length. In order to have flexibility to get the best from each of the stores you can include several copies of text tag. The store will take the longest one that fits in its maximum size. As everything inside the <description> tag can be localized using <description-localization> section. The first text tag value must be 80 symbols or longer in order to be supported by all the stores.
 
@@ -6087,7 +6081,6 @@ In-app text description is used to describe the product. Different stores have d
 
 Optional.  
 Attributes: `width`(required), `height`(required).  
-Common for `items` and `subscriptions`.
 
 Small in-app icon. Must be in PNG format. As everything inside the `<description>` tag it can be localized using `<description-localization>` section. Different stores require different resolutions of this icon. You can include several versions of the `<small-icon>` tag with different `width` and `height` attributes. The store will automatically select right size. AppDF will automatically rescale your image if there is no needed size. The icon must be a square (`width`=`height`).
 
@@ -6174,7 +6167,6 @@ Small in-app icon. Must be in PNG format. As everything inside the `<description
 ##### description/description-base/large-icon
 Optional.  
 Attributes: `width`(required), `height`(required).   
-Common for `items` and `subscriptions`.
 
 Large in-app icon. Must be in PNG format. As everything inside the `<description>` tag it can be localized using `<description-localization>` section. Different stores require different resolutions of this icon. You can include several versions of the `<large-icon>` tag with different `width` and `height` attributes. The store will automatically select right size. AppDF will automatically rescale your image if there is no needed size. The icon must be a square (`width`=`height`).
 
@@ -6263,7 +6255,6 @@ Large in-app icon. Must be in PNG format. As everything inside the `<description
 
 Required.  
 Attributes: locale (required).  
-Common for `items` and `subscriptions`.
 
 This section contains in-app description in text form as well as pictures and videos in different languages.
 
@@ -6271,7 +6262,6 @@ This section contains in-app description in text form as well as pictures and vi
 
 Required.  
 Attributes: ``free``(required).   
-Common for `items` and `subscriptions`.
 
 This section describes whether the in-app is free or paid and if paid what its price is.
 
@@ -6340,7 +6330,6 @@ This section describes whether the in-app is free or paid and if paid what its p
 
 Required.  
 No attributes.  
-Common for 'items' and 'subscriptions'.
 
 In-app price. Tag value should be a dot-separated number. This price is set in USD used to automatically calculate the prices in other currencies unless you manually specify such prices using `<local-price>` tags.
 
@@ -6416,7 +6405,6 @@ This tag is ignored for free in-apps.
 
 Optional.  
 Attributes: `country`.  
-Common for `items` and `subscriptions`.
 
 The stores will use your default price defined in the `<base-price>` tag to automatically generate prices for other currencies and other countries. Nevertheless you can use `<local-price>` tags to manually define price for some countries. Tag value should be a dot-separated number.
 
