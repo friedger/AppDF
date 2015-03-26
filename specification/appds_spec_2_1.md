@@ -6247,6 +6247,16 @@ Large in-app icon. Must be in PNG format. As everything inside the `<description
   </tr>
 </table>
 
+##### description/description-base/store-specific
+##### description/description-base/store-specific/amazon
+###### description/description-base/store-specific/amazon/additional-file-delivered
+###### description/description-base/store-specific/amazon/small-icon
+###### description/description-base/store-specific/amazon/large-icon
+##### description/description-base/store-specific/samsung
+###### description/description-base/store-specific/samsung/payment-method
+##### description/description-base/store-specific/slideme
+###### description/description-base/store-specific/slideme/test-mode
+
 ##### description/description-localization
 
 Required.  
