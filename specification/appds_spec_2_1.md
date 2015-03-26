@@ -6247,14 +6247,36 @@ Large in-app icon. Must be in PNG format. As everything inside the `<description
   </tr>
 </table>
 
-##### description/description-base/store-specific
+##### description/description-base/store-specific  
+Optional.  
+No attributes.  
+
+All store specific information is collected in this section.
+
 ##### description/description-base/store-specific/amazon
+Optional.  
+No attributes.
+
+All Amazon Appstore - specific information is collected in this section. 
+
 ###### description/description-base/store-specific/amazon/additional-file-delivered
 ###### description/description-base/store-specific/amazon/small-icon
 ###### description/description-base/store-specific/amazon/large-icon
+
 ##### description/description-base/store-specific/samsung
+Optional.  
+No attributes.
+
+All Samsung Apps - specific information is collected in this section.
+
 ###### description/description-base/store-specific/samsung/payment-method
+
 ##### description/description-base/store-specific/slideme
+Optional.  
+No attributes.
+
+All SlideME-specific information is collected in this section.
+
 ###### description/description-base/store-specific/slideme/test-mode
 
 ##### description/description-localization
