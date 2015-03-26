@@ -6259,9 +6259,21 @@ No attributes.
 
 All Amazon Appstore - specific information is collected in this section. 
 
-###### description/description-base/store-specific/amazon/additional-file-delivered
-###### description/description-base/store-specific/amazon/small-icon
-###### description/description-base/store-specific/amazon/large-icon
+###### description/description-base/store-specific/amazon/additional-file-delivered  
+Required.  
+No attributes.  
+
+This element describes whether you'll deliver additional assets after purchasing or not.
+
+###### description/description-base/store-specific/amazon/small-icon  
+Required.  
+Attributes: 
+
+
+###### description/description-base/store-specific/amazon/large-icon  
+Required.  
+Attributes:  
+
 
 ##### description/description-base/store-specific/samsung
 Optional.  
@@ -6269,7 +6281,9 @@ No attributes.
 
 All Samsung Apps - specific information is collected in this section.
 
-###### description/description-base/store-specific/samsung/payment-method
+###### description/description-base/store-specific/samsung/payment-method  
+Required.  
+No attributes.
 
 ##### description/description-base/store-specific/slideme
 Optional.  
@@ -6277,10 +6291,12 @@ No attributes.
 
 All SlideME-specific information is collected in this section.
 
-###### description/description-base/store-specific/slideme/test-mode
+###### description/description-base/store-specific/slideme/test-mode  
+Required.  
+No attributes.
+
 
 ##### description/description-localization
-
 Required.  
 Attributes: locale (required).  
 
