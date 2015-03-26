@@ -2976,7 +2976,7 @@ There is no universal content rating system (aka parental control rating, aka mi
     <th>Opera Mobile Store</th>
     <th>Samsung Apps</th>
     <th>SlideME</th>
-    <th>NOOK apps</th>
+    <!--<th>NOOK apps</th>-->
   </tr>
   <tr>
     <td>3</td>
@@ -2985,7 +2985,7 @@ There is no universal content rating system (aka parental control rating, aka mi
     <td>n/a</td>
     <td>Over age 0</td>
     <td>G: General Audiences (for all ages)</td>
-    <td>Ages 0-4</td>
+    <!--<td>Ages 0-4</td>-->
   </tr>
   <tr>
     <td>6</td>
@@ -2994,7 +2994,7 @@ There is no universal content rating system (aka parental control rating, aka mi
     <td>n/a</td>
     <td>Over age 4</td>
     <td>G: General Audiences (for all ages)</td>
-    <td>6+</td>
+    <!--<td>6+</td>-->
   </tr>
   <tr>
     <td>10</td>
@@ -3003,7 +3003,7 @@ There is no universal content rating system (aka parental control rating, aka mi
     <td>n/a</td>
     <td>Over age 12</td>
     <td>PG: Parental Guidance Suggested (may not be suitable for children)</td>
-    <td>10+</td>
+    <!--<td>10+</td>-->
   </tr>
   <tr>
     <td>13</td>
@@ -3012,7 +3012,7 @@ There is no universal content rating system (aka parental control rating, aka mi
     <td>n/a</td>
     <td>Over age 16</td>
     <td>PG-13: Parents Strongly Cautioned (may not be suitable for children under 13)</td>
-    <td>13+</td>
+    <!--<td>13+</td>-->
   </tr>
   <tr>
     <td>17</td>
@@ -3021,7 +3021,7 @@ There is no universal content rating system (aka parental control rating, aka mi
     <td>n/a</td>
     <td>Over age 18</td>
     <td>R: Restricted (under 17 requires accompanying adult guardian)</td>
-    <td>17+</td>
+    <!--<td>17+</td>-->
   </tr>
   <tr>
     <td>18</td>
@@ -3030,7 +3030,7 @@ There is no universal content rating system (aka parental control rating, aka mi
     <td>n/a</td>
     <td>Over age 18</td>
     <td>NC-17: Not allowed for 17 and under</td>
-    <td>18+</td>
+    <!--<td>18+</td>-->
   </tr>
 </table>
 
