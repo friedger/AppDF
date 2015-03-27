@@ -5728,34 +5728,30 @@ Unique identifier of the in-app product. Also known as ``SKU``, store keeping un
 
 ###### published
 
-Is the in-app product published or not.
+Is the in-app product active or not.
 
 <table>
   <tr>
     <th>Store</th>
     <th>Supported</th>
     <th>Name</th>
-    <th>Required</th>
-    <th>Possible values</th>
+    <th>Comments</th>
   </tr>
   <tr>
     <td>Google Play</td>
     <td>Yes</td>
     <td>In-app Products / In-app Products / Status</td>
     <td></td>
-    <td>Activate / Deactivate / Delete</td>
   </tr>
   <tr>
     <td>Yandex.Store</td>
     <td>Yes</td>
     <td>In-App purchases / (In)active purchases</td>
     <td></td>
-    <td>Activate / Deactivate</td>
   </tr>
   <tr>
     <td>Amazon AppStore</td>
-    <td></td>
-    <td></td>
+    <td>No</td>
     <td></td>
     <td></td>
   </tr>
@@ -5764,20 +5760,17 @@ Is the in-app product published or not.
     <td>No</td>
     <td></td>
     <td></td>
-    <td></td>
   </tr>
   <tr>
     <td>Samsung Apps</td>
     <td>No</td>
     <td></td>
     <td></td>
-    <td></td>
   </tr>
   <tr>
     <td>SlideME</td>
-    <td></td>
+    <td>Yes</td>
     <td>Managed IAP / Published</td>
-    <td></td>
     <td>(un)checked checkbox</td>
   </tr>
 </table>
