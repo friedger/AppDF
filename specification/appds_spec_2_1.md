@@ -5849,14 +5849,14 @@ Type of the in-app product. Can be ``consumable`` and ``non-consumable``. ``Cons
    <tr>
     <td>subs-period</td>
     <td>oneWeek | oneMonth | oneYear</td>
-    <td>Mandatory attribute</td>
-    <td>A period when the feature/product is available to the user</td>
+    <td>Mandatory</td>
+    <td>A period when the feature/product is available to the user.</td>
   </tr>
   <tr>
     <td>trial-period</td>
     <td>the number of days</td>
-    <td>Optional attribute</td>
-    <td>Trial period</td>
+    <td>Optional</td>
+    <td>Trial period.</td>
   </tr>
 </table>
 
