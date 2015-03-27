@@ -5600,36 +5600,50 @@ Example
     <th>Store</th>
     <th>Supported</th>
     <th>Name</th>
+    <th>Items supported</th>
+    <th>Subs supported</th>
   </tr>
   <tr>
     <td>Google Play</td>
     <td>Yes</td>
     <td>In-app Products</td>
+    <td>Yes</td>
+    <td>Yes</td>
   </tr>
   <tr>
     <td>Yandex.Store</td>
     <td>Yes</td>
     <td>In-App purchases</td>
+    <td>Yes</td>
+    <td>Yes</td>
   </tr>
   <tr>
     <td>Amazon AppStore</td>
     <td>Yes</td>
     <td>In-App Items</td>
+    <td>Yes</td>
+    <td>Yes</td>
   </tr>
   <tr>
     <td>Opera Mobile Store</td>
     <td>No</td>
+    <td></td>
+    <td></td>
     <td></td>
   </tr>
   <tr>
     <td>Samsung Apps</td>
     <td>Yes</td>
     <td>In app purchase</td>
+    <td>Yes</td>
+    <td>Yes</td>
   </tr>
   <tr>
     <td>SlideME</td>
     <td>Yes</td>
     <td>Manage IAP</td>
+    <td>Yes</td>
+    <td>No</td>
   </tr>
 </table>
 
