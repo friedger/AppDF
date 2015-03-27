@@ -5706,16 +5706,16 @@ Unique identifier of the in-app product. Also known as ``SKU``, store keeping un
   <tr>
     <td>Yandex.Store</td>
     <td>Yes</td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>New In-App Purchase / ID</td>
+    <td>Yes</td>
+    <td>The in-app ID can contain only characters from a to z, numbers, dots or underscocres and can begin from character or number.</td>
   </tr>
   <tr>
     <td>Amazon AppStore</td>
     <td>Yes</td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>In-App Items / General Information / SKU</td>
+    <td>Yes</td>
+    <td>SKU may be 150 characters or less and contain only alphanumeric, dash, dot, or underscore characters.</td>
   </tr>
   <tr>
     <td>Samsung Apps</td>
@@ -5729,7 +5729,7 @@ Unique identifier of the in-app product. Also known as ``SKU``, store keeping un
     <td>Yes</td>
     <td>Product ID</td>
     <td>Yes</td>
-    <td></td>
+    <td>No requirements.</td>
   </tr>
 </table>
 
