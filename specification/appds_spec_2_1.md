@@ -1947,14 +1947,14 @@ High resolution application icon. Must be in PNG format. Different stores requir
   </tr>
   <tr>
     <td>width</td>
-    <td>a number</td>
-    <td>Mandatory attribute</td>
+    <td>A number</td>
+    <td>Mandatorye</td>
     <td>The store selects the app icon in the most appropriate size. The first icon must be 512x512.</td>
   </tr>
   <tr>
     <td>height</td>
-    <td>a number</td>
-    <td>Mandatory attribute</td>
+    <td>A number</td>
+    <td>Mandatory</td>
     <td>The store selects the app icon in the most appropriate size. The first icon must be 512x512.</td>
   </tr>
 </table>
@@ -5788,7 +5788,7 @@ Is the in-app product active or not.
    <tr>
     <td>type</td>
     <td>consumable |  nonconsumable</td>
-    <td>Mandatory attribute</td>
+    <td>Mandatory</td>
     <td>Is the in-app product consumable or not.</td>
   </tr>
 </table>
@@ -6096,14 +6096,14 @@ Small in-app icon. Must be in PNG format. As everything inside the `<description
   </tr>
   <tr>
     <td>width</td>
-    <td>a number</td>
-    <td>Mandatory attribute</td>
+    <td>A number</td>
+    <td>Mandatory</td>
     <td>The store selects the small icon in the most appropriate size. The first icon must be 135x135, PNG.</td>
   </tr>
   <tr>
     <td>height</td>
-    <td>a number</td>
-    <td>Mandatory attribute</td>
+    <td>A number</td>
+    <td>Mandatory</td>
     <td>The store selects the app icon in the most appropriate size. The first icon must be 135x135, PNG.</td>
   </tr>
 </table>
@@ -6174,14 +6174,14 @@ Large in-app icon. Must be in PNG format. As everything inside the `<description
   </tr>
   <tr>
     <td>width</td>
-    <td>a number</td>
-    <td>Mandatory attribute</td>
+    <td>A number</td>
+    <td>Mandatory</td>
     <td>The icon must be 512x512 PNG.</td>
   </tr>
   <tr>
     <td>height</td>
-    <td>a number</td>
-    <td>Mandatory attribute</td>
+    <td>A number</td>
+    <td>Mandatory</td>
     <td>The icon must be 512x512 PNG.</td>
   </tr>
 </table>
