@@ -5718,13 +5718,6 @@ Unique identifier of the in-app product. Also known as ``SKU``, store keeping un
     <td></td>
   </tr>
   <tr>
-    <td>Opera Mobile Store</td>
-    <td>No</td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
     <td>Samsung Apps</td>
     <td>Yes</td>
     <td>In App Purchase / Add Item / Item ID</td>
@@ -5765,12 +5758,6 @@ Is the in-app product active or not.
   </tr>
   <tr>
     <td>Amazon AppStore</td>
-    <td>No</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Opera Mobile Store</td>
     <td>No</td>
     <td></td>
     <td></td>
@@ -5902,12 +5889,6 @@ Type of the in-app product. Can be ``consumable`` and ``non-consumable``. ``Cons
     <td>Weekly, BiWeekly, Monthly, BiMonthly, Quarterly, SemiAnnualy, Annualy</td>
   </tr>
   <tr>
-    <td>Opera Mobile Store</td>
-    <td>No</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
     <td>Samsung Apps</td>
     <td>Yes</td>
     <td>In app purchase / Duration</td>
@@ -5947,12 +5928,6 @@ Type of the in-app product. Can be ``consumable`` and ``non-consumable``. ``Cons
     <td>Yes</td>
     <td>In-App Items / Subscription periods</td>
     <td>Yes, 7 or 14 Days, 1 or 2 or 3 Months</td>
-  </tr>
-  <tr>
-    <td>Opera Mobile Store</td>
-    <td>No</td>
-    <td></td>
-    <td></td>
   </tr>
   <tr>
     <td>Samsung Apps</td>
@@ -6024,14 +5999,6 @@ As everything inside the <description> tag can be localized using <description-l
     <td>250 characters</td>
   </tr>
   <tr>
-    <td>Opera Mobile Store</td>
-    <td>No</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
     <td>Samsung Apps</td>
     <td>Yes</td>
     <td>In App Purchase / Item Title</td>
@@ -6091,15 +6058,6 @@ In-app text description is used to describe the product. Different stores have d
     <td>Yes</td>
     <td>Yes</td>
     <td>1200 characters</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Opera Mobile Store</td>
-    <td>No</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
     <td></td>
   </tr>
   <tr>
@@ -6184,14 +6142,6 @@ Small in-app icon. Must be in PNG format. As everything inside the `<description
     <td>114 x 114px PNG (with transparency)</td>
   </tr>
   <tr>
-    <td>Opera Mobile Store</td>
-    <td>No</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
     <td>Samsung Apps</td>
     <td>Yes</td>
     <td>In App Purchase / Item Image</td>
@@ -6269,14 +6219,6 @@ Large in-app icon. Must be in PNG format. As everything inside the `<description
     <td>Yes</td>
     <td>Yes</td>
     <td>512 x 512px PNG (with transparency)</td>
-  </tr>
-  <tr>
-    <td>Opera Mobile Store</td>
-    <td>No</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
   </tr>
   <tr>
     <td>Samsung Apps</td>
@@ -6400,12 +6342,6 @@ This section describes whether the in-app is free or paid and if paid what its p
     <td>Yes (the box changes to free automatically)</td>
   </tr>
   <tr>
-    <td>Opera Mobile Store</td>
-    <td>No</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
     <td>Samsung Apps</td>
     <td>No</td>
     <td></td>
@@ -6461,15 +6397,6 @@ This tag is ignored for free in-apps.
     <td>Yes</td>
     <td>In-App Items / Availability & Pricing / Yes, my base list price is...</td>
     <td>Australian Dollar | Brazilian Real | Canadian Dollar | Euro | United Kingdom Pound | Japanese YenJapanese Yen | United States Dollar</td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Opera Mobile Store</td>
-    <td>No</td>
-    <td></td>
-    <td></td>
     <td></td>
     <td></td>
     <td></td>
@@ -6546,13 +6473,6 @@ Currencies used in different countries in [JSON](http://www.onepf.org/appdf/data
   </tr>
   <tr>
     <td>Amazon AppStore</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Opera Mobile Store</td>
     <td></td>
     <td></td>
     <td></td>
