@@ -5659,14 +5659,14 @@ In-app-purchases Structure
     <td>id</td>
     <td>([a-z]|[0-9]){1}[a-z0-9._]*</td>
     <td>139 characters</td>
-    <td>Mandatory attribute</td>
+    <td>Mandatory</td>
     <td>SKU. Used as unique id for app-store interaction.</td>
   </tr>
   <tr>
     <td>published</td>
     <td>yes | no</td>
     <td>ML not applicable</td>
-    <td>Mandatory attribute</td>
+    <td>Mandatory</td>
     <td>Is the in-app product published or not (is it visible to the end users)</td>
   </tr>
 </table>
