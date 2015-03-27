@@ -5874,39 +5874,36 @@ Type of the in-app product. Can be ``consumable`` and ``non-consumable``. ``Cons
   </tr>
 </table>
 
+###### subs-period
+
 <table>
   <tr>
     <th>Store</th>
     <th>Supported</th>
     <th>Name</th>
     <th>Possible values</th>
-    <th>Trial</h>
   </tr>
   <tr>
     <td>Google Play</td>
     <td>Yes</td>
     <td>In-app Products / Pricing  / Billing period</td>
     <td>Monthly, Yearly, Seasonal</td>
-    <td>Yes, days</td>
   </tr>
   <tr>
     <td>Yandex.Store</td>
     <td>Yes</td>
     <td>In-App purchases / (In)active purchases / Subscription period</td>
     <td>Annualy, Monthly</td>
-    <td>Yes, days</td>
   </tr>  
   <tr>
     <td>Amazon AppStore</td>
     <td>Yes</td>
     <td>In-App Items / Subscription periods</td>
     <td>Weekly, BiWeekly, Monthly, BiMonthly, Quarterly, SemiAnnualy, Annualy</td>
-    <td>Yes, 7 or 14 Days, 1 or 2 or 3 Months</td>
   </tr>
   <tr>
     <td>Opera Mobile Store</td>
     <td>No</td>
-    <td></td>
     <td></td>
     <td></td>
   </tr>
@@ -5915,12 +5912,57 @@ Type of the in-app product. Can be ``consumable`` and ``non-consumable``. ``Cons
     <td>Yes</td>
     <td>In app purchase / Duration</td>
     <td>1 Month, 3 Month, 6 Month, 12 Month</td>
-    <td>No</td>
   </tr>
   <tr>
     <td>SlideME</td>
     <td>No</td>
     <td></td>
+    <td></td>
+  </tr>
+</table>
+
+###### trial-period
+
+<table>
+  <tr>
+    <th>Store</th>
+    <th>Supported</th>
+    <th>Name</th>
+    <th>Possible values</h>
+  </tr>
+  <tr>
+    <td>Google Play</td>
+    <td>Yes</td>
+    <td>In-app Products / Pricing  / Billing period / Free Trial Period</td>
+    <td>Number of days</td>
+  </tr>
+  <tr>
+    <td>Yandex.Store</td>
+    <td>Yes</td>
+    <td>In-App purchases / (In)active purchases / Subscription periods / Free trial</td>
+    <td>Number of days</td>
+  </tr>  
+  <tr>
+    <td>Amazon AppStore</td>
+    <td>Yes</td>
+    <td>In-App Items / Subscription periods</td>
+    <td>Yes, 7 or 14 Days, 1 or 2 or 3 Months</td>
+  </tr>
+  <tr>
+    <td>Opera Mobile Store</td>
+    <td>No</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Samsung Apps</td>
+    <td>No</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>SlideME</td>
+    <td>No</td>
     <td></td>
     <td></td>
   </tr>
