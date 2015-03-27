@@ -6487,7 +6487,7 @@ Currencies used in different countries in [JSON](http://www.onepf.org/appdf/data
   </tr>
   <tr>
     <td>SlideME</td>
-    <td></td>
+    <td>No</td>
     <td></td>
     <td></td>
     <td></td>
