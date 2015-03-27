@@ -1994,7 +1994,7 @@ High resolution application icon. Must be in PNG format. Different stores requir
     <td>Yes</td>
     <td>Yes</td>
     <td>114x114, 512x512</td>
-    <td>PNG (with transparency)</td>
+    <td>PNG</td>
   </tr>
   <tr>
     <td>Opera Mobile Store</td>
@@ -6139,7 +6139,7 @@ Small in-app icon. Must be in PNG format. As everything inside the `<description
     <td>In-App Items  / Images / Small icon</td>
     <td>Yes</td>
     <td>Yes</td>
-    <td>114 x 114px PNG (with transparency)</td>
+    <td>114 x 114px PNG</td>
   </tr>
   <tr>
     <td>Samsung Apps</td>
@@ -6218,7 +6218,7 @@ Large in-app icon. Must be in PNG format. As everything inside the `<description
     <td>In-App Items  / Images / Large icon</td>
     <td>Yes</td>
     <td>Yes</td>
-    <td>512 x 512px PNG (with transparency)</td>
+    <td>512 x 512px PNG</td>
   </tr>
   <tr>
     <td>Samsung Apps</td>
