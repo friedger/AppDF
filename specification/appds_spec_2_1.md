@@ -1948,7 +1948,7 @@ High resolution application icon. Must be in PNG format. Different stores requir
   <tr>
     <td>width</td>
     <td>A number</td>
-    <td>Mandatorye</td>
+    <td>Mandatory</td>
     <td>The store selects the app icon in the most appropriate size. The first icon must be 512x512.</td>
   </tr>
   <tr>
@@ -5636,8 +5636,7 @@ Example
   </tr>
 </table>
 
-In-app-purchases Structure
--------------
+## In-app-purchases Structure
 
 * [item | subscription](#in-app-purchasesitemsitem)  
 	* [description](#in-app-purchasesitemsitem-description)
@@ -5649,6 +5648,8 @@ In-app-purchases Structure
 #### Attributes
 
 ##### Common attributes for `<item>` and `<subscription>`
+
+The following attributes are common for `<item>` and `<subscription>` elements.
 
 <table>
   <tr>
@@ -5675,7 +5676,8 @@ In-app-purchases Structure
 </table>
 
 ###### id
-Unique identifier of the in-app product. Also known as ``SKU``, store keeping unit. Non-localizable.
+
+Unique identifier of the in-app product. Also known as `SKU`, store keeping unit. Non-localizable.
 
 <table>
   <tr>
@@ -5765,7 +5767,9 @@ Is the in-app product active or not.
   </tr>
 </table>
 
-##### item-specific attributes
+##### Item-specific attributes
+
+The following attributes are `<item>`-specific.
 
 <table>
   <tr>
@@ -5826,8 +5830,9 @@ Type of the in-app product. Can be ``consumable`` and ``non-consumable``. ``Cons
   </tr>
 </table>
 
-
 ##### subscription-specific attributes
+
+The following attributes are `<subscription>`-specific.
 
 <table>
   <tr>
@@ -5851,6 +5856,8 @@ Type of the in-app product. Can be ``consumable`` and ``non-consumable``. ``Cons
 </table>
 
 ###### subs-period
+
+A subscription duration.
 
 <table>
   <tr>
@@ -5893,6 +5900,8 @@ Type of the in-app product. Can be ``consumable`` and ``non-consumable``. ``Cons
 
 ###### trial-period
 
+A trial period of the subscription.
+
 <table>
   <tr>
     <th>Store</th>
@@ -5932,9 +5941,11 @@ Type of the in-app product. Can be ``consumable`` and ``non-consumable``. ``Cons
   </tr>
 </table>
 
-#### description  
+#### description 
+
 Required.  
-No attributes.  
+No attributes. 
+
 This section has the same structure for `<item>` and `<subscription>`.
 
 The section contains in-app description in text form as well as pictures and videos. A part of the main <description> tag there could be several <description-localization> tags for different languages. If some information is missing in the localized <description-localization> tag it will be taken from the default <description-base> section.
