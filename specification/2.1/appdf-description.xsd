@@ -537,10 +537,10 @@
 
     <xsd:complexType name="type-in-app-description">
         <xsd:sequence>
-            <xsd:element name="title" type="type-in-app-title"/>
-            <xsd:element name="text" type="type-in-app-text"/>
-            <xsd:element name="small-icon" type="type-in-app-icon" minOccurs="0" maxOccurs="1"/>
-            <xsd:element name="large-icon" type="type-in-app-icon" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="title" type="type-in-app-title" maxOccurs="unbounded"/>
+            <xsd:element name="text" type="type-in-app-text" maxOccurs="unbounded"/>
+            <xsd:element name="small-icon" type="type-in-app-icon" minOccurs="0" maxOccurs="unbounded"/>
+            <xsd:element name="large-icon" type="type-in-app-icon" minOccurs="0" maxOccurs="unbounded"/>
             <xsd:element name="store-specific" type="type-in-app-store-specific" minOccurs="0" maxOccurs="1" />
         </xsd:sequence>
     </xsd:complexType>
@@ -600,14 +600,12 @@
     <xsd:simpleType name="type-in-app-title">
         <xsd:restriction base="xsd:string">
             <xsd:minLength value="1"/>
-            <xsd:maxLength value="55"/>
         </xsd:restriction>
     </xsd:simpleType>
 
     <xsd:simpleType name="type-in-app-text">
         <xsd:restriction base="xsd:string">
             <xsd:minLength value="1"/>
-            <xsd:maxLength value="80"/>
         </xsd:restriction>
     </xsd:simpleType>
 
