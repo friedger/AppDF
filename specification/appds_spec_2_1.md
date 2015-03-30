@@ -2938,7 +2938,7 @@ Each application must be labeled with a minimum age allowance according to [ESRB
   <tr>
     <td>Samsung Apps</td>
     <td>Yes</td>
-    <td>App Information / Age Restriction<br>and App Information / Rating Certificate for Available Countries (PEGI, ESRB, GRB, MJ/DEJUS , FSK, ETC)</td>
+    <td>App Information / Age Restriction</td>
     <td>Yes</td>
     <td></td>
   </tr>
