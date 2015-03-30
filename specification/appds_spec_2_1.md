@@ -5948,14 +5948,14 @@ No attributes.
 
 This section has the same structure for `<item>` and `<subscription>`.
 
-The section contains in-app description in text form as well as pictures and videos. A part of the main <description> tag there could be several <description-localization> tags for different languages. If some information is missing in the localized <description-localization> tag it will be taken from the default <description-base> section.
+The section contains in-app description in text form as well as pictures. A part of the main <description> tag there could be several <description-localization> tags for different languages. If some information is missing in the localized <description-localization> tag it will be taken from the default <description-base> section.
 
 ##### description-base/description-base
 
 Required.  
 No attributes.
 
-This section contains in-app description in text form as well as pictures and videos in English US language.
+This section contains in-app description in text form as well as pictures in English US language.
 
 ##### description-base/description-base/title
 Required.  
