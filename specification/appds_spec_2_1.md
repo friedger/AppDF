@@ -5631,7 +5631,20 @@ Example
 ## In-app-purchases Structure
 
 * [item | subscription](#in-app-purchasesitemsitem)  
+	* [common attributes] ()
+		* [id]()
+		* [published]()
+	* [item-specific attributes]()
+		* [type]()
+	* [subscription-specific attributes]()
+		* [subs-period]()
+		* [trial-period]()
 	* [description](#in-app-purchasesitemsitem-description)
+		* [title]()
+		* [text]()
+		* [small-icon]()
+		* [large-icon]()
+		* [store-specific]()
 	* [description-localization](#in-app-purchasesitemsitem-description)
 	* [price](#in-app-purchasesitemsitemprice)
 
