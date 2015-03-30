@@ -2948,7 +2948,8 @@ Each application must be labeled with a minimum age allowance according to [ESRB
     <td>Application / Parental Rating</td>
     <td>Yes</td>
     <td></td>
-  </tr
+  </tr>
+  <!--
   <tr>
     <td>NOOK apps</td>
     <td>Yes</td>
@@ -2956,7 +2957,6 @@ Each application must be labeled with a minimum age allowance according to [ESRB
     <td>Yes</td>
     <td></td>
   </tr>
-  <!--
   <tr>
     <td>AppsLib</td>
     <td>No</td>
@@ -5277,17 +5277,6 @@ Example
   <slideme>
     <license-type>apache2</license-type>
   </slideme>
-  <nook>
-    <supported-platforms>
-      <nook-color>yes</nook-color>
-      <nook-tablet>yes</nook-tablet>
-      <nook-hd>yes</nook-hd>
-      <nook-hd-plus>yes</nook-hd-plus>
-    </supported-platforms>
-  </nook>
-  <tstore>
-    <seller-name>Yandex</seller-name>
-  </tstore>
 </store-specific>
 ```
 
@@ -5322,10 +5311,12 @@ Top level subtags correspond to the application AppDF ids from the following tab
     <td>Samsung Apps</td>
     <td>samsung</td>
   </tr>
+  <!--
   <tr>
     <td>NOOK apps</td>
     <td>nook</td>
   </tr>
+  -->
   <tr>
     <td>AppsLib</td>
     <td>appslib</td>
