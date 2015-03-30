@@ -3308,18 +3308,18 @@ Example
   </tr>
   <tr>
     <td>Yandex.Store</td>
-    <td>Yes</td>
-    <td>Age rating</td>
-    <td>Yes</td>
-    <td>Possible values: Adults, Teenagers, Children</td>
+    <td>No</td>
+    <td></td>
+    <td></td>
+    <td></td>
   </tr>
   <tr>
     <td>Amazon AppStore</td>
     <td>Yes</td>
     <td>Content Rating</td>
     <td>Yes</td>
-    <td>Subject Matter: Violence |  Cartoon Violence |  Drugs |  Nudity | Sex | Intolerance | Profanity | Academic
-    <br>Additional Information: Account creation or other personal information collected? |  Advertisements |  Child Directed |  Gambling |  Location detection or Location Based Services |  User Generated Content or User to User Communication</td>
+    <td>Subject Matter: Violence | Cartoon Violence | Drugs | Nudity | Sex | Intolerance | Profanity | Academic
+    <br>Additional Information: Account creation or other personal information collected? |  Advertisements |  Child Directed | Gambling | Location detection or Location Based Services | User Generated Content or User to User Communication</td>
   </tr>
   <tr>
     <td>Opera Mobile Store</td>
