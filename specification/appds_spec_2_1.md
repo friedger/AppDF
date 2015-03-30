@@ -5505,10 +5505,6 @@ Example
                     <calculated-prices>yes</calculated-prices>
                 </amazon>
                 <!--Optional:-->
-                <samsung>
-                    <payment-method>creditcard</payment-method>
-                </samsung>
-                <!--Optional:-->
                 <slideme>
                     <test-mode>success</test-mode>
                 </slideme>
@@ -5536,10 +5532,6 @@ Example
                     </large-icon>
                     <calculated-prices>yes</calculated-prices>
                 </amazon>
-                <!--Optional:-->
-                <samsung>
-                    <payment-method>creditcard</payment-method>
-                </samsung>
                 <!--Optional:-->
                 <slideme>
                     <test-mode>success</test-mode>
@@ -6267,18 +6259,6 @@ Required.
 Attributes:  
 
 Large in-app icon.
-
-##### description/store-specific/samsung
-
-Optional.  
-No attributes.
-
-All Samsung Apps - specific information is collected in this section. Currently the section contains information about supported payment methods.
-
-##### description/store-specific/samsung/payment-method
-
-Required.  
-No attributes.
 
 ##### description/store-specific/slideme
 
