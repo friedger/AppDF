@@ -3326,7 +3326,7 @@ Example
     <td>Yes</td>
     <td>Is Adult?</td>
     <td>Yes</td>
-    <td>Only adult descriptor is used</td>
+    <td>Only adult descriptor is used.</td>
   </tr>
   <tr>
     <td>Samsung Apps</td>
