@@ -5958,9 +5958,10 @@ No attributes.
 This section contains in-app description in text form as well as pictures in English US language.
 
 ##### description-base/description-base/title
+
 Required.  
 No attributes.  
-Min length: 1 character. Max length: 55 characters.  
+Min length: 1 character.  
 
 The in-app title is used a human-readable id of an in-app item.  
 As everything inside the <description> tag can be localized using <description-localization> section. Different stores have different requirements for maximum title length. In order to have flexibility to get the best from each of the stores you can include several copies of title tag. The store will take the longest one that is fits in its maximum size. The first title must be 55 symbols or longer in order to be supported by all the stores.
@@ -6017,9 +6018,10 @@ As everything inside the <description> tag can be localized using <description-l
 </table>
 
 ##### description-base/description-base/text  
+
 Required.  
 No attributes.  
-Min length: 1 character. Max length: 80 characters.  
+Min length: 1 character.
 
 In-app text description is used to describe the product. Different stores have different requirements for maximum description length. In order to have flexibility to get the best from each of the stores you can include several copies of text tag. The store will take the longest one that fits in its maximum size. As everything inside the <description> tag can be localized using <description-localization> section. The first text tag value must be 80 symbols or longer in order to be supported by all the stores.
 
@@ -6176,13 +6178,13 @@ Large in-app icon. Must be in PNG format. As everything inside the `<description
     <td>width</td>
     <td>A number</td>
     <td>Mandatory</td>
-    <td>The icon must be 512x512 PNG.</td>
+    <td>The store selects the large icon in the most appropriate size. The first icon must be 512x512, PNG.</td>
   </tr>
   <tr>
     <td>height</td>
     <td>A number</td>
     <td>Mandatory</td>
-    <td>The icon must be 512x512 PNG.</td>
+    <td>The store selects the large icon in the most appropriate size. The first icon must be 512x512, PNG.</td>
   </tr>
 </table>
 
