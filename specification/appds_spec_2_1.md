@@ -5628,9 +5628,8 @@ Example
   </tr>
 </table>
 
-## In-app-purchases Structure
 
-* [item | subscription](#in-app-purchasesitemsitem)  
+* [item | subscription](#in-app-purchasesitem--subscription)  
 	* [common attributes] ()
 		* [id]()
 		* [published]()
@@ -5648,7 +5647,7 @@ Example
 	* [description-localization](#in-app-purchasesitemsitem-description)
 	* [price](#in-app-purchasesitemsitemprice)
 
-### item | subscription
+#### item | subscription
 
 #### Attributes
 
