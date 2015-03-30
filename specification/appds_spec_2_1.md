@@ -605,7 +605,7 @@ Required for publishing with in-apps
     <td></td>
     <td></td>
     <td>Title | Content delivery (No additional file required | I'll deliver the required asset(s)) | Calculated prices | Small icon | Large icon</td>
-    <td>Payment Method (Credit Card | Micropayment | Phone Bill | Cyber Cash | Pre-Paid Card)</td>
+    <td>Payment Method: Credit Card | Micropayment | Phone Bill | Cyber Cash | Pre-Paid Card (in the Advanced Mode)</td>
     <td>Test mode (Disabled | Simulate success | Simulate failure)</td>
   </tr>
   <tr>
@@ -6230,7 +6230,7 @@ Large in-app icon. Must be in PNG format. As everything inside the `<description
 Optional.  
 No attributes.  
 
-All store specific information is collected in this section. Currently the following stores are supported: Amazon Appstore, Samsung Apps, SlideME.
+All store specific information is collected in this section. Currently the following stores are supported: Amazon Appstore, SlideME.
 
 ##### description/store-specific/amazon
 
@@ -6272,6 +6272,7 @@ All SlideME-specific information is collected in this section.
 Required.  
 No attributes.
 
+Test mode to check the app behaviour under different scenarios. Possible values: `disabled` (Disabled), `success` (Simulate Success), `failure` (Simulate Failure).
 
 ### description-localization
 
