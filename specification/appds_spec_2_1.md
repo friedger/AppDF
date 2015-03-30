@@ -6238,14 +6238,14 @@ Large in-app icon. Must be in PNG format. As everything inside the `<description
 Optional.  
 No attributes.  
 
-All store specific information is collected in this section.
+All store specific information is collected in this section. Currently the following stores are supported: Amazon Appstore, Samsung Apps, SlideME.
 
 ##### description/store-specific/amazon
 
 Optional.  
 No attributes.
 
-All Amazon Appstore - specific information is collected in this section. 
+All Amazon Appstore - specific information is collected in this section. Currently this section contains small and large icons, are additional assets will be delivered or not.
 
 ##### description/store-specific/amazon/additional-file-delivered  
 
@@ -6259,19 +6259,21 @@ This element describes whether you'll deliver additional assets after purchasing
 Required.  
 Attributes: 
 
+Small in-app icon.
 
 ##### description/store-specific/amazon/large-icon 
 
 Required.  
 Attributes:  
 
+Large in-app icon.
 
 ##### description/store-specific/samsung
 
 Optional.  
 No attributes.
 
-All Samsung Apps - specific information is collected in this section.
+All Samsung Apps - specific information is collected in this section. Currently the section contains information about supported payment methods.
 
 ##### description/store-specific/samsung/payment-method
 
