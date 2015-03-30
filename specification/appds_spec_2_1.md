@@ -5941,23 +5941,16 @@ A trial period of the subscription.
   </tr>
 </table>
 
-#### description 
+### description 
 
 Required.  
 No attributes. 
 
 This section has the same structure for `<item>` and `<subscription>`.
 
-The section contains in-app description in text form as well as pictures. A part of the main <description> tag there could be several <description-localization> tags for different languages. If some information is missing in the localized <description-localization> tag it will be taken from the default <description-base> section.
+The section contains in-app description in text form as well as pictures in English US language. A part of the main <description> tag there could be several <description-localization> tags for different languages. If some information is missing in the localized <description-localization> tag it will be taken from the default <description-base> section.
 
-##### description-base/description-base
-
-Required.  
-No attributes.
-
-This section contains in-app description in text form as well as pictures in English US language.
-
-##### description-base/description-base/title
+#### description/title
 
 Required.  
 No attributes.  
@@ -6017,7 +6010,7 @@ As everything inside the <description> tag can be localized using <description-l
   </tr>
 </table>
 
-##### description-base/description-base/text  
+#### description/text  
 
 Required.  
 No attributes.  
@@ -6082,7 +6075,7 @@ In-app text description is used to describe the product. Different stores have d
   </tr>
 </table>
 
-##### description/description-base/small-icon
+#### description/small-icon
 
 Optional.  
 Attributes: `width`(required), `height`(required).  
@@ -6161,7 +6154,7 @@ Small in-app icon. Must be in PNG format. As everything inside the `<description
   </tr>
 </table>
 
-##### description/description-base/large-icon
+#### description/large-icon
 Optional.  
 Attributes: `width`(required), `height`(required).   
 
@@ -6240,62 +6233,72 @@ Large in-app icon. Must be in PNG format. As everything inside the `<description
   </tr>
 </table>
 
-##### description/description-base/store-specific  
+#### description/store-specific  
+
 Optional.  
 No attributes.  
 
 All store specific information is collected in this section.
 
-##### description/description-base/store-specific/amazon
+##### description/store-specific/amazon
+
 Optional.  
 No attributes.
 
 All Amazon Appstore - specific information is collected in this section. 
 
-###### description/description-base/store-specific/amazon/additional-file-delivered  
+##### description/store-specific/amazon/additional-file-delivered  
+
 Required.  
 No attributes.  
 
 This element describes whether you'll deliver additional assets after purchasing or not.
 
-###### description/description-base/store-specific/amazon/small-icon  
+##### description/store-specific/amazon/small-icon  
+
 Required.  
 Attributes: 
 
 
-###### description/description-base/store-specific/amazon/large-icon  
+##### description/store-specific/amazon/large-icon 
+
 Required.  
 Attributes:  
 
 
-##### description/description-base/store-specific/samsung
+##### description/store-specific/samsung
+
 Optional.  
 No attributes.
 
 All Samsung Apps - specific information is collected in this section.
 
-###### description/description-base/store-specific/samsung/payment-method  
+##### description/store-specific/samsung/payment-method
+
 Required.  
 No attributes.
 
-##### description/description-base/store-specific/slideme
+##### description/store-specific/slideme
+
 Optional.  
 No attributes.
 
 All SlideME-specific information is collected in this section.
 
-###### description/description-base/store-specific/slideme/test-mode  
+##### description/store-specific/slideme/test-mode  
+
 Required.  
 No attributes.
 
 
-##### description/description-localization
+### description-localization
+
 Required.  
 Attributes: locale (required).  
 
 This section contains in-app description in text form as well as pictures and videos in different languages.
 
-#### price
+### price
 
 Required.  
 Attributes: ``free``(required).   
@@ -6357,7 +6360,7 @@ This section describes whether the in-app is free or paid and if paid what its p
   </tr>
 </table>
 
-##### price/base-price
+#### price/base-price
 
 Required.  
 No attributes.  
@@ -6423,7 +6426,7 @@ This tag is ignored for free in-apps.
   </tr>
 </table>
 
-##### price/local-price
+#### price/local-price
 
 Optional.  
 Attributes: `country`.  
