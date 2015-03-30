@@ -563,19 +563,6 @@
         </xsd:sequence>
     </xsd:complexType>
 
-    <!--samsung-->
-    <xsd:complexType name="type-in-app-samsung">
-        <xsd:sequence>
-            <xsd:element name="payment-method" type="type-in-app-samsung-payment-method" />
-        </xsd:sequence>
-    </xsd:complexType>
-
-    <xsd:simpleType name="type-in-app-samsung-payment-method">
-        <xsd:restriction base="xsd:string">
-            <xsd:pattern value="creditcard|micropayment|phonebill|cybercash|prepaidcard" />
-        </xsd:restriction>
-    </xsd:simpleType>
-
     <!--slideme-->
     <xsd:complexType name="type-in-app-slideme">
         <xsd:sequence>
