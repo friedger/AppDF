@@ -2923,10 +2923,10 @@ Each application must be labeled with a minimum age allowance according to [ESRB
   </tr>
   <tr>
     <td>Amazon AppStore</td>
-    <td>No</td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>+-</td>
+    <td>Content Rating / Addtional Information / Child Directed</td>
+    <td>Yes</td>
+    <td>https://developer.amazon.com/public/support/faq#Why%20do%20I%20need%20to%20declare%20whether%20or%20not%20my%20app%20is%20directed%20to%20children%20under%2013?</td>
   </tr>
   <tr>
     <td>Opera Mobile Store</td>
