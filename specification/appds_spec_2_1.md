@@ -3153,12 +3153,10 @@ Example
     <th>Supported</th>
     <th>Name</th>
     <th>Certificates</th>
-    <th>Comments</th>
   </tr>
   <tr>
     <td>Google Play</td>
     <td>No</td>
-    <td></td>
     <td></td>
     <td></td>
   </tr>
@@ -3167,12 +3165,10 @@ Example
     <td>No</td>
     <td></td>
     <td></td>
-    <td></td>
   </tr>
   <tr>
     <td>Amazon AppStore</td>
     <td>No</td>
-    <td></td>
     <td></td>
     <td></td>
   </tr>
@@ -3181,19 +3177,16 @@ Example
     <td>No</td>
     <td></td>
     <td></td>
-    <td></td>
   </tr>
   <tr>
     <td>Samsung Apps</td>
     <td>Yes</td>
-    <td>Basic Information / Category / Rating Information</td>
-    <td>PEGI, ESRB, GRB, MJ/DEJUS, FSK</td>
-    <td></td>
+    <td>App Information / Rating Certificate for Available Countries</td>
+    <td>PEGI, ESRB, GRB, MJ/DEJUS, FSK, ETC</td>
   </tr>
   <tr>
     <td>SlideME</td>
     <td>No</td>
-    <td></td>
     <td></td>
     <td></td>
   </tr>
