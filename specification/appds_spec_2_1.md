@@ -2909,8 +2909,8 @@ Each application must be labeled with a minimum age allowance according to [ESRB
   </tr>
   <tr>
     <td>Google Play</td>
-    <td>Yes</td>
-    <td>Store Listing / CATEGORIZATION / Content rating</td>
+    <td>Calculated basing on params</td>
+    <td>Store Listing / CATEGORIZATION / Content rating - fields to define the content rating</td>
     <td>Yes</td>
     <td>https://support.google.com/googleplay/android-developer/answer/188189</td>
   </tr>
@@ -2923,7 +2923,7 @@ Each application must be labeled with a minimum age allowance according to [ESRB
   </tr>
   <tr>
     <td>Amazon AppStore</td>
-    <td>+-</td>
+    <td>Yes</td>
     <td>Content Rating / Addtional Information / Child Directed</td>
     <td>Yes</td>
     <td>https://developer.amazon.com/public/support/faq#Why%20do%20I%20need%20to%20declare%20whether%20or%20not%20my%20app%20is%20directed%20to%20children%20under%2013?</td>
@@ -2971,7 +2971,6 @@ There is no universal content rating system (aka parental control rating, aka mi
 <table>
   <tr>
     <th>ESRB</th>
-    <th>Google Play</th>
     <th>Amazon AppStore</th>
     <th>Opera Mobile Store</th>
     <th>Samsung Apps</th>
@@ -2980,7 +2979,6 @@ There is no universal content rating system (aka parental control rating, aka mi
   </tr>
   <tr>
     <td>3</td>
-    <td>Everyone</td>
     <td>Child Directed</td>
     <td>n/a</td>
     <td>Over age 0</td>
@@ -2989,7 +2987,6 @@ There is no universal content rating system (aka parental control rating, aka mi
   </tr>
   <tr>
     <td>6</td>
-    <td>Low maturity</td>
     <td>Child Directed</td>
     <td>n/a</td>
     <td>Over age 4</td>
@@ -2998,7 +2995,6 @@ There is no universal content rating system (aka parental control rating, aka mi
   </tr>
   <tr>
     <td>10</td>
-    <td>Medium maturity</td>
     <td>Child Directed</td>
     <td>n/a</td>
     <td>Over age 12</td>
@@ -3007,7 +3003,6 @@ There is no universal content rating system (aka parental control rating, aka mi
   </tr>
   <tr>
     <td>13</td>
-    <td>Medium maturity</td>
     <td>Not Child Directed</td>
     <td>n/a</td>
     <td>Over age 16</td>
@@ -3016,7 +3011,6 @@ There is no universal content rating system (aka parental control rating, aka mi
   </tr>
   <tr>
     <td>17</td>
-    <td>High maturity</td>
     <td>Not Child Directed</td>
     <td>n/a</td>
     <td>Over age 18</td>
@@ -3025,7 +3019,6 @@ There is no universal content rating system (aka parental control rating, aka mi
   </tr>
   <tr>
     <td>18</td>
-    <td>High maturity</td>
     <td>Not Child Directed</td>
     <td>n/a</td>
     <td>Over age 18</td>
@@ -3073,9 +3066,10 @@ Here you can find more detailed information about content rating definitions use
 </table>
 
 ##### Notes:
-1. Amazon doesn't have one field for application rating but uses "Child Directed" (Yes, No) to indictate that the app is directed to children under 13.
-2. Opera doesn't support content rating (except "Is Adult?" question without specifying the precise age).
-3. Samsung uses minimum age parameter along with several other attributes that define application rating according to the standard certification systems (PEGI, ESRB, etc).
+1. Google Play doesn't have one field for application rating but uses several params to calculate it.
+2. Amazon doesn't have one field for application rating but uses "Child Directed" (Yes, No) to indictate that the app is directed to children under 13.
+3. Opera doesn't support content rating (except "Is Adult?" question without specifying the precise age).
+4. Samsung uses minimum age parameter along with several other attributes that define application rating according to the standard certification systems (PEGI, ESRB, etc).
 
 #### content-description/rating-certificates/rating-certificate
 Optional.  
