@@ -2984,7 +2984,7 @@ There is no universal content rating system (aka parental control rating, aka mi
     <td>Child Directed</td>
     <td>n/a</td>
     <td>Over age 0</td>
-    <td>G: General Audiences (for all ages)</td>
+    <td>Early Childhood (age 3-6)</td>
     <!--<td>Ages 0-4</td>-->
   </tr>
   <tr>
@@ -2993,7 +2993,7 @@ There is no universal content rating system (aka parental control rating, aka mi
     <td>Child Directed</td>
     <td>n/a</td>
     <td>Over age 4</td>
-    <td>G: General Audiences (for all ages)</td>
+    <td>Everyone (age 6 and over)</td>
     <!--<td>6+</td>-->
   </tr>
   <tr>
@@ -3002,7 +3002,7 @@ There is no universal content rating system (aka parental control rating, aka mi
     <td>Child Directed</td>
     <td>n/a</td>
     <td>Over age 12</td>
-    <td>PG: Parental Guidance Suggested (may not be suitable for children)</td>
+    <td>Everyone 10+ (age 10 and over)</td>
     <!--<td>10+</td>-->
   </tr>
   <tr>
@@ -3011,7 +3011,7 @@ There is no universal content rating system (aka parental control rating, aka mi
     <td>Not Child Directed</td>
     <td>n/a</td>
     <td>Over age 16</td>
-    <td>PG-13: Parents Strongly Cautioned (may not be suitable for children under 13)</td>
+    <td>Teen (age 13 and over)</td>
     <!--<td>13+</td>-->
   </tr>
   <tr>
@@ -3020,7 +3020,7 @@ There is no universal content rating system (aka parental control rating, aka mi
     <td>Not Child Directed</td>
     <td>n/a</td>
     <td>Over age 18</td>
-    <td>R: Restricted (under 17 requires accompanying adult guardian)</td>
+    <td>Mature (age 17 and over)</td>
     <!--<td>17+</td>-->
   </tr>
   <tr>
@@ -3029,7 +3029,7 @@ There is no universal content rating system (aka parental control rating, aka mi
     <td>Not Child Directed</td>
     <td>n/a</td>
     <td>Over age 18</td>
-    <td>NC-17: Not allowed for 17 and under</td>
+    <td>Adults Only (age 18 and over)</td>
     <!--<td>18+</td>-->
   </tr>
 </table>
@@ -3065,6 +3065,10 @@ Here you can find more detailed information about content rating definitions use
   <tr>
     <td>Samsung Apps</td>
     <td>Samsung Age Rating Guide (link cannot be found)</td>
+  </tr>
+  <tr>
+    <td>SlideME</td>
+    <td>http://en.wikipedia.org/wiki/Entertainment_Software_Rating_Board#Ratings</td>
   </tr>
 </table>
 
