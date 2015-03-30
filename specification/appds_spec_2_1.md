@@ -3301,10 +3301,10 @@ Example
   </tr>
   <tr>
     <td>Google Play</td>
-    <td>No</td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>Yes</td>
+    <td>Content Rating</td>
+    <td>Yes</td>
+    <td>Base set is: Violence | Fear | Sexuality | Gambling | Language | Controlled Substance | Crude Humor | Miscellaneous. Depends on a category of the app: Reference, News, or Educational | Social Networking, Forums, and UGC Sharing | Consumer Store or Commercial Streaming Service | GAME | Entertainment | Utility, Productivity, Communication, or Other</td>
   </tr>
   <tr>
     <td>Yandex.Store</td>
