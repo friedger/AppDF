@@ -5628,24 +5628,17 @@ Example
   </tr>
 </table>
 
-
-* [item | subscription](#in-app-purchasesitem--subscription)  
-	* [common attributes] ()
-		* [id]()
-		* [published]()
-	* [item-specific attributes]()
-		* [type]()
-	* [subscription-specific attributes]()
-		* [subs-period]()
-		* [trial-period]()
-	* [description](#in-app-purchasesitemsitem-description)
-		* [title]()
-		* [text]()
-		* [small-icon]()
-		* [large-icon]()
-		* [store-specific]()
-	* [description-localization](#in-app-purchasesitemsitem-description)
-	* [price](#in-app-purchasesitemsitemprice)
+* [in-app-purchases](#)
+	* [item | subscription](#)
+		* [Attributes](#)
+			* [Common attributes for <item> and <subscription>](#)
+				* [id](#)
+				* [published](#)
+			* [Item-specific attributes](#)
+				* [type](#)
+			* [subscription-specific attributes](#)
+				* [subs-period](#)
+				* [trial-period](#)
 
 #### item | subscription
 
