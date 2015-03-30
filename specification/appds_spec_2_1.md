@@ -3070,7 +3070,7 @@ Here you can find more detailed information about content rating definitions use
 
 ##### Notes:
 1. Amazon doesn't have one field for application rating but uses "Child Directed" (Yes, No) to indictate that the app is directed to children under 13.
-2. Opera doesn't support content rating (except "Is Adult?" question).
+2. Opera doesn't support content rating (except "Is Adult?" question without specifying the precise age).
 3. Samsung uses minimum age parameter along with several other attributes that define application rating according to the standard certification systems (PEGI, ESRB, etc).
 
 #### content-description/rating-certificates/rating-certificate
