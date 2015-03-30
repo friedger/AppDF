@@ -2981,7 +2981,7 @@ There is no universal content rating system (aka parental control rating, aka mi
   <tr>
     <td>3</td>
     <td>Everyone</td>
-    <td>n/a</td>
+    <td>Child Directed</td>
     <td>n/a</td>
     <td>Over age 0</td>
     <td>G: General Audiences (for all ages)</td>
@@ -2990,7 +2990,7 @@ There is no universal content rating system (aka parental control rating, aka mi
   <tr>
     <td>6</td>
     <td>Low maturity</td>
-    <td>n/a</td>
+    <td>Child Directed</td>
     <td>n/a</td>
     <td>Over age 4</td>
     <td>G: General Audiences (for all ages)</td>
@@ -2999,7 +2999,7 @@ There is no universal content rating system (aka parental control rating, aka mi
   <tr>
     <td>10</td>
     <td>Medium maturity</td>
-    <td>n/a</td>
+    <td>Child Directed</td>
     <td>n/a</td>
     <td>Over age 12</td>
     <td>PG: Parental Guidance Suggested (may not be suitable for children)</td>
@@ -3008,7 +3008,7 @@ There is no universal content rating system (aka parental control rating, aka mi
   <tr>
     <td>13</td>
     <td>Medium maturity</td>
-    <td>n/a</td>
+    <td>Not Child Directed</td>
     <td>n/a</td>
     <td>Over age 16</td>
     <td>PG-13: Parents Strongly Cautioned (may not be suitable for children under 13)</td>
@@ -3017,7 +3017,7 @@ There is no universal content rating system (aka parental control rating, aka mi
   <tr>
     <td>17</td>
     <td>High maturity</td>
-    <td>n/a</td>
+    <td>Not Child Directed</td>
     <td>n/a</td>
     <td>Over age 18</td>
     <td>R: Restricted (under 17 requires accompanying adult guardian)</td>
@@ -3026,7 +3026,7 @@ There is no universal content rating system (aka parental control rating, aka mi
   <tr>
     <td>18</td>
     <td>High maturity</td>
-    <td>n/a</td>
+    <td>Not Child Directed</td>
     <td>n/a</td>
     <td>Over age 18</td>
     <td>NC-17: Not allowed for 17 and under</td>
@@ -3069,9 +3069,9 @@ Here you can find more detailed information about content rating definitions use
 </table>
 
 ##### Notes:
-1. Amazon doesn't have one field for application rating but uses several parameters (nudity, violation, etc)
-2. Opera doesn't support content rating (except "Is Adult?" question)
-3. Samsung uses minimum age parameter along with several other attributes that define application rating according to the standard certification systems (PEGI, ESRB, etc)
+1. Amazon doesn't have one field for application rating but uses "Child Directed" (Yes, No) to indictate that the app is directed to children under 13.
+2. Opera doesn't support content rating (except "Is Adult?" question).
+3. Samsung uses minimum age parameter along with several other attributes that define application rating according to the standard certification systems (PEGI, ESRB, etc).
 
 #### content-description/rating-certificates/rating-certificate
 Optional.  
