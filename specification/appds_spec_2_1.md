@@ -6254,14 +6254,56 @@ This element describes whether you'll deliver additional assets after purchasing
 ##### description/store-specific/amazon/small-icon  
 
 Required.  
-Attributes: 
+Attributes: width, height.
 
 Small in-app icon.
+
+<table>
+  <tr>
+    <th>Attribute</th>
+    <th>Possible values</th>
+    <th>Default</th>
+    <th>How it works</th>
+  </tr>
+  <tr>
+    <td>width</td>
+    <td>A number</td>
+    <td>Mandatory</td>
+    <td>The icon must be 114x114, PNG.</td>
+  </tr>
+  <tr>
+    <td>height</td>
+    <td>A number</td>
+    <td>Mandatory</td>
+    <td>The icon must be 114x114, PNG.</td>
+  </tr>
+</table>
 
 ##### description/store-specific/amazon/large-icon 
 
 Required.  
-Attributes:  
+Attributes: width, height.
+
+<table>
+  <tr>
+    <th>Attribute</th>
+    <th>Possible values</th>
+    <th>Default</th>
+    <th>How it works</th>
+  </tr>
+  <tr>
+    <td>width</td>
+    <td>A number</td>
+    <td>Mandatory</td>
+    <td>The icon must be 512x512, PNG.</td>
+  </tr>
+  <tr>
+    <td>height</td>
+    <td>A number</td>
+    <td>Mandatory</td>
+    <td>The icon must be 512x512, PNG.</td>
+  </tr>
+</table>
 
 Large in-app icon.
 
