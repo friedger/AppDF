@@ -5629,16 +5629,16 @@ Example
 </table>
 
 * [in-app-purchases](#in-app-purchases)
-	* [item | subscription](#in-app-purchasesitem--subscription)
-		* [Attributes](#in-app-purchasesitem--subscriptionattributes)
-			* [Common attributes for <item> and <subscription>](#)
-				* [id](#)
-				* [published](#)
-			* [Item-specific attributes](#)
-				* [type](#)
-			* [subscription-specific attributes](#)
-				* [subs-period](#)
-				* [trial-period](#)
+	* [item | subscription](#item--subscription)
+		* [Attributes](#attributes)
+			* [Common attributes for <item> and <subscription>](#common-attributes-for-item-and-subscription)
+				* [id](#id)
+				* [published](#published)
+			* [Item-specific attributes](#item-specific-attributes)
+				* [type](#type)
+			* [subscription-specific attributes](#subscription-specific-attributes)
+				* [subs-period](#subs-period)
+				* [trial-period](#trial-period)
 
 #### item | subscription
 
