@@ -5628,9 +5628,9 @@ Example
   </tr>
 </table>
 
-* [in-app-purchases](#)
-	* [item | subscription](#)
-		* [Attributes](#)
+* [in-app-purchases](#in-app-purchases)
+	* [item | subscription](#in-app-purchasesitem--subscription)
+		* [Attributes](#in-app-purchasesitem--subscriptionattributes)
 			* [Common attributes for <item> and <subscription>](#)
 				* [id](#)
 				* [published](#)
