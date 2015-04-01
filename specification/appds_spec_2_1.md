@@ -3695,6 +3695,7 @@ Optional.
 No attributes.
 
 #### <a name="availability-period-since"/>availability/period/since
+
 Optional.  
 Attributes: `year`, `month`, `day`. 
 
@@ -5491,7 +5492,6 @@ This section describes in-app products that can be paid at once - items (`<item>
 
 
 Example
-
 ```xml
 <in-app-purchases>
     <item id="org.onepf.sample.trivialdrive.sku_premium" published="yes" type="nonconsumable">
