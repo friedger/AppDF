@@ -3690,7 +3690,7 @@ No attributes.
 
 #### <a name="availability-period-since"/>availability/period/since
 Optional.  
-Attributes: `year`(required), `month`(required), `day`(required). 
+Attributes: `year`, `month`, `day`. 
 
 If presented this tag defines a date from which the application can be distributed. Stores that support this tag will not distribute the app before this date. 
 
@@ -3783,7 +3783,7 @@ If presented this tag defines a date from which the application can be distribut
 #### <a name="availability-period-until"/>availability/period/until
 
 Optional.  
-Attributes: `year`(required), `month`(required), `day`(required). 
+Attributes: `year`, `month`, `day`. 
 
 If presented this tag defines a final date of application distribution. Stores that support this tag will not distribute the app after this date. 
 
@@ -6097,7 +6097,7 @@ In-app text description is used to describe the product. Different stores have d
 #### <a name="in-app-item--sub-desc-small-icon"/>description/small-icon
 
 Optional.  
-Attributes: `width`(required), `height`(required).  
+Attributes: `width`, `height`.  
 
 Small in-app icon. Must be in PNG format. As everything inside the `<description>` tag it can be localized using `<description-localization>` section. Different stores require different resolutions of this icon. You can include several versions of the `<small-icon>` tag with different `width` and `height` attributes. The store will automatically select right size. AppDF will automatically rescale your image if there is no needed size. The icon must be a square (`width`=`height`).
 
@@ -6175,7 +6175,7 @@ Small in-app icon. Must be in PNG format. As everything inside the `<description
 
 #### <a name="in-app-item--sub-desc-large-icon"/description/large-icon
 Optional.  
-Attributes: `width`(required), `height`(required).   
+Attributes: `width`, `height`.   
 
 Large in-app icon. Must be in PNG format. As everything inside the `<description>` tag it can be localized using `<description-localization>` section. Different stores require different resolutions of this icon. You can include several versions of the `<large-icon>` tag with different `width` and `height` attributes. The store will automatically select right size. AppDF will automatically rescale your image if there is no needed size. The icon must be a square (`width`=`height`).
 
@@ -6346,14 +6346,14 @@ Test mode to check the app behaviour under different scenarios. Possible values:
 ### <a name="in-app-item--sub-desc-store-spec-desc-loc"/>description-localization
 
 Required.  
-Attributes: locale (required).  
+Attributes: `locale`.  
 
 This section contains in-app description in text form as well as pictures and videos in different languages.
 
 ### <a name="in-app-item--sub-price"/>price
 
 Required.  
-Attributes: ``free``(required).   
+Attributes: `free`.   
 
 This section describes whether the in-app is free or paid and if paid what its price is.
 
