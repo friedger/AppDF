@@ -634,9 +634,9 @@ List of Tags:
 		* [small-promo](#description-images-small-promo)
 		* [screenshots](#description-images-screenshots)
 			* [screenshot](#description-images-screenshots-screenshot)
-	* [videos](#descriptionvideos)
-		* [youtube-video](#descriptionvideosyoutube-video)
-		* [video-file](#descriptionvideosvideo-file)
+	* [videos](#description-videos)
+		* [youtube-video](#description-videos-youtube-video)
+		* [video-file](#description-videos-video-file)
 * [description-localization](#description-localization)
 * [content-description](#content-description)
 	* [content-rating](#content-descriptioncontent-rating)
@@ -2423,7 +2423,7 @@ or 2560 x 1600px (portrait or landscape)</td>
   -->
 </table>
 
-#### <a name="desc-videos"/>description/videos
+#### <a name="description-videos"/>description/videos
 
 Optional.  
 No attributes.
@@ -2439,7 +2439,7 @@ Example
 </videos>
 ```
 
-##### <a name="desc-videos-youtube-video"/>description/videos/youtube-video
+##### <a name="description-videos-youtube-video"/>description/videos/youtube-video
 
 Optional.  
 No attributes. 
@@ -2537,7 +2537,7 @@ then tag value should be just `4YcBHQ2fCDE`. Like:
   -->
 </table>
 
-##### <a name="desc-videos-video-file"/description/videos/video-file
+##### <a name="description-videos-video-file"/description/videos/video-file
 Optional.  
 No attributes. 
 
@@ -2639,7 +2639,7 @@ Some stores don't support including of YouTube videos but do support uploaded vi
   -->
 </table>
 
-### <a name="desc-localization"/description-localization
+### <a name="description-localization"/description-localization
 
 Optional.  
 Attributes: `language`. 
