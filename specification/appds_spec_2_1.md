@@ -5625,16 +5625,16 @@ Example
 </table>
 
 * [in-app-purchases](#in-app-purchases)
-	* [item | subscription](#item--subscription)
-		* [Attributes](#attributes)
-			* [Common attributes for <item> and <subscription>](#common-attributes-for-item-and-subscription)
-				* [id](#id)
-				* [published](#published)
-			* [Item-specific attributes](#item-specific-attributes)
-				* [type](#type)
-			* [subscription-specific attributes](#subscription-specific-attributes)
-				* [subs-period](#subs-period)
-				* [trial-period](#trial-period)
+	* [item | subscription](#in-app-item--sub)
+		* [Attributes](#in-app-item--sub-attrs)
+			* [Common attributes for `<item>` and `<subscription>`](#in-app-item--sub-attrs-common)
+				* [id](#in-app-item--sub-attrs-common-id)
+				* [published](#in-app-item--sub-attrs-common-published)
+			* [Item-specific attributes](#in-app-item--sub-attrs-item-spec)
+				* [type](#in-app-item--sub-attrs-item-spec-type)
+			* [subscription-specific attributes](#in-app-item--sub-attrs-sub-spec)
+				* [subs-period](#in-app-item--sub-attrs-sub-spec-subs-period)
+				* [trial-period](#in-app-item--sub-attrs-sub-spec-trial-period)
 
 #### <a name="in-app-item--sub"/>item | subscription
 
