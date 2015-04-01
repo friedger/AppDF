@@ -639,16 +639,16 @@ List of Tags:
 		* [video-file](#description-videos-video-file)
 * [description-localization](#description-localization)
 * [content-description](#content-description)
-	* [content-rating](#content-descriptioncontent-rating)
+	* [content-rating](#content-description-content-rating)
 	* rating-certificates
-		* [rating-certificate](#content-descriptionrating-certificatesrating-certificate)
-	* [content-descriptors](#content-descriptioncontent-descriptors)
-	* [included-activities](#content-descriptionincluded-activities)
+		* [rating-certificate](#content-description-rating-certificates-rating-certificate)
+	* [content-descriptors](#content-description-content-descriptors)
+	* [included-activities](#content-description-included-availability)
 * [availability](#availability)
-	* [countries](#availabilitycountries)
-	* [period](#availabilityperiod)
-		* [since](#availabilityperiodsince)
-		* [until](#availabilityperioduntil)
+	* [countries](#availability-countries)
+	* [period](#availability-period)
+		* [since](#availability-period-since)
+		* [until](#availability-period-until)
 * [price](#price)
 	* [base-price](#pricebase-price)
 	* [local-price](#pricelocal-price)
@@ -2843,7 +2843,8 @@ Example
 </table>
 
 
-### content-description
+### <a name="content-description"/>content-description
+
 Required.  
 No attributes.
 
@@ -2890,7 +2891,8 @@ Example
 </content-description>
 ```
 
-#### content-description/content-rating
+#### <a name="content-description-content-rating"/>content-description/content-rating
+
 Required.  
 No attributes.
 
@@ -3068,9 +3070,10 @@ Here you can find more detailed information about content rating definitions use
 3. Opera doesn't support content rating (except "Is Adult?" question without specifying the precise age).
 4. Samsung uses minimum age parameter along with several other attributes that define application rating according to the standard certification systems (PEGI, ESRB, etc).
 
-#### content-description/rating-certificates/rating-certificate
+#### <a name="content-description-rating-certificates-rating-certificate"/>content-description/rating-certificates/rating-certificate
+
 Optional.  
-Attributes: `type`, `certificat`, `mark`. 
+Attributes: `type`, `certificate`, `mark`. 
 
 If your application/game has a rating certificate issued by one of the authorities you can include it using the optional tag `<rating-certificate>`. Tag value should be rating given you, usually it is a minimum age number.
  
@@ -3212,7 +3215,7 @@ Example
   -->
 </table>
 
-#### content-description/content-descriptors
+#### <a name="content-description-content-descriptors"/>content-description/content-descriptors
 
 Required.  
 No attributes.
@@ -3357,7 +3360,8 @@ Example
   -->
 </table>
 
-#### content-description/included-activities
+#### <a name="content-description-included-activities"/>content-description/included-activities
+
 Required.  
 No attributes.
 
@@ -3500,7 +3504,8 @@ Example
   -->
 </table>
 
-### availability
+### <a name="availability"/>availability
+
 Optional.  
 No attributes.
 
@@ -3532,7 +3537,8 @@ Example 2
 </availability>
 ```
 
-#### availability/countries
+#### <a name="availability-countries"/>availability/countries
+
 Optional.  
 Attributes: `only-listed`. 
 
@@ -3677,11 +3683,12 @@ Africa: Algeria | Angola | Benin | Botswana | Burkina Faso | Burundi | Cameroon 
   -->
 </table>
 
-### availability/period
+### <a name="availability-period"/>availability/period
+
 Optional.  
 No attributes.
 
-#### availability/period/since
+#### <a name="availability-period-since"/>availability/period/since
 Optional.  
 Attributes: `year`(required), `month`(required), `day`(required). 
 
@@ -3773,7 +3780,8 @@ If presented this tag defines a date from which the application can be distribut
   -->
 </table>
 
-#### availability/period/until
+#### <a name="availability-period-until"/>availability/period/until
+
 Optional.  
 Attributes: `year`(required), `month`(required), `day`(required). 
 
