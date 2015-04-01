@@ -650,9 +650,9 @@ List of Tags:
 		* [since](#availability-period-since)
 		* [until](#availability-period-until)
 * [price](#price)
-	* [base-price](#pricebase-price)
-	* [local-price](#pricelocal-price)
-	* [trial-version](#pricetrial-version)
+	* [base-price](#price-base-price)
+	* [local-price](#price-local-price)
+	* [trial-version](#price-trial-version)
 * [apk-files](#apk-files)
 * [requirements](#requirements)
 	* [features](#requirementsfeatures)
@@ -3874,7 +3874,7 @@ If presented this tag defines a final date of application distribution. Stores t
   -->
 </table>
 
-### price
+### <a name="price"/>price
 
 Required.  
 Attributes: `free`. 
@@ -3913,7 +3913,7 @@ Example 2
   </tr>
 </table>
 
-#### price/base-price
+#### <a name="price-base-price"/>price/base-price
 
 Required for paid apps.  
 No attributes. 
@@ -4015,7 +4015,7 @@ This tag is ignored for free apps.
   -->
 </table>
 
-#### price/local-price
+#### <a name="price-local-price"/>price/local-price
 
 Optional.  
 Attributes: `country`. 
@@ -4113,7 +4113,7 @@ Currencies used in different countries in [JSON](http://www.onepf.org/appdf/data
   -->
 </table>
 
-#### price/trial-version
+#### <a name="price-trial-version"/>price/trial-version
 
 Optional.  
 Attributes: `full-version`. 
