@@ -4199,7 +4199,7 @@ This tag is ignored for paid apps.
 ### <a name="apk-files"/>apk-files
 
 Required.  
-Attributes: main-exp-file, patch-optional-file.  
+Attributes: `main-exp-file`, `patch-optional-file`.  
 Each application could have 1+ APK files. All APK files must have the same package name.
 
 <table>
@@ -6283,7 +6283,7 @@ This element describes whether you'll deliver additional assets after purchasing
 ##### <a name="in-app-item--sub-desc-store-spec-amazon-small-icon"/>description/store-specific/amazon/small-icon  
 
 Required.  
-Attributes: width, height.
+Attributes: `width`, `height`.
 
 Small in-app icon.
 
@@ -6311,7 +6311,7 @@ Small in-app icon.
 ##### <a name="in-app-item--sub-desc-store-spec-amazon-large-icon"/>description/store-specific/amazon/large-icon 
 
 Required.  
-Attributes: width, height.
+Attributes: `width`, `height`.
 
 <table>
   <tr>
