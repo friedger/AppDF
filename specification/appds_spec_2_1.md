@@ -643,7 +643,7 @@ List of Tags:
 	* rating-certificates
 		* [rating-certificate](#content-description-rating-certificates-rating-certificate)
 	* [content-descriptors](#content-description-content-descriptors)
-	* [included-activities](#content-description-included-availability)
+	* [included-activities](#content-description-included-activities)
 * [availability](#availability)
 	* [countries](#availability-countries)
 	* [period](#availability-period)
