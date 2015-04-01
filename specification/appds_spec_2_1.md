@@ -619,21 +619,21 @@ List of Tags:
 	* [category](#categorization-category)
 	* [subcategory](#categorization-subcategory)
 * [description](#description)
-	* [texts](#descriptiontexts)
-		* [title](#descriptiontextstitle)
-		* [keywords](#descriptiontextskeywords)
-		* [short-description](#descriptiontextsshort-description)
-		* [full-description](#descriptiontextsfull-description)
-		* [features](#descriptiontextsfeatures)
-		* [recent-changes](#descriptiontextsrecent-changes)
-		* [privacy-policy](#descriptiontextsprivacy-policy)
-		* [eula](#descriptiontextseula)
-	* [images](#descriptionimages)
-		* [app-icon](#descriptionimagesapp-icon)
-		* [large-promo](#descriptionimageslarge-promo)
-		* [small-promo](#descriptionimagessmall-promo)
-    * [screenshots](#descriptionimagesscreenshots)
-      * [screenshot](#descriptionimagesscreenshotsscreenshot)
+	* [texts](#description-texts)
+		* [title](#description-texts-title)
+		* [keywords](#description-texts-keywords)
+		* [short-description](#description-texts-short-description)
+		* [full-description](#description-texts-full-description)
+		* [features](#description-texts-features)
+		* [recent-changes](#description-texts-recent-changes)
+		* [privacy-policy](#description-texts-privacy-policy)
+		* [eula](#description-texts-eula)
+	* [images](#description-images)
+		* [app-icon](#description-images-app-icon)
+		* [large-promo](#description-images-large-promo)
+		* [small-promo](#description-images-small-promo)
+    		* [screenshots](#description-images-screenshots)
+      			* [screenshot](#description-images-screenshots-screenshot)
 	* [videos](#descriptionvideos)
 		* [youtube-video](#descriptionvideosyoutube-video)
 		* [video-file](#descriptionvideosvideo-file)
@@ -1035,7 +1035,7 @@ Example
 </description>
 ```
 
-#### <a name="desc-texts"/>description/texts
+#### <a name="description-texts"/>description/texts
 
 Required.  
 No attributes.
@@ -1063,7 +1063,7 @@ Example
 </texts>
 ```
 
-##### <a name="desc-texts-title"/>description/texts/title
+##### <a name="description-texts-title"/>description/texts/title
 
 Required.  
 No attributes. 
@@ -1167,7 +1167,7 @@ The application name is shown in the application list. As everything inside the 
   -->
 </table>
 
-##### <a name="desc-texts-keywords"/>description/texts/keywords
+##### <a name="description-texts-keywords"/>description/texts/keywords
 
 Optional.  
 No attributes. 
@@ -1260,7 +1260,7 @@ Comma separated the list of keywords. As everything inside the `<description>` t
   -->
 </table>
 
-##### <a name="desc-texts-short-desc"/>description/texts/short-description
+##### <a name="description-texts-short-description"/>description/texts/short-description
 
 Optional.  
 No attributes.  
@@ -1363,7 +1363,7 @@ Short application description is used in the app lists next to the app title. So
   -->
 </table>
 
-##### <a name="desc-texts-full-desc"/>description/texts/full-description
+##### <a name="description-texts-full-description"/>description/texts/full-description
 
 Required.  
 Maximum length: 4000.
@@ -1514,7 +1514,7 @@ The full application description is shown on the product page. You can include s
   -->
 </table>
 
-##### <a name="desc-texts-features"/>description/texts/features
+##### <a name="description-texts-features"/>description/texts/features
 
 Optional.  
 No attributes.
@@ -1607,7 +1607,7 @@ Example
   -->
 </table>
 
-##### <a name="desc-texts-recent-changes"/>description/texts/recent-changes
+##### <a name="description-texts-recent-changes"/>description/texts/recent-changes
 
 Optional.  
 No attributes.  
@@ -1691,7 +1691,7 @@ Maximum length: 500.
   -->
 </table>
 
-##### <a name="desc-texts-privacy-policy"/>description/texts/privacy-policy
+##### <a name="description-texts-privacy-policy"/>description/texts/privacy-policy
 Optional.  
 Attributes: `href`.  
 Maximum length: 5000.
@@ -1794,7 +1794,7 @@ you, your account or your email addresses with anyone. Period.</privacy-policy>
   -->
 </table>
 
-##### <a name="desc-texts-eula"/>description/texts/eula
+##### <a name="description-texts-eula"/>description/texts/eula
 
 Optional.  
 Attributes: `href`.  
@@ -1899,7 +1899,7 @@ us even if it is our fault.</eula>
   -->
 </table>
 
-#### <a name="desc-images"/>description/images
+#### <a name="description-images"/>description/images
 
 Required.  
 No attributes.
@@ -1927,7 +1927,7 @@ Example
 </images>
 ```
 
-##### <a name="desc-images-app-icon"/>description/images/app-icon
+##### <a name="description-images-app-icon"/>description/images/app-icon
 
 Required.  
 Attributes: `width`, `height`. 
@@ -2050,7 +2050,7 @@ High resolution application icon. Must be in PNG format. Different stores requir
   -->
 </table>
 
-##### <a name="desc-images-large-promo"/>description/images/large-promo
+##### <a name="description-images-large-promo"/>description/images/large-promo
 Optional.  
 Attributes: `width`, `height`. 
 
@@ -2157,7 +2157,7 @@ Large promotion picture usually used by the stores on the PC websites, some stor
   -->
 </table>
 
-##### <a name="desc-images-small-promo"/>description/images/small-promo
+##### <a name="description-images-small-promo"/>description/images/small-promo
 
 Optional.  
 Attributes: `width`, `height`. 
@@ -2265,13 +2265,13 @@ A small promotion picture is usually used by the stores on a mobile device for p
   -->
 </table>
 
-##### <a name="desc-images-screenshots"/>description/images/screenshots
+##### <a name="description-images-screenshots"/>description/images/screenshots
 Required.  
 No attributes. 
 
 Contains several `<screenshot>` subtags. Each `<screenshot>` subtag describes one screenshot. Different stores use different number of screenshots. You should provide at least four screenshots to support all the stores. If you provide more screenshots than a store can use the first screenshots are used. 
 
-##### <a name="desc-images-screenshots-screenshot"/>description/images/screenshots/screenshot
+##### <a name="description-images-screenshots-screenshot"/>description/images/screenshots/screenshot
 Required.  
 Attributes: `width`, `height`, `index`. 
 
