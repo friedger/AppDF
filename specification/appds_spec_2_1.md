@@ -615,9 +615,9 @@ Required for publishing with in-apps
 
 List of Tags:
 * [categorization](#categorization)
-	* [type](#categorizationtype)
-	* [category](#categorizationcategory)
-	* [subcategory](#categorizationsubcategory)
+	* [type](#categorization-type)
+	* [category](#categorization-category)
+	* [subcategory](#categorization-subcategory)
 * [description](#description)
 	* [texts](#descriptiontexts)
 		* [title](#descriptiontextstitle)
@@ -689,7 +689,7 @@ Example
 </categorization>
 ```
 
-#### categorization/type
+#### <a name="categorization-type"/>categorization/type
 
 Required.  
 No attributes.  
@@ -763,7 +763,7 @@ Value could be either `application` or `game`.
   -->
 </table>
 
-#### categorization/category
+#### <a name="categorization-category"/>categorization/category
 
 Required.  
 No attributes.
@@ -840,7 +840,7 @@ AppDF format has its own list of categories for both games and applications. Thi
   -->
 </table>
 
-#### categorization/subcategory
+#### <a name="categorization-subcategory"/>categorization/subcategory
 
 Optional.  
 No attributes. 
