@@ -5642,15 +5642,15 @@ Example
 			* [large-icon](#in-app-item--sub-desc-large-icon)
 			* [store-specific](#in-app-item--sub-desc-store-spec)
 				* [amazon](#in-app-item--sub-desc-store-spec-amazon)
-					* [](#)
-					* [](#)
-					* [](#)
+					* [additional-file-delivered](#in-app-item--sub-desc-store-spec-amazon-file-delivered)
+					* [small-icon](#in-app-item--sub-desc-store-spec-amazon-small-icon)
+					* [large-icon](#in-app-item--sub-desc-store-spec-amazon-large-icon)
 				* [slideme](#in-app-item--sub-desc-store-spec-slideme)
-					* [](#)
+					* [test-mode](#in-app-item--sub-desc-store-spec-slideme-test-mode)
 		* [price](#in-app-item--sub-price)
-			* [free](#)
-			* [local-price](#)
-				* [country](#)
+			* [free](#in-app-item--sub-price-attrs-free)
+			* [local-price](#in-app-item--sub-price-local-price)
+				* [country](#in-app-item--sub-price-local-price)
 
 #### <a name="in-app-item--sub"/>item | subscription
 
