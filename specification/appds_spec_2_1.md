@@ -5466,7 +5466,7 @@ Possible `<license-type>` values:
 * Other / Proprietary
 * The MIT License
 
-### in-app-purchases
+### <a name="in-app-purchases"/>in-app-purchases
 
 Optional.  
 No attributes.  
@@ -5636,11 +5636,11 @@ Example
 				* [subs-period](#subs-period)
 				* [trial-period](#trial-period)
 
-#### item | subscription
+#### <a name="in-app-item--sub"/>item | subscription
 
-#### Attributes
+#### <a name="in-app-item--sub-attrs"/>Attributes
 
-##### Common attributes for `<item>` and `<subscription>`
+##### <a name="in-app-item--sub-attrs-common"/>Common attributes for `<item>` and `<subscription>`
 
 The following attributes are common for `<item>` and `<subscription>` elements.
 
@@ -5668,7 +5668,7 @@ The following attributes are common for `<item>` and `<subscription>` elements.
   </tr>
 </table>
 
-###### id
+###### <a name="in-app-item--sub-attrs-common-id"/>id
 
 Unique identifier of the in-app product. Also known as `SKU`, store keeping unit. Non-localizable.
 
@@ -5717,7 +5717,7 @@ Unique identifier of the in-app product. Also known as `SKU`, store keeping unit
   </tr>
 </table>
 
-###### published
+###### <a name="in-app-item--sub-attrs-common-published"/>published
 
 Is the in-app product active or not.
 
@@ -5760,7 +5760,7 @@ Is the in-app product active or not.
   </tr>
 </table>
 
-##### Item-specific attributes
+##### <a name="in-app-item--sub-attrs-item-spec"/>Item-specific attributes
 
 The following attributes are `<item>`-specific.
 
@@ -5780,7 +5780,7 @@ The following attributes are `<item>`-specific.
 </table>
 
 
-###### type
+###### <a name="in-app-item--sub-attrs-item-spec-type"/>type
 
 Type of the in-app product. Can be ``consumable`` and ``non-consumable``. ``Consumable`` can be purchased the infinite number of times, e.g. tips, lives, power, etc. ``Non-consumable`` can be purchased only once, e.g. a level in a game, a text of a book, etc.
 
@@ -5823,7 +5823,7 @@ Type of the in-app product. Can be ``consumable`` and ``non-consumable``. ``Cons
   </tr>
 </table>
 
-##### subscription-specific attributes
+##### <a name="in-app-item--sub-attrs-sub-spec"/>subscription-specific attributes
 
 The following attributes are `<subscription>`-specific.
 
@@ -5848,7 +5848,7 @@ The following attributes are `<subscription>`-specific.
   </tr>
 </table>
 
-###### subs-period
+###### <a name="in-app-item--sub-attrs-sub-spec-subs-period"/>subs-period
 
 A subscription duration.
 
@@ -5891,7 +5891,7 @@ A subscription duration.
   </tr>
 </table>
 
-###### trial-period
+###### <a name="in-app-item--sub-attrs-sub-spec-trial-period"/>trial-period
 
 A trial period of the subscription.
 
@@ -5934,7 +5934,7 @@ A trial period of the subscription.
   </tr>
 </table>
 
-### description 
+### <a name="in-app-item--sub-desc"/>description 
 
 Required.  
 No attributes. 
@@ -5943,7 +5943,7 @@ This section has the same structure for `<item>` and `<subscription>`.
 
 The section contains in-app description in text form as well as pictures in English US language. A part of the main <description> tag there could be several <description-localization> tags for different languages. If some information is missing in the localized <description-localization> tag it will be taken from the default <description-base> section.
 
-#### description/title
+#### <a name="in-app-item--sub-title"/>description/title
 
 Required.  
 No attributes.  
@@ -6003,7 +6003,7 @@ As everything inside the <description> tag can be localized using <description-l
   </tr>
 </table>
 
-#### description/text  
+#### <a name="in-app-item--sub-desc-text"/>description/text  
 
 Required.  
 No attributes.  
@@ -6068,7 +6068,7 @@ In-app text description is used to describe the product. Different stores have d
   </tr>
 </table>
 
-#### description/small-icon
+#### <a name="in-app-item--sub-desc-small-icon"/>description/small-icon
 
 Optional.  
 Attributes: `width`(required), `height`(required).  
@@ -6147,7 +6147,7 @@ Small in-app icon. Must be in PNG format. As everything inside the `<description
   </tr>
 </table>
 
-#### description/large-icon
+#### <a name="in-app-item--sub-desc-large-icon"/description/large-icon
 Optional.  
 Attributes: `width`(required), `height`(required).   
 
@@ -6226,28 +6226,28 @@ Large in-app icon. Must be in PNG format. As everything inside the `<description
   </tr>
 </table>
 
-#### description/store-specific  
+#### <a name="in-app-item--sub-desc-store-spec"/>description/store-specific  
 
 Optional.  
 No attributes.  
 
 All store specific information is collected in this section. Currently the following stores are supported: Amazon Appstore, SlideME.
 
-##### description/store-specific/amazon
+##### <a name="in-app-item--sub-desc-store-spec-amazon"/>description/store-specific/amazon
 
 Optional.  
 No attributes.
 
 All Amazon Appstore - specific information is collected in this section. Currently this section contains small and large icons, are additional assets will be delivered or not.
 
-##### description/store-specific/amazon/additional-file-delivered  
+##### <a name="in-app-item--sub-desc-store-spec-amazon-file-delivered"/>description/store-specific/amazon/additional-file-delivered  
 
 Required.  
 No attributes.  
 
 This element describes whether you'll deliver additional assets after purchasing or not.
 
-##### description/store-specific/amazon/small-icon  
+##### <a name="in-app-item--sub-desc-store-spec-amazon-small-icon"/>description/store-specific/amazon/small-icon  
 
 Required.  
 Attributes: width, height.
@@ -6275,7 +6275,7 @@ Small in-app icon.
   </tr>
 </table>
 
-##### description/store-specific/amazon/large-icon 
+##### <a name="in-app-item--sub-desc-store-spec-amazon-large-icon"/>description/store-specific/amazon/large-icon 
 
 Required.  
 Attributes: width, height.
@@ -6303,28 +6303,28 @@ Attributes: width, height.
 
 Large in-app icon.
 
-##### description/store-specific/slideme
+##### <a name="in-app-item--sub-desc-store-spec-slideme"/>description/store-specific/slideme
 
 Optional.  
 No attributes.
 
 All SlideME-specific information is collected in this section.
 
-##### description/store-specific/slideme/test-mode  
+##### <a name="in-app-item--sub-desc-store-spec-slideme-test-mode"/>description/store-specific/slideme/test-mode  
 
 Required.  
 No attributes.
 
 Test mode to check the app behaviour under different scenarios. Possible values: `disabled` (Disabled), `success` (Simulate Success), `failure` (Simulate Failure).
 
-### description-localization
+### <a name="in-app-item--sub-desc-store-spec-desc-loc"/>description-localization
 
 Required.  
 Attributes: locale (required).  
 
 This section contains in-app description in text form as well as pictures and videos in different languages.
 
-### price
+### <a name="in-app-item--sub-price"/>price
 
 Required.  
 Attributes: ``free``(required).   
@@ -6346,7 +6346,7 @@ This section describes whether the in-app is free or paid and if paid what its p
   </tr>
 </table>
 
-###### free
+###### <a name="in-app-item--sub-price-attrs-free"/>free
 <table>
   <tr>
     <th>Store</th>
@@ -6386,7 +6386,7 @@ This section describes whether the in-app is free or paid and if paid what its p
   </tr>
 </table>
 
-#### price/base-price
+#### <a name="in-app-item--sub-price-base-price"/>price/base-price
 
 Required.  
 No attributes.  
@@ -6452,7 +6452,7 @@ This tag is ignored for free in-apps.
   </tr>
 </table>
 
-#### price/local-price
+#### <a name="in-app-item--sub-price-local-price"/>price/local-price
 
 Optional.  
 Attributes: `country`.  
