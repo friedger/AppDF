@@ -675,6 +675,7 @@ List of Tags:
 * [in-app-purchases](#in-app-purchases)    
 
 ### <a name="categorization"/>categorization
+
 Required.  
 No attributes.
 
@@ -980,6 +981,7 @@ Although some stores don't use subcategories AppDF includes as detailed category
 </table>
 
 ### <a name="description"/>description 
+
 Required.  
 No attributes.
 
@@ -1692,6 +1694,7 @@ Maximum length: 500.
 </table>
 
 ##### <a name="description-texts-privacy-policy"/>description/texts/privacy-policy
+
 Optional.  
 Attributes: `href`.  
 Maximum length: 5000.
@@ -2051,6 +2054,7 @@ High resolution application icon. Must be in PNG format. Different stores requir
 </table>
 
 ##### <a name="description-images-large-promo"/>description/images/large-promo
+
 Optional.  
 Attributes: `width`, `height`. 
 
@@ -2266,6 +2270,7 @@ A small promotion picture is usually used by the stores on a mobile device for p
 </table>
 
 ##### <a name="description-images-screenshots"/>description/images/screenshots
+
 Required.  
 No attributes. 
 
@@ -2538,6 +2543,7 @@ then tag value should be just `4YcBHQ2fCDE`. Like:
 </table>
 
 ##### <a name="description-videos-video-file"/>description/videos/video-file
+
 Optional.  
 No attributes. 
 
@@ -6174,6 +6180,7 @@ Small in-app icon. Must be in PNG format. As everything inside the `<description
 </table>
 
 #### <a name="in-app-item--sub-desc-large-icon"/description/large-icon
+
 Optional.  
 Attributes: `width`, `height`.   
 
