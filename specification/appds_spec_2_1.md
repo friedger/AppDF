@@ -1069,7 +1069,7 @@ Example
 
 Required.  
 No attributes. 
-Maximum length: the first tag must be 30 symbols or shorter.
+Maximum length: the first tag must be 30 characters or shorter.
 
 The application name is shown in the application list. As everything inside the `<description>` tag can be localized using `<description-localization>` section. Different stores have different requirements for maximum title length. In order to have flexibility to get the best from each of the stores you can include several copies of title tag. The store will take the longest one that is fits in its maximum size. The first title must be 30 symbols or shorter in order to be supported by all the stores.
 
@@ -1266,7 +1266,7 @@ Comma separated the list of keywords. As everything inside the `<description>` t
 
 Optional.  
 No attributes.  
-Maximum length: the first tag should be 80 symbols or shorter.
+Maximum length: the first tag should be 80 characters or shorter.
 
 Short application description is used in the app lists next to the app title. Some stores include such short description to the lists, some do not. Different stores have different requirements for maximum short description length. In order to have flexibility to get the best from each of the stores you can include several copies of short description tag. The store will take the longest one that fits in its maximum size. As everything inside the `<description>` tag can be localized using `<description-localization>` section. The first short description must be 80 symbols or shorter in order to be supported by all the stores.
 
@@ -1368,7 +1368,7 @@ Short application description is used in the app lists next to the app title. So
 ##### <a name="description-texts-full-description"/>description/texts/full-description
 
 Required.  
-Maximum length: 4000.
+Maximum length: 4000 characters.
 
 The full application description is shown on the product page. You can include simple HTML subset tags described below. Most stores support plain text full description only so they will ignore your markup. You can also include a special subtag `<features>`. Everything inside the `<features>` subtag will be shown only by the stores that do not support feature list. It is needed to avoid feature list duplication. As everything inside the `<description>` tag can be localized using `<description-localization>` section.
 
@@ -1613,7 +1613,7 @@ Example
 
 Optional.  
 No attributes.  
-Maximum length: 500.
+Maximum length: 500 characters.
 
 <table>
   <tr>
@@ -1697,7 +1697,7 @@ Maximum length: 500.
 
 Optional.  
 Attributes: `href`.  
-Maximum length: 5000.
+Maximum length: 5000 characters.
 
 Privacy policy for this application. It must include both a link to privacy policy webpage (in `href` attribute) and full privacy policy text. As everything inside the `<description>` tag it can be localized using `<description-localization>` section.
 
@@ -1801,7 +1801,7 @@ you, your account or your email addresses with anyone. Period.</privacy-policy>
 
 Optional.  
 Attributes: `href`.  
-Maximum length: 5000.
+Maximum length: 5000 characters.
 
 End User License Agreement for this application. It must include both a link to EULA webpage (in `href` attribute) and full EULA text. As everything inside the `<description>` tag it can be localized using `<description-localization>` section.
 
@@ -4812,7 +4812,7 @@ Example 2
 
 Optional.  
 No attributes.  
-Maximum length: 4000.
+Maximum length: 4000 characters.
 
 Please detail any special requirements to test your app. If your application requires an account to use it please provide testing account information.
 
