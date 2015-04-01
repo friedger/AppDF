@@ -1035,7 +1035,7 @@ Example
 </description>
 ```
 
-#### description/texts
+#### <a name="desc-texts"/>description/texts
 
 Required.  
 No attributes.
@@ -1063,7 +1063,7 @@ Example
 </texts>
 ```
 
-##### description/texts/title
+##### <a name="desc-texts-title"/>description/texts/title
 
 Required.  
 No attributes. 
@@ -1167,7 +1167,7 @@ The application name is shown in the application list. As everything inside the 
   -->
 </table>
 
-##### description/texts/keywords
+##### <a name="desc-texts-keywords"/>description/texts/keywords
 
 Optional.  
 No attributes. 
@@ -1260,7 +1260,7 @@ Comma separated the list of keywords. As everything inside the `<description>` t
   -->
 </table>
 
-##### description/texts/short-description
+##### <a name="desc-texts-short-desc"/>description/texts/short-description
 
 Optional.  
 No attributes.  
@@ -1363,7 +1363,7 @@ Short application description is used in the app lists next to the app title. So
   -->
 </table>
 
-##### description/texts/full-description
+##### <a name="desc-texts-full-desc"/>description/texts/full-description
 
 Required.  
 Maximum length: 4000.
@@ -1514,7 +1514,7 @@ The full application description is shown on the product page. You can include s
   -->
 </table>
 
-##### description/texts/features
+##### <a name="desc-texts-features"/>description/texts/features
 
 Optional.  
 No attributes.
@@ -1607,7 +1607,7 @@ Example
   -->
 </table>
 
-##### description/texts/recent-changes
+##### <a name="desc-texts-recent-changes"/>description/texts/recent-changes
 
 Optional.  
 No attributes.  
@@ -1691,7 +1691,7 @@ Maximum length: 500.
   -->
 </table>
 
-##### description/texts/privacy-policy
+##### <a name="desc-texts-privacy-policy"/>description/texts/privacy-policy
 Optional.  
 Attributes: `href`.  
 Maximum length: 5000.
@@ -1794,7 +1794,7 @@ you, your account or your email addresses with anyone. Period.</privacy-policy>
   -->
 </table>
 
-##### description/texts/eula
+##### <a name="desc-texts-eula"/>description/texts/eula
 
 Optional.  
 Attributes: `href`.  
@@ -1899,7 +1899,7 @@ us even if it is our fault.</eula>
   -->
 </table>
 
-#### description/images
+#### <a name="desc-images"/>description/images
 
 Required.  
 No attributes.
@@ -1927,7 +1927,7 @@ Example
 </images>
 ```
 
-##### description/images/app-icon
+##### <a name="desc-images-app-icon"/>description/images/app-icon
 
 Required.  
 Attributes: `width`, `height`. 
@@ -2050,7 +2050,7 @@ High resolution application icon. Must be in PNG format. Different stores requir
   -->
 </table>
 
-##### description/images/large-promo
+##### <a name="desc-images-large-promo"/>description/images/large-promo
 Optional.  
 Attributes: `width`, `height`. 
 
@@ -2157,7 +2157,7 @@ Large promotion picture usually used by the stores on the PC websites, some stor
   -->
 </table>
 
-##### description/images/small-promo
+##### <a name="desc-images-small-promo"/>description/images/small-promo
 
 Optional.  
 Attributes: `width`, `height`. 
@@ -2265,13 +2265,13 @@ A small promotion picture is usually used by the stores on a mobile device for p
   -->
 </table>
 
-##### description/images/screenshots
+##### <a name="desc-images-screenshots"/>description/images/screenshots
 Required.  
 No attributes. 
 
 Contains several `<screenshot>` subtags. Each `<screenshot>` subtag describes one screenshot. Different stores use different number of screenshots. You should provide at least four screenshots to support all the stores. If you provide more screenshots than a store can use the first screenshots are used. 
 
-##### description/images/screenshots/screenshot
+##### <a name="desc-images-screenshots-screenshot"/>description/images/screenshots/screenshot
 Required.  
 Attributes: `width`, `height`, `index`. 
 
@@ -2423,7 +2423,7 @@ or 2560 x 1600px (portrait or landscape)</td>
   -->
 </table>
 
-#### description/videos
+#### <a name="desc-videos"/>description/videos
 
 Optional.  
 No attributes.
@@ -2439,7 +2439,7 @@ Example
 </videos>
 ```
 
-##### description/videos/youtube-video
+##### <a name="desc-videos-youtube-video"/>description/videos/youtube-video
 
 Optional.  
 No attributes. 
@@ -2537,7 +2537,7 @@ then tag value should be just `4YcBHQ2fCDE`. Like:
   -->
 </table>
 
-##### description/videos/video-file
+##### <a name="desc-videos-video-file"/description/videos/video-file
 Optional.  
 No attributes. 
 
@@ -2639,7 +2639,8 @@ Some stores don't support including of YouTube videos but do support uploaded vi
   -->
 </table>
 
-### description-localization
+### <a name="desc-localization"/description-localization
+
 Optional.  
 Attributes: `language`. 
 
