@@ -1,5 +1,4 @@
-Summary
--------------
+## <a name="summary"/>Summary
 
 Uploading Android application to several application stores could be time consuming. AppDF format is designed to simplify this process. A developer describes an Android application once by creating a simple AppDF archive that includes the XML description, APK file(s), screenshots, app icon, promo images, etc and just upload this AppDF file to all the stores that support AppDF uploading.
 
@@ -14,8 +13,7 @@ Table of Contents:
 * [Change History](#change-history)
 * [License](#license)
 
-AppDF File Structure
--------------
+## <a name="appdf-file-structure"/>AppDF File Structure
 
 An AppDF file is a ZIP archive where all the files describing the application are collected. Here is an example of a simple AppDF file content:
 ```
@@ -66,8 +64,7 @@ As you can see the application could include several APK files, the images for d
 
 The only naming convention for the files inside AppDF package is that the description XML file should be called `description.xml`. All other files could have any names supported by ZIP, could be placed in the top folder or in any of the subfolders. The names of the additional files are defined in the `description.xml` file.
 
-Sample Description.xml File
--------------
+## <a name="sample-descriptionxml-file"/>Sample Description.xml File
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -612,8 +609,7 @@ Required for publishing with in-apps
   </tr>
 </table>
 
-Description.xml Structure
--------------
+## <a name="descriptionxml-structure"/>Description.xml Structure
 
 [Formal  XML Schema (XSD) description](https://github.com/onepf/AppDF/blob/2.x-appdf/specification/2.1/appdf-description.xsd) of Description.xml file structure.
 
@@ -678,7 +674,7 @@ List of Tags:
 	* [slideme](#store-specificslideme)
 * [in-app-purchases](#in-app-purchases)    
 
-### categorization
+### <a name="categorization"/>categorization
 Required.  
 No attributes.
 
@@ -983,7 +979,7 @@ Although some stores don't use subcategories AppDF includes as detailed category
   -->
 </table>
 
-### description 
+### <a name="description"/>description 
 Required.  
 No attributes.
 
@@ -6529,8 +6525,7 @@ Currencies used in different countries in [JSON](http://www.onepf.org/appdf/data
   </tr>
 </table>
 
-Application Store Support
--------------
+## <a name="application-store-support"/>Application Store Support
 
 ### Google Play
 
@@ -6672,8 +6667,8 @@ Application Store Support
 </tr>
 </table>
 
-Category List
--------------
+## <a name="category-list"/>Category List
+
 AppDF provides universal category list that could be matched to any appstore category list. When we chose categories for the AppDF we tried to create the most detailed list to archive unambiguous mapping for any appstore.
 
 The AppDF category list is available as [JSON](http://www.onepf.org/appdf/data/categories.json) or [XML](data/categories.xml). You can also download a proposal mapping of the AppDF category list to some application stores as [JSON](http://www.onepf.org/appdf/data/store_categories.json) or [XML](data/store_categories.xml).
@@ -8309,7 +8304,7 @@ The AppDF category list is available as [JSON](http://www.onepf.org/appdf/data/c
 </tr>
 </table>
 
-### Game Categories
+### <a name="game-categories"/>Game Categories
 <table>
 <tr>
   <th>Category</th>
@@ -8493,8 +8488,8 @@ The AppDF category list is available as [JSON](http://www.onepf.org/appdf/data/c
 </tr>
 </table>
 
-Localization Support
--------------
+## <a name="localization-support"/>Localization Support
+
 AppDF supports localization to all the languages. Nevertheless not all languages supported by all the stores. 
 
 Reference language list in [JSON](http://www.onepf.org/appdf/data/languages.json) and [XML](data/languages.xml) formats.
@@ -9255,14 +9250,14 @@ The following languages are currently not support by any of the stores:
 * Yoruba
 * Zhuang
 
-Status
--------------
+## <a name="status"/>Status
+
 Current status: final specification  
 Specification version: 1.00
 Last update: March 25, 2013  
 
-Change History
--------------
+## <a name="change-history"/>Change History
+
 ### Version 1.00 (April 08, 2013)
 * Version 0.97 is accepted as 1.0 without changes
 
@@ -9297,7 +9292,7 @@ Change History
 ### Version 0.94 (February 05, 2013)
 
 * Option to have multiple description.xml files inside one AppDF archive for localization purposes is removed. All localizations must be included in the main `description.xml` file.
-* APK file extension support is removed because only Google Play supports this technology today and any application that uses APK extension files will not work in any of the alternative Android application stores.
+* APK file extension support is removed because only Google Play supports this technology today and any application that uses APK extension files will not workApplication Store Support in any of the alternative Android application stores.
 * Now it is required for the first title to be 30 symbols or shorter (before requirement was that some of the titles is 30 symbols or shorter).
 * Now it is required for the first short description to be 80 symbols or shorter (before requirement was that some of the short description is 80 symbols or shorter).
 * Currency attribute is removed from the `description.xml` tag, now only country is defined in XML and currency is automatically detected using the predefined country currencies table.
@@ -9310,8 +9305,8 @@ Change History
 * `<import-export>` tag is added to the `<consent>` section in order to support Amazon AppStore.
 * `language` attribute is removed from the `<description>` tag. Now default description is always in English US.
 
-License
--------------
+## <a name="license"/>License
+
 This file is licensed under the Creative Commons Attribution 2.5 license:  
 http://creativecommons.org/licenses/by/2.5/
 
