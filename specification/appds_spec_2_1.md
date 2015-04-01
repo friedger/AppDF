@@ -655,10 +655,10 @@ List of Tags:
 	* [trial-version](#price-trial-version)
 * [apk-files](#apk-files)
 * [requirements](#requirements)
-	* [features](#requirementsfeatures)
-		* [root](#requirementsroot)
-		* [gms](#requirementsgms)
-		* [online](#requirementsonline)
+	* [features](#requirements-features)
+		* [root](#requirements-features-root)
+		* [gms](#requirements-features-gms)
+		* [online](#requirements-features-online)
 	* [supported-languages](#requirementssupported-languages)
 	* [supported-devices](#requirementssupported-devices)
 	* [supported-resolutions](#requirementssupported-resolutions)
@@ -4190,9 +4190,10 @@ This tag is ignored for paid apps.
   -->
 </table>
 
-### apk-files
+### <a name="apk-files"/>apk-files
+
 Required.  
-Attributes: main-exp-file (optional), patch-optional-file (optional).  
+Attributes: main-exp-file, patch-optional-file.  
 Each application could have 1+ APK files. All APK files must have the same package name.
 
 <table>
@@ -4303,7 +4304,7 @@ Example
   -->
 </table>
 
-### requirements
+### <a name="requirements"/>requirements
 
 Optional.  
 No attributes.
@@ -4340,7 +4341,7 @@ Example
 </requirements>
 ```
 
-#### requirements/features
+#### <a name="requirements-features"/>requirements/features
 
 Optional.  
 No attributes.
@@ -4353,7 +4354,7 @@ Example
 </features>
 ```
 
-#### requirements/features/root
+#### <a name="requirements-features-root"/>requirements/features/root
 
 Optional.  
 No attributes.
@@ -4411,7 +4412,7 @@ Set value of this tag to `yes` if your application requires root access for work
 </table>
 
 
-#### requirements/features/gms
+#### <a name="requirements-features-gms"/>requirements/features/gms
 
 Optional.  
 No attributes.
@@ -4478,7 +4479,7 @@ Set value of this tag to `yes` if your application requires Google Play to be in
 </table>
 
 
-#### requirements/features/online
+#### <a name="requirements-features-online"/>requirements/features/online
 
 Optional.  
 No attributes.
