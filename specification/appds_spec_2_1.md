@@ -659,19 +659,19 @@ List of Tags:
 		* [root](#requirements-features-root)
 		* [gms](#requirements-features-gms)
 		* [online](#requirements-features-online)
-	* [supported-languages](#requirementssupported-languages)
-	* [supported-devices](#requirementssupported-devices)
-	* [supported-resolutions](#requirementssupported-resolutions)
+	* [supported-languages](#requirements-supported-languages)
+	* [supported-devices](#requirements-supported-devices)
+	* [supported-resolutions](#requirements-supported-resolutions)
 * [testing-instructions](#testing-instructions)
 * [consent](#consent)
 * [customer-support](#customer-support)
-	* [phone](#customer-supportphone)
-	* [email](#customer-supportemail)
-	* [website](#customer-supportwebsite)
+	* [phone](#customer-support-phone)
+	* [email](#customer-support-email)
+	* [website](#customer-support-website)
 * [store-specific](#store-specific)
-	* [amazon](#store-specificamazon)
-	* [samsung](#store-specificsamsung)
-	* [slideme](#store-specificslideme)
+	* [amazon](#store-specific-amazon)
+	* [samsung](#store-specific-samsung)
+	* [slideme](#store-specific-slideme)
 * [in-app-purchases](#in-app-purchases)    
 
 ### <a name="categorization"/>categorization
@@ -4546,7 +4546,7 @@ Set value of this tag to `yes` if your application requires internet connection 
 </table>
 
 
-#### requirements/supported-languages
+#### <a name="requirements-supported-languages"/>requirements/supported-languages
 
 Optional.  
 No attributes.
@@ -4626,7 +4626,7 @@ Example
 
 
 
-#### requirements/supported-devices
+#### <a name="requirements-supported-devices"/>requirements/supported-devices
 
 Optional.  
 No attributes.
@@ -4702,7 +4702,7 @@ Example
 </table>
 
 
-#### requirements/supported-resolutions
+#### <a name="requirements-supported-resolutions"/>requirements/supported-resolutions
 
 Optional.  
 Attributes: `only-listed`. 
@@ -4802,7 +4802,7 @@ Example 2
   -->
 </table>
 
-### testing-instructions
+### <a name="testing-instructions"/>testing-instructions
 
 Optional.  
 No attributes.  
@@ -4879,7 +4879,7 @@ Please detail any special requirements to test your app. If your application req
   -->
 </table>
 
-### consent
+### <a name="consent"/>consent
 
 Optional.  
 No attributes.
@@ -4996,7 +4996,7 @@ Example
   -->
 </table>
 
-### customer-support
+### <a name="customer-support"/>customer-support
 
 Required.  
 No attributes.
@@ -5010,7 +5010,7 @@ Example
 </customer-support>
 ```
 
-#### customer-support/phone
+#### <a name="customer-support-phone"/>customer-support/phone
 
 Required.  
 No attributes.
@@ -5083,7 +5083,7 @@ No attributes.
   -->
 </table>
 
-#### customer-support/email
+#### <a name="customer-support-email"/>customer-support/email
 
 Required.  
 No attributes.
@@ -5174,7 +5174,7 @@ No attributes.
   -->
 </table>
 
-#### customer-support/website
+#### <a name="customer-support-website"/>customer-support/website
 
 Optional.  
 No attributes.
@@ -5247,7 +5247,7 @@ No attributes.
   -->
 </table>
 
-### store-specific
+### <a name="store-specific"/>store-specific
 
 Optional.  
 No attributes.
@@ -5343,7 +5343,7 @@ Each store subtag can replace any of the parameters from the entire description.
 
 There are also some optional and required store specific parameters you can/must use if you want that your AppDF file is supported by the corresponding store. 
 
-#### store-specific/amazon
+#### <a name="store-specific-amazon"/>store-specific/amazon
 
 Optional.  
 No attributes.
@@ -5430,7 +5430,7 @@ Example
   </tr>
 </table>
 
-#### store-specific/slideme
+#### <a name="store-specific-slideme"/>store-specific/slideme
 
 Optional.  
 No attributes.
