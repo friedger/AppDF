@@ -5635,6 +5635,22 @@ Example
 			* [subscription-specific attributes](#in-app-item--sub-attrs-sub-spec)
 				* [subs-period](#in-app-item--sub-attrs-sub-spec-subs-period)
 				* [trial-period](#in-app-item--sub-attrs-sub-spec-trial-period)
+		* [description](#in-app-item--sub-desc)
+			* [title](#in-app-item--sub-desc-title)
+			* [text](#in-app-item--sub-desc-text)
+			* [small-icon](#in-app-item--sub-desc-small-icon)
+			* [large-icon](#in-app-item--sub-desc-large-icon)
+			* [store-specific](#in-app-item--sub-desc-store-spec)
+				* [amazon](#in-app-item--sub-desc-store-spec-amazon)
+					* [](#)
+					* [](#)
+					* [](#)
+				* [slideme](#in-app-item--sub-desc-store-spec-slideme)
+					* [](#)
+		* [price](#in-app-item--sub-price)
+			* [free](#)
+			* [local-price](#)
+				* [country](#)
 
 #### <a name="in-app-item--sub"/>item | subscription
 
