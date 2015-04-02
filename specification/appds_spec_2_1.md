@@ -71,7 +71,7 @@ The only naming convention for the files inside AppDF package is that the descri
 
 <application-description-file version="1">
 
-<application platform="android" package="ru.yandex.shell" distribution-channel="production">
+<application platform="android" package="ru.yandex.shell" distribution-type="production">
 
   <categorization>
     <!--Options: application, game-->
@@ -703,7 +703,34 @@ List of Tags:
 
 ## <a name="appication"/>application
 Required.  
-Attributes: `platform`, `package`, `distribution-channel`.
+Attributes: `platform`, `package`, `distribution-type`.
+
+<table>
+  <tr>
+    <th>Attribute</th>
+    <th>Possible values</th>
+    <th>Default</th>
+    <th>How it works</th>
+  </tr>
+  <tr>
+    <td>platform</td>
+    <td>android | tizen</td>
+    <td>Mandatory</td>
+    <td>The supported platform.</td>
+  </tr>
+  <tr>
+    <td>package</td>
+    <td>String with the pattern: ([_a-zA-Z0-9\-]+\.)+[_a-zA-Z0-9\-]+</td>
+    <td>Mandatory</td>
+    <td>The package name of the application.</td>
+  </tr>
+  <tr>
+    <td>distribution-type</td>
+    <td>alpha | beta | rollout | production</td>
+    <td>Optional</td>
+    <td>The default value is `production`.</td>
+ </tr>
+</table>
 
 ### <a name="categorization"/>categorization
 
