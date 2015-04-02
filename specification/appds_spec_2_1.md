@@ -707,6 +707,8 @@ List of Tags:
 Required.  
 Attributes: `platform`, `package`, `distribution-type`.
 
+The main tag. Contains all information required for publishing.
+
 <table>
   <tr>
     <th>Attribute</th>
