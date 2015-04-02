@@ -772,14 +772,12 @@ Attributes: `platform`, `package`, `distribution-type`.
     <td>not supported</td>
     <td>not supported</td>
     <td>not supported</td>
-    <td></td>
   </tr>
   <tr>
     <td>SlideME</td>
     <td>not supported</td>
     <td>not supported</td>
     <td>not supported</td>
-    <td></td>
   </tr>
 </table>
 
