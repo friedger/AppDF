@@ -6470,6 +6470,8 @@ Attributes: `free`.
 
 This section describes whether the in-app is free or paid and if paid what its price is.
 
+###### <a name="in-app-item--sub-price-attrs-free"/>free
+
 <table>
   <tr>
     <th>Attribute</th>
@@ -6485,7 +6487,6 @@ This section describes whether the in-app is free or paid and if paid what its p
   </tr>
 </table>
 
-###### <a name="in-app-item--sub-price-attrs-free"/>free
 <table>
   <tr>
     <th>Store</th>
