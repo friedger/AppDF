@@ -444,7 +444,7 @@ Required for publishing
     <td>yes</td>
     <td>yes</td>
     <td>yes</td>
-    <td></td>
+    <td>yes</td>
     <td>yes</td>
   </tr>
   <tr>
