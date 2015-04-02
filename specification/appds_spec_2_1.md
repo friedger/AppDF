@@ -6793,9 +6793,158 @@ Currencies used in different countries in [JSON](http://www.onepf.org/appdf/data
 </tr>
 <tr>
   <td>Distribution agreement URL</td>
-  <td><a href="http://legal.yandex.com/store_developer_agreement/">http://</td>
+  <td><a href="http://legal.yandex.com/store_developer_agreement/">http://legal.yandex.com/store_developer_agreement/</a></td>
+</tr>
+<tr>
+  <td>AppDF ID</td>
+  <td>yandex</td>
+</tr>
+<tr>
+  <td>Registration fee</td>
+  <td>free</td>
+</tr>
+<tr>
+  <td>Content premoderation</td>
+  <td>Yes</td>
+</tr>
+<tr>
+  <td>Client Application</td>
+  <td>Yes</td>
+</tr>
+<tr>
+  <td>In-App Purchase Support</td>
+  <td>No</td>
+</tr>
+<tr>
+  <td>License verification support</td>
+  <td>No</td>
 </tr>
 </table>
+
+### SlideME
+
+<table>
+<tr>
+  <th>Parameter</th>
+  <th>Value</th>
+</tr>
+<tr>
+  <td>Registration URL</td>
+  <td><a href="http://slideme.org/developers">http://slideme.org/developers</a></td>
+</tr>
+<tr>
+  <td>Distribution agreement URL</td>
+  <td><a href="http://slideme.org/developers/dda">http://slideme.org/developers/dda</a></td>
+</tr>
+<tr>
+  <td>AppDF ID</td>
+  <td>slideme</td>
+</tr>
+<tr>
+  <td>Registration fee</td>
+  <td>free</td>
+</tr>
+<tr>
+  <td>Content premoderation</td>
+  <td>Yes</td>
+</tr>
+<tr>
+  <td>Client Application</td>
+  <td>Yes</td>
+</tr>
+<tr>
+  <td>In-App Purchase Support</td>
+  <td>No</td>
+</tr>
+<tr>
+  <td>License verification support</td>
+  <td>Yes</td>
+</tr>
+</table>
+
+### Samsung App
+
+<table>
+<tr>
+  <th>Parameter</th>
+  <th>Value</th>
+</tr>
+<tr>
+  <td>Registration URL</td>
+  <td><a href="http://seller.samsungapps.com/">http://seller.samsungapps.com/</a></td>
+</tr>
+<tr>
+  <td>Distribution agreement URL</td>
+  <td><a href="http://seller.samsungapps.com/help/termsAndConditions.as">http://seller.samsungapps.com/help/termsAndConditions.as</a></td>
+</tr>
+<tr>
+  <td>AppDF ID</td>
+  <td>samsung</td>
+</tr>
+<tr>
+  <td>Registration fee</td>
+  <td>free</td>
+</tr>
+<tr>
+  <td>Content premoderation</td>
+  <td>Yes</td>
+</tr>
+<tr>
+  <td>Client Application</td>
+  <td>Yes</td>
+</tr>
+<tr>
+  <td>In-App Purchase Support</td>
+  <td>Yes</td>
+</tr>
+<tr>
+  <td>License verification support</td>
+  <td>Samsung DRM</td>
+</tr>
+</table>
+
+<!--
+### SK T-Store
+
+<table>
+<tr>
+  <th>Parameter</th>
+  <th>Value</th>
+</tr>
+<tr>
+  <td>Registration URL</td>
+  <td><a href="http://dev.tstore.co.kr/devpoc/main/main.omp">http://dev.tstore.co.kr/devpoc/main/main.omp</a></td>
+</tr>
+<tr>
+  <td>Distribution agreement URL</td>
+  <td>Public link cannot be found</a></td>
+</tr>
+<tr>
+  <td>AppDF ID</td>
+  <td>tstore</td>
+</tr>
+<tr>
+  <td>Registration fee</td>
+  <td>free</td>
+</tr>
+<tr>
+  <td>Content premoderation</td>
+  <td>Yes</td>
+</tr>
+<tr>
+  <td>Client Application</td>
+  <td>Yes</td>
+</tr>
+<tr>
+  <td>In-App Purchase Support</td>
+  <td>Yes</td>
+</tr>
+<tr>
+  <td>License verification support</td>
+  <td>[To be supplied.]</td>
+</tr>
+</table>
+-->
 
 ## <a name="category-list"/>Category List
 
