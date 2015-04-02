@@ -474,10 +474,10 @@ Required for publishing
   <tr>
     <th>content-descriptors</th>
     <td>yes</td>
+    <td>yes</td>
+    <td>yes</td>
+    <td>yes</td>
     <td>no</td>
-    <td></td>
-    <td></td>
-    <td></td>
   </tr>
   <tr>
     <th>included-activities</th>
