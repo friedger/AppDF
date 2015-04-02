@@ -701,7 +701,7 @@ List of Tags:
 				* [local-price](#in-app-item--sub-price-local-price)
 					* [country](#in-app-item--sub-price-local-price)
 
-## <a name="appication"/>application
+## <a name="application"/>application
 Required.  
 Attributes: `platform`, `package`, `distribution-type`.
 
@@ -730,6 +730,60 @@ Attributes: `platform`, `package`, `distribution-type`.
     <td>Optional</td>
     <td>The default value is `production`.</td>
  </tr>
+</table>
+
+###### <a name="application-attr-distribution-type"/>distribution-type
+
+<table>
+  <tr>
+    <th>Store</th>
+    <th>alpha</th>
+    <th>beta</th>
+    <th>rollout</th>
+    <th>comments</th>
+  </tr>
+  <tr>
+    <td>Google Play</td>
+    <td>supported, "ALPHA"</td>
+    <td>supported, "BETA"</td>
+    <td>suported</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Yandex.Store</td>
+    <td>has an analogue, "Draft" mode</td>
+    <td>has an analogue,"Draft" mode</td>
+    <td>not supported</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Amazon AppStore</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Opera Mobile Store</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Samsung Apps</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>SlideME</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
 </table>
 
 ### <a name="categorization"/>categorization
