@@ -491,9 +491,9 @@ Required for publishing
     <th>base-price (for paid apps)</th>
     <td>yes</td>
     <td>yes</td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>yes</td>
+    <td>yes</td>
+    <td>yes</td>
   </tr>
   <tr>
     <th>apk-files</th>
