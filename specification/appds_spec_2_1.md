@@ -641,7 +641,7 @@ List of Tags:
 	* [description-localization](#description-localization)
 	* [content-description](#content-description)
 		* [content-rating](#content-description-content-rating)
-		* rating-certificates
+		* [rating-certificates](#content-description-rating-certificates)
 			* [rating-certificate](#content-description-rating-certificates-rating-certificate)
 		* [content-descriptors](#content-description-content-descriptors)
 		* [included-activities](#content-description-included-activities)
@@ -3133,6 +3133,10 @@ Here you can find more detailed information about content rating definitions use
 2. Amazon doesn't have one field for application rating but uses "Child Directed" (Yes, No) to indictate that the app is directed to children under 13.
 3. Opera doesn't support content rating (except "Is Adult?" question without specifying the precise age).
 4. Samsung uses minimum age parameter along with several other attributes that define application rating according to the standard certification systems (PEGI, ESRB, etc).
+
+### <a name="content-description-rating-certificates"/>content-description/rating-certificates
+Optional.  
+No attributes.
 
 #### <a name="content-description-rating-certificates-rating-certificate"/>content-description/rating-certificates/rating-certificate
 
