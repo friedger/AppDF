@@ -6624,10 +6624,10 @@ Currencies used in different countries in [JSON](http://www.onepf.org/appdf/data
   </tr>
   <tr>
     <td>Yandex.Store</td>
+    <td>No</td>
     <td></td>
     <td></td>
-    <td></td>
-    <td></td>
+    <td>http://api.yandex.com/store/doc/pricing.xml</td>
   </tr>
   <tr>
     <td>Amazon AppStore</td>
