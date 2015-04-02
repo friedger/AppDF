@@ -741,48 +741,43 @@ Attributes: `platform`, `package`, `distribution-type`.
     <th>alpha</th>
     <th>beta</th>
     <th>rollout</th>
-    <th>comments</th>
   </tr>
   <tr>
     <td>Google Play</td>
     <td>supported, "ALPHA"</td>
     <td>supported, "BETA"</td>
     <td>suported</td>
-    <td></td>
   </tr>
   <tr>
     <td>Yandex.Store</td>
     <td>has an analogue, "Draft" mode</td>
     <td>has an analogue,"Draft" mode</td>
     <td>not supported</td>
-    <td></td>
   </tr>
   <tr>
     <td>Amazon AppStore</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>not supported</td>
+    <td>not supported</td>
+    <td>not supported</td>
   </tr>
   <tr>
     <td>Opera Mobile Store</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>not supported</td>
+    <td>not supported</td>
+    <td>not supported</td>
   </tr>
   <tr>
     <td>GALAXY Apps</td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>not supported</td>
+    <td>not supported</td>
+    <td>not supported</td>
     <td></td>
   </tr>
   <tr>
     <td>SlideME</td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>not supported</td>
+    <td>not supported</td>
+    <td>not supported</td>
     <td></td>
   </tr>
 </table>
