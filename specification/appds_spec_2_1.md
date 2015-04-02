@@ -4604,57 +4604,39 @@ Set value of this tag to `yes` if your application requires internet connection 
   <tr>
     <th>Store support</th>
     <th>Supported</th>
-    <th>Name</th>
-    <th>Comments</th>
   </tr>
   <tr>
     <td>Google Play</td>
     <td>No</td>
-    <td></td>
-    <td></td>
   </tr>
   <tr>
     <td>Yandex.Store</td>
     <td>No</td>
-    <td></td>
-    <td></td>
   </tr>
   <tr>
     <td>Amazon AppStore</td>
     <td>No</td>
-    <td></td>
-    <td></td>
   </tr>
   <tr>
     <td>Opers Mobile Store</td>
     <td>No</td>
-    <td></td>
-    <td></td>
   </tr>
   <tr>
     <td>GALAXY Apps</td>
     <td>No</td>
-    <td></td>
-    <td></td>
   </tr>
   <tr>
     <td>SlideME</td>
     <td>No</td>
-    <td></td>
-    <td></td>
   </tr>
   <!--
   <tr>
     <td>NOOK apps</td>
     <td>No</td>
-    <td></td>
-    <td></td>
   </tr>
   <tr>
     <td>AppsLib</td>
     <td>No</td>
-    <td></td>
-    <td></td>
   </tr>
   -->
 </table>
