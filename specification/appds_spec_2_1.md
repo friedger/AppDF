@@ -413,7 +413,7 @@ Required for publishing
     <th>Google Play</th>
     <th>Amazon</th>
     <th>Opera Mobile Store</th>
-    <th>Samsung Apps</th>
+    <th>GALAXY Apps</th>
   </tr>
   <tr>
     <th>type</th>
@@ -546,7 +546,7 @@ Required for publishing with in-apps
     <th>AppDF</th>
     <th>Google Play</th>
     <th>Amazon</th>
-    <th>Samsung Apps</th>
+    <th>GALAXY Apps</th>
     <th>SlideME</th>
   </tr>
   <tr>
@@ -772,7 +772,7 @@ Attributes: `platform`, `package`, `distribution-type`.
     <td></td>
   </tr>
   <tr>
-    <td>Samsung Apps</td>
+    <td>GALAXY Apps</td>
     <td></td>
     <td></td>
     <td></td>
@@ -846,7 +846,7 @@ Value could be either `application` or `game`.
     <td>Games is an item in the application category list</td>
   </tr>
   <tr>
-    <td>Samsung Apps</td>
+    <td>GALAXY Apps</td>
     <td>No</td>
     <td></td>
     <td></td>
@@ -923,7 +923,7 @@ AppDF format has its own list of categories for both games and applications. Thi
     <td>Business &amp; Finance | Communication | eBooks | Education | Entertainment | Games | Health | Languages &amp; Translators | Lifestyle | Multimedia | Organizers | Productivity | Social | Sports | Travel | Utilities | Wallpapers &amp; Themes</td>
   </tr>
   <tr>
-    <td>Samsung App</td>
+    <td>GALAXY App</td>
     <td>Yes</td>
     <td>App Information / Category</td>
     <td>Yes</td>
@@ -1043,7 +1043,7 @@ Although some stores don't use subcategories AppDF includes as detailed category
 </td>
   </tr>
   <tr>
-    <td>Samsung Apps</td>
+    <td>GALAXY Apps</td>
     <td>Yes</td>
     <td>App Information / Category</td>
     <td>Required for GALAXY Specials</td>
@@ -1233,7 +1233,7 @@ The application name is shown in the application list. As everything inside the 
     <td></td>
   </tr>
   <tr>
-    <td>Samsung Apps</td>
+    <td>GALAXY Apps</td>
     <td>Yes</td>
     <td>App Information / Application Title</td>
     <td>Yes</td>
@@ -1336,7 +1336,7 @@ Comma separated the list of keywords. As everything inside the `<description>` t
     <td></td>
   </tr>
   <tr>
-    <td>Samsung Apps</td>
+    <td>GALAXY Apps</td>
     <td>Yes</td>
     <td>App Information / Tags</td>
     <td>No</td>
@@ -1430,7 +1430,7 @@ Short application description is used in the app lists next to the app title. So
     <td><!--todo find the string Shown on the top of the product webpage, next to the app icon--></td>
   </tr>
   <tr>
-    <td>Samsung Apps</td>
+    <td>GALAXY Apps</td>
     <td>No</td>
     <td></td>
     <td></td>
@@ -1576,7 +1576,7 @@ The full application description is shown on the product page. You can include s
     <td></td>
   </tr>
   <tr>
-    <td>Samsung Apps</td>
+    <td>GALAXY Apps</td>
     <td>Yes</td>
     <td>App Information / Description</td>
     <td>Yes</td>
@@ -1687,7 +1687,7 @@ Example
     <td></td>
   </tr>
   <tr>
-    <td>Samsung Apps</td>
+    <td>GALAXY Apps</td>
     <td>No</td>
     <td></td>
     <td></td>
@@ -1775,7 +1775,7 @@ Maximum length: 500 characters.
     <td></td>
   </tr>
   <tr>
-    <td>Samsung Apps</td>
+    <td>GALAXY Apps</td>
     <td>Yes</td>
     <td>App Information / New Feature</td>
     <td>No</td>
@@ -1875,7 +1875,7 @@ you, your account or your email addresses with anyone. Period.</privacy-policy>
     <td>Full privacy policy text or URL</td>
   </tr>
   <tr>
-    <td>Samsung Apps</td>
+    <td>GALAXY Apps</td>
     <td>Yes</td>
     <td>App Information  / Privacy Policy URL</td>
     <td>No</td>
@@ -1980,7 +1980,7 @@ us even if it is our fault.</eula>
     <td>EULA text or URL</td>
   </tr>
   <tr>
-    <td>Samsung Apps</td>
+    <td>GALAXY Apps</td>
     <td>No</td>
     <td></td>
     <td></td>
@@ -2118,7 +2118,7 @@ High resolution application icon. Must be in PNG format. Different stores requir
     <td><!--todo check types PNG, JPG, GIF--></td>
   </tr>
   <tr>
-    <td>Samsung Apps</td>
+    <td>GALAXY Apps</td>
     <td>Yes</td>
     <td>App Information / Icon</td>
     <td>Yes</td>
@@ -2235,7 +2235,7 @@ Large promotion picture usually used by the stores on the PC websites, some stor
     <td></td>
   </tr>
   <tr>
-    <td>Samsung Apps</td>
+    <td>GALAXY Apps</td>
     <td>No</td>
     <td></td>
     <td></td>
@@ -2343,7 +2343,7 @@ A small promotion picture is usually used by the stores on a mobile device for p
     <td></td>
   </tr>
   <tr>
-    <td>Samsung Apps</td>
+    <td>GALAXY Apps</td>
     <td>No</td>
     <td></td>
     <td></td>
@@ -2487,7 +2487,7 @@ or 2560 x 1600px (portrait or landscape)</td>
     <td></td>
   </tr>
   <tr>
-    <td>Samsung Apps</td>
+    <td>GALAXY Apps</td>
     <td>Yes</td>
     <td>App Information / Screenshots</td>
     <td>Yes</td>
@@ -2612,7 +2612,7 @@ then tag value should be just `4YcBHQ2fCDE`. Like:
     <td></td>
   </tr>
   <tr>
-    <td>Samsung Apps</td>
+    <td>GALAXY Apps</td>
     <td>Yes</td>
     <td>App Information / YouTube URL</td>
     <td>No</td>
@@ -2710,7 +2710,7 @@ Some stores don't support including of YouTube videos but do support uploaded vi
     <td></td>
   </tr>
   <tr>
-    <td>Samsung Apps</td>
+    <td>GALAXY Apps</td>
     <td>No</td>
     <td></td>
     <td></td>
@@ -2816,7 +2816,7 @@ Example
     <th>Yandex.Store</th>
     <th>Amazon</th>
     <th>Opera Mobile Store</th>
-    <th>Samsung Apps</th>
+    <th>GALAXY Apps</th>
     <th>SlideME</th>
   </tr>
   <tr>
@@ -3054,7 +3054,7 @@ Each application must be labeled with a minimum age allowance according to [ESRB
     <td></td>
   </tr>
   <tr>
-    <td>Samsung Apps</td>
+    <td>GALAXY Apps</td>
     <td>Yes</td>
     <td>App Information / Age Restriction</td>
     <td>Yes</td>
@@ -3091,7 +3091,7 @@ There is no universal content rating system (aka parental control rating, aka mi
     <th>ESRB</th>
     <th>Amazon AppStore</th>
     <th>Opera Mobile Store</th>
-    <th>Samsung Apps</th>
+    <th>GALAXY Apps</th>
     <th>SlideME</th>
     <!--<th>NOOK apps</th>-->
   </tr>
@@ -3174,7 +3174,7 @@ Here you can find more detailed information about content rating definitions use
     <td>Content rating is not used</td>
   </tr>
   <tr>
-    <td>Samsung Apps</td>
+    <td>GALAXY Apps</td>
     <td>Samsung Age Rating Guide (link cannot be found)</td>
   </tr>
   <tr>
@@ -3307,7 +3307,7 @@ Example
     <td></td>
   </tr>
   <tr>
-    <td>Samsung Apps</td>
+    <td>GALAXY Apps</td>
     <td>Yes</td>
     <td>App Information / Rating Certificate for Available Countries</td>
     <td>PEGI, ESRB, GRB, MJ/DEJUS, FSK, ETC</td>
@@ -3452,7 +3452,7 @@ Example
     <td>Only adult descriptor is used.</td>
   </tr>
   <tr>
-    <td>Samsung Apps</td>
+    <td>GALAXY Apps</td>
     <td>No</td>
     <td></td>
     <td></td>
@@ -3596,7 +3596,7 @@ Example
     <td></td>
   </tr>
   <tr>
-    <td>Samsung Apps</td>
+    <td>GALAXY Apps</td>
     <td>No</td>
     <td></td>
     <td></td>
@@ -3757,7 +3757,7 @@ Africa: Algeria | Angola | Benin | Botswana | Burkina Faso | Burundi | Cameroon 
     <td>Other worldwide | All partner stores distribution | Argentina | Armenia | Asia | Australia | Bangladesh | Beeline | Beeline KG | Belarus | Blackberry App World | Brazil | Canada | China | Econet | Egypt | Europe | Germany | India | India with carrier billing | Indonesia | Italy | Kazakhstan | Kenya | Latvia | Malaysia | Mexico | Middle East | Morocco | OpenMobile for Intel/Tizen store | Philippines | Poland | Russia | South & Central America | South Africa | Sri Lanka | Tajikistan, Turkmenistan, Uzbekistan | Tele2 | Thailand | Turkey | Ukraine | United Kingdom | United States | United States with carrier billing | Vietnam | Yandex.Store partners</td>
   </tr>
   <tr>
-    <td>Samsung Apps</td>
+    <td>GALAXY Apps</td>
     <td>Yes</td>
     <td>Country & Price / Country</td>
     <td>No</td>
@@ -3877,7 +3877,7 @@ If presented this tag defines a date from which the application can be distribut
     <td></td>
   </tr>
   <tr>
-    <td>Samsung Apps</td>
+    <td>GALAXY Apps</td>
     <td>Yes</td>
     <td>Country & Price / Selling Starts</td>
     <td>No, default "Selling starts on the day of approval"</td>
@@ -3971,7 +3971,7 @@ If presented this tag defines a final date of application distribution. Stores t
     <td></td>
   </tr>
   <tr>
-    <td>Samsung Apps</td>
+    <td>GALAXY Apps</td>
     <td>Yes</td>
     <td>Country & Price / Selling Ends</td>
     <td>No, default "Permanent"</td>
@@ -4094,7 +4094,7 @@ This tag is ignored for free apps.
     <td></td>
   </tr>
   <tr>
-    <td>Samsung Apps</td>
+    <td>GALAXY Apps</td>
     <td>Yes</td>
     <td>Country & Price / Price / Standard Price</td>
     <td>USD</td>
@@ -4205,7 +4205,7 @@ Currencies used in different countries in [JSON](http://www.onepf.org/appdf/data
     <td></td>
   </tr>
   <tr>
-    <td>Samsung Apps</td>
+    <td>GALAXY Apps</td>
     <td>Yes</td>
     <td>Country & Price / Price / Price</td>
     <!--todo check prices-->
@@ -4293,7 +4293,7 @@ This tag is ignored for paid apps.
     <td>Opera has support for trial versions but trial version is not a separate application but a separate APK file inside a shareware product.<br>"Use "Full" if build can be downloaded only after the payment. "Trial" and "Demo" can be downloaded by the customer before payment is made"</td>
   </tr>
   <tr>
-    <td>Samsung Apps</td>
+    <td>GALAXY Apps</td>
     <td>No</td>
     <td></td>
     <td></td>
@@ -4392,7 +4392,7 @@ Example
     <td>No</td>
   </tr>
   <tr>
-    <td>Samsung Apps</td>
+    <td>GALAXY Apps</td>
     <td>Yes</td>
     <td>Binary</td>
     <!-- todo check size-->
@@ -4512,7 +4512,7 @@ Set value of this tag to `yes` if your application requires root access for work
     <td></td>
   </tr>
   <tr>
-    <td>Samsung Apps</td>
+    <td>GALAXY Apps</td>
     <td>No</td>
     <td></td>
   </tr>
@@ -4575,7 +4575,7 @@ Set value of this tag to `yes` if your application requires Google Play to be in
     <td></td>
   </tr>
   <tr>
-    <td>Samsung Apps</td>
+    <td>GALAXY Apps</td>
     <td>Yes</td>
     <td>Binary / Add binary / Google Mobile Service</td>
     <td>Since the sale of applications containing services provided by Google such as Google map, Gmail and Google Talk are prohibited in China, China will be automatically excluded from target countries when Yes is selected.</td>
@@ -4642,7 +4642,7 @@ Set value of this tag to `yes` if your application requires internet connection 
     <td></td>
   </tr>
   <tr>
-    <td>Samsung Apps</td>
+    <td>GALAXY Apps</td>
     <td>No</td>
     <td></td>
     <td></td>
@@ -4720,7 +4720,7 @@ Example
     <td>en ru de it fr sp dt tr sv da zh el pt cs sk pl id vn no bn fa hu ja ko ms ne ro tl th ar</td>
   </tr>
   <tr>
-    <td>Samsung Apps</td>
+    <td>GALAXY Apps</td>
     <td>Yes</td>
     <td>App Information / Supported Languages</td>
     <td>Arabic | Armenian | Assamese | Azerbaijani | Basque | Bengali | Bulgarian | Catalan | Croatian | Czech | Danish | Dutch | English | Estonian | Farsi | Finnish | French | Galician | Georgian | German | Greek | Gujarati | Hausa | Hebrew | Hindi | Hungarian | Icelandic | Igbo | Indonesian | Irish | Italian | Japanese | Kannada | Kazakh | Khmer | Korean | Lao | Latvian | Lithuanian | Macedonian | Malay | Malayalam | Marathi | Mongolian | Myanmar | Nepali | Norwegian | Oriya | Polish 
@@ -4798,7 +4798,7 @@ Example
     <td></td>
   </tr>
   <tr>
-    <td>Samsung Apps</td>
+    <td>GALAXY Apps</td>
     <td>Yes</td>
     <td>Binary / Selected Device(s)</td>
     <td>Each of the binary files has its own set of Samsung devices</td>
@@ -4899,7 +4899,7 @@ Example 2
     <td></td>
   </tr>
   <tr>
-    <td>Samsung Apps</td>
+    <td>GALAXY Apps</td>
     <td>Yes</td>
     <td>Binary / Resolution(s)</td>
     <td>240x320 (LQVGA/QVGA) | 360x640 (QHD) | 480x800 (WVGA) | 240x400 (WQVGA) | 320x320 | 320x480 (HVGA) | 1024x600 (WSVGA) | 1280x800 (WXGA) | 1280x720 (WXGA HD) | 960X540 (WXGA qHD) | 360X480 (LHVGA) | 1080X1920 (FHD) | 1600x2560 (WQXGA) | 1440x2560 (WQHD) | 1024x768 (XGA)</td>
@@ -4972,7 +4972,7 @@ Please detail any special requirements to test your app. If your application req
     <td></td>
   </tr>
   <tr>
-    <td>Samsung Apps</td>
+    <td>GALAXY Apps</td>
     <td>Yes</td>
     <td>Certification</td>
     <td>No</td>
@@ -5087,7 +5087,7 @@ Example
     <td></td>
   </tr>
   <tr>
-    <td>Samsung Apps</td>
+    <td>GALAXY Apps</td>
     <td>No</td>
     <td></td>
     <td></td>
@@ -5176,7 +5176,7 @@ No attributes.
     <td></td>
   </tr>
   <tr>
-    <td>Samsung Apps</td>
+    <td>GALAXY Apps</td>
     <td>No</td>
     <td></td>
     <td></td>
@@ -5259,7 +5259,7 @@ No attributes.
     <td></td>
   </tr>
   <tr>
-    <td>Samsung Apps</td>
+    <td>GALAXY Apps</td>
     <td>Yes</td>
     <td>App Information / Support E-Mail</td>
     <td>Yes</td>
@@ -5340,7 +5340,7 @@ No attributes.
     <td></td>
   </tr>
   <tr>
-    <td>Samsung Apps</td>
+    <td>GALAXY Apps</td>
     <td>Yes</td>
     <td>App Information / Support URL</td>
     <td>No</td>
@@ -5436,7 +5436,7 @@ Top level subtags correspond to the application AppDF ids from the following tab
     <td>slideme</td>
   </tr>
   <tr>
-    <td>Samsung Apps</td>
+    <td>GALAXY Apps</td>
     <td>samsung</td>
   </tr>
   <!--
@@ -5742,7 +5742,7 @@ Example
     <td></td>
   </tr>
   <tr>
-    <td>Samsung Apps</td>
+    <td>GALAXY Apps</td>
     <td>Yes</td>
     <td>In app purchase</td>
     <td>Yes</td>
@@ -5851,7 +5851,7 @@ Unique identifier of the in-app product. Also known as `SKU`, store keeping unit
     <td>SKU may be 150 characters or less and contain only alphanumeric, dash, dot, or underscore characters.</td>
   </tr>
   <tr>
-    <td>Samsung Apps</td>
+    <td>GALAXY Apps</td>
     <td>Yes</td>
     <td>In App Purchase / Add Item / Item ID</td>
     <td>Yes</td>
@@ -5896,7 +5896,7 @@ Is the in-app product active or not.
     <td></td>
   </tr>
   <tr>
-    <td>Samsung Apps</td>
+    <td>GALAXY Apps</td>
     <td>No</td>
     <td></td>
     <td></td>
@@ -5959,7 +5959,7 @@ Type of the in-app product. Can be ``consumable`` and ``non-consumable``. ``Cons
     <td></td>
   </tr>
   <tr>
-    <td>Samsung Apps</td>
+    <td>GALAXY Apps</td>
     <td>Yes</td>
     <td>Consumable | Non-consumable</td>
     <td></td>
@@ -6027,7 +6027,7 @@ A subscription duration.
     <td>Weekly, BiWeekly, Monthly, BiMonthly, Quarterly, SemiAnnualy, Annualy</td>
   </tr>
   <tr>
-    <td>Samsung Apps</td>
+    <td>GALAXY Apps</td>
     <td>Yes</td>
     <td>In app purchase / Duration</td>
     <td>1 Month, 3 Month, 6 Month, 12 Month</td>
@@ -6070,7 +6070,7 @@ A trial period of the subscription.
     <td>Yes, 7 or 14 Days, 1 or 2 or 3 Months</td>
   </tr>
   <tr>
-    <td>Samsung Apps</td>
+    <td>GALAXY Apps</td>
     <td>No</td>
     <td></td>
     <td></td>
@@ -6135,7 +6135,7 @@ As everything inside the <description> tag can be localized using <description-l
     <td>250 characters</td>
   </tr>
   <tr>
-    <td>Samsung Apps</td>
+    <td>GALAXY Apps</td>
     <td>Yes</td>
     <td>In App Purchase / Item Title</td>
     <td>Yes</td>
@@ -6198,7 +6198,7 @@ In-app text description is used to describe the product. Different stores have d
     <td></td>
   </tr>
   <tr>
-    <td>Samsung Apps</td>
+    <td>GALAXY Apps</td>
     <td>Yes</td>
     <td>In App Purchase / Description</td>
     <td>Yes</td>
@@ -6279,7 +6279,7 @@ Small in-app icon. Must be in PNG format. As everything inside the `<description
     <td>114 x 114px PNG</td>
   </tr>
   <tr>
-    <td>Samsung Apps</td>
+    <td>GALAXY Apps</td>
     <td>Yes</td>
     <td>In App Purchase / Item Image</td>
     <td>No</td>
@@ -6359,7 +6359,7 @@ Large in-app icon. Must be in PNG format. As everything inside the `<description
     <td>512 x 512px PNG</td>
   </tr>
   <tr>
-    <td>Samsung Apps</td>
+    <td>GALAXY Apps</td>
     <td>No</td>
     <td></td>
     <td></td>
@@ -6523,7 +6523,7 @@ This section describes whether the in-app is free or paid and if paid what its p
     <td>Yes (the box changes to free automatically)</td>
   </tr>
   <tr>
-    <td>Samsung Apps</td>
+    <td>GALAXY Apps</td>
     <td>No</td>
     <td></td>
     <td>Yes</td>
@@ -6583,7 +6583,7 @@ This tag is ignored for free in-apps.
     <td></td>
   </tr>
   <tr>
-    <td>Samsung Apps</td>
+    <td>GALAXY Apps</td>
     <td>Yes</td>
     <td>In App Purchase / Price</td>
     <td>USD</td>
@@ -6660,7 +6660,7 @@ Currencies used in different countries in [JSON](http://www.onepf.org/appdf/data
     <td></td>
   </tr>
   <tr>
-    <td>Samsung Apps</td>
+    <td>GALAXY Apps</td>
     <td></td>
     <td></td>
     <td>Yes</td>
@@ -6832,7 +6832,7 @@ The AppDF category list is available as [JSON](http://www.onepf.org/appdf/data/c
   <th>Amazon AppStore</th>
   <th>Opera Store</th>
   <th>Yandex.Store</th>
-  <th>Samsung Apps</th>
+  <th>GALAXY Apps</th>
   <th>SlideMe</th>
 </tr>
 <tr>
@@ -8462,7 +8462,7 @@ The AppDF category list is available as [JSON](http://www.onepf.org/appdf/data/c
   <th>Amazon AppStore</th>
   <th>Opera Store</th>
   <th>Yandex.Store</th>
-  <th>Samsung Apps</th>
+  <th>GALAXY Apps</th>
   <th>SlideMe</th>
 </tr>
 <tr>
@@ -8690,7 +8690,7 @@ The following tables contain information about current language support status (
   </tr>
   -->
   <tr>
-    <td>Samsung Apps</td>
+    <td>GALAXY Apps</td>
     <td>Yes</td>
     <td>English is default and cannot be changed</td>
   </tr>
@@ -8702,7 +8702,7 @@ The following tables contain information about current language support status (
   <th>Google Play</th>
   <th>Amazon AppStore</th>
   <th>Opera Mobile Store</th>
-  <th>Samsung Apps</th>
+  <th>GALAXY Apps</th>
   <th>Yandex.Store</th>
 </tr>
 <tr>
