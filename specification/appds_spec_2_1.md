@@ -615,6 +615,7 @@ Required for publishing with in-apps
 
 List of Tags:
 * [application](#application)
+	* [distribution-type](#application-attr-distribution-type)
 	* [categorization](#categorization)
 		* [type](#categorization-type)
 		* [category](#categorization-category)
