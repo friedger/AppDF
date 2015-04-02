@@ -499,8 +499,8 @@ Required for publishing
     <th>apk-files</th>
     <td>yes</td>
     <td>yes</td>
-    <td></td>
-    <td></td>
+    <td>yes</td>
+    <td>yes</td>
     <td>yes</td>
   </tr>
   <tr>
