@@ -512,14 +512,6 @@ Required for publishing
     <td>yes</td>
   </tr>
   <tr>
-    <th>customer-support/phone</th>
-    <td>yes</td>
-    <td>no</td>
-    <td>yes</td>
-    <td></td>
-    <td>no</td>
-  </tr>
-  <tr>
     <th>store-specific requirements</th>
     <td>no</td>
     <td>Short description, Feature Graphic, Privacy Policy, Content guidelines, US export laws </td>
@@ -5100,7 +5092,7 @@ Example
 
 #### <a name="customer-support-phone"/>customer-support/phone
 
-Required.  
+Optional.  
 No attributes.
 
 <table>
