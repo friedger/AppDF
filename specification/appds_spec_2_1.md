@@ -6547,7 +6547,7 @@ This tag is ignored for free in-apps.
     <td>Google Play</td>
     <td>Yes</td>
     <td>In-app Products / Pricing  / Default price</td>
-    <td>No</td>
+    <td>Depends on???</td>
     <td></td>
   </tr>
   <tr>
@@ -6568,7 +6568,7 @@ This tag is ignored for free in-apps.
     <td>GALAXY Apps</td>
     <td>Yes</td>
     <td>In App Purchase / Price</td>
-    <td></td>
+    <td>Yes???</td>
     <td></td>
   </tr>
   <tr>
