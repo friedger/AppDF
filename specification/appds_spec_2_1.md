@@ -4049,7 +4049,6 @@ This tag is ignored for free apps.
     <th>Name</th>
     <th>Currency</th>
     <th>Including sales tax</th>
-    <th>Min, max</th>
     <th>Comments</th>
   </tr>
   <tr>
@@ -4058,7 +4057,6 @@ This tag is ignored for free apps.
     <td>Pricing & Distribution / Default price</td>
     <td>No default</td>
     <td>No</td>
-    <td></td>
     <td>The default price applies to all countries without local prices.</td>
   </tr>
   <tr>
@@ -4067,7 +4065,6 @@ This tag is ignored for free apps.
     <td>General / Additional info / Price</td>
     <td>USD</td>
     <td>Yes</td>
-    <td>0.99-96.9 USD</td>
     <td>http://api.yandex.com/store/doc/pricing.xml</td>
   </tr>
   <tr>
@@ -4076,7 +4073,6 @@ This tag is ignored for free apps.
     <td>Availability & Pricing / Are you charging for this app?</td>
     <td>AUD, USD, CAD, EUR, GBR, JPY, BRL</td>
     <td>Yes</td>
-    <td>depends on the currency</td>
     <td></td>
   </tr>
   <tr>
@@ -4087,7 +4083,6 @@ This tag is ignored for free apps.
     <!--todo check taxes-->
     <td>Yes</td>
     <td></td>
-    <td></td>
   </tr>
   <tr>
     <td>GALAXY Apps</td>
@@ -4096,7 +4091,6 @@ This tag is ignored for free apps.
     <td>USD</td>
     <td>Yes</td>
     <td></td>
-    <td></td>
   </tr>
   <tr>
     <td>SlideME</td>
@@ -4104,7 +4098,6 @@ This tag is ignored for free apps.
     <td>Price</td>
     <td>USD</td>
     <td>Yes</td>
-    <td>0.30 - 999 USD</td>
     <td></td>
   </tr>
   <!--
