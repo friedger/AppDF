@@ -699,6 +699,7 @@ List of Tags:
 						* [test-mode](#in-app-item--sub-desc-store-spec-slideme-test-mode)
 			* [price](#in-app-item--sub-price)
 				* [free](#in-app-item--sub-price-attrs-free)
+				* [base-price](#in-app-item--sub-price-base-price)
 				* [local-price](#in-app-item--sub-price-local-price)
 					* [country](#in-app-item--sub-price-local-price)
 
@@ -5771,6 +5772,7 @@ Example
 					* [test-mode](#in-app-item--sub-desc-store-spec-slideme-test-mode)
 		* [price](#in-app-item--sub-price)
 			* [free](#in-app-item--sub-price-attrs-free)
+			* [base-price](#in-app-item--sub-price-base-price)
 			* [local-price](#in-app-item--sub-price-local-price)
 				* [country](#in-app-item--sub-price-local-price)
 
