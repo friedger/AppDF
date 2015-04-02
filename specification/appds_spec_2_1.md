@@ -6639,8 +6639,8 @@ Currencies used in different countries in [JSON](http://www.onepf.org/appdf/data
   </tr>
   <tr>
     <td>GALAXY Apps</td>
-    <td></td>
-    <td></td>
+    <td>Yes</td>
+    <td>In App Purchase / Country</td>
     <td>Yes</td>
     <td></td>
   </tr>
