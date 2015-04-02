@@ -6567,7 +6567,7 @@ This tag is ignored for free in-apps.
     <td>Amazon AppStore</td>
     <td>Yes</td>
     <td>In-App Items / Availability & Pricing / Yes, my base list price is...</td>
-    <td></td>
+    <td>No</td>
     <td></td>
   </tr>
   <tr>
