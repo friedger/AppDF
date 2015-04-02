@@ -520,18 +520,10 @@ Required for publishing
     <td>no</td>
   </tr>
   <tr>
-    <th>customer-support/website</th>
-    <td>yes</td>
-    <td>no</td>
-    <td>yes</td>
-    <td></td>
-    <td>no</td>
-  </tr>
-  <tr>
     <th>store-specific requirements</th>
     <td>no</td>
     <td>Short description, Feature Graphic, Privacy Policy, Content guidelines, US export laws </td>
-    <td>Short description, Product feature bullets, Small icon</td>
+    <td>Short description, Website, Product feature bullets, Small icon</td>
     <td></td>
     <td>Subcategory, Supported Languages, Price (free or paid)</td>
   </tr>
