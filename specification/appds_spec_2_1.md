@@ -6292,7 +6292,7 @@ Small in-app icon. Must be in PNG format. As everything inside the `<description
   </tr>
 </table>
 
-#### <a name="in-app-item--sub-desc-large-icon"/description/large-icon
+#### <a name="in-app-item--sub-desc-large-icon"/>description/large-icon
 
 Optional.  
 Attributes: `width`, `height`.   
