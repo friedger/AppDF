@@ -460,7 +460,7 @@ Required for publishing
     <td>yes</td>
     <td>yes</td>
     <td>yes</td>
-    <td></td>
+    <td>no</td>
     <td>yes</td>
   </tr>
   <tr>
