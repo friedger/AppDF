@@ -2754,7 +2754,7 @@ Some stores don't support including of YouTube videos but do support uploaded vi
   -->
 </table>
 
-### <a name="description-localization"/description-localization
+### <a name="description-localization"/>description-localization
 
 Optional.  
 Attributes: `language`. 
