@@ -6650,9 +6650,9 @@ Currencies used in different countries in [JSON](http://www.onepf.org/appdf/data
   </tr>
   <tr>
     <td>Amazon AppStore</td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>Yes</td>
+    <td>In-App Items / Availability & Pricing / Calculated prices</td>
+    <td>No</td>
     <td></td>
   </tr>
   <tr>
