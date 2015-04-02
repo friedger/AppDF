@@ -482,10 +482,10 @@ Required for publishing
   <tr>
     <th>included-activities</th>
     <td>yes</td>
+    <td>yes</td>
+    <td>yes</td>
     <td>no</td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>no</td>
   </tr>
   <tr>
     <th>base-price (for paid apps)</th>
@@ -3549,10 +3549,10 @@ Example
   </tr>
   <tr>
     <td>Google Play</td>
-    <td>No</td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>Yes</td>
+    <td>Content Rating</td>
+    <td>Yes</td>
+    <td>Questions in the Content Rating section.</td>
   </tr>
   <tr>
     <td>Yandex.Store</td>
