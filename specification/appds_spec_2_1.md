@@ -6546,18 +6546,14 @@ This tag is ignored for free in-apps.
     <th>Store support</th>
     <th>Supported</th>
     <th>Name</th>
-    <th>Currency</th>
     <th>Including sales tax</th>
-    <th>Min, max</th>
     <th>Comments</th>
   </tr>
   <tr>
     <td>Google Play</td>
     <td>Yes</td>
     <td>In-app Products / Pricing  / Default price</td>
-    <td></td>
     <td>No</td>
-    <td>$0.99, $200.00</td>
     <td></td>
   </tr>
   <tr>
@@ -6565,16 +6561,12 @@ This tag is ignored for free in-apps.
     <td>Yes</td>
     <td>In-App purchases / (In)active purchases / Price</td>
     <td></td>
-    <td></td>
-    <td></td>
     <td>http://api.yandex.com/store/doc/pricing.xml</td>
   </tr>
   <tr>
     <td>Amazon AppStore</td>
     <td>Yes</td>
     <td>In-App Items / Availability & Pricing / Yes, my base list price is...</td>
-    <td>Australian Dollar | Brazilian Real | Canadian Dollar | Euro | United Kingdom Pound | Japanese YenJapanese Yen | United States Dollar</td>
-    <td></td>
     <td></td>
     <td></td>
   </tr>
@@ -6582,18 +6574,14 @@ This tag is ignored for free in-apps.
     <td>GALAXY Apps</td>
     <td>Yes</td>
     <td>In App Purchase / Price</td>
-    <td>USD</td>
     <td></td>
-    <td>0.00, 99999.00</td>
     <td></td>
   </tr>
   <tr>
     <td>SlideME</td>
     <td>Yes</td>
     <td>Manage IAP / Price</td>
-    <td></td>
     <td>Yes</td>
-    <td></td>
     <td></td>
   </tr>
 </table>
