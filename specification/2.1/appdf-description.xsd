@@ -15,7 +15,6 @@
             <xsd:element name="application" type="type-application"/>
         </xsd:sequence>
         <xsd:attribute name="version" type="xsd:positiveInteger" use="required"/>
-        <xsd:attribute name="distribution" type="distribution-type" default="production"/>
     </xsd:complexType>
 
     <xsd:complexType name="type-application">
@@ -37,6 +36,7 @@
         </xsd:sequence>
         <xsd:attribute name="platform" type="type-application-attr-platform" use="required"/>
         <xsd:attribute name="package" type="type-attr-package" use="required"/>
+        <xsd:attribute name="distribution-type" type="type-application-distribution-type" default="production"/>
     </xsd:complexType>
 
     <xsd:complexType name="type-categorization">
@@ -477,7 +477,7 @@
         </xsd:sequence>
     </xsd:complexType>
 
-    <xsd:simpleType name="distribution-type">
+    <xsd:simpleType name="type-application-distribution-type">
         <xsd:restriction base="xsd:string">
             <xsd:pattern value="alpha|beta|rollout|production"/>
         </xsd:restriction>
