@@ -6553,7 +6553,7 @@ This tag is ignored for free in-apps.
     <td>Yandex.Store</td>
     <td>Yes</td>
     <td>In-App purchases / (In)active purchases / Price</td>
-    <td></td>
+    <td>Yes</td>
     <td>http://api.yandex.com/store/doc/pricing.xml</td>
   </tr>
   <tr>
