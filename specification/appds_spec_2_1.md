@@ -1476,6 +1476,7 @@ Short application description is used in the app lists next to the app title. So
 ##### <a name="description-texts-full-description"/>description/texts/full-description
 
 Required.  
+No attributes.  
 Maximum length: 4000 characters.
 
 The full application description is shown on the product page. You can include simple HTML subset tags described below. Most stores support plain text full description only so they will ignore your markup. You can also include a special subtag `<features>`. Everything inside the `<features>` subtag will be shown only by the stores that do not support feature list. It is needed to avoid feature list duplication. As everything inside the `<description>` tag can be localized using `<description-localization>` section.
