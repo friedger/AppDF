@@ -467,9 +467,9 @@ Required for publishing
     <th>content-rating</th>
     <td>yes</td>
     <td>yes</td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>yes</td>
+    <td>no</td>
+    <td>yes</td>
   </tr>
   <tr>
     <th>content-descriptors</th>
