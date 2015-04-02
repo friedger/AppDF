@@ -691,7 +691,7 @@ List of Tags:
 				* [large-icon](#in-app-item--sub-desc-large-icon)
 				* [store-specific](#in-app-item--sub-desc-store-spec)
 					* [amazon](#in-app-item--sub-desc-store-spec-amazon)
-						* [additional-f...](#in-app-item--sub-desc-store-spec-amazon-file-delivered)
+						* [additional-file-delivered](#in-app-item--sub-desc-store-spec-amazon-file-delivered)
 						* [small-icon](#in-app-item--sub-desc-store-spec-amazon-small-icon)
 						* [large-icon](#in-app-item--sub-desc-store-spec-amazon-large-icon)
 					* [slideme](#in-app-item--sub-desc-store-spec-slideme)
