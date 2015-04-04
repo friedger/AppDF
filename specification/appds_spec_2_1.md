@@ -409,7 +409,6 @@ Required for publishing
 <table>
   <tr>
     <th>Fields/Format Providers</th>
-    <th>AppDF</th>
     <th>Google Play</th>
     <th>Amazon</th>
     <th>Opera Mobile Store</th>
@@ -417,7 +416,6 @@ Required for publishing
   </tr>
   <tr>
     <th>type</th>
-    <td>yes</td>
     <td>yes</td>
     <td>yes</td>
     <td>yes</td>
@@ -429,11 +427,9 @@ Required for publishing
     <td>yes</td>
     <td>yes</td>
     <td>yes</td>
-    <td>yes</td>
   </tr>
   <tr>
     <th>title</th>
-    <td>yes</td>
     <td>yes</td>
     <td>yes</td>
     <td>yes</td>
@@ -445,11 +441,9 @@ Required for publishing
     <td>yes</td>
     <td>yes</td>
     <td>yes</td>
-    <td>yes</td>
   </tr>
   <tr>
     <th>app-icon</th>
-    <td>yes</td>
     <td>yes</td>
     <td>yes</td>
     <td>no</td>
@@ -459,13 +453,11 @@ Required for publishing
     <th>screenshots</th>
     <td>yes</td>
     <td>yes</td>
-    <td>yes</td>
     <td>no</td>
     <td>yes</td>
   </tr>
   <tr>
     <th>content-rating</th>
-    <td>yes</td>
     <td>yes</td>
     <td>yes</td>
     <td>no</td>
@@ -476,12 +468,10 @@ Required for publishing
     <td>yes</td>
     <td>yes</td>
     <td>yes</td>
-    <td>yes</td>
     <td>no</td>
   </tr>
   <tr>
     <th>included-activities</th>
-    <td>yes</td>
     <td>yes</td>
     <td>yes</td>
     <td>no</td>
@@ -493,11 +483,9 @@ Required for publishing
     <td>yes</td>
     <td>yes</td>
     <td>yes</td>
-    <td>yes</td>
   </tr>
   <tr>
     <th>apk-files</th>
-    <td>yes</td>
     <td>yes</td>
     <td>yes</td>
     <td>yes</td>
@@ -507,13 +495,11 @@ Required for publishing
     <th>customer-support/email</th>
     <td>yes</td>
     <td>yes</td>
-    <td>yes</td>
     <td>no</td>
     <td>yes</td>
   </tr>
   <tr>
     <th>store-specific requirements</th>
-    <td>no</td>
     <td>Short description, Feature Graphic, Privacy Policy, Content guidelines, US export laws </td>
     <td>Short description, Website, Product feature bullets, Small icon</td>
     <td></td>
@@ -527,7 +513,6 @@ Required for publishing with in-apps
 <table>
   <tr>
     <th>Fields/Format Providers</th>
-    <th>AppDF</th>
     <th>Google Play</th>
     <th>Amazon</th>
     <th>GALAXY Apps</th>
@@ -539,11 +524,9 @@ Required for publishing with in-apps
     <td>Yes</td>
     <td>Yes</td>
     <td>Yes</td>
-    <td>Yes</td>
   </tr>
   <tr>
     <th>type</th>
-    <td>Yes</td>
     <td>Yes</td>
     <td>Yes</td>
     <td>Yes</td>
@@ -555,11 +538,9 @@ Required for publishing with in-apps
     <td>Yes</td>
     <td>Yes</td>
     <td>Yes</td>
-    <td>Yes</td>
   </tr>
   <tr>
     <th>text</th>
-    <td>Yes</td>
     <td>Yes</td>
     <td>Yes</td>
     <td>Yes</td>
@@ -567,7 +548,6 @@ Required for publishing with in-apps
   </tr>
   <tr>
     <th>base price</th>
-    <td>Yes<Yes/td>
     <td>Yes</td>
     <td>Yes (Are you charging for this consumable?/Yes, my base list price is...)</td>
     <td>Yes</td>
@@ -578,12 +558,10 @@ Required for publishing with in-apps
     <td>Yes</td>
     <td>Yes</td>
     <td>Yes</td>
-    <td>Yes</td>
     <td>SP not supported</td>
   </tr>
   <tr>
     <th>store-specific requirements</th>
-    <td></td>
     <td></td>
     <td>Title | Content delivery (No additional file required | I'll deliver the required asset(s)) | Calculated prices | Small icon | Large icon</td>
     <td>Payment Method: Credit Card | Micropayment | Phone Bill | Cyber Cash | Pre-Paid Card (in the Advanced Mode)</td>
