@@ -500,7 +500,7 @@ Required for publishing
   </tr>
   <tr>
     <th>store-specific requirements</th>
-    <td>Short description, Feature Graphic, Privacy Policy, Content guidelines, US export laws </td>
+    <td>short-description, large promo (`Feature Graphic`), privacy-policy, availability/countries, consent, content-rating, content-descriptors, included-activities</td>
     <td>Short description, Website, Product feature bullets, Small icon</td>
     <td></td>
     <td>Subcategory, Supported Languages, Price (free or paid)</td>
