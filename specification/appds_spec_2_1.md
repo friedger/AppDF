@@ -6715,7 +6715,7 @@ Currencies used in different countries in [JSON](http://www.onepf.org/appdf/data
   <td>Yes</td>
 </tr>
 <tr>
-  <td>Client Applicationo</td>
+  <td>Client Application</td>
   <td>No</td>
 </tr>
 <tr>
@@ -6802,7 +6802,7 @@ Currencies used in different countries in [JSON](http://www.onepf.org/appdf/data
 </tr>
 <tr>
   <td>In-App Purchase Support</td>
-  <td>No</td>
+  <td>Yes</td>
 </tr>
 <tr>
   <td>License verification support</td>
