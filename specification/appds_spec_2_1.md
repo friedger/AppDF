@@ -502,8 +502,8 @@ Required for publishing
     <th>store-specific requirements</th>
     <td>short-description, large promo (`Feature Graphic`), privacy-policy, availability/countries, consent, content-rating, content-descriptors, included-activities</td>
     <td>categorization/subcategory, description/texts/short-description, description/texts/features, description/texts/recent-changes, description/images/screenshots/screenshot(3+ vs 2+), content-description/content-rating, content-description/content-descriptors, content-description/included-activities, availability/countries, customer-support/phone, customer-support/website</td>
-    <td></td>
-    <td>Subcategory, Supported Languages, Price (free or paid)</td>
+    <td>categorization/subcategory, description/texts/short-description</td>
+    <td>categorization/subcategory</td>
   </tr>
   <tr>
   </tr>
