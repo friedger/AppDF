@@ -405,172 +405,6 @@ The only naming convention for the files inside AppDF package is that the descri
 </application-description-file>
 ```
 
-Required for publishing
-<table>
-  <tr>
-    <th>Fields/Format Providers</th>
-    <th>Google Play</th>
-    <th>Amazon</th>
-    <th>Opera Mobile Store</th>
-    <th>GALAXY Apps</th>
-  </tr>
-  <tr>
-    <th>type</th>
-    <td>yes</td>
-    <td>yes</td>
-    <td>yes</td>
-    <td>no</td>
-  </tr>
-  <tr>
-    <th>category</th>
-    <td>yes</td>
-    <td>yes</td>
-    <td>yes</td>
-    <td>yes</td>
-  </tr>
-  <tr>
-    <th>title</th>
-    <td>yes</td>
-    <td>yes</td>
-    <td>yes</td>
-    <td>yes</td>
-  </tr>
-  <tr>
-    <th>full-description</th>
-    <td>yes</td>
-    <td>yes</td>
-    <td>yes</td>
-    <td>yes</td>
-  </tr>
-  <tr>
-    <th>app-icon</th>
-    <td>yes</td>
-    <td>yes</td>
-    <td>no</td>
-    <td>yes</td>
-  </tr>
-  <tr>
-    <th>screenshots</th>
-    <td>yes</td>
-    <td>yes</td>
-    <td>no</td>
-    <td>yes</td>
-  </tr>
-  <tr>
-    <th>content-rating</th>
-    <td>yes</td>
-    <td>yes</td>
-    <td>no</td>
-    <td>yes</td>
-  </tr>
-  <tr>
-    <th>content-descriptors</th>
-    <td>yes</td>
-    <td>yes</td>
-    <td>yes</td>
-    <td>no</td>
-  </tr>
-  <tr>
-    <th>included-activities</th>
-    <td>yes</td>
-    <td>yes</td>
-    <td>no</td>
-    <td>no</td>
-  </tr>
-  <tr>
-    <th>base-price (for paid apps)</th>
-    <td>yes</td>
-    <td>yes</td>
-    <td>yes</td>
-    <td>yes</td>
-  </tr>
-  <tr>
-    <th>apk-files</th>
-    <td>yes</td>
-    <td>yes</td>
-    <td>yes</td>
-    <td>yes</td>
-  </tr>
-  <tr>
-    <th>customer-support/email</th>
-    <td>yes</td>
-    <td>yes</td>
-    <td>no</td>
-    <td>yes</td>
-  </tr>
-  <tr>
-    <th>store-specific requirements</th>
-    <td>short-description, large promo (`Feature Graphic`), privacy-policy, availability/countries, consent, content-rating, content-descriptors, included-activities</td>
-    <td>categorization/subcategory, description/texts/short-description, description/texts/features, description/texts/recent-changes, description/images/screenshots/screenshot(3+ vs 2+), content-description/content-rating, content-description/content-descriptors, content-description/included-activities, availability/countries, customer-support/phone, customer-support/website</td>
-    <td>categorization/subcategory, description/texts/short-description</td>
-    <td>categorization/subcategory</td>
-  </tr>
-  <tr>
-  </tr>
-</table>
-
-Required for publishing with in-apps
-<table>
-  <tr>
-    <th>Fields/Format Providers</th>
-    <th>Google Play</th>
-    <th>Amazon</th>
-    <th>GALAXY Apps</th>
-    <th>SlideME</th>
-  </tr>
-  <tr>
-    <th>id</th>
-    <td>Yes</td>
-    <td>Yes</td>
-    <td>Yes</td>
-    <td>Yes</td>
-  </tr>
-  <tr>
-    <th>type</th>
-    <td>Yes</td>
-    <td>Yes</td>
-    <td>Yes</td>
-    <td>Yes (only Consumable)</td>
-  </tr>
-  <tr>
-    <th>title</th>
-    <td>Yes</td>
-    <td>Yes</td>
-    <td>Yes</td>
-    <td>Yes</td>
-  </tr>
-  <tr>
-    <th>text</th>
-    <td>Yes</td>
-    <td>Yes</td>
-    <td>Yes</td>
-    <td>T not supported</td>
-  </tr>
-  <tr>
-    <th>base price</th>
-    <td>Yes</td>
-    <td>Yes (Are you charging for this consumable?/Yes, my base list price is...)</td>
-    <td>Yes</td>
-    <td>Yes</td>
-  </tr>
-  <tr>
-    <th>subs period</th>
-    <td>Yes</td>
-    <td>Yes</td>
-    <td>Yes</td>
-    <td>SP not supported</td>
-  </tr>
-  <tr>
-    <th>store-specific requirements</th>
-    <td></td>
-    <td>Title | Content delivery (No additional file required | I'll deliver the required asset(s)) | Calculated prices | Small icon | Large icon</td>
-    <td>Payment Method: Credit Card | Micropayment | Phone Bill | Cyber Cash | Pre-Paid Card (in the Advanced Mode)</td>
-    <td>Test mode (Disabled | Simulate success | Simulate failure)</td>
-  </tr>
-  <tr>
-  </tr>
-</table>
-
 ## <a name="descriptionxml-structure"/>Description.xml Structure
 
 [Formal  XML Schema (XSD) description](https://github.com/onepf/AppDF/blob/2.x-appdf/specification/2.1/appdf-description.xsd) of Description.xml file structure.
@@ -6596,6 +6430,173 @@ Currencies used in different countries in [JSON](http://www.onepf.org/appdf/data
     <td></td>
     <td></td>
     <td></td>
+  </tr>
+</table>
+
+
+Required for publishing
+<table>
+  <tr>
+    <th>Fields/Format Providers</th>
+    <th>Google Play</th>
+    <th>Amazon</th>
+    <th>Opera Mobile Store</th>
+    <th>GALAXY Apps</th>
+  </tr>
+  <tr>
+    <th>type</th>
+    <td>yes</td>
+    <td>yes</td>
+    <td>yes</td>
+    <td>no</td>
+  </tr>
+  <tr>
+    <th>category</th>
+    <td>yes</td>
+    <td>yes</td>
+    <td>yes</td>
+    <td>yes</td>
+  </tr>
+  <tr>
+    <th>title</th>
+    <td>yes</td>
+    <td>yes</td>
+    <td>yes</td>
+    <td>yes</td>
+  </tr>
+  <tr>
+    <th>full-description</th>
+    <td>yes</td>
+    <td>yes</td>
+    <td>yes</td>
+    <td>yes</td>
+  </tr>
+  <tr>
+    <th>app-icon</th>
+    <td>yes</td>
+    <td>yes</td>
+    <td>no</td>
+    <td>yes</td>
+  </tr>
+  <tr>
+    <th>screenshots</th>
+    <td>yes</td>
+    <td>yes</td>
+    <td>no</td>
+    <td>yes</td>
+  </tr>
+  <tr>
+    <th>content-rating</th>
+    <td>yes</td>
+    <td>yes</td>
+    <td>no</td>
+    <td>yes</td>
+  </tr>
+  <tr>
+    <th>content-descriptors</th>
+    <td>yes</td>
+    <td>yes</td>
+    <td>yes</td>
+    <td>no</td>
+  </tr>
+  <tr>
+    <th>included-activities</th>
+    <td>yes</td>
+    <td>yes</td>
+    <td>no</td>
+    <td>no</td>
+  </tr>
+  <tr>
+    <th>base-price (for paid apps)</th>
+    <td>yes</td>
+    <td>yes</td>
+    <td>yes</td>
+    <td>yes</td>
+  </tr>
+  <tr>
+    <th>apk-files</th>
+    <td>yes</td>
+    <td>yes</td>
+    <td>yes</td>
+    <td>yes</td>
+  </tr>
+  <tr>
+    <th>customer-support/email</th>
+    <td>yes</td>
+    <td>yes</td>
+    <td>no</td>
+    <td>yes</td>
+  </tr>
+  <tr>
+    <th>store-specific requirements</th>
+    <td>short-description, large promo (`Feature Graphic`), privacy-policy, availability/countries, consent, content-rating, content-descriptors, included-activities</td>
+    <td>categorization/subcategory, description/texts/short-description, description/texts/features, description/texts/recent-changes, description/images/screenshots/screenshot(3+ vs 2+), content-description/content-rating, content-description/content-descriptors, content-description/included-activities, availability/countries, customer-support/phone, customer-support/website</td>
+    <td>categorization/subcategory, description/texts/short-description</td>
+    <td>categorization/subcategory</td>
+  </tr>
+  <tr>
+  </tr>
+</table>
+
+Required for publishing with in-apps
+<table>
+  <tr>
+    <th>Fields/Format Providers</th>
+    <th>Google Play</th>
+    <th>Amazon</th>
+    <th>GALAXY Apps</th>
+    <th>SlideME</th>
+  </tr>
+  <tr>
+    <th>id</th>
+    <td>Yes</td>
+    <td>Yes</td>
+    <td>Yes</td>
+    <td>Yes</td>
+  </tr>
+  <tr>
+    <th>type</th>
+    <td>Yes</td>
+    <td>Yes</td>
+    <td>Yes</td>
+    <td>Yes (only Consumable)</td>
+  </tr>
+  <tr>
+    <th>title</th>
+    <td>Yes</td>
+    <td>Yes</td>
+    <td>Yes</td>
+    <td>Yes</td>
+  </tr>
+  <tr>
+    <th>text</th>
+    <td>Yes</td>
+    <td>Yes</td>
+    <td>Yes</td>
+    <td>T not supported</td>
+  </tr>
+  <tr>
+    <th>base price</th>
+    <td>Yes</td>
+    <td>Yes (Are you charging for this consumable?/Yes, my base list price is...)</td>
+    <td>Yes</td>
+    <td>Yes</td>
+  </tr>
+  <tr>
+    <th>subs period</th>
+    <td>Yes</td>
+    <td>Yes</td>
+    <td>Yes</td>
+    <td>SP not supported</td>
+  </tr>
+  <tr>
+    <th>store-specific requirements</th>
+    <td></td>
+    <td>Title | Content delivery (No additional file required | I'll deliver the required asset(s)) | Calculated prices | Small icon | Large icon</td>
+    <td>Payment Method: Credit Card | Micropayment | Phone Bill | Cyber Cash | Pre-Paid Card (in the Advanced Mode)</td>
+    <td>Test mode (Disabled | Simulate success | Simulate failure)</td>
+  </tr>
+  <tr>
   </tr>
 </table>
 
