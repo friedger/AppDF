@@ -6433,8 +6433,10 @@ Currencies used in different countries in [JSON](http://www.onepf.org/appdf/data
   </tr>
 </table>
 
+### Summary tables
 
-Required for publishing
+####Required for publishing  
+
 <table>
   <tr>
     <th>Fields/Format Providers</th>
@@ -6538,7 +6540,8 @@ Required for publishing
   </tr>
 </table>
 
-Required for publishing with in-apps
+#### Required for publishing with in-apps  
+
 <table>
   <tr>
     <th>Fields/Format Providers</th>
