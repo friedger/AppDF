@@ -6847,7 +6847,7 @@ Currencies used in different countries in [JSON](http://www.onepf.org/appdf/data
 </tr>
 <tr>
   <td>License verification support</td>
-  <td>Samsung DRM</td>
+  <td><a href="http://developer.samsung.com/technical-doc/view.do?v=T000000066">Yes</a></td>
 </tr>
 </table>
 
