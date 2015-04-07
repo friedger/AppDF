@@ -171,7 +171,7 @@
         </xsd:restriction>
     </xsd:simpleType>
 
-    <xsd:simpleType name="type-attr-yesno">
+    <xsd:simpleType name="type-yesno">
         <xsd:restriction base="xsd:string">
             <xsd:pattern value="yes|no"/>
         </xsd:restriction>
@@ -289,17 +289,17 @@
 
     <xsd:complexType name="type-contentdescription-includedactivities">
         <xsd:sequence>
-            <xsd:element name="in-app-billing" type="type-attr-yesno"/>
-            <xsd:element name="gambling" type="type-attr-yesno"/>
-            <xsd:element name="advertising" type="type-attr-yesno"/>
-            <xsd:element name="user-generated-content" type="type-attr-yesno"/>
-            <xsd:element name="user-to-user-communications" type="type-attr-yesno"/>
-            <xsd:element name="account-creation" type="type-attr-yesno"/>
-            <xsd:element name="personal-information-collection" type="type-attr-yesno"/>
-            <xsd:element name="web-browser-or-search-engine" type="type-attr-yesno"/>
-            <xsd:element name="user-location-sharing" type="type-attr-yesno"/>
-            <xsd:element name="user-info-with-third-parties-sharing" type="type-attr-yesno"/>
-            <xsd:element name="user-to-user-content-exchange" type="type-attr-yesno"/>
+            <xsd:element name="in-app-billing" type="type-yesno"/>
+            <xsd:element name="gambling" type="type-yesno"/>
+            <xsd:element name="advertising" type="type-yesno"/>
+            <xsd:element name="user-generated-content" type="type-yesno"/>
+            <xsd:element name="user-to-user-communications" type="type-yesno"/>
+            <xsd:element name="account-creation" type="type-yesno"/>
+            <xsd:element name="personal-information-collection" type="type-yesno"/>
+            <xsd:element name="web-browser-or-search-engine" type="type-yesno"/>
+            <xsd:element name="user-location-sharing" type="type-yesno"/>
+            <xsd:element name="user-info-with-third-parties-sharing" type="type-yesno"/>
+            <xsd:element name="user-to-user-content-exchange" type="type-yesno"/>
         </xsd:sequence>
     </xsd:complexType>
 
@@ -315,7 +315,7 @@
             <xsd:element name="include" type="type-attr-country" minOccurs="0" maxOccurs="unbounded"/>
             <xsd:element name="exclude" type="type-attr-country" minOccurs="0" maxOccurs="unbounded"/>
         </xsd:sequence>
-        <xsd:attribute name="only-listed" type="type-attr-yesno" use="required"/>
+        <xsd:attribute name="only-listed" type="type-yesno" use="required"/>
     </xsd:complexType>
 
     <xsd:complexType name="type-availability-period">
@@ -364,7 +364,7 @@
                 type="type-price-localprice" />
             <xsd:element name="trial-version" minOccurs="0" type="type-price-trialversion" />
         </xsd:sequence>
-        <xsd:attribute name="free" type="type-attr-yesno" use="required" />
+        <xsd:attribute name="free" type="type-yesno" use="required" />
     </xsd:complexType>
 
     <xsd:complexType name="type-price-localprice">
@@ -409,9 +409,9 @@
 
     <xsd:complexType name="type-requirements-features">
         <xsd:sequence>
-            <xsd:element name="root" type="type-attr-yesno" minOccurs="0"/>
-            <xsd:element name="gms" type="type-attr-yesno" minOccurs="0"/>
-            <xsd:element name="online" type="type-attr-yesno" minOccurs="0"/>
+            <xsd:element name="root" type="type-yesno" minOccurs="0"/>
+            <xsd:element name="gms" type="type-yesno" minOccurs="0"/>
+            <xsd:element name="online" type="type-yesno" minOccurs="0"/>
         </xsd:sequence>
     </xsd:complexType>
 
@@ -432,7 +432,7 @@
             <xsd:element name="exclude" type="type-attr-resolution"/>
             <xsd:element name="include" type="type-attr-resolution"/>
         </xsd:choice>
-        <xsd:attribute name="only-listed" type="type-attr-yesno" use="required"/>
+        <xsd:attribute name="only-listed" type="type-yesno" use="required"/>
     </xsd:complexType>
 
     <xsd:simpleType name="type-attr-resolution">
@@ -455,11 +455,11 @@
 
     <xsd:complexType name="type-consent">
         <xsd:sequence>
-            <xsd:element name="google-android-content-guidelines" type="type-attr-yesno" minOccurs="0"/>
-            <xsd:element name="us-export-laws" type="type-attr-yesno" minOccurs="0"/>
-            <xsd:element name="slideme-agreement" type="type-attr-yesno" minOccurs="0"/>
-            <xsd:element name="free-from-third-party-copytighted-content" type="type-attr-yesno" minOccurs="0"/>
-            <xsd:element name="import-export" type="type-attr-yesno" minOccurs="0"/>
+            <xsd:element name="google-android-content-guidelines" type="type-yesno" minOccurs="0"/>
+            <xsd:element name="us-export-laws" type="type-yesno" minOccurs="0"/>
+            <xsd:element name="slideme-agreement" type="type-yesno" minOccurs="0"/>
+            <xsd:element name="free-from-third-party-copytighted-content" type="type-yesno" minOccurs="0"/>
+            <xsd:element name="import-export" type="type-yesno" minOccurs="0"/>
         </xsd:sequence>
     </xsd:complexType>
 
@@ -501,7 +501,7 @@
             <xsd:element name="price" type="type-in-app-price"/>
         </xsd:sequence>
         <xsd:attribute name="id" type="type-attr-in-app-id" use="required"/>
-        <xsd:attribute name="published" type="type-attr-yesno" default="yes"/>
+        <xsd:attribute name="published" type="type-yesno" default="yes"/>
     </xsd:complexType>
 
     <xsd:complexType name="type-in-app-subscription">
@@ -555,10 +555,10 @@
     <!--amazon-->
     <xsd:complexType name="type-in-app-amazon">
         <xsd:sequence>
-            <xsd:element name="additional-file-delivered" type="type-attr-yesno" />
+            <xsd:element name="additional-file-delivered" type="type-yesno" />
             <xsd:element name="small-icon" type="type-in-app-icon" />
             <xsd:element name="large-icon" type="type-in-app-icon" />
-            <xsd:element name="calculated-prices" type="type-attr-yesno" />
+            <xsd:element name="calculated-prices" type="type-yesno" />
         </xsd:sequence>
     </xsd:complexType>
 
@@ -621,7 +621,7 @@
             <xsd:element name="local-price" maxOccurs="unbounded" minOccurs="0"
                 type="type-in-app-price-local" />
         </xsd:sequence>
-        <xsd:attribute name="free" type="type-attr-yesno" default="no"/>
+        <xsd:attribute name="free" type="type-yesno" default="no"/>
     </xsd:complexType>
 
     <xsd:complexType name="type-in-app-icon">
