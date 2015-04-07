@@ -6724,7 +6724,7 @@ Currencies used in different countries in [JSON](http://www.onepf.org/appdf/data
 </tr>
 <tr>
   <td>License verification support</td>
-  <td>RPN or serial numbers</td>
+  <td>Yes</td>
 </tr>
 </table>
 
