@@ -6626,7 +6626,7 @@ Currencies used in different countries in [JSON](http://www.onepf.org/appdf/data
 </tr>
 <tr>
   <td>Registration fee</td>
-  <td>$25</td>
+  <td>$25 (http://developer.android.com/distribute/googleplay/start.html)</td>
 </tr>
 <tr>
   <td>Content premoderation</td>
