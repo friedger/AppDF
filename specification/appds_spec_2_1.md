@@ -6659,7 +6659,7 @@ Currencies used in different countries in [JSON](http://www.onepf.org/appdf/data
 </tr>
 <tr>
   <td>Distribution agreement URL</td>
-  <td><a href="https://developer.amazon.com/help/da.html">https://developer.amazon.com/help/da.html</a></td>
+  <td><a href="https://developer.amazon.com/appsandservices/support/legal/da">https://developer.amazon.com/appsandservices/support/legal/da</a></td>
 </tr>
 <tr>
   <td>AppDF ID</td>
