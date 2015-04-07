@@ -267,21 +267,21 @@
 
     <xsd:complexType name="type-contentdescription-contentdescriptors">
         <xsd:sequence>
-            <xsd:element name="cartoon-violence" type="type-contentdescription-contentdescriptors-attr"/>
-            <xsd:element name="realistic-violence" type="type-contentdescription-contentdescriptors-attr"/>
-            <xsd:element name="bad-language" type="type-contentdescription-contentdescriptors-attr"/>
-            <xsd:element name="fear" type="type-contentdescription-contentdescriptors-attr"/>
-            <xsd:element name="sexual-content" type="type-contentdescription-contentdescriptors-attr"/>
-            <xsd:element name="drugs" type="type-contentdescription-contentdescriptors-attr"/>
-            <xsd:element name="gambling-reference" type="type-contentdescription-contentdescriptors-attr"/>
-            <xsd:element name="alcohol" type="type-contentdescription-contentdescriptors-attr"/>
-            <xsd:element name="smoking" type="type-contentdescription-contentdescriptors-attr"/>
-            <xsd:element name="discrimination" type="type-contentdescription-contentdescriptors-attr"/>
-            <xsd:element name="nazi-reference" type="type-contentdescription-contentdescriptors-attr"/>
+            <xsd:element name="cartoon-violence" type="type-contentdescription-contentdescriptors-element"/>
+            <xsd:element name="realistic-violence" type="type-contentdescription-contentdescriptors-element"/>
+            <xsd:element name="bad-language" type="type-contentdescription-contentdescriptors-element"/>
+            <xsd:element name="fear" type="type-contentdescription-contentdescriptors-element"/>
+            <xsd:element name="sexual-content" type="type-contentdescription-contentdescriptors-element"/>
+            <xsd:element name="drugs" type="type-contentdescription-contentdescriptors-element"/>
+            <xsd:element name="gambling-reference" type="type-contentdescription-contentdescriptors-element"/>
+            <xsd:element name="alcohol" type="type-contentdescription-contentdescriptors-element"/>
+            <xsd:element name="smoking" type="type-contentdescription-contentdescriptors-element"/>
+            <xsd:element name="discrimination" type="type-contentdescription-contentdescriptors-element"/>
+            <xsd:element name="nazi-reference" type="type-contentdescription-contentdescriptors-element"/>
         </xsd:sequence>
     </xsd:complexType>
 
-    <xsd:simpleType name="type-contentdescription-contentdescriptors-attr">
+    <xsd:simpleType name="type-contentdescription-contentdescriptors-element">
         <xsd:restriction base="xsd:string">
             <xsd:pattern value="no|light|strong"/>
         </xsd:restriction>
