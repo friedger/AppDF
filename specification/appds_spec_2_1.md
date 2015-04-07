@@ -6696,7 +6696,7 @@ Currencies used in different countries in [JSON](http://www.onepf.org/appdf/data
 </tr>
 <tr>
   <td>Registration URL</td>
-  <td><a href="http://apps.opera.com/developers.php">http://apps.opera.com/developers.php</a></td>
+  <td><a href="https://publishers.apps.opera.com/">https://publishers.apps.opera.com/</a></td>
 </tr>
 <tr>
   <td>Distribution agreement URL</td>
