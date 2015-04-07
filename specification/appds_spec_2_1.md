@@ -6806,7 +6806,7 @@ Currencies used in different countries in [JSON](http://www.onepf.org/appdf/data
 </tr>
 <tr>
   <td>License verification support</td>
-  <td>Yes</td>
+  <td><a href="http://slideme.org/slidelock">Yes</a></td>
 </tr>
 </table>
 
