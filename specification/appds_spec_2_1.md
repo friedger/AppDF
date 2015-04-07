@@ -6700,7 +6700,7 @@ Currencies used in different countries in [JSON](http://www.onepf.org/appdf/data
 </tr>
 <tr>
   <td>Distribution agreement URL</td>
-  <td><a href="http://apps.opera.com/docs/DistributionAgreementHandster_standard.pdf">http://apps.opera.com/docs/DistributionAgreementHandster_standard.pdf</a></td>
+  <td><a href="https://apps.opera.com/docs/DistributionAgreementHandster_standard.pdf">https://apps.opera.com/docs/DistributionAgreementHandster_standard.pdf</a></td>
 </tr>
 <tr>
   <td>AppDF ID</td>
