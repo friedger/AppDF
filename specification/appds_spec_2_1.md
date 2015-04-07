@@ -6843,7 +6843,7 @@ Currencies used in different countries in [JSON](http://www.onepf.org/appdf/data
 </tr>
 <tr>
   <td>In-App Purchase Support</td>
-  <td>Yes</td>
+  <td><a href="http://developer.samsung.com/in-app-purchase">Yes</a></td>
 </tr>
 <tr>
   <td>License verification support</td>
