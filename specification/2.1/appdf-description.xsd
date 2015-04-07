@@ -104,30 +104,13 @@
 
     <xsd:complexType name="type-description-images">
         <xsd:sequence>
-            <xsd:element name="app-icon" type="type-description-images-appicon" maxOccurs="unbounded"/>
-            <xsd:element name="large-promo" type="type-description-images-promoimage" minOccurs="0"/>
-            <xsd:element name="small-promo" type="type-description-images-promoimage" minOccurs="0"/>
+            <xsd:element name="app-icon" type="type-image" maxOccurs="unbounded"/>
+            <xsd:element name="large-promo" type="type-image" minOccurs="0"/>
+            <xsd:element name="small-promo" type="type-image" minOccurs="0"/>
             <xsd:element name="screenshots" type="type-description-images-screenshots"/>
         </xsd:sequence>
     </xsd:complexType>
 
-    <xsd:complexType name="type-description-images-appicon">
-        <xsd:simpleContent>
-            <xsd:extension base="type-localfile">
-                <xsd:attribute name="width" type="xsd:positiveInteger" use="required"/>
-                <xsd:attribute name="height" type="xsd:positiveInteger" use="required"/>
-            </xsd:extension>
-        </xsd:simpleContent>
-    </xsd:complexType>
-
-    <xsd:complexType name="type-description-images-promoimage">
-        <xsd:simpleContent>
-            <xsd:extension base="type-localfile">
-                <xsd:attribute name="width" type="xsd:positiveInteger" use="required"/>
-                <xsd:attribute name="height" type="xsd:positiveInteger" use="required"/>
-            </xsd:extension>
-        </xsd:simpleContent>
-    </xsd:complexType>
 
     <xsd:complexType name="type-description-images-screenshots">
         <xsd:sequence>
@@ -138,9 +121,7 @@
 
     <xsd:complexType name="type-description-images-screenshots-screenshot">
         <xsd:simpleContent>
-            <xsd:extension base="type-localfile">
-                <xsd:attribute name="width" type="xsd:positiveInteger" use="required"/>
-                <xsd:attribute name="height" type="xsd:positiveInteger" use="required"/>
+            <xsd:extension base="type-image">
                 <xsd:attribute name="index" type="xsd:positiveInteger" use="required"/>
             </xsd:extension>
         </xsd:simpleContent>
@@ -168,18 +149,6 @@
     <xsd:simpleType name="type-description-attr-language">
         <xsd:restriction base="xsd:string">
             <xsd:pattern value="[a-z][a-z]|[a-z][a-z]\-[A-Z][A-Z]"/>
-        </xsd:restriction>
-    </xsd:simpleType>
-
-    <xsd:simpleType name="type-yesno">
-        <xsd:restriction base="xsd:string">
-            <xsd:pattern value="yes|no"/>
-        </xsd:restriction>
-    </xsd:simpleType>
-
-    <xsd:simpleType name="type-localfile">
-        <xsd:restriction base="xsd:string">
-            <xsd:pattern value="[_ a-zA-Z0-9\-\./]*"/>
         </xsd:restriction>
     </xsd:simpleType>
 
@@ -213,9 +182,9 @@
 
     <xsd:complexType name="type-descriptionlocalization-images">
         <xsd:sequence>
-            <xsd:element name="app-icon" type="type-description-images-appicon" maxOccurs="unbounded" minOccurs="0"/>
-            <xsd:element name="large-promo" type="type-description-images-promoimage" minOccurs="0"/>
-            <xsd:element name="small-promo" type="type-description-images-promoimage" minOccurs="0"/>
+            <xsd:element name="app-icon" type="type-image" maxOccurs="unbounded" minOccurs="0"/>
+            <xsd:element name="large-promo" type="type-image" minOccurs="0"/>
+            <xsd:element name="small-promo" type="type-image" minOccurs="0"/>
             <xsd:element name="screenshots" type="type-description-images-screenshots" minOccurs="0"/>
         </xsd:sequence>
     </xsd:complexType>
@@ -539,8 +508,8 @@
         <xsd:sequence>
             <xsd:element name="title" type="type-in-app-title" maxOccurs="unbounded"/>
             <xsd:element name="text" type="type-in-app-text" maxOccurs="unbounded"/>
-            <xsd:element name="small-icon" type="type-in-app-icon" minOccurs="0" maxOccurs="unbounded"/>
-            <xsd:element name="large-icon" type="type-in-app-icon" minOccurs="0" maxOccurs="unbounded"/>
+            <xsd:element name="small-icon" type="type-image" minOccurs="0" maxOccurs="unbounded"/>
+            <xsd:element name="large-icon" type="type-image" minOccurs="0" maxOccurs="unbounded"/>
             <xsd:element name="store-specific" type="type-in-app-store-specific" minOccurs="0" maxOccurs="1" />
         </xsd:sequence>
     </xsd:complexType>
@@ -556,8 +525,8 @@
     <xsd:complexType name="type-in-app-amazon">
         <xsd:sequence>
             <xsd:element name="additional-file-delivered" type="type-yesno" />
-            <xsd:element name="small-icon" type="type-in-app-icon" />
-            <xsd:element name="large-icon" type="type-in-app-icon" />
+            <xsd:element name="small-icon" type="type-image" />
+            <xsd:element name="large-icon" type="type-image" />
             <xsd:element name="calculated-prices" type="type-yesno" />
         </xsd:sequence>
     </xsd:complexType>
@@ -624,28 +593,36 @@
         <xsd:attribute name="free" type="type-yesno" default="no"/>
     </xsd:complexType>
 
-    <xsd:complexType name="type-in-app-icon">
-        <xsd:simpleContent>
-            <xsd:extension base="type-localfile">
-                <xsd:attribute name="width" type="xsd:positiveInteger" use="required"/>
-                <xsd:attribute name="height" type="xsd:positiveInteger" use="required"/>
-            </xsd:extension>
-        </xsd:simpleContent>
-    </xsd:complexType>
-
-    <xsd:complexType name="type-in-app-image">
-        <xsd:simpleContent>
-            <xsd:extension base="type-localfile">
-                <xsd:attribute name="width" type="xsd:positiveInteger" use="required"/>
-                <xsd:attribute name="height" type="xsd:positiveInteger" use="required"/>
-            </xsd:extension>
-        </xsd:simpleContent>
-    </xsd:complexType>
-
     <xsd:simpleType name="type-attr-in-app-item-type">
         <xsd:restriction base="xsd:string">
             <xsd:pattern value="consumable|nonconsumable"/>
         </xsd:restriction>
     </xsd:simpleType>
+
+    <!--common types-->
+
+    <!--human-readable boolean-->
+    <xsd:simpleType name="type-yesno">
+        <xsd:restriction base="xsd:string">
+            <xsd:pattern value="yes|no"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+
+    <!--local file-->
+    <xsd:simpleType name="type-localfile">
+        <xsd:restriction base="xsd:string">
+            <xsd:pattern value="[_ a-zA-Z0-9\-\./]*"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+
+    <!--image-->
+    <xsd:complexType name="type-image">
+        <xsd:simpleContent>
+            <xsd:extension base="type-localfile">
+                <xsd:attribute name="width" type="xsd:positiveInteger" use="required"/>
+                <xsd:attribute name="height" type="xsd:positiveInteger" use="required"/>
+            </xsd:extension>
+        </xsd:simpleContent>
+    </xsd:complexType>
 
 </xsd:schema>
