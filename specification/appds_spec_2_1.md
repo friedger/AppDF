@@ -6683,7 +6683,7 @@ Currencies used in different countries in [JSON](http://www.onepf.org/appdf/data
 </tr>
 <tr>
   <td>License verification support</td>
-  <td>?</td>
+  <td><a href="https://developer.amazon.com/appsandservices/community/post/Tx16GPJPAW8IKLC/Amazon-Appstore-Digital-Rights-Management-simplifies-life-for-developers-and-cus.html">Yes</a></td>
 </tr>
 </table>
 
