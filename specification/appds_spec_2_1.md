@@ -6618,7 +6618,7 @@ Currencies used in different countries in [JSON](http://www.onepf.org/appdf/data
 </tr>
 <tr>
   <td>Distribution agreement URL</td>
-  <td><a href="http://play.google.com/intl/ALL_en/about/developer-distribution-agreement.html">http://play.google.com/intl/ALL_en/about/developer-distribution-agreement.html</a></td>
+  <td><a href="https://play.google.com/intl/ALL_en/about/developer-distribution-agreement.html">https://play.google.com/intl/ALL_en/about/developer-distribution-agreement.html</a></td>
 </tr>
 <tr>
   <td>AppDF ID</td>
