@@ -6655,7 +6655,7 @@ Currencies used in different countries in [JSON](http://www.onepf.org/appdf/data
 </tr>
 <tr>
   <td>Registration URL</td>
-  <td><a href="https://developer.amazon.com/welcome.html">https://developer.amazon.com/welcome.html</a></td>
+  <td><a href="https://developer.amazon.com/appsandservices">https://developer.amazon.com/appsandservices</a></td>
 </tr>
 <tr>
   <td>Distribution agreement URL</td>
