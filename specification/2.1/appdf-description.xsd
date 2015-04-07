@@ -485,9 +485,8 @@
     </xsd:complexType>
 
     <xsd:simpleType name="type-attr-in-app-id">
-        <xsd:restriction base="xsd:string">
+        <xsd:restriction base="type-nonemptystring">
             <xsd:pattern value="([a-z]|[0-9]){1}[a-z0-9._]*"/>
-            <xsd:minLength value="1"/>
             <xsd:maxLength value="139"/>
         </xsd:restriction>
     </xsd:simpleType>
@@ -500,8 +499,8 @@
 
     <xsd:complexType name="type-in-app-description">
         <xsd:sequence>
-            <xsd:element name="title" maxOccurs="unbounded" type="type-in-app-title"/>
-            <xsd:element name="text" maxOccurs="unbounded" type="type-in-app-text"/>
+            <xsd:element name="title" maxOccurs="unbounded" type="type-nonemptystring"/>
+            <xsd:element name="text" maxOccurs="unbounded" type="type-nonemptystring"/>
             <xsd:element name="small-icon" maxOccurs="unbounded" minOccurs="0" type="type-image"/>
             <xsd:element name="large-icon" maxOccurs="unbounded" minOccurs="0" type="type-image"/>
             <xsd:element name="store-specific" maxOccurs="1" minOccurs="0" type="type-in-app-store-specific" />
@@ -545,18 +544,6 @@
             </xsd:extension>
         </xsd:complexContent>
     </xsd:complexType>
-
-    <xsd:simpleType name="type-in-app-title">
-        <xsd:restriction base="xsd:string">
-            <xsd:minLength value="1"/>
-        </xsd:restriction>
-    </xsd:simpleType>
-
-    <xsd:simpleType name="type-in-app-text">
-        <xsd:restriction base="xsd:string">
-            <xsd:minLength value="1"/>
-        </xsd:restriction>
-    </xsd:simpleType>
 
     <xsd:simpleType name="type-attr-in-app-locale">
         <xsd:restriction base="xsd:string">
@@ -626,4 +613,10 @@
         </xsd:restriction>
     </xsd:simpleType>
 
+    <!--non-empty string-->
+    <xsd:simpleType name="type-nonemptystring">
+        <xsd:restriction base="xsd:string">
+            <xsd:minLength value="1"/>
+        </xsd:restriction>
+    </xsd:simpleType>
 </xsd:schema>
