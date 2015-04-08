@@ -498,6 +498,7 @@ List of Tags:
 			* [subscription-specific elements](#in-app-item--sub-sub-spec-elements)
 				* [subs-period](#in-app-item--sub-sub-spec-elements-subs-period)
 				* [trial-period](#in-app-item--sub-sub-spec-elements-trial-period)
+
 ## <a name="application"/>application
 Required.  
 Attributes: `platform`, `package`, `distribution-type`.
