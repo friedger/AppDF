@@ -478,9 +478,9 @@ List of Tags:
 					* [published](#in-app-item--sub-attrs-common-published)
 				* [Item-specific attributes](#in-app-item--sub-attrs-item-spec)
 					* [type](#in-app-item--sub-attrs-item-spec-type)
-				* [subscription-specific attributes](#in-app-item--sub-attrs-sub-spec)
-					* [subs-period](#in-app-item--sub-attrs-sub-spec-subs-period)
-					* [trial-period](#in-app-item--sub-attrs-sub-spec-trial-period)
+			* [subscription-specific elements](#in-app-item--sub-sub-spec-elements)
+				* [subs-period](#in-app-item--sub-sub-spec-elements-subs-period)
+				* [trial-period](#in-app-item--sub-sub-spec-elements-trial-period)
 			* [description](#in-app-item--sub-desc)
 				* [title](#in-app-item--sub-desc-title)
 				* [text](#in-app-item--sub-desc-text)
@@ -5533,9 +5533,9 @@ Example
 				* [published](#in-app-item--sub-attrs-common-published)
 			* [Item-specific attributes](#in-app-item--sub-attrs-item-spec)
 				* [type](#in-app-item--sub-attrs-item-spec-type)
-			* [subscription-specific attributes](#in-app-item--sub-attrs-sub-spec)
-				* [subs-period](#in-app-item--sub-attrs-sub-spec-subs-period)
-				* [trial-period](#in-app-item--sub-attrs-sub-spec-trial-period)
+		* [subscription-specific elements](#in-app-item--sub-sub-spec-elements)
+				* [subs-period](#in-app-item--sub-sub-spec-elements-subs-period)
+				* [trial-period](#in-app-item--sub-sub-spec-elements-trial-period)
 		* [description](#in-app-item--sub-desc)
 			* [title](#in-app-item--sub-desc-title)
 			* [text](#in-app-item--sub-desc-text)
@@ -5741,34 +5741,14 @@ Type of the in-app product. Can be ``consumable`` and ``non-consumable``. ``Cons
   </tr>
 </table>
 
-##### <a name="in-app-item--sub-attrs-sub-spec"/>subscription-specific attributes
+### <a name="in-app-item--sub-sub-spec-elements"/>subscription-specific elements
 
-The following attributes are `<subscription>`-specific.
+#### <a name="in-app-item--sub-sub-spec-elements-subs-period"/>subs-period  
 
-<table>
-  <tr>
-    <th>Attribute</th>
-    <th>Possible values</th>
-    <th>Default</th>
-    <th>How it works</th>
-  </tr>
-   <tr>
-    <td>subs-period</td>
-    <td>oneWeek | oneMonth | oneYear</td>
-    <td>Mandatory</td>
-    <td>A period when the feature/product is available to the user.</td>
-  </tr>
-  <tr>
-    <td>trial-period</td>
-    <td>the number of days</td>
-    <td>Optional</td>
-    <td>Trial period.</td>
-  </tr>
-</table>
-
-###### <a name="in-app-item--sub-attrs-sub-spec-subs-period"/>subs-period
-
-A subscription duration.
+Required.  
+No attributes.  
+Possible values: `oneWeek`, `oneMonth`, `twoMonth`, `threeMonth`, `sixMonth`, `oneYear`.  
+A subscription duration, a period when the feature/product is available to the user.
 
 <table>
   <tr>
@@ -5809,9 +5789,11 @@ A subscription duration.
   </tr>
 </table>
 
-###### <a name="in-app-item--sub-attrs-sub-spec-trial-period"/>trial-period
+#### <a name="in-app-item--sub-sub-spec-elements-trial-period"/>trial-period
 
-A trial period of the subscription.
+Optional.  
+No attributes.  
+A trial period of the subscription, in days.
 
 <table>
   <tr>
