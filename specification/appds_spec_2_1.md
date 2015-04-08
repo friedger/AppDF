@@ -357,9 +357,9 @@ The only naming convention for the files inside AppDF package is that the descri
 
   <!--Required. Customer support information-->
   <customer-support>
-    <phone>+1 (555) 1234-56-78</phone>
     <email>support@yandex-team.ru</email>
     <!--Optional-->
+    <phone>+1 (555) 1234-56-78</phone>
     <website>http://www.yandex.ru/support</website>
   </customer-support>
 
@@ -463,8 +463,8 @@ List of Tags:
 	* [testing-instructions](#testing-instructions)
 	* [consent](#consent)
 	* [customer-support](#customer-support)
-		* [phone](#customer-support-phone)
 		* [email](#customer-support-email)
+		* [phone](#customer-support-phone) 
 		* [website](#customer-support-website)
 	* [store-specific](#store-specific)
 		* [amazon](#store-specific-amazon)
@@ -4896,84 +4896,11 @@ No attributes.
 Example
 ```xml
 <customer-support>
-  <phone>+1 (555) 1234-56-78</phone>
   <email>support@yandex-team.ru</email>
+  <phone>+1 (555) 1234-56-78</phone>
   <website>http://www.yandex.ru/support</website>
 </customer-support>
 ```
-
-#### <a name="customer-support-phone"/>customer-support/phone
-
-Optional.  
-No attributes.
-
-<table>
-  <tr>
-    <th>Store support</th>
-    <th>Supported</th>
-    <th>Name</th>
-    <th>Required</th>
-    <th>Localizable</th>
-  </tr>
-  <tr>
-    <td>Google Play</td>
-    <td>Yes</td>
-    <td>Store Listing / CONTACT DETAILS / Phone</td>
-    <td>No</td>
-    <td>No</td>
-  </tr>
-  <tr>
-    <td>Yandex.Store</td>
-    <td>No</td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Amazon AppStore</td>
-    <td>Yes</td>
-    <td>General Information / Customer support phone</td>
-    <td>Yes</td>
-    <td>No</td>
-  </tr>
-  <tr>
-    <td>Opera Mobile Store</td>
-    <td>No</td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>GALAXY Apps</td>
-    <td>No</td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>SlideME</td>
-    <td>No</td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <!--
-  <tr>
-    <td>NOOK apps</td>
-    <td>Yes</td>
-    <td>Basic / Support Phone</td>
-    <td>No</td>
-    <td>No</td>
-  </tr>
-  <tr>
-    <td>AppsLib</td>
-    <td>No</td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  -->
-</table>
 
 #### <a name="customer-support-email"/>customer-support/email
 
@@ -5065,6 +4992,81 @@ No attributes.
   </tr>
   -->
 </table>
+
+
+#### <a name="customer-support-phone"/>customer-support/phone
+
+Optional.  
+No attributes.
+
+<table>
+  <tr>
+    <th>Store support</th>
+    <th>Supported</th>
+    <th>Name</th>
+    <th>Required</th>
+    <th>Localizable</th>
+  </tr>
+  <tr>
+    <td>Google Play</td>
+    <td>Yes</td>
+    <td>Store Listing / CONTACT DETAILS / Phone</td>
+    <td>No</td>
+    <td>No</td>
+  </tr>
+  <tr>
+    <td>Yandex.Store</td>
+    <td>No</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Amazon AppStore</td>
+    <td>Yes</td>
+    <td>General Information / Customer support phone</td>
+    <td>Yes</td>
+    <td>No</td>
+  </tr>
+  <tr>
+    <td>Opera Mobile Store</td>
+    <td>No</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>GALAXY Apps</td>
+    <td>No</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>SlideME</td>
+    <td>No</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <!--
+  <tr>
+    <td>NOOK apps</td>
+    <td>Yes</td>
+    <td>Basic / Support Phone</td>
+    <td>No</td>
+    <td>No</td>
+  </tr>
+  <tr>
+    <td>AppsLib</td>
+    <td>No</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  -->
+</table>
+
 
 #### <a name="customer-support-website"/>customer-support/website
 
