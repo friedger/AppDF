@@ -5443,8 +5443,10 @@ Example
             <local-price country="RU">1.00</local-price>
         </price>
     </item>
-    <subscription id="org.onepf.sample.trivialdrive.sku_infinite_gas" published="yes"
-        subs-period="oneMonth" trial-period="10">
+    <subscription id="org.onepf.sample.trivialdrive.sku_infinite_gas" published="yes">
+        <subs-period>oneMonth</subs-period>
+        <!--Optional:-->
+        <trial-period>7</trial-period>
         <description>
             <title>Some gas</title>
             <text>Some gas to drive your car.</text>
