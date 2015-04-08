@@ -451,11 +451,11 @@
     </xsd:complexType>
 
     <xsd:complexType name="typeCustomerSupport">
-        <xsd:all>
+        <xsd:sequence>
             <xsd:element name="email" type="xsd:string" />
             <xsd:element name="phone" minOccurs="0" type="xsd:string" />
             <xsd:element name="website" minOccurs="0" type="xsd:string" />
-        </xsd:all>
+        </xsd:sequence>
     </xsd:complexType>
 
     <xsd:complexType name="typeStoreSpecific">
