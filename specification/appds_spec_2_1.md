@@ -478,9 +478,6 @@ List of Tags:
 					* [published](#in-app-item--sub-attrs-common-published)
 				* [Item-specific attributes](#in-app-item--sub-attrs-item-spec)
 					* [type](#in-app-item--sub-attrs-item-spec-type)
-			* [subscription-specific elements](#in-app-item--sub-sub-spec-elements)
-				* [subs-period](#in-app-item--sub-sub-spec-elements-subs-period)
-				* [trial-period](#in-app-item--sub-sub-spec-elements-trial-period)
 			* [description](#in-app-item--sub-desc)
 				* [title](#in-app-item--sub-desc-title)
 				* [text](#in-app-item--sub-desc-text)
@@ -498,7 +495,9 @@ List of Tags:
 				* [base-price](#in-app-item--sub-price-base-price)
 				* [local-price](#in-app-item--sub-price-local-price)
 					* [country](#in-app-item--sub-price-local-price)
-
+			* [subscription-specific elements](#in-app-item--sub-sub-spec-elements)
+				* [subs-period](#in-app-item--sub-sub-spec-elements-subs-period)
+				* [trial-period](#in-app-item--sub-sub-spec-elements-trial-period)
 ## <a name="application"/>application
 Required.  
 Attributes: `platform`, `package`, `distribution-type`.
@@ -5537,9 +5536,6 @@ Example
 				* [published](#in-app-item--sub-attrs-common-published)
 			* [Item-specific attributes](#in-app-item--sub-attrs-item-spec)
 				* [type](#in-app-item--sub-attrs-item-spec-type)
-		* [subscription-specific elements](#in-app-item--sub-sub-spec-elements)
-			* [subs-period](#in-app-item--sub-sub-spec-elements-subs-period)
-			* [trial-period](#in-app-item--sub-sub-spec-elements-trial-period)
 		* [description](#in-app-item--sub-desc)
 			* [title](#in-app-item--sub-desc-title)
 			* [text](#in-app-item--sub-desc-text)
@@ -5557,7 +5553,9 @@ Example
 			* [base-price](#in-app-item--sub-price-base-price)
 			* [local-price](#in-app-item--sub-price-local-price)
 				* [country](#in-app-item--sub-price-local-price)
-
+		* [subscription-specific elements](#in-app-item--sub-sub-spec-elements)
+			* [subs-period](#in-app-item--sub-sub-spec-elements-subs-period)
+			* [trial-period](#in-app-item--sub-sub-spec-elements-trial-period)
 #### <a name="in-app-item--sub"/>item | subscription
 
 #### <a name="in-app-item--sub-attrs"/>Attributes
@@ -5745,98 +5743,6 @@ Type of the in-app product. Can be ``consumable`` and ``non-consumable``. ``Cons
   </tr>
 </table>
 
-### <a name="in-app-item--sub-sub-spec-elements"/>subscription-specific elements
-
-#### <a name="in-app-item--sub-sub-spec-elements-subs-period"/>subs-period  
-
-Required.  
-No attributes.  
-Possible values: `oneWeek`, `oneMonth`, `twoMonth`, `threeMonth`, `sixMonth`, `oneYear`.  
-A subscription duration, a period when the feature/product is available to the user.
-
-<table>
-  <tr>
-    <th>Store</th>
-    <th>Supported</th>
-    <th>Name</th>
-    <th>Possible values</th>
-  </tr>
-  <tr>
-    <td>Google Play</td>
-    <td>Yes</td>
-    <td>In-app Products / Pricing  / Billing period</td>
-    <td>Monthly, Yearly, Seasonal</td>
-  </tr>
-  <tr>
-    <td>Yandex.Store</td>
-    <td>Yes</td>
-    <td>In-App purchases / (In)active purchases / Subscription period</td>
-    <td>Annualy, Monthly</td>
-  </tr>  
-  <tr>
-    <td>Amazon AppStore</td>
-    <td>Yes</td>
-    <td>In-App Items / Subscription periods</td>
-    <td>Weekly, BiWeekly, Monthly, BiMonthly, Quarterly, SemiAnnualy, Annualy</td>
-  </tr>
-  <tr>
-    <td>GALAXY Apps</td>
-    <td>Yes</td>
-    <td>In app purchase / Duration</td>
-    <td>1 Month, 3 Month, 6 Month, 12 Month</td>
-  </tr>
-  <tr>
-    <td>SlideME</td>
-    <td>No</td>
-    <td></td>
-    <td></td>
-  </tr>
-</table>
-
-#### <a name="in-app-item--sub-sub-spec-elements-trial-period"/>trial-period
-
-Optional.  
-No attributes.  
-A trial period of the subscription, in days.
-
-<table>
-  <tr>
-    <th>Store</th>
-    <th>Supported</th>
-    <th>Name</th>
-    <th>Possible values</h>
-  </tr>
-  <tr>
-    <td>Google Play</td>
-    <td>Yes</td>
-    <td>In-app Products / Pricing  / Billing period / Free Trial Period</td>
-    <td>Number of days</td>
-  </tr>
-  <tr>
-    <td>Yandex.Store</td>
-    <td>Yes</td>
-    <td>In-App purchases / (In)active purchases / Subscription periods / Free trial</td>
-    <td>Number of days</td>
-  </tr>  
-  <tr>
-    <td>Amazon AppStore</td>
-    <td>Yes</td>
-    <td>In-App Items / Subscription periods</td>
-    <td>Yes, 7 or 14 Days, 1 or 2 or 3 Months</td>
-  </tr>
-  <tr>
-    <td>GALAXY Apps</td>
-    <td>No</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>SlideME</td>
-    <td>No</td>
-    <td></td>
-    <td></td>
-  </tr>
-</table>
 
 ### <a name="in-app-item--sub-desc"/>description 
 
@@ -6418,6 +6324,100 @@ Currencies used in different countries in [JSON](http://www.onepf.org/appdf/data
     <td></td>
   </tr>
 </table>
+
+### <a name="in-app-item--sub-sub-spec-elements"/>subscription-specific elements
+
+#### <a name="in-app-item--sub-sub-spec-elements-subs-period"/>subs-period  
+
+Required.  
+No attributes.  
+Possible values: `oneWeek`, `oneMonth`, `twoMonth`, `threeMonth`, `sixMonth`, `oneYear`.  
+A subscription duration, a period when the feature/product is available to the user.
+
+<table>
+  <tr>
+    <th>Store</th>
+    <th>Supported</th>
+    <th>Name</th>
+    <th>Possible values</th>
+  </tr>
+  <tr>
+    <td>Google Play</td>
+    <td>Yes</td>
+    <td>In-app Products / Pricing  / Billing period</td>
+    <td>Monthly, Yearly, Seasonal</td>
+  </tr>
+  <tr>
+    <td>Yandex.Store</td>
+    <td>Yes</td>
+    <td>In-App purchases / (In)active purchases / Subscription period</td>
+    <td>Annualy, Monthly</td>
+  </tr>  
+  <tr>
+    <td>Amazon AppStore</td>
+    <td>Yes</td>
+    <td>In-App Items / Subscription periods</td>
+    <td>Weekly, BiWeekly, Monthly, BiMonthly, Quarterly, SemiAnnualy, Annualy</td>
+  </tr>
+  <tr>
+    <td>GALAXY Apps</td>
+    <td>Yes</td>
+    <td>In app purchase / Duration</td>
+    <td>1 Month, 3 Month, 6 Month, 12 Month</td>
+  </tr>
+  <tr>
+    <td>SlideME</td>
+    <td>No</td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+
+#### <a name="in-app-item--sub-sub-spec-elements-trial-period"/>trial-period
+
+Optional.  
+No attributes.  
+A trial period of the subscription, in days.
+
+<table>
+  <tr>
+    <th>Store</th>
+    <th>Supported</th>
+    <th>Name</th>
+    <th>Possible values</h>
+  </tr>
+  <tr>
+    <td>Google Play</td>
+    <td>Yes</td>
+    <td>In-app Products / Pricing  / Billing period / Free Trial Period</td>
+    <td>Number of days</td>
+  </tr>
+  <tr>
+    <td>Yandex.Store</td>
+    <td>Yes</td>
+    <td>In-App purchases / (In)active purchases / Subscription periods / Free trial</td>
+    <td>Number of days</td>
+  </tr>  
+  <tr>
+    <td>Amazon AppStore</td>
+    <td>Yes</td>
+    <td>In-App Items / Subscription periods</td>
+    <td>Yes, 7 or 14 Days, 1 or 2 or 3 Months</td>
+  </tr>
+  <tr>
+    <td>GALAXY Apps</td>
+    <td>No</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>SlideME</td>
+    <td>No</td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+
 
 ### Summary tables
 
