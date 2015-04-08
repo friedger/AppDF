@@ -206,7 +206,7 @@
 
     <xsd:complexType name="typeContentDescription">
         <xsd:sequence>
-            <xsd:element name="content-rating" type="type-contentdescription-contentrating" />
+            <xsd:element name="content-rating" type="typeContentDescriptionContentRating" />
             <xsd:element name="rating-certificates" minOccurs="0"
                 type="typeContentDescriptionRatingCertificates" />
             <xsd:element name="content-descriptors" minOccurs="0"
@@ -216,7 +216,7 @@
         </xsd:sequence>
     </xsd:complexType>
 
-    <xsd:simpleType name="type-contentdescription-contentrating">
+    <xsd:simpleType name="typeContentDescriptionContentRating">
         <xsd:restriction base="xsd:positiveInteger">
             <xsd:pattern value="3|6|10|13|17|18" />
         </xsd:restriction>
@@ -310,8 +310,8 @@
 
     <xsd:complexType name="typeAvailabilityPeriod">
         <xsd:sequence>
-            <xsd:element name="since" minOccurs="0" type="type-attr-date" />
-            <xsd:element name="until" minOccurs="0" type="type-attr-date" />
+            <xsd:element name="since" minOccurs="0" type="typeAttrDate" />
+            <xsd:element name="until" minOccurs="0" type="typeAttrDate" />
         </xsd:sequence>
     </xsd:complexType>
 
@@ -321,7 +321,7 @@
         </xsd:restriction>
     </xsd:simpleType>
 
-    <xsd:complexType name="type-attr-date">
+    <xsd:complexType name="typeAttrDate">
         <xsd:attribute name="year" type="typeAttrYear" use="required" />
         <xsd:attribute name="month" type="typeAttrMonth" use="required" />
         <xsd:attribute name="day" type="typeAttrDay" use="required" />
