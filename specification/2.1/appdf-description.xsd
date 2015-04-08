@@ -495,7 +495,7 @@
         <xsd:complexContent>
             <xsd:extension base="typeInApp">
                 <xsd:sequence>
-                    <xsd:element name="sub-period" type="typeInAppSubscriptionPeriod" />
+                    <xsd:element name="subs-period" type="typeInAppSubscriptionPeriod" />
                     <xsd:element name="trial-period" minOccurs="0" type="xsd:positiveInteger" />
                 </xsd:sequence>
             </xsd:extension>
