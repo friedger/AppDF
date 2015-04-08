@@ -2180,7 +2180,7 @@ A small promotion picture is usually used by the stores on a mobile device for p
 Required.  
 No attributes. 
 
-Contains several `<screenshot>` subtags. Each `<screenshot>` subtag describes one screenshot. Different stores use different number of screenshots. You should provide at least four screenshots to support all the stores. If you provide more screenshots than a store can use the first screenshots are used. 
+Contains several `<screenshot>` subtags. Each `<screenshot>` subtag describes one screenshot. Different stores use different number of screenshots. The required by AppDF minimum is two screenshots but you should provide at least four screenshots to support all the stores. If you provide more screenshots than a store can use the first screenshots are used. 
 
 ##### <a name="description-images-screenshots-screenshot"/>description/images/screenshots/screenshot
 Required.  
