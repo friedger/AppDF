@@ -481,7 +481,7 @@
         </xsd:sequence>
     </xsd:complexType>
 
-    <xsd:complexType name="typeInAppBasePurchase">
+    <xsd:complexType name="typeInAppBase">
         <xsd:sequence>
             <xsd:element name="description" type="typeInAppDescription" />
             <xsd:element name="description-localization" maxOccurs="unbounded" minOccurs="0"
@@ -494,17 +494,18 @@
 
     <xsd:complexType name="typeInAppSubscription">
         <xsd:complexContent>
-            <xsd:extension base="typeInAppBasePurchase">
-                <xsd:attribute name="sub-period" type="typeAttrInAppSubscriptionPeriod"
-                    use="required" />
-                <xsd:attribute name="trial-period" type="xsd:integer" use="optional" />
+            <xsd:extension base="typeInAppBase">
+                <xsd:sequence>
+                    <xsd:element name="sub-period" type="typeInAppSubscriptionPeriod" />
+                    <xsd:element name="trial-period" minOccurs="0" type="xsd:positiveInteger" />
+                </xsd:sequence>
             </xsd:extension>
         </xsd:complexContent>
     </xsd:complexType>
 
     <xsd:complexType name="typeInAppItem">
         <xsd:complexContent>
-            <xsd:extension base="typeInAppBasePurchase">
+            <xsd:extension base="typeInAppBase">
                 <xsd:attribute name="type" type="typeAttrInAppItemType" use="required" />
             </xsd:extension>
         </xsd:complexContent>
@@ -517,9 +518,9 @@
         </xsd:restriction>
     </xsd:simpleType>
 
-    <xsd:simpleType name="typeAttrInAppSubscriptionPeriod">
+    <xsd:simpleType name="typeInAppSubscriptionPeriod">
         <xsd:restriction base="xsd:string">
-            <xsd:pattern value="oneWeek|oneMonth|oneYear" />
+            <xsd:pattern value="oneWeek|oneMonth|twoMonth|threeMonth|sixMonth|oneYear" />
         </xsd:restriction>
     </xsd:simpleType>
 
