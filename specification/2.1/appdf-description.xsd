@@ -481,7 +481,7 @@
         </xsd:sequence>
     </xsd:complexType>
 
-    <xsd:complexType name="typeInAppBase">
+    <xsd:complexType name="typeInApp">
         <xsd:sequence>
             <xsd:element name="description" type="typeInAppDescription" />
             <xsd:element name="description-localization" maxOccurs="unbounded" minOccurs="0"
@@ -494,7 +494,7 @@
 
     <xsd:complexType name="typeInAppSubscription">
         <xsd:complexContent>
-            <xsd:extension base="typeInAppBase">
+            <xsd:extension base="typeInApp">
                 <xsd:sequence>
                     <xsd:element name="sub-period" type="typeInAppSubscriptionPeriod" />
                     <xsd:element name="trial-period" minOccurs="0" type="xsd:positiveInteger" />
@@ -505,7 +505,7 @@
 
     <xsd:complexType name="typeInAppItem">
         <xsd:complexContent>
-            <xsd:extension base="typeInAppBase">
+            <xsd:extension base="typeInApp">
                 <xsd:attribute name="type" type="typeAttrInAppItemType" use="required" />
             </xsd:extension>
         </xsd:complexContent>
