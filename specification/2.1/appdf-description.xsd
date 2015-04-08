@@ -34,10 +34,10 @@
             <xsd:element name="customer-support" type="typeCustomerSupport" />
             <xsd:element name="store-specific" minOccurs="0" type="typeStoreSpecific" />
         </xsd:sequence>
-        <xsd:attribute name="platform" type="typeApplicationAttrPlatform" use="required" />
-        <xsd:attribute name="package" type="typeApplicationAttrPackage" use="required" />
+        <xsd:attribute name="platform" type="typeAttrApplicationPlatform" use="required" />
+        <xsd:attribute name="package" type="typeAttrApplicationPackage" use="required" />
         <xsd:attribute name="distribution-type" default="production"
-            type="typeApplicationAttrDistributionType" />
+            type="typeAttrApplicationDistributionType" />
     </xsd:complexType>
 
     <xsd:complexType name="typeCategorization">
@@ -138,19 +138,19 @@
         </xsd:sequence>
     </xsd:complexType>
 
-    <xsd:simpleType name="typeApplicationAttrPlatform">
+    <xsd:simpleType name="typeAttrApplicationPlatform">
         <xsd:restriction base="xsd:string">
             <xsd:pattern value="android|tizen" />
         </xsd:restriction>
     </xsd:simpleType>
 
-    <xsd:simpleType name="typeApplicationAttrPackage">
+    <xsd:simpleType name="typeAttrApplicationPackage">
         <xsd:restriction base="xsd:string">
             <xsd:pattern value="([_a-zA-Z0-9\-]+\.)+[_a-zA-Z0-9\-]+" />
         </xsd:restriction>
     </xsd:simpleType>
 
-    <xsd:simpleType name="typeDescriptionAttrLanguage">
+    <xsd:simpleType name="typeAttrDescriptionLanguage">
         <xsd:restriction base="xsd:string">
             <xsd:pattern value="[a-z][a-z]|[a-z][a-z]\-[A-Z][A-Z]" />
         </xsd:restriction>
@@ -168,7 +168,7 @@
             <xsd:element name="images" minOccurs="0" type="typeDescriptionLocalizationImages" />
             <xsd:element name="videos" minOccurs="0" type="type-descriptionlocalization-videos" />
         </xsd:sequence>
-        <xsd:attribute name="language" type="typeDescriptionAttrLanguage" use="required" />
+        <xsd:attribute name="language" type="typeAttrDescriptionLanguage" use="required" />
     </xsd:complexType>
 
     <xsd:complexType name="typeDescriptionLocalizationTexts">
@@ -232,7 +232,7 @@
     <xsd:complexType name="typeContentDescriptionRatingCertificatesRatingCertificate">
         <xsd:simpleContent>
             <xsd:extension base="xsd:string">
-                <xsd:attribute name="type" type="typeContentDescriptionRatingCertificatesAttrType"
+                <xsd:attribute name="type" type="typeAttrContentDescriptionRatingCertificatesType"
                     use="required" />
                 <xsd:attribute name="certificate" type="typeLocalFile" />
                 <xsd:attribute name="mark" type="typeLocalFile" />
@@ -240,7 +240,7 @@
         </xsd:simpleContent>
     </xsd:complexType>
 
-    <xsd:simpleType name="typeContentDescriptionRatingCertificatesAttrType">
+    <xsd:simpleType name="typeAttrContentDescriptionRatingCertificatesType">
         <xsd:restriction base="xsd:string">
             <xsd:pattern value="PEGI|ESRB|GRB|CERO|DEJUS|FSK" />
         </xsd:restriction>
@@ -370,7 +370,7 @@
         </xsd:restriction>
     </xsd:simpleType>
     <xsd:complexType name="typePriceTrialVersion">
-        <xsd:attribute name="full-version" type="typeApplicationAttrPackage" />
+        <xsd:attribute name="full-version" type="typeAttrApplicationPackage" />
     </xsd:complexType>
 
     <xsd:complexType name="typeApkFiles">
@@ -465,7 +465,7 @@
         </xsd:sequence>
     </xsd:complexType>
 
-    <xsd:simpleType name="typeApplicationAttrDistributionType">
+    <xsd:simpleType name="typeAttrApplicationDistributionType">
         <xsd:restriction base="xsd:string">
             <xsd:pattern value="alpha|beta|rollout|production" />
         </xsd:restriction>
