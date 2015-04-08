@@ -1,10 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?>
 <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified"
-    elementFormDefault="qualified" version="1.0">
+    elementFormDefault="qualified" version="2.1">
     <xsd:annotation>
         <xsd:documentation>AppDF description.xml schema</xsd:documentation>
         <xsd:documentation>Project home: http://www.github.com/onepf/appdf</xsd:documentation>
-        <xsd:documentation>Author: Vassili Philippov, Anastasia Karimova</xsd:documentation>
+        <xsd:documentation>Authors: Vassili Philippov, Anastasia Karimova</xsd:documentation>
         <xsd:documentation>License: http://www.apache.org/licenses/LICENSE-2.0</xsd:documentation>
     </xsd:annotation>
 
